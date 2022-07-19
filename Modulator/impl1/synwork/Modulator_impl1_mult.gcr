@@ -1,0 +1,8 @@
+i ipClk
+m 0 0
+u 131 416
+p {p:ipClk}{t:RdRegisters\.ClockTicks[31:0].C}
+e ckid0_0 {t:RdRegisters\.ClockTicks[31:0].C} sdffr
+c ckid0_0 {p:ipClk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

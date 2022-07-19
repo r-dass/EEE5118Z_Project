@@ -1,0 +1,24 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "00000000" on instance txData[7:0].
+@N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
+@N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\controller.v":35:0:35:5|Removing sequential instance opTxStream\.SoP (in view: work.Controller(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":103:0:103:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":55:0:55:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: FX493 |Applying initial value "1" on instance rxState[0].
+@N: FX493 |Applying initial value "0" on instance rxState[1].
+@N: FX493 |Applying initial value "0" on instance rxState[2].
+@N: FX493 |Applying initial value "0" on instance rxState[3].
+@N: FX493 |Applying initial value "0" on instance rxState[4].
+@N: FX493 |Applying initial value "1" on instance txState[0].
+@N: FX493 |Applying initial value "0" on instance txState[1].
+@N: FX493 |Applying initial value "0" on instance txState[2].
+@N: FX493 |Applying initial value "0" on instance txState[3].
+@N: FX493 |Applying initial value "0" on instance txState[4].
+@N: FX493 |Applying initial value "0" on instance txState[5].
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\system\controller.v":35:0:35:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

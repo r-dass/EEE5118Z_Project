@@ -1,0 +1,76 @@
+
+fsm_encoding {1010301036} sequential
+
+fsm_state_encoding {1010301036} Wait {0}
+
+fsm_state_encoding {1010301036} Process {1}
+
+fsm_registers {1010301036} {rxState[0]} 
+
+fsm_encoding {10550557} sequential
+
+fsm_state_encoding {10550557} Wait {0}
+
+fsm_state_encoding {10550557} Process {1}
+
+fsm_registers {10550557} {txState[0]} 
+
+fsm_encoding {1114801485} onehot
+
+fsm_state_encoding {1114801485} ReceiveSync {00001}
+
+fsm_state_encoding {1114801485} ReceiveDestination {00010}
+
+fsm_state_encoding {1114801485} ReceiveSource {00100}
+
+fsm_state_encoding {1114801485} ReceiveLength {01000}
+
+fsm_state_encoding {1114801485} ReceivePayload {10000}
+
+fsm_registers {1114801485} {rxState[4]}  {rxState[3]}  {rxState[2]}  {rxState[1]}  {rxState[0]} 
+
+fsm_encoding {11650654} onehot
+
+fsm_state_encoding {11650654} TransmitWait {000001}
+
+fsm_state_encoding {11650654} TransmitSync {000010}
+
+fsm_state_encoding {11650654} TransmitDestination {000100}
+
+fsm_state_encoding {11650654} TransmitSource {001000}
+
+fsm_state_encoding {11650654} TransmitLength {010000}
+
+fsm_state_encoding {11650654} TransmitPayload {100000}
+
+fsm_registers {11650654} {txState[5]}  {txState[4]}  {txState[3]}  {txState[2]}  {txState[1]}  {txState[0]} 
+
+fsm_encoding {12350352} sequential
+
+fsm_state_encoding {12350352} TransmitAddress {00}
+
+fsm_state_encoding {12350352} TransmitPayload {01}
+
+fsm_state_encoding {12350352} TransmitComplete {10}
+
+fsm_state_encoding {12350352} TransmitWait {11}
+
+fsm_registers {12350352} {tState[1]}  {tState[0]} 
+
+fsm_encoding {12350353} sequential
+
+fsm_state_encoding {12350353} Wait {00}
+
+fsm_state_encoding {12350353} tRead {01}
+
+fsm_state_encoding {12350353} Write {10}
+
+fsm_registers {12350353} {State[1]}  {State[0]} 
+
+fsm_encoding {13720721} sequential
+
+fsm_state_encoding {13720721} ReceiveWait {0}
+
+fsm_state_encoding {13720721} ReceiveData {1}
+
+fsm_registers {13720721} {rState[0]} 

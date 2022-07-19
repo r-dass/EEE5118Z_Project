@@ -1,0 +1,98 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+
+# Written on Tue Jul 19 19:47:49 2022
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Modulator"
+Constraint File(s):      "C:\Users\reeve\Documents\Projects\Modulator\Modulator.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 4 issues in 4 out of 6 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+System       System     |     5.000            |     No paths         |     No paths         |     No paths                         
+System       ipClk      |     20.000           |     No paths         |     No paths         |     No paths                         
+ipClk        System     |     20.000           |     No paths         |     No paths         |     No paths                         
+ipClk        ipClk      |     20.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:ipBtn[0]
+p:ipBtn[1]
+p:ipBtn[2]
+p:ipBtn[3]
+p:ipReset
+p:ipUART_Rx
+p:opLED[0]
+p:opLED[1]
+p:opLED[2]
+p:opLED[3]
+p:opLED[4]
+p:opLED[5]
+p:opLED[6]
+p:opLED[7]
+p:opPWM
+p:opUART_Tx
+
+
+Inapplicable constraints
+************************
+
+set_false_path -from [get_registers *] - - - - to [get_ports bp*]
+	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":9:0:9:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+set_false_path -from [get_registers *] - - - - to [get_ports op*]
+	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":7:0:7:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+set_false_path -to [get_registers *] - - - - from [get_ports bp*]
+	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":8:0:8:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+set_false_path -to [get_registers *] - - - - from [get_ports ip*]
+	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":6:0:6:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

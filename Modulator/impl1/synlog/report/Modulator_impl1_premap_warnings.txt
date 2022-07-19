@@ -1,0 +1,19 @@
+@W:"c:/users/reeve/documents/projects/modulator/modulator.fdc":6:0:6:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+@W:"c:/users/reeve/documents/projects/modulator/modulator.fdc":7:0:7:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+@W:"c:/users/reeve/documents/projects/modulator/modulator.fdc":8:0:8:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+@W:"c:/users/reeve/documents/projects/modulator/modulator.fdc":9:0:9:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+@W: MF499 |Found issues with constraints. Check report file C:\Users\reeve\Documents\Projects\Modulator\impl1\Modulator_impl1_scck.rpt.
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":296:11:296:23|Instance pdp_ram_0_2_1 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":296:11:296:23|Instance pdp_ram_0_2_1 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
+@W: MO129 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[2] is reduced to a combinational gate by constant propagation.
+@W: BN114 :"c:\users\reeve\documents\projects\modulator\fifo.v":196:11:196:23|Removing instance pdp_ram_0_0_3 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\documents\projects\modulator\fifo.v":246:11:246:23|Removing instance pdp_ram_0_1_2 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\Documents\Projects\Modulator\impl1\Modulator_impl1_cck.rpt" .

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Modulator_impl1.log"
+-o "Modulator_impl1.csv"
+-pr "Modulator_impl1.prf"

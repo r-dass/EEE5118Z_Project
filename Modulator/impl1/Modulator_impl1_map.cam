@@ -1,0 +1,166 @@
+[ START MERGED ]
+Streamer1/FIFOBLOCK/wren_i_inv Streamer1/FIFOBLOCK/wren_i
+Streamer1/FIFOBLOCK/rden_i_inv Streamer1/FIFOBLOCK/rden_i
+Streamer1/FIFOBLOCK/invout_1 Streamer1/FIFOBLOCK/Full
+Streamer1/FIFOBLOCK/invout_0 Streamer1/Empty
+[ END MERGED ]
+[ START CLIPPED ]
+Streamer1/FIFOBLOCK/VCC
+Streamer1/FIFOBLOCK/GND
+RdRegisters.ClockTicks_1_s_31_0_S1
+RdRegisters.ClockTicks_1_s_31_0_COUT
+Packetiser/un1_BytesReceived_7_cry_0_0_S0
+Packetiser/N_1
+Packetiser/un1_BytesReceived_7_s_7_0_S1
+Packetiser/un1_BytesReceived_7_s_7_0_COUT
+Packetiser/Length_0_I_1_0_S1
+Packetiser/Length_0_I_1_0_S0
+Packetiser/N_2
+Packetiser/Length_0_I_21_0_S1
+Packetiser/Length_0_I_21_0_S0
+Packetiser/Length_0_I_9_0_S0
+Packetiser/Length_0_I_9_0_COUT
+Packetiser/UART_Inst/txClkCount_4_cry_0_0_S0
+Packetiser/UART_Inst/N_1
+Packetiser/UART_Inst/txClkCount_4_s_9_0_S1
+Packetiser/UART_Inst/txClkCount_4_s_9_0_COUT
+Packetiser/UART_Inst/un4_rxClkCount_1_cry_0_0_S1
+Packetiser/UART_Inst/un4_rxClkCount_1_cry_0_0_S0
+Packetiser/UART_Inst/N_2
+Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_S1
+Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_COUT
+Control/un1_BytesWritten_6_cry_0_0_S0
+Control/N_1
+Control/un1_BytesWritten_6_s_7_0_S1
+Control/un1_BytesWritten_6_s_7_0_COUT
+Streamer1/un3_txClkCount_1_cry_0_0_S1
+Streamer1/un3_txClkCount_1_cry_0_0_S0
+Streamer1/N_1
+Streamer1/un3_txClkCount_1_cry_11_0_COUT
+Streamer1/FIFOBLOCK/co5_3
+Streamer1/FIFOBLOCK/w_ctr_cia_S1
+Streamer1/FIFOBLOCK/w_ctr_cia_S0
+Streamer1/FIFOBLOCK/a1_S1
+Streamer1/FIFOBLOCK/a1_COUT
+Streamer1/FIFOBLOCK/g_cmp_ci_a_S1
+Streamer1/FIFOBLOCK/g_cmp_ci_a_S0
+Streamer1/FIFOBLOCK/a0_S1
+Streamer1/FIFOBLOCK/a0_COUT
+Streamer1/FIFOBLOCK/e_cmp_ci_a_S1
+Streamer1/FIFOBLOCK/e_cmp_ci_a_S0
+Streamer1/FIFOBLOCK/bdcnt_bctr_cia_S1
+Streamer1/FIFOBLOCK/bdcnt_bctr_cia_S0
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB17
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB16
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB15
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB14
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB13
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB12
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB11
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB10
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB9
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB8
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB7
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB6
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB5
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB4
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA17
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA16
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA15
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA14
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA13
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA12
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA11
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA10
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA9
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA8
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA7
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA6
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA5
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA4
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA3
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA2
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA1
+Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA0
+Streamer1/FIFOBLOCK/r_ctr_cia_S1
+Streamer1/FIFOBLOCK/r_ctr_cia_S0
+Streamer1/FIFOBLOCK/co5_4
+Streamer1/FIFOBLOCK/bdcnt_bctr_6_NC1
+Streamer1/FIFOBLOCK/co6
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB17
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB16
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB15
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB14
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB13
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB12
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB11
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB10
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB9
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB8
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB7
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB6
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB5
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB4
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA17
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA16
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA15
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA14
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA13
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA12
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA11
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA10
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA9
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA8
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA7
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA6
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA5
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA4
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA3
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA2
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA1
+Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA0
+PWM1/Count_1_cry_0_0_S1
+PWM1/Count_1_cry_0_0_S0
+PWM1/N_1
+PWM1/Count_1_s_7_0_S1
+PWM1/Count_1_s_7_0_COUT
+PWM1/opPWM6_cry_0_0_S1
+PWM1/opPWM6_cry_0_0_S0
+PWM1/N_2
+PWM1/opPWM6_cry_1_0_S1
+PWM1/opPWM6_cry_1_0_S0
+PWM1/opPWM6_cry_3_0_S1
+PWM1/opPWM6_cry_3_0_S0
+PWM1/opPWM6_cry_5_0_S1
+PWM1/opPWM6_cry_5_0_S0
+PWM1/opPWM6_cry_7_0_S0
+PWM1/opPWM6_cry_7_0_COUT
+RdRegisters.ClockTicks_1_cry_0_0_S1
+RdRegisters.ClockTicks_1_cry_0_0_S0
+N_1
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Tue Jul 19 19:48:07 2022
+
+SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
+LOCATE COMP "opUART_Tx" SITE "109" ;
+LOCATE COMP "ipClk" SITE "21" ;
+LOCATE COMP "opPWM" SITE "103" ;
+LOCATE COMP "opLED[7]" SITE "37" ;
+LOCATE COMP "opLED[6]" SITE "38" ;
+LOCATE COMP "opLED[5]" SITE "39" ;
+LOCATE COMP "opLED[4]" SITE "40" ;
+LOCATE COMP "opLED[3]" SITE "43" ;
+LOCATE COMP "opLED[2]" SITE "44" ;
+LOCATE COMP "opLED[1]" SITE "45" ;
+LOCATE COMP "opLED[0]" SITE "46" ;
+LOCATE COMP "ipBtn[3]" SITE "50" ;
+LOCATE COMP "ipBtn[2]" SITE "53" ;
+LOCATE COMP "ipBtn[1]" SITE "52" ;
+LOCATE COMP "ipBtn[0]" SITE "54" ;
+LOCATE COMP "ipUART_Rx" SITE "110" ;
+LOCATE COMP "ipReset" SITE "19" ;
+FREQUENCY PORT "ipClk" 50.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

@@ -1,0 +1,732 @@
+
+          Lattice Mapping Report File for Design Module 'Modulator'
+
+
+Design Information
+------------------
+
+Command line:   map -a LatticeXP2 -p LFXP2-5E -t TQFP144 -s 6 -oc Commercial
+     Modulator_impl1.ngd -o Modulator_impl1_map.ncd -pr Modulator_impl1.prf -mp
+     Modulator_impl1.mrp -lpf C:/Users/reeve/Documents/Projects/Modulator/impl1/
+     Modulator_impl1_synplify.lpf -lpf
+     C:/Users/reeve/Documents/Projects/Modulator/Modulator.lpf -gui 
+Target Vendor:  LATTICE
+Target Device:  LFXP2-5ETQFP144
+Target Performance:   6
+Mapper:  mg5a00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  07/19/22  19:48:06
+
+Design Summary
+--------------
+
+   Number of registers:    404 out of  3864 (10%)
+      PFU registers:          400 out of  3564 (11%)
+      PIO registers:            4 out of   300 (1%)
+   Number of SLICEs:       345 out of  2376 (15%)
+      SLICEs as Logic/ROM:    345 out of  2376 (15%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:         99 out of  2376 (4%)
+   Number of LUT4s:        479 out of  4752 (10%)
+      Number used as logic LUTs:        281
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      198
+      Number used as shift registers:     0
+   Number of PIO sites used: 17 out of 100 (17%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  2 out of 9 (22%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+
+                                    Page 1
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+Design Summary (cont)
+---------------------
+   Number of clocks:  1
+     Net ipClk_c: 227 loads, 227 rising, 0 falling (Driver: PIO ipClk )
+   Number of Clock Enables:  25
+     Net Packetiser.UART_Inst.txClkCount_1_sqmuxa_i: 1 loads, 0 LSLICEs
+     Net ipReset_c: 9 loads, 8 LSLICEs
+     Net Streamer1/FIFOBLOCK/wren_i: 8 loads, 6 LSLICEs
+     Net Streamer1/FIFOBLOCK/rden_i: 6 loads, 6 LSLICEs
+     Net Streamer1/FIFOBLOCK/fcnt_en: 7 loads, 7 LSLICEs
+     Net Streamer1/ipDatace[8]: 4 loads, 4 LSLICEs
+     Net Register/N_596: 4 loads, 4 LSLICEs
+     Net Control/OutputData_1_sqmuxa_2: 8 loads, 8 LSLICEs
+     Net Control/N_98_i: 16 loads, 16 LSLICEs
+     Net Control/N_74_i: 4 loads, 4 LSLICEs
+     Net Control/opAddress_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net Control/un1_OutputData_0_sqmuxa_0_0: 17 loads, 17 LSLICEs
+     Net Packetiser/Data_0_sqmuxa_0: 4 loads, 4 LSLICEs
+     Net Packetiser/N_509: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_Inst/opRxValid_1_sqmuxa_i: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/N_115: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_Inst/rxData_0_sqmuxa_i: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_Inst/N_113: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/rxState_3_sqmuxa: 4 loads, 4 LSLICEs
+     Net Packetiser.N_113_1_i: 1 loads, 0 LSLICEs
+     Net Packetiser/N_127_i: 13 loads, 13 LSLICEs
+     Net Packetiser/N_120_i: 2 loads, 2 LSLICEs
+     Net Packetiser/Source_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
+     Net Packetiser/Length_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
+     Net Packetiser/Destination_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
+   Number of local set/reset loads for net ipReset_c merged into GSR:  39
+   Number of LSRs:  14
+     Net N_123_i: 1 loads, 0 LSLICEs
+     Net ipReset_c: 52 loads, 47 LSLICEs
+     Net Streamer1/fb: 1 loads, 1 LSLICEs
+     Net Streamer1/txClkCount_0_sqmuxa_2_RNI0ERU: 7 loads, 7 LSLICEs
+     Net Register/Reset: 4 loads, 4 LSLICEs
+     Net Register/un1_ipAddress_inv_i: 10 loads, 10 LSLICEs
+     Net Control/State_RNI12SL[1]: 5 loads, 5 LSLICEs
+     Net Packetiser.opRxStream.EoP_0_sqmuxa: 2 loads, 1 LSLICEs
+     Net Packetiser/BytesReceived_5[0]: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/opRxValid_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/un1_ipReset_0: 2 loads, 2 LSLICEs
+     Net Packetiser/UART_Inst/un1_ipReset_1: 2 loads, 2 LSLICEs
+     Net Packetiser/rxState_RNIS5KH[0]: 4 loads, 4 LSLICEs
+     Net Packetiser/fb: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net ipReset_c: 191 loads
+     Net Control/tState[0]: 50 loads
+     Net VCC: 32 loads
+     Net Address[0]: 24 loads
+     Net Packetiser/UART_Inst/VCC: 21 loads
+     Net Streamer1/FIFOBLOCK/wren_i: 21 loads
+     Net Packetiser/UART_Inst/txClkBaud: 19 loads
+     Net Control/un1_OutputData_0_sqmuxa_0_0: 17 loads
+     Net Address[1]: 16 loads
+     Net Control/N_98_i: 16 loads
+
+                                    Page 2
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: Using local reset signal 'ipReset_c' to infer global GSR net.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| opUART_Tx           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| ipClk               | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opPWM               | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[7]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[6]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[5]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[4]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[3]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[2]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[1]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| opLED[0]            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| ipBtn[3]            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| ipBtn[2]            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| ipBtn[1]            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| ipBtn[0]            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| ipUART_Rx           | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| ipReset             | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+
+
+
+
+
+                                    Page 3
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+Removed logic
+-------------
+
+Block Register/GND undriven or does not drive anything - clipped.
+Block Register/VCC undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/wren_i_inv was merged into signal
+     Streamer1/FIFOBLOCK/wren_i
+Signal Streamer1/FIFOBLOCK/rden_i_inv was merged into signal
+     Streamer1/FIFOBLOCK/rden_i
+Signal Streamer1/FIFOBLOCK/invout_0 was merged into signal Streamer1/Empty
+Signal Streamer1/FIFOBLOCK/invout_1 was merged into signal
+     Streamer1/FIFOBLOCK/Full
+Signal Streamer1/FIFOBLOCK/VCC undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/GND undriven or does not drive anything - clipped.
+Signal RdRegisters.ClockTicks_1_s_31_0_S1 undriven or does not drive anything -
+     clipped.
+Signal RdRegisters.ClockTicks_1_s_31_0_COUT undriven or does not drive anything
+     - clipped.
+Signal Packetiser/un1_BytesReceived_7_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal Packetiser/N_1 undriven or does not drive anything - clipped.
+Signal Packetiser/un1_BytesReceived_7_s_7_0_S1 undriven or does not drive
+     anything - clipped.
+Signal Packetiser/un1_BytesReceived_7_s_7_0_COUT undriven or does not drive
+     anything - clipped.
+Signal Packetiser/Length_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal Packetiser/Length_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal Packetiser/N_2 undriven or does not drive anything - clipped.
+Signal Packetiser/Length_0_I_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal Packetiser/Length_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal Packetiser/Length_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal Packetiser/Length_0_I_9_0_COUT undriven or does not drive anything -
+     clipped.
+Signal Packetiser/UART_Inst/txClkCount_4_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal Packetiser/UART_Inst/N_1 undriven or does not drive anything - clipped.
+Signal Packetiser/UART_Inst/txClkCount_4_s_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal Packetiser/UART_Inst/txClkCount_4_s_9_0_COUT undriven or does not drive
+     anything - clipped.
+Signal Packetiser/UART_Inst/un4_rxClkCount_1_cry_0_0_S1 undriven or does not
+     drive anything - clipped.
+Signal Packetiser/UART_Inst/un4_rxClkCount_1_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal Packetiser/UART_Inst/N_2 undriven or does not drive anything - clipped.
+Signal Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_COUT undriven or does not
+     drive anything - clipped.
+Signal Control/un1_BytesWritten_6_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal Control/N_1 undriven or does not drive anything - clipped.
+Signal Control/un1_BytesWritten_6_s_7_0_S1 undriven or does not drive anything -
+
+                                    Page 4
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal Control/un1_BytesWritten_6_s_7_0_COUT undriven or does not drive anything
+     - clipped.
+Signal Streamer1/un3_txClkCount_1_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal Streamer1/un3_txClkCount_1_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal Streamer1/N_1 undriven or does not drive anything - clipped.
+Signal Streamer1/un3_txClkCount_1_cry_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/co5_3 undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/w_ctr_cia_S1 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/w_ctr_cia_S0 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/a1_S1 undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/a1_COUT undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/g_cmp_ci_a_S1 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/g_cmp_ci_a_S0 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/a0_S1 undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/a0_COUT undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/e_cmp_ci_a_S1 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/e_cmp_ci_a_S0 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/bdcnt_bctr_cia_S1 undriven or does not drive anything
+     - clipped.
+Signal Streamer1/FIFOBLOCK/bdcnt_bctr_cia_S0 undriven or does not drive anything
+     - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB17 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB16 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB15 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB14 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB13 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB12 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB11 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB10 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB9 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB8 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB7 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB6 undriven or does not drive
+
+                                    Page 5
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB5 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB4 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA17 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA16 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA15 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA14 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA13 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA12 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA11 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA10 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA9 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA8 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA7 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA6 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA5 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA4 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA3 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA2 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA1 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOA0 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/r_ctr_cia_S1 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/r_ctr_cia_S0 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/FIFOBLOCK/co5_4 undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/bdcnt_bctr_6_NC1 undriven or does not drive anything
+     - clipped.
+Signal Streamer1/FIFOBLOCK/co6 undriven or does not drive anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB17 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB16 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB15 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB14 undriven or does not drive
+
+                                    Page 6
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB13 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB12 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB11 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB10 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB9 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB8 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB7 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB6 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB5 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOB4 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA17 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA16 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA15 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA14 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA13 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA12 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA11 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA10 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA9 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA8 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA7 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA6 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA5 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA4 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA3 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA2 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA1 undriven or does not drive
+     anything - clipped.
+Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA0 undriven or does not drive
+
+                                    Page 7
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal PWM1/Count_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal PWM1/Count_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal PWM1/N_1 undriven or does not drive anything - clipped.
+Signal PWM1/Count_1_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal PWM1/Count_1_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal PWM1/N_2 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_1_0_S1 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_1_0_S0 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_3_0_S1 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_3_0_S0 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_5_0_S1 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_5_0_S0 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_7_0_S0 undriven or does not drive anything - clipped.
+Signal PWM1/opPWM6_cry_7_0_COUT undriven or does not drive anything - clipped.
+Signal RdRegisters.ClockTicks_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal RdRegisters.ClockTicks_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Block Streamer1/FIFOBLOCK/INV_0 was optimized away.
+Block Streamer1/FIFOBLOCK/INV_1 was optimized away.
+Block Streamer1/FIFOBLOCK/INV_2 was optimized away.
+Block Streamer1/FIFOBLOCK/INV_3 was optimized away.
+Block Streamer1/FIFOBLOCK/VCC was optimized away.
+Block Streamer1/FIFOBLOCK/GND was optimized away.
+
+Memory Usage
+------------
+
+    
+         
+    INFO: Design contains EBR with ASYNC Reset Mode that has a limitation:
+    The use of the EBR block asynchronous reset requires that certain timing
+    be met between the clock and the reset within the memory block. 
+    See the device specific data sheet for additional details.
+
+
+
+
+    
+         
+    INFO: Design contains pre-loadable EBR during configuration that has a
+         requirement:
+    Since the GSR is disabled for the EBR, make sure write enable and chip
+    enable are inactive during wake-up, so that the pre-loaded initialization
+    values will not be corrupted during wake-up state.
+
+
+
+
+/Streamer1/FIFOBLOCK:
+    EBRs: 2
+    RAM SLICEs: 0
+
+                                    Page 8
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+ (cont)
+-------
+    Logic SLICEs: 45
+    PFU Registers: 39
+    -Contains EBR pdp_ram_0_3_0:  TYPE= DP16KB,  Width_B= 4,  Depth_A= 4096,
+         Depth_B= 4096,  REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  RESETMODE=
+         ASYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE= FIFO.lpc
+    -Contains EBR pdp_ram_0_2_1:  TYPE= DP16KB,  Width_B= 4,  Depth_A= 4096,
+         Depth_B= 4096,  REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  RESETMODE=
+         ASYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE= FIFO.lpc
+
+ASIC Components
+---------------
+
+Instance Name: Streamer1/FIFOBLOCK/pdp_ram_0_3_0
+         Type: DP16KB
+Instance Name: Streamer1/FIFOBLOCK/pdp_ram_0_2_1
+         Type: DP16KB
+
+GSR Usage
+---------
+
+GSR Component:
+   The local reset signal 'ipReset_c' of the design has been inferred as Global
+        Set Reset (GSR). The reset signal used for GSR control is 'ipReset_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components on inferred reset domain with GSR Property disabled
+--------------------------------------------------------------
+
+     These components have the GSR property set to DISABLED and are on the
+     inferred reset domain. The components will respond to the reset signal
+     'ipReset_c' via the local reset on the component and not the GSR component.
+     
+
+     Type and number of components of the type: 
+   Register = 101 
+   DP16KB = 4
+
+     Type and instance name of component: 
+   Register : RdRegisters.ClockTicks[31]
+   Register : Packetiser_UART_Inst_Rxio
+   Register : PWM1/Count[0]
+   Register : PWM1/Count[1]
+   Register : PWM1/Count[2]
+   Register : PWM1/Count[3]
+   Register : PWM1/Count[4]
+   Register : PWM1/Count[5]
+   Register : PWM1/Count[6]
+   Register : PWM1/Count[7]
+
+                                    Page 9
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+GSR Usage (cont)
+----------------
+   Register : Streamer1/WE
+   Register : Streamer1/RE
+   Register : Control/OutputData[15]
+   Register : Control/OutputData[16]
+   Register : Control/OutputData[17]
+   Register : Control/OutputData[18]
+   Register : Control/OutputData[19]
+   Register : Control/OutputData[20]
+   Register : Control/OutputData[21]
+   Register : Control/OutputData[22]
+   Register : Control/OutputData[23]
+   Register : Packetiser/opRxStream.Data[7]
+   Register : Packetiser/UART_Inst/opTxBusy
+   Register : Packetiser/opRxStream.Source[0]
+   Register : Packetiser/opRxStream.Source[1]
+   Register : Packetiser/opRxStream.Source[2]
+   Register : Packetiser/opRxStream.Source[3]
+   Register : Packetiser/opRxStream.Source[4]
+   Register : Packetiser/opRxStream.Source[5]
+   Register : Packetiser/opRxStream.Source[6]
+   Register : Packetiser/opRxStream.Source[7]
+   Register : Packetiser/opRxStream.Length[0]
+   Register : Packetiser/opRxStream.Length[1]
+   Register : Packetiser/opRxStream.Length[2]
+   Register : Packetiser/opRxStream.Length[3]
+   Register : Packetiser/opRxStream.Length[4]
+   Register : Packetiser/opRxStream.Length[5]
+   Register : Packetiser/opRxStream.Length[6]
+   Register : Packetiser/opRxStream.Length[7]
+   Register : Packetiser/opRxStream.Destination[0]
+   Register : Packetiser/opRxStream.Destination[1]
+   Register : Packetiser/opRxStream.Destination[2]
+   Register : Packetiser/opRxStream.Destination[3]
+   Register : Packetiser/opRxStream.Destination[4]
+   Register : Packetiser/opRxStream.Destination[5]
+   Register : Packetiser/opRxStream.Destination[6]
+   Register : Packetiser/opRxStream.Destination[7]
+   Register : Packetiser/opRxStream.Data[0]
+   Register : Packetiser/opRxStream.Data[1]
+   Register : Packetiser/opRxStream.Data[2]
+   Register : Packetiser/opRxStream.Data[3]
+   Register : Packetiser/opRxStream.Data[4]
+   Register : Packetiser/opRxStream.Data[5]
+   Register : Packetiser/opRxStream.Data[6]
+   Register : Packetiser/UART_TxSend
+   Register : RdRegisters.ClockTicks[0]
+   Register : RdRegisters.ClockTicks[1]
+   Register : RdRegisters.ClockTicks[2]
+   Register : RdRegisters.ClockTicks[3]
+   Register : RdRegisters.ClockTicks[4]
+   Register : RdRegisters.ClockTicks[5]
+   Register : RdRegisters.ClockTicks[6]
+   Register : RdRegisters.ClockTicks[7]
+   Register : RdRegisters.ClockTicks[8]
+   Register : RdRegisters.ClockTicks[9]
+   Register : RdRegisters.ClockTicks[10]
+
+                                   Page 10
+
+
+
+
+Design:  Modulator                                     Date:  07/19/22  19:48:06
+
+GSR Usage (cont)
+----------------
+   Register : RdRegisters.ClockTicks[11]
+   Register : RdRegisters.ClockTicks[12]
+   Register : RdRegisters.ClockTicks[13]
+   Register : RdRegisters.ClockTicks[14]
+   Register : RdRegisters.ClockTicks[15]
+   Register : RdRegisters.ClockTicks[16]
+   Register : RdRegisters.ClockTicks[17]
+   Register : RdRegisters.ClockTicks[18]
+   Register : RdRegisters.ClockTicks[19]
+   Register : RdRegisters.ClockTicks[20]
+   Register : RdRegisters.ClockTicks[21]
+   Register : RdRegisters.ClockTicks[22]
+   Register : RdRegisters.ClockTicks[23]
+   Register : RdRegisters.ClockTicks[24]
+   Register : RdRegisters.ClockTicks[25]
+   Register : RdRegisters.ClockTicks[26]
+   Register : RdRegisters.ClockTicks[27]
+   Register : RdRegisters.ClockTicks[28]
+   Register : RdRegisters.ClockTicks[29]
+   Register : RdRegisters.ClockTicks[30]
+   Register : Packetiser_opRxStream.EoPio
+   Register : Packetiser/UART_Inst/rxClkCount[9]
+   Register : Packetiser/UART_Inst/rxClkCount[8]
+   Register : Packetiser/UART_Inst/rxClkCount[7]
+   Register : Packetiser/UART_Inst/rxClkCount[6]
+   Register : Packetiser/UART_Inst/rxClkCount[5]
+   Register : Packetiser/UART_Inst/rxClkCount[4]
+   Register : Packetiser/UART_Inst/rxClkCount[3]
+   Register : Packetiser/UART_Inst/rxClkCount[2]
+   Register : Packetiser/UART_Inst/rxClkCount[1]
+   Register : Packetiser/UART_Inst/rxClkCount[0]
+   Register : Control/opTxStream.EoP
+   Register : Control/opTxStream.Valid
+   Register : Control/opWrEnable
+   Register : PWM1_opPWMio
+   DP16KB : Streamer1/FIFOBLOCK/pdp_ram_0_3_0
+   DP16KB : Streamer1/FIFOBLOCK/pdp_ram_0_3_0
+   DP16KB : Streamer1/FIFOBLOCK/pdp_ram_0_2_1
+   DP16KB : Streamer1/FIFOBLOCK/pdp_ram_0_2_1
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 62 MB
+        
+
+
+
+
+
+
+
+
+
+
+                                   Page 11
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.

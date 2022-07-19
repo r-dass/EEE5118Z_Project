@@ -1,0 +1,1193 @@
+#Build: Synplify Pro (R) Q-2020.03L-SP1, Build 182R, Oct 29 2020
+#install: C:\lscc\diamond\3.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: RD-LAPTOP
+
+# Tue Jul 19 18:11:36 2022
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v" (library work)
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":170:16:170:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":172:16:172:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":177:16:177:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":179:16:179:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":184:16:184:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":195:16:195:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":234:16:234:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":245:16:245:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":284:16:284:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":295:16:295:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":334:16:334:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":345:16:345:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":384:16:384:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":386:16:386:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":391:16:391:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":393:16:393:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":398:16:398:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":400:16:400:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":405:16:405:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":407:16:407:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":412:16:412:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":414:16:414:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":419:16:419:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":421:16:421:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":426:16:426:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":428:16:428:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":433:16:433:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":435:16:435:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":440:16:440:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":442:16:442:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":447:16:447:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":449:16:449:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":454:16:454:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":456:16:456:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":461:16:461:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":463:16:463:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":468:16:468:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":470:16:470:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":475:16:475:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":477:16:477:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":481:16:481:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":483:16:483:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":487:16:487:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":489:16:489:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":493:16:493:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":495:16:495:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":499:16:499:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":501:16:501:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":505:16:505:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":507:16:507:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":511:16:511:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":513:16:513:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":517:16:517:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":519:16:519:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":523:16:523:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":525:16:525:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":529:16:529:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":531:16:531:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":535:16:535:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":537:16:537:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":541:16:541:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":543:16:543:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":547:16:547:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":549:16:549:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":554:16:554:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":556:16:556:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":561:16:561:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":563:16:563:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":568:16:568:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":570:16:570:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":574:16:574:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":576:16:576:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":580:16:580:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":582:16:582:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":586:16:586:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":588:16:588:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":592:16:592:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":594:16:594:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":598:16:598:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":600:16:600:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":604:16:604:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":606:16:606:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":610:16:610:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":612:16:612:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":616:16:616:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":618:16:618:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":622:16:622:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":624:16:624:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":628:16:628:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":630:16:630:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":634:16:634:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":636:16:636:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":640:16:640:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":642:16:642:27|Read directive translate_on.
+@I::"C:\Users\reeve\Documents\Projects\Modulator\System\Structures.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\DSP\PWM.v" (library work)
+@I::"C:\Users\reeve\Documents\Projects\Modulator\Modulator.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\Documents\Projects\Modulator\FIFO.v_unit in library work.
+Selecting top level module Counter
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":19:7:19:10|Synthesizing module UART in library work.
+Running optimization stage 1 on UART .......
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
+Running optimization stage 1 on UART_Packets .......
+@W: CL169 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Pruning unused register txBuffer.SoP. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
+Running optimization stage 1 on Controller .......
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[1] is always 0.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[2] is always 1.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[3] is always 0.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[4] is always 0.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[5] is always 0.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[6] is always 0.
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[7] is always 0.
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":9:7:9:15|Synthesizing module Registers in library work.
+Running optimization stage 1 on Registers .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
+Running optimization stage 1 on AND2 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1324:7:1324:10|Synthesizing module XOR2 in library work.
+Running optimization stage 1 on XOR2 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1214:7:1214:13|Synthesizing module ROM16X1 in library work.
+Running optimization stage 1 on ROM16X1 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1574:7:1574:12|Synthesizing module DP16KB in library work.
+Running optimization stage 1 on DP16KB .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":391:7:391:13|Synthesizing module FD1P3DX in library work.
+Running optimization stage 1 on FD1P3DX .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":442:7:442:13|Synthesizing module FD1S3BX in library work.
+Running optimization stage 1 on FD1S3BX .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":452:7:452:13|Synthesizing module FD1S3DX in library work.
+Running optimization stage 1 on FD1S3DX .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":336:7:336:12|Synthesizing module FADD2B in library work.
+Running optimization stage 1 on FADD2B .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":106:7:106:9|Synthesizing module CB2 in library work.
+Running optimization stage 1 on CB2 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":138:7:138:11|Synthesizing module ALEB2 in library work.
+Running optimization stage 1 on ALEB2 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":128:7:128:11|Synthesizing module AGEB2 in library work.
+Running optimization stage 1 on AGEB2 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":223:7:223:9|Synthesizing module CU2 in library work.
+Running optimization stage 1 on CU2 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1269:7:1269:9|Synthesizing module VHI in library work.
+Running optimization stage 1 on VHI .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1274:7:1274:9|Synthesizing module VLO in library work.
+Running optimization stage 1 on VLO .......
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
+Running optimization stage 1 on FIFO .......
+@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":771:8:771:14|Removing instance r_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":745:8:745:14|Removing instance w_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
+@W: CG133 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":49:4:49:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on Streamer .......
+@W: CL177 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":53:0:53:5|Sharing sequential element opValid. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
+Running optimization stage 1 on PWM .......
+@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Modulator.v":3:7:3:13|Synthesizing module Counter in library work.
+Running optimization stage 1 on Counter .......
+Running optimization stage 2 on Counter .......
+Running optimization stage 2 on PWM .......
+Running optimization stage 2 on Streamer .......
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":72:0:72:5|Trying to extract state machine for register rState.
+Extracted state machine for register rState
+State machine has 2 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":7:29:7:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":7:29:7:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on FIFO .......
+Running optimization stage 2 on VLO .......
+Running optimization stage 2 on VHI .......
+Running optimization stage 2 on CU2 .......
+Running optimization stage 2 on AGEB2 .......
+Running optimization stage 2 on ALEB2 .......
+Running optimization stage 2 on CB2 .......
+Running optimization stage 2 on FADD2B .......
+Running optimization stage 2 on FD1S3DX .......
+Running optimization stage 2 on FD1S3BX .......
+Running optimization stage 2 on FD1P3DX .......
+Running optimization stage 2 on DP16KB .......
+Running optimization stage 2 on ROM16X1 .......
+Running optimization stage 2 on XOR2 .......
+Running optimization stage 2 on INV .......
+Running optimization stage 2 on AND2 .......
+Running optimization stage 2 on Registers .......
+@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":17:22:17:29|Input port bits 31 to 8 of ipWrData[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on Controller .......
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register tState.
+Extracted state machine for register tState
+State machine has 4 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register State.
+Extracted state machine for register State
+State machine has 3 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":14:22:14:31|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":14:22:14:31|Input port bit 9 of ipRxStream[34:0] is unused
+
+Running optimization stage 2 on UART_Packets .......
+@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Register bit txBuffer.Valid is always 1.
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Trying to extract state machine for register txState.
+Extracted state machine for register txState
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":148:0:148:5|Trying to extract state machine for register rxState.
+Extracted state machine for register rxState
+State machine has 5 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+@W: CL247 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":8:21:8:30|Input port bit 10 of ipTxStream[34:0] is unused
+
+Running optimization stage 2 on UART .......
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
+Extracted state machine for register rxState
+State machine has 2 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":55:0:55:5|Trying to extract state machine for register txState.
+Extracted state machine for register txState
+State machine has 2 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\reeve\Documents\Projects\Modulator\impl1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 100MB peak: 103MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Tue Jul 19 18:11:41 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 19 18:11:41 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\reeve\Documents\Projects\Modulator\impl1\synwork\Modulator_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Tue Jul 19 18:11:41 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 19 18:11:42 2022
+
+###########################################################]
+Premap Report
+
+# Tue Jul 19 18:11:42 2022
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\reeve\Documents\Projects\Modulator\impl1\Modulator_impl1_scck.rpt 
+See clock summary report "C:\Users\reeve\Documents\Projects\Modulator\impl1\Modulator_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@N: FX493 |Applying initial value "00000000" on instance txData[7:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
+@A: FX681 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":55:0:55:5|Initial value on register txClkCount[9:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":296:11:296:23|Instance pdp_ram_0_2_1 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":296:11:296:23|Instance pdp_ram_0_2_1 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
+@W: FX367 :"c:\users\reeve\documents\projects\modulator\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
+@W: MO129 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[2] is reduced to a combinational gate by constant propagation.
+@W: BN114 :"c:\users\reeve\documents\projects\modulator\fifo.v":196:11:196:23|Removing instance pdp_ram_0_0_3 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\documents\projects\modulator\fifo.v":246:11:246:23|Removing instance pdp_ram_0_1_2 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\controller.v":35:0:35:5|Removing sequential instance opTxStream\.SoP (in view: work.Controller(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+Encoding state machine rxState[1:0] (in view: work.UART(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0
+   00000000000000000000000000000001 -> 1
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":103:0:103:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+Encoding state machine txState[1:0] (in view: work.UART(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0
+   00000000000000000000000000000001 -> 1
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":55:0:55:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+Encoding state machine rxState[4:0] (in view: work.UART_Packets(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 00001
+   00000000000000000000000000000001 -> 00010
+   00000000000000000000000000000010 -> 00100
+   00000000000000000000000000000011 -> 01000
+   00000000000000000000000000000100 -> 10000
+@N: FX493 |Applying initial value "1" on instance rxState[0].
+@N: FX493 |Applying initial value "0" on instance rxState[1].
+@N: FX493 |Applying initial value "0" on instance rxState[2].
+@N: FX493 |Applying initial value "0" on instance rxState[3].
+@N: FX493 |Applying initial value "0" on instance rxState[4].
+Encoding state machine txState[5:0] (in view: work.UART_Packets(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+@N: FX493 |Applying initial value "1" on instance txState[0].
+@N: FX493 |Applying initial value "0" on instance txState[1].
+@N: FX493 |Applying initial value "0" on instance txState[2].
+@N: FX493 |Applying initial value "0" on instance txState[3].
+@N: FX493 |Applying initial value "0" on instance txState[4].
+@N: FX493 |Applying initial value "0" on instance txState[5].
+Encoding state machine tState[3:0] (in view: work.Controller(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 00
+   00000000000000000000000000000001 -> 01
+   00000000000000000000000000000010 -> 10
+   00000000000000000000000000000011 -> 11
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\system\controller.v":35:0:35:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
+Encoding state machine State[2:0] (in view: work.Controller(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 00
+   00000000000000000000000000000001 -> 01
+   00000000000000000000000000000010 -> 10
+Encoding state machine rState[1:0] (in view: work.Streamer(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0
+   00000000000000000000000000000001 -> 1
+@N: MO225 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 176MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Counter 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+
+
+Clock Summary
+******************
+
+          Start             Requested     Requested     Clock        Clock                   Clock
+Level     Clock             Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------
+0 -       System            200.0 MHz     5.000         system       system_clkgroup         0    
+                                                                                                  
+0 -       Counter|ipClk     200.0 MHz     5.000         inferred     Inferred_clkgroup_0     416  
+==================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                  Clock     Source          Clock Pin                           Non-clock Pin     Non-clock Pin
+Clock             Load      Pin             Seq Example                         Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------
+System            0         -               -                                   -                 -            
+                                                                                                               
+Counter|ipClk     416       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
+===============================================================================================================
+
+@W: MT529 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":55:0:55:5|Found inferred clock Counter|ipClk which controls 416 sequential elements including Packetiser.UART_Inst.txState[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 416 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================== Non-Gated/Non-Generated Clocks ===================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance              
+-----------------------------------------------------------------------------------------------------
+@KP:ckid0_0       ipClk               port                   416        RdRegisters\.ClockTicks[31:0]
+=====================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 91MB peak: 177MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 19 18:11:44 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Jul 19 18:11:45 2022
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: RD-LAPTOP
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 128MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+@N: MF179 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -0.71ns		 311 /       365
+   2		0h:00m:03s		    -0.71ns		 309 /       365
+   3		0h:00m:03s		    -0.71ns		 309 /       365
+@N: FX271 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":148:0:148:5|Replicating instance Packetiser.BytesReceived[1] (in view: work.Counter(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":148:0:148:5|Replicating instance Packetiser.BytesReceived[0] (in view: work.Counter(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":148:0:148:5|Replicating instance Packetiser.BytesReceived[4] (in view: work.Counter(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":148:0:148:5|Replicating instance Packetiser.BytesReceived[2] (in view: work.Counter(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":148:0:148:5|Replicating instance Packetiser.BytesReceived[5] (in view: work.Counter(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":148:0:148:5|Replicating instance Packetiser.BytesReceived[3] (in view: work.Counter(verilog)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 6 Registers via timing driven replication
+Added 6 LUTs via timing driven replication
+
+   4		0h:00m:03s		    -0.54ns		 315 /       371
+   5		0h:00m:03s		    -0.41ns		 317 /       371
+   6		0h:00m:03s		    -0.41ns		 316 /       371
+   7		0h:00m:03s		    -0.41ns		 317 /       371
+   8		0h:00m:03s		    -0.47ns		 318 /       371
+   9		0h:00m:03s		    -0.41ns		 317 /       371
+
+  10		0h:00m:03s		    -0.41ns		 317 /       371
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":55:0:55:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Counter(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 182MB peak: 182MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 144MB peak: 182MB)
+
+Writing Analyst data base C:\Users\reeve\Documents\Projects\Modulator\impl1\synwork\Modulator_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 182MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\reeve\Documents\Projects\Modulator\impl1\Modulator_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 187MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 185MB peak: 187MB)
+
+@W: MT246 :"c:\users\reeve\documents\projects\modulator\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\reeve\documents\projects\modulator\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock Counter|ipClk with period 5.00ns. Please declare a user-defined clock on port ipClk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jul 19 18:11:51 2022
+#
+
+
+Top view:               Counter
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.498
+
+                   Requested     Estimated      Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency      Period        Period        Slack      Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+Counter|ipClk      200.0 MHz     153.9 MHz      5.000         6.498         -1.498     inferred     Inferred_clkgroup_0
+System             200.0 MHz     1498.4 MHz     5.000         0.667         4.333      system       system_clkgroup    
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------
+System         System         |  5.000       4.333   |  No paths    -      |  No paths    -      |  No paths    -    
+System         Counter|ipClk  |  5.000       2.544   |  No paths    -      |  No paths    -      |  No paths    -    
+Counter|ipClk  System         |  5.000       3.119   |  No paths    -      |  No paths    -      |  No paths    -    
+Counter|ipClk  Counter|ipClk  |  5.000       -1.498  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Counter|ipClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                        Arrival           
+Instance                               Reference         Type        Pin     Net                       Time        Slack 
+                                       Clock                                                                             
+-------------------------------------------------------------------------------------------------------------------------
+Packetiser.txState[5]                  Counter|ipClk     FD1S3AX     Q       txState[5]                1.298       -1.498
+Packetiser.txState[4]                  Counter|ipClk     FD1S3AX     Q       txState[4]                1.166       -1.366
+Streamer1.txClkCount[0]                Counter|ipClk     FD1S3IX     Q       txClkCount[0]             1.213       -0.639
+Packetiser.UART_Inst.rxClkCount[0]     Counter|ipClk     FD1P3AX     Q       rxClkCount[0]             1.213       -0.551
+Packetiser.UART_Inst.rxClkCount[1]     Counter|ipClk     FD1P3AX     Q       rxClkCount[1]             1.166       -0.511
+Packetiser.UART_Inst.rxClkCount[3]     Counter|ipClk     FD1P3AX     Q       rxClkCount[3]             1.091       -0.511
+Packetiser.UART_Inst.rxClkCount[4]     Counter|ipClk     FD1P3AX     Q       rxClkCount[4]             1.166       -0.511
+Packetiser.UART_Inst.rxClkCount[5]     Counter|ipClk     FD1P3AX     Q       rxClkCount[5]             1.091       -0.511
+Streamer1.txClkCount[1]                Counter|ipClk     FD1S3IX     Q       txClkCount[1]             1.166       -0.504
+Packetiser.BytesReceived_fast[0]       Counter|ipClk     FD1S3JX     Q       BytesReceived_fast[0]     1.091       -0.503
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                       Starting                                                        Required           
+Instance                               Reference         Type         Pin     Net                      Time         Slack 
+                                       Clock                                                                              
+--------------------------------------------------------------------------------------------------------------------------
+Packetiser.UART_TxSend                 Counter|ipClk     FD1S3IX      D       fb_0                     4.264        -1.498
+Streamer1.txClkCount[11]               Counter|ipClk     FD1S3IX      D       txClkCount_4[11]         4.264        -0.639
+Streamer1.txClkCount[12]               Counter|ipClk     FD1S3IX      D       txClkCount_4[12]         4.264        -0.639
+Packetiser.UART_Inst.rxClkCount[9]     Counter|ipClk     FD1P3AX      D       rxClkCount_3[9]          4.264        -0.551
+Streamer1.txClkCount[9]                Counter|ipClk     FD1S3IX      D       txClkCount_4[9]          4.264        -0.551
+Streamer1.txClkCount[10]               Counter|ipClk     FD1S3IX      D       txClkCount_4[10]         4.264        -0.551
+Packetiser.UART_Inst.rxState[0]        Counter|ipClk     FD1S3AX      D       N_194_i                  4.264        -0.511
+Packetiser_opRxStream\.EoPio           Counter|ipClk     IFS1P3IX     SP      Packetiser.N_113_1_i     4.640        -0.503
+Packetiser.UART_Inst.rxClkCount[7]     Counter|ipClk     FD1P3AX      D       rxClkCount_3[7]          4.264        -0.463
+Packetiser.UART_Inst.rxClkCount[8]     Counter|ipClk     FD1P3AX      D       rxClkCount_3[8]          4.264        -0.463
+==========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.264
+
+    - Propagation time:                      5.762
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.498
+
+    Number of logic level(s):                5
+    Starting point:                          Packetiser.txState[5] / Q
+    Ending point:                            Packetiser.UART_TxSend / D
+    The start point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Packetiser.txState[5]                        FD1S3AX      Q        Out     1.298     1.298 r     -         
+txState[5]                                   Net          -        -       -         -           8         
+Packetiser.txState_srsts_i_0_o3_0[5]         ORCALUT4     B        In      0.000     1.298 r     -         
+Packetiser.txState_srsts_i_0_o3_0[5]         ORCALUT4     Z        Out     0.968     2.266 r     -         
+N_33                                         Net          -        -       -         -           2         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3_1     ORCALUT4     A        In      0.000     2.266 r     -         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3_1     ORCALUT4     Z        Out     0.883     3.149 r     -         
+N_156                                        Net          -        -       -         -           1         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3       ORCALUT4     A        In      0.000     3.149 r     -         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3       ORCALUT4     Z        Out     1.184     4.333 r     -         
+UART_TxSend_0_sqmuxa_1_i_o3                  Net          -        -       -         -           9         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_0        ORCALUT4     B        In      0.000     4.333 r     -         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_0        ORCALUT4     Z        Out     0.883     5.217 r     -         
+UART_TxSend_0_sqmuxa_1_i_0                   Net          -        -       -         -           1         
+Packetiser.UART_TxSend.fb                    ORCALUT4     A        In      0.000     5.217 r     -         
+Packetiser.UART_TxSend.fb                    ORCALUT4     Z        Out     0.545     5.762 r     -         
+fb_0                                         Net          -        -       -         -           1         
+Packetiser.UART_TxSend                       FD1S3IX      D        In      0.000     5.762 r     -         
+===========================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.264
+
+    - Propagation time:                      5.630
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.366
+
+    Number of logic level(s):                5
+    Starting point:                          Packetiser.txState[4] / Q
+    Ending point:                            Packetiser.UART_TxSend / D
+    The start point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Packetiser.txState[4]                        FD1S3AX      Q        Out     1.166     1.166 r     -         
+txState[4]                                   Net          -        -       -         -           3         
+Packetiser.txState_srsts_i_0_o3_0[5]         ORCALUT4     A        In      0.000     1.166 r     -         
+Packetiser.txState_srsts_i_0_o3_0[5]         ORCALUT4     Z        Out     0.968     2.134 r     -         
+N_33                                         Net          -        -       -         -           2         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3_1     ORCALUT4     A        In      0.000     2.134 r     -         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3_1     ORCALUT4     Z        Out     0.883     3.018 r     -         
+N_156                                        Net          -        -       -         -           1         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3       ORCALUT4     A        In      0.000     3.018 r     -         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_o3       ORCALUT4     Z        Out     1.184     4.202 r     -         
+UART_TxSend_0_sqmuxa_1_i_o3                  Net          -        -       -         -           9         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_0        ORCALUT4     B        In      0.000     4.202 r     -         
+Packetiser.UART_TxSend_0_sqmuxa_1_i_0        ORCALUT4     Z        Out     0.883     5.085 r     -         
+UART_TxSend_0_sqmuxa_1_i_0                   Net          -        -       -         -           1         
+Packetiser.UART_TxSend.fb                    ORCALUT4     A        In      0.000     5.085 r     -         
+Packetiser.UART_TxSend.fb                    ORCALUT4     Z        Out     0.545     5.630 r     -         
+fb_0                                         Net          -        -       -         -           1         
+Packetiser.UART_TxSend                       FD1S3IX      D        In      0.000     5.630 r     -         
+===========================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.264
+
+    - Propagation time:                      4.903
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.639
+
+    Number of logic level(s):                8
+    Starting point:                          Streamer1.txClkCount[0] / Q
+    Ending point:                            Streamer1.txClkCount[12] / D
+    The start point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+Streamer1.txClkCount[0]               FD1S3IX      Q        Out     1.213     1.213 r     -         
+txClkCount[0]                         Net          -        -       -         -           4         
+Streamer1.un3_txClkCount_cry_0_0      CCU2B        A1       In      0.000     1.213 r     -         
+Streamer1.un3_txClkCount_cry_0_0      CCU2B        COUT     Out     1.243     2.456 r     -         
+un3_txClkCount_cry_0                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_1_0      CCU2B        CIN      In      0.000     2.456 r     -         
+Streamer1.un3_txClkCount_cry_1_0      CCU2B        COUT     Out     0.088     2.544 r     -         
+un3_txClkCount_cry_2                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_3_0      CCU2B        CIN      In      0.000     2.544 r     -         
+Streamer1.un3_txClkCount_cry_3_0      CCU2B        COUT     Out     0.088     2.632 r     -         
+un3_txClkCount_cry_4                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_5_0      CCU2B        CIN      In      0.000     2.632 r     -         
+Streamer1.un3_txClkCount_cry_5_0      CCU2B        COUT     Out     0.088     2.720 r     -         
+un3_txClkCount_cry_6                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_7_0      CCU2B        CIN      In      0.000     2.720 r     -         
+Streamer1.un3_txClkCount_cry_7_0      CCU2B        COUT     Out     0.088     2.808 r     -         
+un3_txClkCount_cry_8                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_9_0      CCU2B        CIN      In      0.000     2.808 r     -         
+Streamer1.un3_txClkCount_cry_9_0      CCU2B        COUT     Out     0.088     2.896 r     -         
+un3_txClkCount_cry_10                 Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_11_0     CCU2B        CIN      In      0.000     2.896 r     -         
+Streamer1.un3_txClkCount_cry_11_0     CCU2B        S1       Out     1.461     4.358 r     -         
+un3_txClkCount_cry_11_0_S1            Net          -        -       -         -           1         
+Streamer1.txClkCount_4[12]            ORCALUT4     A        In      0.000     4.358 r     -         
+Streamer1.txClkCount_4[12]            ORCALUT4     Z        Out     0.545     4.903 r     -         
+txClkCount_4[12]                      Net          -        -       -         -           1         
+Streamer1.txClkCount[12]              FD1S3IX      D        In      0.000     4.903 r     -         
+====================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.264
+
+    - Propagation time:                      4.903
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.639
+
+    Number of logic level(s):                8
+    Starting point:                          Streamer1.txClkCount[0] / Q
+    Ending point:                            Streamer1.txClkCount[11] / D
+    The start point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                     Pin      Pin               Arrival     No. of    
+Name                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------
+Streamer1.txClkCount[0]               FD1S3IX      Q        Out     1.213     1.213 r     -         
+txClkCount[0]                         Net          -        -       -         -           4         
+Streamer1.un3_txClkCount_cry_0_0      CCU2B        A1       In      0.000     1.213 r     -         
+Streamer1.un3_txClkCount_cry_0_0      CCU2B        COUT     Out     1.243     2.456 r     -         
+un3_txClkCount_cry_0                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_1_0      CCU2B        CIN      In      0.000     2.456 r     -         
+Streamer1.un3_txClkCount_cry_1_0      CCU2B        COUT     Out     0.088     2.544 r     -         
+un3_txClkCount_cry_2                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_3_0      CCU2B        CIN      In      0.000     2.544 r     -         
+Streamer1.un3_txClkCount_cry_3_0      CCU2B        COUT     Out     0.088     2.632 r     -         
+un3_txClkCount_cry_4                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_5_0      CCU2B        CIN      In      0.000     2.632 r     -         
+Streamer1.un3_txClkCount_cry_5_0      CCU2B        COUT     Out     0.088     2.720 r     -         
+un3_txClkCount_cry_6                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_7_0      CCU2B        CIN      In      0.000     2.720 r     -         
+Streamer1.un3_txClkCount_cry_7_0      CCU2B        COUT     Out     0.088     2.808 r     -         
+un3_txClkCount_cry_8                  Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_9_0      CCU2B        CIN      In      0.000     2.808 r     -         
+Streamer1.un3_txClkCount_cry_9_0      CCU2B        COUT     Out     0.088     2.896 r     -         
+un3_txClkCount_cry_10                 Net          -        -       -         -           1         
+Streamer1.un3_txClkCount_cry_11_0     CCU2B        CIN      In      0.000     2.896 r     -         
+Streamer1.un3_txClkCount_cry_11_0     CCU2B        S0       Out     1.461     4.358 r     -         
+un3_txClkCount_cry_11_0_S0            Net          -        -       -         -           1         
+Streamer1.txClkCount_4[11]            ORCALUT4     A        In      0.000     4.358 r     -         
+Streamer1.txClkCount_4[11]            ORCALUT4     Z        Out     0.545     4.903 r     -         
+txClkCount_4[11]                      Net          -        -       -         -           1         
+Streamer1.txClkCount[11]              FD1S3IX      D        In      0.000     4.903 r     -         
+====================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.736
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.264
+
+    - Propagation time:                      4.815
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.551
+
+    Number of logic level(s):                7
+    Starting point:                          Packetiser.UART_Inst.rxClkCount[0] / Q
+    Ending point:                            Packetiser.UART_Inst.rxClkCount[9] / D
+    The start point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                              Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+Packetiser.UART_Inst.rxClkCount[0]                FD1P3AX      Q        Out     1.213     1.213 r     -         
+rxClkCount[0]                                     Net          -        -       -         -           4         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_0_0     CCU2B        A1       In      0.000     1.213 r     -         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_0_0     CCU2B        COUT     Out     1.243     2.456 r     -         
+un4_rxClkCount_1_cry_0                            Net          -        -       -         -           1         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_1_0     CCU2B        CIN      In      0.000     2.456 r     -         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_1_0     CCU2B        COUT     Out     0.088     2.544 r     -         
+un4_rxClkCount_1_cry_2                            Net          -        -       -         -           1         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_3_0     CCU2B        CIN      In      0.000     2.544 r     -         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_3_0     CCU2B        COUT     Out     0.088     2.632 r     -         
+un4_rxClkCount_1_cry_4                            Net          -        -       -         -           1         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_5_0     CCU2B        CIN      In      0.000     2.632 r     -         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_5_0     CCU2B        COUT     Out     0.088     2.720 r     -         
+un4_rxClkCount_1_cry_6                            Net          -        -       -         -           1         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_7_0     CCU2B        CIN      In      0.000     2.720 r     -         
+Packetiser.UART_Inst.un4_rxClkCount_1_cry_7_0     CCU2B        COUT     Out     0.088     2.808 r     -         
+un4_rxClkCount_1_cry_8                            Net          -        -       -         -           1         
+Packetiser.UART_Inst.un4_rxClkCount_1_s_9_0       CCU2B        CIN      In      0.000     2.808 r     -         
+Packetiser.UART_Inst.un4_rxClkCount_1_s_9_0       CCU2B        S0       Out     1.461     4.270 r     -         
+un4_rxClkCount_1_s_9_0_S0                         Net          -        -       -         -           1         
+Packetiser.UART_Inst.rxClkCount_RNO[9]            ORCALUT4     B        In      0.000     4.270 r     -         
+Packetiser.UART_Inst.rxClkCount_RNO[9]            ORCALUT4     Z        Out     0.545     4.815 r     -         
+rxClkCount_3[9]                                   Net          -        -       -         -           1         
+Packetiser.UART_Inst.rxClkCount[9]                FD1P3AX      D        In      0.000     4.815 r     -         
+================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                        Arrival          
+Instance                        Reference     Type      Pin     Net             Time        Slack
+                                Clock                                                            
+-------------------------------------------------------------------------------------------------
+Streamer1.FIFOBLOCK.e_cmp_6     System        ALEB2     LE      cmp_le_1_c      0.000       2.544
+Streamer1.FIFOBLOCK.g_cmp_6     System        AGEB2     GE      cmp_ge_d1_c     0.000       2.544
+Streamer1.FIFOBLOCK.AND2_t3     System        AND2      Z       wren_i          0.000       3.078
+Streamer1.FIFOBLOCK.AND2_t2     System        AND2      Z       rden_i          0.000       4.006
+Streamer1.FIFOBLOCK.XOR2_t0     System        XOR2      Z       fcnt_en         0.000       4.640
+Streamer1.FIFOBLOCK.e_cmp_0     System        ALEB2     LE      co0_1           0.000       5.000
+Streamer1.FIFOBLOCK.e_cmp_1     System        ALEB2     LE      co1_1           0.000       5.000
+Streamer1.FIFOBLOCK.e_cmp_2     System        ALEB2     LE      co2_1           0.000       5.000
+Streamer1.FIFOBLOCK.e_cmp_3     System        ALEB2     LE      co3_1           0.000       5.000
+Streamer1.FIFOBLOCK.e_cmp_4     System        ALEB2     LE      co4_1           0.000       5.000
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                         Required          
+Instance                              Reference     Type        Pin     Net            Time         Slack
+                                      Clock                                                              
+---------------------------------------------------------------------------------------------------------
+Streamer1.FIFOBLOCK.FF_26             System        FD1S3DX     D       full_d         4.889        2.544
+Streamer1.FIFOBLOCK.FF_27             System        FD1S3BX     D       empty_d        4.889        2.544
+Streamer1.FIFOBLOCK.pdp_ram_0_2_1     System        DP16KB      CEA     wren_i         3.078        3.078
+Streamer1.FIFOBLOCK.pdp_ram_0_3_0     System        DP16KB      CEA     wren_i         3.078        3.078
+Streamer1.FIFOBLOCK.AND2_t1           System        AND2        B       rden_i_inv     5.000        4.333
+Streamer1.FIFOBLOCK.g_cmp_6           System        AGEB2       B0      wren_i_inv     5.000        4.333
+Streamer1.FIFOBLOCK.FF_1              System        FD1P3DX     SP      rden_i         4.640        4.640
+Streamer1.FIFOBLOCK.FF_2              System        FD1P3DX     SP      rden_i         4.640        4.640
+Streamer1.FIFOBLOCK.FF_3              System        FD1P3DX     SP      rden_i         4.640        4.640
+Streamer1.FIFOBLOCK.FF_4              System        FD1P3DX     SP      rden_i         4.640        4.640
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.111
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.889
+
+    - Propagation time:                      2.345
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 2.544
+
+    Number of logic level(s):                2
+    Starting point:                          Streamer1.FIFOBLOCK.e_cmp_6 / LE
+    Ending point:                            Streamer1.FIFOBLOCK.FF_27 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Counter|ipClk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+Streamer1.FIFOBLOCK.e_cmp_6     ALEB2       LE       Out     0.000     0.000 r     -         
+cmp_le_1_c                      Net         -        -       -         -           1         
+Streamer1.FIFOBLOCK.a0          FADD2B      CI       In      0.000     0.000 r     -         
+Streamer1.FIFOBLOCK.a0          FADD2B      S0       Out     1.461     1.461 r     -         
+cmp_le_1                        Net         -        -       -         -           1         
+Streamer1.FIFOBLOCK.LUT4_1      ROM16X1     AD2      In      0.000     1.461 r     -         
+Streamer1.FIFOBLOCK.LUT4_1      ROM16X1     DO0      Out     0.883     2.345 r     -         
+empty_d                         Net         -        -       -         -           1         
+Streamer1.FIFOBLOCK.FF_27       FD1S3BX     D        In      0.000     2.345 r     -         
+=============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 185MB peak: 187MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 185MB peak: 187MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-5
+
+Register bits: 410 of 4752 (9%)
+PIC Latch:       0
+I/O cells:       17
+Block Rams : 2 of 9 (22%)
+
+
+Details:
+AGEB2:          7
+ALEB2:          7
+AND2:           3
+CB2:            7
+CCU2B:          49
+CU2:            12
+DP16KB:         2
+FADD2B:         7
+FD1P3AX:        168
+FD1P3DX:        37
+FD1P3IX:        51
+FD1S3AX:        40
+FD1S3AY:        2
+FD1S3BX:        1
+FD1S3DX:        1
+FD1S3IX:        102
+FD1S3JX:        4
+GSR:            1
+IB:             7
+IFS1P3IX:       2
+INV:            15
+OB:             10
+OFS1P3DX:       1
+OFS1P3JX:       1
+ORCALUT4:       306
+PFUMX:          4
+PUR:            1
+ROM16X1:        2
+VHI:            8
+VLO:            8
+XOR2:           1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 68MB peak: 187MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Tue Jul 19 18:11:51 2022
+
+###########################################################]
