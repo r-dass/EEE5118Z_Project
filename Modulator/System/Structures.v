@@ -6,19 +6,20 @@ typedef struct{
   logic [ 3:0]Buttons;
   logic [ 12:0]FIFO_Size;
 } RD_REGISTERS;
-
-typedef struct{
+  
+typedef struct{   
   logic [7:0]LEDs;
+  logic [31:0]Frequency;
 } WR_REGISTERS;
 
-typedef struct{
+typedef struct{ 
   logic [7:0]Source;
   logic [7:0]Destination;
   logic [7:0]Length;
 
-  logic      SoP;
+  logic      SoP; 
   logic      EoP;
-  logic [7:0]Data;
+  logic [7:0]Data; 
   logic      Valid;
 } UART_PACKET;
 //------------------------------------------------------------------------------

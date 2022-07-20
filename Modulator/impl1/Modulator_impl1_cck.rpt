@@ -13,12 +13,12 @@ Hostname: RD-LAPTOP
 
 Implementation : impl1
 
-# Written on Tue Jul 19 19:47:49 2022
+# Written on Wed Jul 20 21:31:44 2022
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "Modulator"
-Constraint File(s):      "C:\Users\reeve\Documents\Projects\Modulator\Modulator.fdc"
+Constraint File(s):      "C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.fdc"
 
 
 
@@ -64,6 +64,8 @@ p:opLED[5]
 p:opLED[6]
 p:opLED[7]
 p:opPWM
+p:opPWMI
+p:opPWMQ
 p:opUART_Tx
 
 
@@ -71,13 +73,13 @@ Inapplicable constraints
 ************************
 
 set_false_path -from [get_registers *] - - - - to [get_ports bp*]
-	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":9:0:9:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+	@E::"c:/users/reeve/git/eee5118z_project/modulator/modulator.fdc":9:0:9:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
 set_false_path -from [get_registers *] - - - - to [get_ports op*]
-	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":7:0:7:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+	@E::"c:/users/reeve/git/eee5118z_project/modulator/modulator.fdc":7:0:7:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
 set_false_path -to [get_registers *] - - - - from [get_ports bp*]
-	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":8:0:8:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+	@E::"c:/users/reeve/git/eee5118z_project/modulator/modulator.fdc":8:0:8:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
 set_false_path -to [get_registers *] - - - - from [get_ports ip*]
-	@E::"c:/users/reeve/documents/projects/modulator/modulator.fdc":6:0:6:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
+	@E::"c:/users/reeve/git/eee5118z_project/modulator/modulator.fdc":6:0:6:0|Duplicate parameter "-syn_tdm" and "-disable" for param "-". Check if any short form of the parameter is specified. This could cause incorrect CC result. Constraint will be disabled.
 
 Applicable constraints with issues
 **********************************

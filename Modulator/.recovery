@@ -2,11 +2,11 @@
 <BaliProject version="3.2" title="Modulator" device="LFXP2-5E-6TN144C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
-        <Options VerilogStandard="System Verilog" top="Modulator"/>
-        <Source name="SineTable.ipx" type="IPX_Module" type_short="IPX">
+        <Options VerilogStandard="System Verilog" def_top="Modulator" top="Modulator"/>
+        <Source name="IP/SineTable.ipx" type="IPX_Module" type_short="IPX">
             <Options/>
         </Source>
-        <Source name="FIFO.ipx" type="IPX_Module" type_short="IPX">
+        <Source name="IP/FIFO.ipx" type="IPX_Module" type_short="IPX">
             <Options/>
         </Source>
         <Source name="System/Structures.v" type="Verilog" type_short="Verilog">
@@ -28,6 +28,12 @@
             <Options/>
         </Source>
         <Source name="DSP/PWM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DSP/NCO.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DSP/QAM.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="Modulator.v" type="Verilog" type_short="Verilog">

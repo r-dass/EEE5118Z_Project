@@ -19,9 +19,9 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/reeve/Documents/Projects/Modulator/impl1/Modulator_impl1.jed</File>
-			<FileTime>07/19/22 19:48:59</FileTime>
-			<JedecChecksum>0x4467</JedecChecksum>
+			<File>C:/Users/reeve/git/EEE5118Z_Project/Modulator/impl1/Modulator_impl1.jed</File>
+			<FileTime>07/20/22 15:21:09</FileTime>
+			<JedecChecksum>0x0E81</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -29,6 +29,7 @@
 				<PreloadLength>394</PreloadLength>
 				<IOVectorData>0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</IOVectorData>
 				<TCKFrequency>1.000000 MHz</TCKFrequency>
+				<SVFProcessor>SVF Processor</SVFProcessor>
 				<Usercode>0xFFFFFFFF</Usercode>
 				<AccessMode>FLASH</AccessMode>
 			</Option>
@@ -47,9 +48,5 @@
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
 		<USBID>Lattice FTUSB Interface Cable A Location 0000 Serial A</USBID>
-		<JTAGPinSetting>
-			TRST	ABSENT;
-			ISPEN	ABSENT;
-		</JTAGPinSetting>
 	</CableOptions>
 </ispXCF>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="SineTable" module="SineTable" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2022 07 20 15:16:24.189" version="1.6" type="Module" synthesis="synplify" source_format="Verilog HDL">
+  <Package>
+		<File name="SineTable.lpc" type="lpc" modified="2022 07 20 15:16:22.615"/>
+		<File name="SineTable.v" type="top_level_verilog" modified="2022 07 20 15:16:22.684"/>
+		<File name="SineTable_tmpl.v" type="template_verilog" modified="2022 07 20 15:16:22.684"/>
+		<File name="tb_SineTable_tmpl.v" type="testbench_verilog" modified="2022 07 20 15:16:22.686"/>
+  </Package>
+</DiamondModule>
