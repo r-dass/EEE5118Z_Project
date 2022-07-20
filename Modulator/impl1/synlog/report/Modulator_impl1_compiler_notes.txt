@@ -2,220 +2,220 @@
 @N|Running in 64-bit mode
 @N: CG1349 :	| Running Verilog Compiler in System Verilog mode
 @N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":207:16:207:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":209:16:209:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":213:16:213:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":215:16:215:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":219:16:219:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":221:16:221:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":225:16:225:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":227:16:227:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":231:16:231:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":233:16:233:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":237:16:237:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":239:16:239:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":243:16:243:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":245:16:245:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":249:16:249:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":251:16:251:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":255:16:255:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":257:16:257:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":261:16:261:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":263:16:263:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":267:16:267:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":269:16:269:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":274:16:274:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":276:16:276:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":281:16:281:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":283:16:283:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":288:16:288:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":290:16:290:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":295:16:295:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":297:16:297:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":302:16:302:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":304:16:304:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":309:16:309:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":311:16:311:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":316:16:316:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":318:16:318:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":323:16:323:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":325:16:325:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":330:16:330:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":332:16:332:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":337:16:337:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":339:16:339:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":344:16:344:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":346:16:346:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":351:16:351:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":353:16:353:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":358:16:358:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":360:16:360:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":365:16:365:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":367:16:367:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":372:16:372:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":374:16:374:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":379:16:379:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":381:16:381:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":386:16:386:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":388:16:388:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":393:16:393:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":395:16:395:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":400:16:400:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":402:16:402:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":407:16:407:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":409:16:409:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":414:16:414:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":416:16:416:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":421:16:421:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":423:16:423:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":428:16:428:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":430:16:430:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":435:16:435:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":437:16:437:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":442:16:442:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":444:16:444:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":449:16:449:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":451:16:451:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":456:16:456:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":458:16:458:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":463:16:463:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":465:16:465:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":470:16:470:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":472:16:472:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":477:16:477:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":479:16:479:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":484:16:484:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":486:16:486:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":491:16:491:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":493:16:493:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":498:16:498:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":500:16:500:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":505:16:505:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":507:16:507:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":512:16:512:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":514:16:514:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":519:16:519:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":521:16:521:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":527:16:527:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":529:16:529:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":535:16:535:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":537:16:537:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":543:16:543:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":545:16:545:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":551:16:551:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":553:16:553:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":559:16:559:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":561:16:561:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":567:16:567:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":569:16:569:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":575:16:575:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":577:16:577:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":583:16:583:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":585:16:585:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":591:16:591:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":593:16:593:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":599:16:599:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":601:16:601:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":607:16:607:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":609:16:609:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":615:16:615:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":617:16:617:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":623:16:623:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":625:16:625:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":631:16:631:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":633:16:633:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":639:16:639:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":641:16:641:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":647:16:647:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":649:16:649:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":655:16:655:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":657:16:657:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":663:16:663:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":665:16:665:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":671:16:671:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":673:16:673:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":679:16:679:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":681:16:681:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":687:16:687:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":689:16:689:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":695:16:695:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":697:16:697:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":703:16:703:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":705:16:705:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":711:16:711:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":713:16:713:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":719:16:719:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":721:16:721:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":727:16:727:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":729:16:729:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":735:16:735:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":737:16:737:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":743:16:743:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":745:16:745:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":751:16:751:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":753:16:753:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":759:16:759:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":761:16:761:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":767:16:767:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":769:16:769:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":775:16:775:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":777:16:777:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":783:16:783:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":785:16:785:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":791:16:791:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":793:16:793:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":799:16:799:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":801:16:801:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":807:16:807:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":809:16:809:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":815:16:815:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":817:16:817:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":823:16:823:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":825:16:825:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":831:16:831:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":833:16:833:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":839:16:839:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":841:16:841:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":847:16:847:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":849:16:849:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":855:16:855:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":857:16:857:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":863:16:863:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":865:16:865:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":871:16:871:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":873:16:873:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":879:16:879:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":881:16:881:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":887:16:887:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":889:16:889:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":895:16:895:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":897:16:897:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":903:16:903:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":905:16:905:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":911:16:911:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":913:16:913:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":919:16:919:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":921:16:921:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":927:16:927:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":929:16:929:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":935:16:935:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":937:16:937:27|Read directive translate_on.
-@N: CG334 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":943:16:943:28|Read directive translate_off.
-@N: CG333 :"C:\Users\reeve\Documents\Projects\Modulator\SineTable.v":945:16:945:27|Read directive translate_on.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\Documents\Projects\Modulator\SineTable.v_unit in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":19:7:19:10|Synthesizing module UART in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[1] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[2] is always 1.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[3] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[4] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[5] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[6] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[7] is always 0.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":9:7:9:15|Synthesizing module Registers in library work.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":207:16:207:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":209:16:209:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":213:16:213:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":215:16:215:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":219:16:219:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":221:16:221:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":225:16:225:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":227:16:227:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":231:16:231:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":233:16:233:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":237:16:237:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":239:16:239:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":243:16:243:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":245:16:245:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":249:16:249:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":251:16:251:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":255:16:255:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":257:16:257:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":261:16:261:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":263:16:263:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":267:16:267:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":269:16:269:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":274:16:274:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":276:16:276:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":281:16:281:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":283:16:283:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":288:16:288:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":290:16:290:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":295:16:295:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":297:16:297:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":302:16:302:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":304:16:304:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":309:16:309:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":311:16:311:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":316:16:316:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":318:16:318:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":323:16:323:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":325:16:325:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":330:16:330:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":332:16:332:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":337:16:337:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":339:16:339:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":344:16:344:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":346:16:346:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":351:16:351:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":353:16:353:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":358:16:358:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":360:16:360:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":365:16:365:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":367:16:367:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":372:16:372:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":374:16:374:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":379:16:379:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":381:16:381:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":386:16:386:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":388:16:388:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":393:16:393:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":395:16:395:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":400:16:400:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":402:16:402:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":407:16:407:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":409:16:409:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":414:16:414:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":416:16:416:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":421:16:421:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":423:16:423:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":428:16:428:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":430:16:430:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":435:16:435:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":437:16:437:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":442:16:442:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":444:16:444:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":449:16:449:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":451:16:451:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":456:16:456:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":458:16:458:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":463:16:463:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":465:16:465:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":470:16:470:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":472:16:472:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":477:16:477:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":479:16:479:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":484:16:484:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":486:16:486:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":491:16:491:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":493:16:493:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":498:16:498:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":500:16:500:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":505:16:505:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":507:16:507:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":512:16:512:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":514:16:514:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":519:16:519:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":521:16:521:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":527:16:527:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":529:16:529:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":535:16:535:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":537:16:537:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":543:16:543:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":545:16:545:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":551:16:551:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":553:16:553:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":559:16:559:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":561:16:561:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":567:16:567:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":569:16:569:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":575:16:575:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":577:16:577:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":583:16:583:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":585:16:585:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":591:16:591:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":593:16:593:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":599:16:599:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":601:16:601:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":607:16:607:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":609:16:609:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":615:16:615:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":617:16:617:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":623:16:623:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":625:16:625:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":631:16:631:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":633:16:633:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":639:16:639:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":641:16:641:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":647:16:647:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":649:16:649:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":655:16:655:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":657:16:657:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":663:16:663:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":665:16:665:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":671:16:671:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":673:16:673:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":679:16:679:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":681:16:681:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":687:16:687:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":689:16:689:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":695:16:695:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":697:16:697:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":703:16:703:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":705:16:705:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":711:16:711:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":713:16:713:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":719:16:719:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":721:16:721:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":727:16:727:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":729:16:729:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":735:16:735:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":737:16:737:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":743:16:743:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":745:16:745:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":751:16:751:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":753:16:753:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":759:16:759:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":761:16:761:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":767:16:767:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":769:16:769:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":775:16:775:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":777:16:777:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":783:16:783:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":785:16:785:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":791:16:791:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":793:16:793:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":799:16:799:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":801:16:801:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":807:16:807:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":809:16:809:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":815:16:815:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":817:16:817:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":823:16:823:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":825:16:825:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":831:16:831:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":833:16:833:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":839:16:839:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":841:16:841:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":847:16:847:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":849:16:849:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":855:16:855:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":857:16:857:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":863:16:863:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":865:16:865:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":871:16:871:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":873:16:873:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":879:16:879:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":881:16:881:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":887:16:887:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":889:16:889:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":895:16:895:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":897:16:897:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":903:16:903:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":905:16:905:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":911:16:911:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":913:16:913:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":919:16:919:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":921:16:921:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":927:16:927:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":929:16:929:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":935:16:935:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":937:16:937:27|Read directive translate_on.
+@N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":943:16:943:28|Read directive translate_off.
+@N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":945:16:945:27|Read directive translate_on.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":19:7:19:10|Synthesizing module UART in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[2] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[7] is always 0.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":9:7:9:15|Synthesizing module Registers in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1324:7:1324:10|Synthesizing module XOR2 in library work.
@@ -231,17 +231,66 @@
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":223:7:223:9|Synthesizing module CU2 in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1269:7:1269:9|Synthesizing module VHI in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1274:7:1274:9|Synthesizing module VLO in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":72:0:72:5|Trying to extract state machine for register rState.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register tState.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register State.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Register bit txBuffer.Valid is always 1.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Trying to extract state machine for register txState.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":148:0:148:5|Trying to extract state machine for register rxState.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":55:0:55:5|Trying to extract state machine for register txState.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41 in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":8:7:8:15|Synthesizing module SineTable in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":4:7:4:9|Synthesizing module NCO in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[7] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[8] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[9] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[10] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[11] is always 0.
+@N: CL159 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:14:8:24|Input ipFrequency is unused.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":72:0:72:5|Trying to extract state machine for register rState.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[0] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[7] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[8] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[9] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[10] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[11] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[12] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[13] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[14] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[15] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[16] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[17] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[18] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[19] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[20] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[21] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[22] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[23] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[24] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[25] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[26] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[27] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[28] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[29] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[30] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[31] is always 0.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register State.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Register bit txBuffer.Valid is always 1.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Trying to extract state machine for register txState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":148:0:148:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":55:0:55:5|Trying to extract state machine for register txState.
 @N|Running in 64-bit mode
 

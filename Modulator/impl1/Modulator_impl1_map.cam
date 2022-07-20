@@ -7,6 +7,13 @@ Streamer1/FIFOBLOCK/invout_0 Streamer1/Empty
 [ START CLIPPED ]
 Streamer1/FIFOBLOCK/VCC
 Streamer1/FIFOBLOCK/GND
+NCO1/Sine/mdL0_19_3
+NCO1/Sine/mdL0_18_3
+NCO1/Sine/mdL0_1_3
+NCO1/Sine/mdL0_19_2
+NCO1/Sine/mdL0_18_2
+NCO1/Sine/mdL0_18_0
+NCO1/Sine/mdL0_1_0
 RdRegisters.ClockTicks_1_s_31_0_S1
 RdRegisters.ClockTicks_1_s_31_0_COUT
 Packetiser/un1_BytesReceived_7_cry_0_0_S0
@@ -124,28 +131,58 @@ PWM1/Count_1_cry_0_0_S0
 PWM1/N_1
 PWM1/Count_1_s_7_0_S1
 PWM1/Count_1_s_7_0_COUT
-PWM1/opPWM6_cry_0_0_S1
-PWM1/opPWM6_cry_0_0_S0
+PWM1/opPWM6_cry_0_0_S1_0
+PWM1/opPWM6_cry_0_0_S0_0
 PWM1/N_2
-PWM1/opPWM6_cry_1_0_S1
-PWM1/opPWM6_cry_1_0_S0
-PWM1/opPWM6_cry_3_0_S1
-PWM1/opPWM6_cry_3_0_S0
-PWM1/opPWM6_cry_5_0_S1
-PWM1/opPWM6_cry_5_0_S0
-PWM1/opPWM6_cry_7_0_S0
-PWM1/opPWM6_cry_7_0_COUT
+PWM1/opPWM6_cry_1_0_S1_0
+PWM1/opPWM6_cry_1_0_S0_0
+PWM1/opPWM6_cry_3_0_S1_0
+PWM1/opPWM6_cry_3_0_S0_0
+PWM1/opPWM6_cry_5_0_S1_0
+PWM1/opPWM6_cry_5_0_S0_0
+PWM1/opPWM6_cry_7_0_S0_0
+PWM1/opPWM6_cry_7_0_COUT_0
+PWMI/opPWM6_cry_0_0_S1_1
+PWMI/opPWM6_cry_0_0_S0_1
+PWMI/N_1
+PWMI/opPWM6_cry_1_0_S1_1
+PWMI/opPWM6_cry_1_0_S0_1
+PWMI/opPWM6_cry_3_0_S1_1
+PWMI/opPWM6_cry_3_0_S0_1
+PWMI/opPWM6_cry_5_0_S1_1
+PWMI/opPWM6_cry_5_0_S0_1
+PWMI/opPWM6_cry_7_0_S0_1
+PWMI/opPWM6_cry_7_0_COUT_1
+PWMQ/opPWM6_cry_0_0_S1
+PWMQ/opPWM6_cry_0_0_S0
+PWMQ/N_1
+PWMQ/opPWM6_cry_1_0_S1
+PWMQ/opPWM6_cry_1_0_S0
+PWMQ/opPWM6_cry_3_0_S1
+PWMQ/opPWM6_cry_3_0_S0
+PWMQ/opPWM6_cry_5_0_S1
+PWMQ/opPWM6_cry_5_0_S0
+PWMQ/opPWM6_cry_7_0_S0
+PWMQ/opPWM6_cry_7_0_COUT
+NCO1/Phase_1_cry_0_0_S1
+NCO1/Phase_1_cry_0_0_S0
+NCO1/N_1
+NCO1/Phase_1_s_19_0_S1
+NCO1/Phase_1_s_19_0_COUT
+NCO1/Sine/VCC
 RdRegisters.ClockTicks_1_cry_0_0_S1
 RdRegisters.ClockTicks_1_cry_0_0_S0
 N_1
 [ END CLIPPED ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Tue Jul 19 19:48:07 2022
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Wed Jul 20 15:40:40 2022
 
 SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
 LOCATE COMP "opUART_Tx" SITE "109" ;
 LOCATE COMP "ipClk" SITE "21" ;
+LOCATE COMP "opPWMQ" SITE "101" ;
+LOCATE COMP "opPWMI" SITE "102" ;
 LOCATE COMP "opPWM" SITE "103" ;
 LOCATE COMP "opLED[7]" SITE "37" ;
 LOCATE COMP "opLED[6]" SITE "38" ;

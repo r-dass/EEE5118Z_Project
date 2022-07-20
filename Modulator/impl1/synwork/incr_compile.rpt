@@ -16,30 +16,45 @@ Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-7        C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v (2022-07-19 17:54:38, 2022-07-19 19:47:31)
+21       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 3
+Modules that may have changed as a result of file changes: 10
 MID:  lib.cell.view
+0        work.Controller.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
 2        work.FIFO.verilog may have changed because the following files changed:
-                        C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v (2022-07-19 17:54:38, 2022-07-19 19:47:31) <-- (may instantiate this module)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
+8        work.Modulator.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (module definition)
+10       work.NCO.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
+3        work.PWM.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
 4        work.Registers.verilog may have changed because the following files changed:
-                        C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v (2022-07-19 17:54:38, 2022-07-19 19:47:31) <-- (may instantiate this module)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
+9        work.SineTable.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
 5        work.Streamer.verilog may have changed because the following files changed:
-                        C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v (2022-07-19 17:54:38, 2022-07-19 19:47:31) <-- (module definition)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
+6        work.UART.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
+7        work.UART_Packets.verilog may have changed because the following files changed:
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-20 15:30:17, 2022-07-20 15:39:58) <-- (may instantiate this module)
 
 *******************************************************************
-Unmodified files: 15
+Unmodified files: 16
 FID:  path (timestamp)
-0        C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v (2022-07-18 20:43:13)
-1        C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v (2022-07-18 20:06:20)
-2        C:\Users\reeve\Documents\Projects\Modulator\DSP\PWM.v (2022-07-18 18:02:04)
-3        C:\Users\reeve\Documents\Projects\Modulator\FIFO.v (2022-07-19 18:10:50)
-4        C:\Users\reeve\Documents\Projects\Modulator\Modulator.v (2022-07-19 19:21:15)
-15       C:\Users\reeve\Documents\Projects\Modulator\SineTable.v (2022-07-19 18:23:40)
-5        C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v (2022-07-18 19:16:27)
-6        C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v (2022-07-18 09:05:32)
-8        C:\Users\reeve\Documents\Projects\Modulator\System\Structures.v (2022-07-18 21:12:47)
+16       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v (2022-07-18 20:43:13)
+17       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v (2022-07-18 20:06:20)
+26       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v (2022-07-20 14:53:38)
+18       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v (2022-07-18 18:02:04)
+19       C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v (2022-07-19 21:41:59)
+20       C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v (2022-07-20 15:16:22)
+22       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v (2022-07-19 21:41:59)
+23       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v (2022-07-19 21:41:59)
+24       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-19 19:47:31)
+25       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v (2022-07-19 21:41:59)
 9        C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2020-10-29 10:20:54)
 10       C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v (2020-10-29 10:20:54)
 11       C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2020-10-29 10:23:10)
@@ -48,11 +63,5 @@ FID:  path (timestamp)
 14       C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v (2020-10-29 10:23:10)
 
 *******************************************************************
-Unchanged modules: 6
+Unchanged modules: 0
 MID:  lib.cell.view
-0        work.Controller.verilog
-8        work.Modulator.verilog
-3        work.PWM.verilog
-9        work.SineTable.verilog
-6        work.UART.verilog
-7        work.UART_Packets.verilog

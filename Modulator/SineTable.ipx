@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DiamondModule name="SineTable" module="Sin-Cos_Table" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2022 07 19 18:23:42.921" version="1.6" type="Module" synthesis="synplify" source_format="Verilog">
-  <Package>
-		<File name="SineTable.lpc" type="lpc" modified="2022 07 19 18:23:40.899"/>
-		<File name="SineTable.v" type="top_level_verilog" modified="2022 07 19 18:23:40.946"/>
-		<File name="SineTable_tmpl.v" type="template_verilog" modified="2022 07 19 18:23:40.946"/>
-		<File name="tb_SineTable_tmpl.v" type="testbench_verilog" modified="2022 07 19 18:23:40.961"/>
-  </Package>
-</DiamondModule>

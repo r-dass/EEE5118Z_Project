@@ -1,17 +1,17 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: MF179 :"c:\users\reeve\documents\projects\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-@N: FX1056 |Writing EDF file: C:\Users\reeve\Documents\Projects\Modulator\impl1\Modulator_impl1.edi
+@N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 @N: MT615 |Found clock ipClk with period 20.00ns 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.

@@ -24,7 +24,7 @@ set_option -force_gsr false
 set_option -compiler_compatible 0
 set_option -dup false
 
-add_file -constraint {C:/Users/reeve/Documents/Projects/Modulator/Modulator.fdc}
+add_file -constraint {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.fdc}
 set_option -default_enum_encoding default
 
 #simulation options
@@ -46,23 +46,24 @@ set_option -vhdl2008 1
 set_option -seqshift_no_replicate 0
 
 #-- add_file options
-set_option -include_path {C:/Users/reeve/Documents/Projects/Modulator}
-add_file -verilog -vlog_std v2001 {C:/Users/reeve/Documents/Projects/Modulator/SineTable.v}
-add_file -verilog -vlog_std v2001 {C:/Users/reeve/Documents/Projects/Modulator/FIFO.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/System/Structures.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/System/Registers.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/Comms/UART.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/Comms/UART_Packets.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/System/Controller.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/System/Streamer.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/DSP/PWM.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/Documents/Projects/Modulator/Modulator.v}
+set_option -include_path {C:/Users/reeve/git/EEE5118Z_Project/Modulator}
+add_file -verilog -vlog_std v2001 {C:/Users/reeve/git/EEE5118Z_Project/Modulator/IP/SineTable.v}
+add_file -verilog -vlog_std v2001 {C:/Users/reeve/git/EEE5118Z_Project/Modulator/IP/FIFO.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Structures.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Registers.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/UART.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/UART_Packets.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Controller.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Streamer.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/PWM.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/NCO.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.v}
 
 #-- top module name
 set_option -top_module Modulator
 
 #-- set result format/file last
-project -result_file {C:/Users/reeve/Documents/Projects/Modulator/impl1/Modulator_impl1.edi}
+project -result_file {C:/Users/reeve/git/EEE5118Z_Project/Modulator/impl1/Modulator_impl1.edi}
 
 #-- error message log file
 project -log_file {Modulator_impl1.srf}

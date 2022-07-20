@@ -16,13 +16,13 @@ Implementation : impl1
 Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
 
 @N|Running in 64-bit mode
-File C:\Users\reeve\Documents\Projects\Modulator\impl1\synwork\Modulator_impl1_comp.srs changed - recompiling
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jul 19 19:47:46 2022
+# Wed Jul 20 15:40:19 2022
 
 ###########################################################]

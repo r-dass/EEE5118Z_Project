@@ -6,8 +6,10 @@ module Modulator(
 	input			ipUART_Rx,
 	input	[3:0]	ipBtn,
 	output			opUART_Tx,
-	output	[7:0]	opLED,
-  output      opPWM
+	output	[7:0]	opLED, 
+  output      opPWM,
+  output      opPWMI,
+  output      opPWMQ
 );
 
 UART_PACKET RxStream;
@@ -15,7 +17,7 @@ UART_PACKET TxStream;
  
 RD_REGISTERS RdRegisters; 
 WR_REGISTERS WrRegisters; 
-  
+ 
 wire TxReady;
 
 wire [7:0] 	Address;
@@ -24,6 +26,9 @@ wire 			WrEnable;
 wire [31:0]	RdData;
 
 wire [15:0]	Stream;
+
+wire [17:0]	I;
+wire [17:0]	Q;
 wire Valid;
 
 UART_Packets Packetiser(
@@ -85,7 +90,31 @@ PWM PWM1(
   .opPWM (opPWM)
 );
 
- 
+PWM PWMI(
+  .ipClk	( ipClk		), 
+  .ipReset	(!ipReset	),
+  .ipDutyCycle ({~I[16], I[15:9]}),
+  .opPWM(opPWMI)
+);
+
+PWM PWMQ(
+  .ipClk	( ipClk		), 
+  .ipReset	(!ipReset	),
+  .ipDutyCycle ({~Q[16], Q[15:9]}),
+  .opPWM(opPWMQ)
+);
+
+NCO NCO1(
+  .ipClk	( ipClk		), 
+  .ipReset	(!ipReset	),
+
+  .ipFrequency (WrRegisters.Frequency),
+
+  .opI(I),
+  .opQ(Q)
+);
+
+
 
 always @(posedge ipClk) begin
 	if (ipReset) begin //reset inverted - normal functionality here
@@ -95,7 +124,7 @@ always @(posedge ipClk) begin
 	end
 end
 
-assign opLED = ~WrRegisters.LEDs;
+assign opLED = ~{Q[17:16],6'b00};
 assign RdRegisters.Buttons = ~ipBtn;
 
 

@@ -1,22 +1,22 @@
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\Documents\Projects\Modulator\SineTable.v_unit in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":19:7:19:10|Synthesizing module UART in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":19:7:19:10|Synthesizing module UART in library work.
 Running optimization stage 1 on UART .......
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
 Running optimization stage 1 on UART_Packets .......
-@W: CL169 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Pruning unused register txBuffer.SoP. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Pruning unused register txBuffer.SoP. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
 Running optimization stage 1 on Controller .......
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[1] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[2] is always 1.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[3] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[4] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[5] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[6] is always 0.
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[7] is always 0.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":9:7:9:15|Synthesizing module Registers in library work.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[2] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[7] is always 0.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":9:7:9:15|Synthesizing module Registers in library work.
 Running optimization stage 1 on Registers .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
 Running optimization stage 1 on AND2 .......
@@ -48,30 +48,57 @@ Running optimization stage 1 on CU2 .......
 Running optimization stage 1 on VHI .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1274:7:1274:9|Synthesizing module VLO in library work.
 Running optimization stage 1 on VLO .......
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
 Running optimization stage 1 on FIFO .......
-@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":771:8:771:14|Removing instance r_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":745:8:745:14|Removing instance w_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\reeve\Documents\Projects\Modulator\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
-@W: CG133 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":49:4:49:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":771:8:771:14|Removing instance r_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":745:8:745:14|Removing instance w_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":49:4:49:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on Streamer .......
-@W: CL177 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":53:0:53:5|Sharing sequential element opValid. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
+@W: CL177 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":53:0:53:5|Sharing sequential element opValid. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
 Running optimization stage 1 on PWM .......
-@N: CG364 :"C:\Users\reeve\Documents\Projects\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
+Running optimization stage 1 on ROM256X1 .......
+@N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41 in library work.
+Running optimization stage 1 on MUX41 .......
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":8:7:8:15|Synthesizing module SineTable in library work.
+Running optimization stage 1 on SineTable .......
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":4:7:4:9|Synthesizing module NCO in library work.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":14:10:14:14|Object Reset is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on NCO .......
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
 Running optimization stage 1 on Modulator .......
 Running optimization stage 2 on Modulator .......
+Running optimization stage 2 on NCO .......
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[7] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[8] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[9] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[10] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[11] is always 0.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 11 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:14:8:24|Input ipFrequency is unused.
+Running optimization stage 2 on SineTable .......
+Running optimization stage 2 on MUX41 .......
+Running optimization stage 2 on ROM256X1 .......
 Running optimization stage 2 on PWM .......
 Running optimization stage 2 on Streamer .......
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":72:0:72:5|Trying to extract state machine for register rState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":72:0:72:5|Trying to extract state machine for register rState.
 Extracted state machine for register rState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
-@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":7:29:7:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Streamer.v":7:29:7:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":7:29:7:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":7:29:7:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
 Running optimization stage 2 on FIFO .......
 Running optimization stage 2 on VLO .......
 Running optimization stage 2 on VHI .......
@@ -89,27 +116,59 @@ Running optimization stage 2 on XOR2 .......
 Running optimization stage 2 on INV .......
 Running optimization stage 2 on AND2 .......
 Running optimization stage 2 on Registers .......
-@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Registers.v":17:22:17:29|Input port bits 31 to 8 of ipWrData[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[0] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[7] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[8] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[9] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[10] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[11] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[12] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[13] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[14] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[15] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[16] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[17] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[18] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[19] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[20] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[21] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[22] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[23] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[24] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[25] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[26] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[27] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[28] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[29] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[30] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[31] is always 0.
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":17:22:17:29|Input port bits 31 to 8 of ipWrData[31:0] are unused. Assign logic for all port bits or change the input port size.
 Running optimization stage 2 on Controller .......
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register tState.
 Extracted state machine for register tState
 State machine has 4 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
    00000000000000000000000000000010
    00000000000000000000000000000011
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register State.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register State.
 Extracted state machine for register State
 State machine has 3 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
    00000000000000000000000000000010
-@W: CL246 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":14:22:14:31|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL247 :"C:\Users\reeve\Documents\Projects\Modulator\System\Controller.v":14:22:14:31|Input port bit 9 of ipRxStream[34:0] is unused
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":14:22:14:31|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":14:22:14:31|Input port bit 9 of ipRxStream[34:0] is unused
 
 Running optimization stage 2 on UART_Packets .......
-@N: CL189 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Register bit txBuffer.Valid is always 1.
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":65:0:65:5|Trying to extract state machine for register txState.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Register bit txBuffer.Valid is always 1.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Trying to extract state machine for register txState.
 Extracted state machine for register txState
 State machine has 6 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -118,7 +177,7 @@ State machine has 6 reachable states with original encodings of:
    00000000000000000000000000000011
    00000000000000000000000000000100
    00000000000000000000000000000101
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":148:0:148:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":148:0:148:5|Trying to extract state machine for register rxState.
 Extracted state machine for register rxState
 State machine has 5 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -126,15 +185,15 @@ State machine has 5 reachable states with original encodings of:
    00000000000000000000000000000010
    00000000000000000000000000000011
    00000000000000000000000000000100
-@W: CL247 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART_Packets.v":8:21:8:30|Input port bit 10 of ipTxStream[34:0] is unused
+@W: CL247 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":8:21:8:30|Input port bit 10 of ipTxStream[34:0] is unused
 
 Running optimization stage 2 on UART .......
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
 Extracted state machine for register rxState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
-@N: CL201 :"C:\Users\reeve\Documents\Projects\Modulator\Comms\UART.v":55:0:55:5|Trying to extract state machine for register txState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":55:0:55:5|Trying to extract state machine for register txState.
 Extracted state machine for register txState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -142,5 +201,5 @@ State machine has 2 reachable states with original encodings of:
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
-@L: C:\Users\reeve\Documents\Projects\Modulator\impl1\synwork\layer0.rt.csv
+@L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 

@@ -15,7 +15,7 @@ module Controller(
 
     input   [31:0]   	ipRdData 
 );
-
+ 
 enum {
 	Wait,
 	tRead,

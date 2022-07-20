@@ -36,6 +36,7 @@ always @(posedge ipClk) begin
 
   if(Reset) begin
     opWrRegisters.LEDs <= 0;
+    opWrRegisters.Frequency <= 1;
   //----------------------------------------------------------------------------
 
   end else if(ipWrEnable) begin

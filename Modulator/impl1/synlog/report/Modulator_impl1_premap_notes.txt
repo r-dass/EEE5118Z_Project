@@ -4,9 +4,28 @@
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
 @N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
-@N: BN362 :"c:\users\reeve\documents\projects\modulator\system\controller.v":35:0:35:5|Removing sequential instance opTxStream\.SoP (in view: work.Controller(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
-@N: MO225 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":103:0:103:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
-@N: MO225 :"c:\users\reeve\documents\projects\modulator\comms\uart.v":55:0:55:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":389:12:389:16|Removing sequential instance FF_18 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":382:12:382:16|Removing sequential instance FF_19 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":375:12:375:16|Removing sequential instance FF_20 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":368:12:368:16|Removing sequential instance FF_21 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":361:12:361:16|Removing sequential instance FF_22 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":354:12:354:16|Removing sequential instance FF_23 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":347:12:347:16|Removing sequential instance FF_24 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":340:12:340:16|Removing sequential instance FF_25 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":333:12:333:16|Removing sequential instance FF_26 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":270:12:270:16|Removing sequential instance FF_35 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":515:12:515:15|Removing sequential instance FF_0 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":508:12:508:15|Removing sequential instance FF_1 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":501:12:501:15|Removing sequential instance FF_2 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":494:12:494:15|Removing sequential instance FF_3 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":487:12:487:15|Removing sequential instance FF_4 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":480:12:480:15|Removing sequential instance FF_5 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":473:12:473:15|Removing sequential instance FF_6 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":466:12:466:15|Removing sequential instance FF_7 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":459:12:459:15|Removing sequential instance FF_8 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\controller.v":35:0:35:5|Removing sequential instance opTxStream\.SoP (in view: work.Controller(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":103:0:103:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":55:0:55:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
 @N: FX493 |Applying initial value "1" on instance rxState[0].
 @N: FX493 |Applying initial value "0" on instance rxState[1].
 @N: FX493 |Applying initial value "0" on instance rxState[2].
@@ -18,7 +37,7 @@
 @N: FX493 |Applying initial value "0" on instance txState[3].
 @N: FX493 |Applying initial value "0" on instance txState[4].
 @N: FX493 |Applying initial value "0" on instance txState[5].
-@N: MO225 :"c:\users\reeve\documents\projects\modulator\system\controller.v":35:0:35:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
-@N: MO225 :"c:\users\reeve\documents\projects\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\controller.v":35:0:35:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 @N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
