@@ -23,19 +23,19 @@ Target Vendor:  LATTICE
 Target Device:  LFXP2-5ETQFP144
 Target Performance:   6
 Mapper:  mg5a00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  07/20/22  19:05:10
+Mapped on:  07/20/22  21:31:54
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
    Number of registers:    440 out of  3864 (11%)
       PFU registers:          434 out of  3564 (12%)
       PIO registers:            6 out of   300 (2%)
-   Number of SLICEs:       782 out of  2376 (33%)
-      SLICEs as Logic/ROM:    782 out of  2376 (33%)
+   Number of SLICEs:       776 out of  2376 (33%)
+      SLICEs as Logic/ROM:    776 out of  2376 (33%)
       SLICEs as RAM:            0 out of   405 (0%)
       SLICEs as Carry:        114 out of  2376 (5%)
-   Number of LUT4s:        1218 out of  4752 (26%)
-      Number used as logic LUTs:        990
+   Number of LUT4s:        1215 out of  4752 (26%)
+      Number used as logic LUTs:        987
       Number used as distributed RAM:     0
       Number used as ripple logic:      228
       Number used as shift registers:     0
@@ -70,7 +70,7 @@ Mapped on:  07/20/22  19:05:10
 
    Number of Used DSP Sites:  0 out of 24 (0 %)
    Number of clocks:  1
-     Net ipClk_c: 254 loads, 254 rising, 0 falling (Driver: PIO ipClk )
+     Net ipClk_c: 253 loads, 253 rising, 0 falling (Driver: PIO ipClk )
    Number of Clock Enables:  25
      Net Packetiser.UART_Inst.txClkCount_1_sqmuxa_i: 1 loads, 0 LSLICEs
      Net ipReset_c: 11 loads, 8 LSLICEs
@@ -78,38 +78,38 @@ Mapped on:  07/20/22  19:05:10
      Net Streamer1/FIFOBLOCK/rden_i: 6 loads, 6 LSLICEs
      Net Streamer1/FIFOBLOCK/fcnt_en: 7 loads, 7 LSLICEs
      Net Streamer1/ipDatace[8]: 4 loads, 4 LSLICEs
-     Net Register/N_596: 4 loads, 4 LSLICEs
+     Net Register/N_678: 4 loads, 4 LSLICEs
      Net Control/OutputData_1_sqmuxa_2: 8 loads, 8 LSLICEs
-     Net Control/N_98_i: 16 loads, 16 LSLICEs
+     Net Control/N_36_i: 16 loads, 16 LSLICEs
      Net Control/N_74_i: 4 loads, 4 LSLICEs
      Net Control/opAddress_0_sqmuxa: 4 loads, 4 LSLICEs
-     Net Control/un1_OutputData_0_sqmuxa_0_0: 17 loads, 17 LSLICEs
+     Net Control/un1_OutputData_0_sqmuxa_0_0_0: 16 loads, 16 LSLICEs
      Net Packetiser/Data_0_sqmuxa_0: 4 loads, 4 LSLICEs
-     Net Packetiser/N_509: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_TxSend_0_sqmuxa_1_i_o2_4_o2: 4 loads, 4 LSLICEs
      Net Packetiser/UART_Inst/opRxValid_1_sqmuxa_i: 1 loads, 1 LSLICEs
-     Net Packetiser/UART_Inst/N_115: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_Inst/txData_0_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
      Net Packetiser/UART_Inst/rxData_0_sqmuxa_i: 4 loads, 4 LSLICEs
-     Net Packetiser/UART_Inst/N_113: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/N_38: 1 loads, 1 LSLICEs
      Net Packetiser/UART_Inst/rxState_3_sqmuxa: 4 loads, 4 LSLICEs
      Net Packetiser.N_113_1_i: 1 loads, 0 LSLICEs
-     Net Packetiser/N_127_i: 13 loads, 13 LSLICEs
+     Net Packetiser/N_44_i: 13 loads, 13 LSLICEs
      Net Packetiser/N_120_i: 2 loads, 2 LSLICEs
      Net Packetiser/Source_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
      Net Packetiser/Length_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
      Net Packetiser/Destination_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
    Number of local set/reset loads for net ipReset_c merged into GSR:  65
    Number of LSRs:  14
-     Net N_123_i: 1 loads, 0 LSLICEs
-     Net ipReset_c: 57 loads, 52 LSLICEs
+     Net N_128_i: 1 loads, 0 LSLICEs
+     Net ipReset_c: 64 loads, 59 LSLICEs
      Net Streamer1/fb: 1 loads, 1 LSLICEs
-     Net Streamer1/txClkCount_0_sqmuxa_2_RNI0ERU: 7 loads, 7 LSLICEs
+     Net Streamer1/txClkCount_0_sqmuxa_i: 7 loads, 7 LSLICEs
      Net Register/Reset: 4 loads, 4 LSLICEs
      Net Register/un1_ipAddress_inv_i: 10 loads, 10 LSLICEs
      Net Control/State_RNI12SL[1]: 5 loads, 5 LSLICEs
      Net Packetiser.opRxStream.EoP_0_sqmuxa: 2 loads, 1 LSLICEs
      Net Packetiser/BytesReceived_5[0]: 1 loads, 1 LSLICEs
      Net Packetiser/UART_Inst/opRxValid_0_sqmuxa: 1 loads, 1 LSLICEs
-     Net Packetiser/UART_Inst/un1_ipReset_0: 2 loads, 2 LSLICEs
+     Net Packetiser/UART_Inst/un1_ipReset_0_0: 2 loads, 2 LSLICEs
      Net Packetiser/UART_Inst/un1_ipReset_1: 2 loads, 2 LSLICEs
      Net Packetiser/rxState_RNIS5KH[0]: 4 loads, 4 LSLICEs
      Net Packetiser/fb: 1 loads, 1 LSLICEs
@@ -120,8 +120,8 @@ Mapped on:  07/20/22  19:05:10
      Net NCO1/Sine/rom_addr_r_2: 510 loads
      Net NCO1/Sine/rom_addr_r_1: 452 loads
      Net NCO1/Sine/rom_addr_r_7: 326 loads
-     Net ipReset_c: 198 loads
      Net NCO1/Sine/rom_addr_r_5: 194 loads
+     Net ipReset_c: 185 loads
      Net NCO1/Sine/rom_addr_r_4: 98 loads
      Net NCO1/Sine/rom_addr_r: 52 loads
 
@@ -265,13 +265,13 @@ Signal Control/un1_BytesWritten_6_s_7_0_S1 undriven or does not drive anything -
      clipped.
 Signal Control/un1_BytesWritten_6_s_7_0_COUT undriven or does not drive anything
      - clipped.
-Signal Streamer1/un3_txClkCount_1_cry_0_0_S1 undriven or does not drive anything
-     - clipped.
-Signal Streamer1/un3_txClkCount_1_cry_0_0_S0 undriven or does not drive anything
-     - clipped.
+Signal Streamer1/txClkCount_2_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal Streamer1/txClkCount_2_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
 Signal Streamer1/N_1 undriven or does not drive anything - clipped.
-Signal Streamer1/un3_txClkCount_1_cry_11_0_COUT undriven or does not drive
-     anything - clipped.
+Signal Streamer1/txClkCount_2_cry_11_0_COUT undriven or does not drive anything
+     - clipped.
 Signal Streamer1/FIFOBLOCK/co5_3 undriven or does not drive anything - clipped.
 Signal Streamer1/FIFOBLOCK/w_ctr_cia_S1 undriven or does not drive anything -
      clipped.
@@ -581,7 +581,7 @@ GSR Component:
      
 
      Type and number of components of the type: 
-   Register = 111 
+   Register = 126 
    DP16KB = 4
 
      Type and instance name of component: 
@@ -606,6 +606,21 @@ GSR Component:
    Register : PWM1/Count[7]
    Register : Streamer1/WE
    Register : Streamer1/RE
+   Register : Control/OutputData[0]
+   Register : Control/OutputData[1]
+   Register : Control/OutputData[2]
+   Register : Control/OutputData[3]
+   Register : Control/OutputData[4]
+   Register : Control/OutputData[5]
+   Register : Control/OutputData[6]
+   Register : Control/OutputData[7]
+   Register : Control/OutputData[8]
+   Register : Control/OutputData[9]
+   Register : Control/OutputData[10]
+   Register : Control/OutputData[11]
+   Register : Control/OutputData[12]
+   Register : Control/OutputData[13]
+   Register : Control/OutputData[14]
    Register : Control/OutputData[15]
    Register : Control/OutputData[16]
    Register : Control/OutputData[17]
@@ -633,6 +648,7 @@ GSR Component:
    Register : Packetiser/opRxStream.Length[5]
    Register : Packetiser/opRxStream.Length[6]
    Register : Packetiser/opRxStream.Length[7]
+
    Register : Packetiser/opRxStream.Destination[0]
    Register : Packetiser/opRxStream.Destination[1]
    Register : Packetiser/opRxStream.Destination[2]
@@ -648,7 +664,6 @@ GSR Component:
    Register : Packetiser/opRxStream.Data[4]
    Register : Packetiser/opRxStream.Data[5]
    Register : Packetiser/opRxStream.Data[6]
-
    Register : Packetiser/UART_TxSend
    Register : RdRegisters.ClockTicks[0]
    Register : RdRegisters.ClockTicks[1]
@@ -690,6 +705,7 @@ GSR Component:
    Register : Packetiser/UART_Inst/rxClkCount[6]
    Register : Packetiser/UART_Inst/rxClkCount[5]
    Register : Packetiser/UART_Inst/rxClkCount[4]
+
    Register : Packetiser/UART_Inst/rxClkCount[3]
    Register : Packetiser/UART_Inst/rxClkCount[2]
    Register : Packetiser/UART_Inst/rxClkCount[1]
@@ -705,31 +721,13 @@ GSR Component:
 
 
 
-
-
-
 <A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
 -------------------------
 
    Total CPU Time: 2 secs  
-   Total REAL Time: 2 secs  
+   Total REAL Time: 3 secs  
    Peak Memory Usage: 67 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -4,6 +4,8 @@
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
 @N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlock[3:0] (in view: work.Streamer(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":389:12:389:16|Removing sequential instance FF_18 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":382:12:382:16|Removing sequential instance FF_19 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":375:12:375:16|Removing sequential instance FF_20 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
@@ -39,6 +41,6 @@
 @N: FX493 |Applying initial value "0" on instance txState[4].
 @N: FX493 |Applying initial value "0" on instance txState[5].
 @N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\controller.v":35:0:35:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 @N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

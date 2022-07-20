@@ -1,4 +1,2 @@
-@E: CG358 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":97:0:97:0|Expecting '.' or '.*'
-@E: CS187 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":97:1:97:1|Expecting (
-@E: CS187 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":131:0:131:8|Expecting endmodule
+@E: CG501 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":13:4:13:9|Expecting delimiter: , or ; or )
 

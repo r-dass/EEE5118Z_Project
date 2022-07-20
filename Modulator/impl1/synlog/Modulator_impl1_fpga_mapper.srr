@@ -1,4 +1,4 @@
-# Wed Jul 20 19:05:01 2022
+# Wed Jul 20 21:31:45 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -50,64 +50,64 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 @N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
 
 Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 180MB)
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 180MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
 
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 181MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		     4.42ns		 266 /       375
+   1		0h:00m:03s		     4.42ns		 263 /       375
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":55:0:55:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 181MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
 
 
 Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 182MB)
 
 Writing Analyst data base C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 182MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 186MB peak: 186MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 186MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 183MB peak: 186MB)
 
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -115,7 +115,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Jul 20 19:05:07 2022
+# Timing report written on Wed Jul 20 21:31:51 2022
 #
 
 
@@ -157,7 +157,7 @@ Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System  |  5.000       4.425   |  No paths    -      |  No paths    -      |  No paths    -    
 System    ipClk   |  20.000      17.919  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     System  |  20.000      18.390  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     System  |  20.000      18.431  |  No paths    -      |  No paths    -      |  No paths    -    
 ipClk     ipClk   |  20.000      13.971  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -208,13 +208,13 @@ Instance                                 Reference     Type        Pin     Net  
 Packetiser.rxState[0]                    ipClk         FD1S3AY     D       N_83_i                        19.389       13.971
 Packetiser.UART_Inst.BitsReceived[3]     ipClk         FD1S3IX     D       un1_BitsReceived_4_axbxc3     19.389       14.529
 Packetiser.rxState[4]                    ipClk         FD1S3AX     D       N_90_i                        19.389       14.726
-Control.BytesWritten[7]                  ipClk         FD1S3IX     D       BytesWritten_8[7]             20.069       14.741
-Streamer1.rState[0]                      ipClk         FD1S3AX     D       N_21s                         19.389       14.752
+Control.BytesWritten[7]                  ipClk         FD1S3IX     D       BytesWritten_8[7]             20.069       14.736
+Streamer1.rState[0]                      ipClk         FD1S3AX     D       N_26s                         19.389       14.752
 Streamer1.wUpper                         ipClk         FD1S3JX     D       wUpper_0_sqmuxa_1             19.389       14.752
-Control.BytesWritten[5]                  ipClk         FD1S3IX     D       BytesWritten_8[5]             20.069       14.814
-Control.BytesWritten[6]                  ipClk         FD1S3IX     D       BytesWritten_8[6]             20.069       14.814
-Control.BytesWritten[3]                  ipClk         FD1S3IX     D       BytesWritten_8[3]             20.069       14.887
-Control.BytesWritten[4]                  ipClk         FD1S3IX     D       BytesWritten_8[4]             20.069       14.887
+Control.BytesWritten[5]                  ipClk         FD1S3IX     D       BytesWritten_8[5]             20.069       14.809
+Control.BytesWritten[6]                  ipClk         FD1S3IX     D       BytesWritten_8[6]             20.069       14.809
+Control.BytesWritten[3]                  ipClk         FD1S3IX     D       BytesWritten_8[3]             20.069       14.882
+Control.BytesWritten[4]                  ipClk         FD1S3IX     D       BytesWritten_8[4]             20.069       14.882
 ============================================================================================================================
 
 
@@ -354,10 +354,10 @@ Streamer1.FIFOBLOCK.AND2_t1     AND2     B        In      0.000     0.575 f     
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 184MB peak: 186MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 184MB peak: 186MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -378,9 +378,9 @@ CCU2B:          74
 CU2:            12
 DP16KB:         2
 FADD2B:         7
-FD1P3AX:        166
+FD1P3AX:        151
 FD1P3DX:        63
-FD1P3IX:        52
+FD1P3IX:        67
 FD1S3AX:        40
 FD1S3AY:        2
 FD1S3BX:        1
@@ -395,7 +395,7 @@ MUX41:          16
 OB:             12
 OFS1P3DX:       3
 OFS1P3JX:       1
-ORCALUT4:       258
+ORCALUT4:       255
 PFUMX:          4
 PUR:            1
 ROM16X1:        2
@@ -405,9 +405,9 @@ VLO:            12
 XOR2:           1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 69MB peak: 186MB)
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 68MB peak: 186MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
-# Wed Jul 20 19:05:07 2022
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Wed Jul 20 21:31:51 2022
 
 ###########################################################]

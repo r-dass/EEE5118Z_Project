@@ -26,6 +26,7 @@ wire 			WrEnable;
 wire [31:0]	RdData;
 
 wire [15:0]	Stream;
+wire			StreamValid;
 
 wire [17:0]	I;
 wire [17:0]	Q;
@@ -80,7 +81,7 @@ Streamer Streamer1(
     .opFIFO_Size(RdRegisters.FIFO_Size), 
 
     .opStream(Stream),     
-    .opValid(Valid)
+    .opStreamValid(StreamValid)
 );
 
 PWM PWM1(

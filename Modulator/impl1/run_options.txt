@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03L-SP1
 #--  Project file C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\run_options.txt
-#--  Written on Wed Jul 20 19:04:53 2022
+#--  Written on Wed Jul 20 21:31:36 2022
 
 
 #project files
@@ -16,6 +16,7 @@ add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Streamer.v"
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/PWM.v"
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/NCO.v"
+add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/QAM.v"
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.v"
 
 

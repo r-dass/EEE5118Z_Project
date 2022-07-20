@@ -1,12 +1,12 @@
-@N: CD630 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\syntmp\gentmp6412a11748":4:7:4:9|Synthesizing work.top.gen.
-@N: CD630 :"syng0a11748":71:7:71:12|Synthesizing work.cmp_eq.cell_level.
-@W: CD796 :"syng0a11748":94:11:94:18|Bit 4 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"syng0a11748":94:11:94:18|Bit 5 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"syng0a11748":94:11:94:18|Bit 6 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@W: CD796 :"syng0a11748":94:11:94:18|Bit 7 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
-@N: CD630 :"syng0a11748":8:7:8:16|Synthesizing work.eq_element.eqn.
-@W: CD280 :"syng0a11748":17:11:17:17|Unbound component MUXCY_L mapped to black box
-@N: CD630 :"syng0a11748":17:11:17:17|Synthesizing work.muxcy_l.syn_black_box.
+@N: CD630 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\syntmp\gentmp7717a07416":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0a07416":71:7:71:12|Synthesizing work.cmp_eq.cell_level.
+@W: CD796 :"syng0a07416":94:11:94:18|Bit 4 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a07416":94:11:94:18|Bit 5 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a07416":94:11:94:18|Bit 6 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0a07416":94:11:94:18|Bit 7 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"syng0a07416":8:7:8:16|Synthesizing work.eq_element.eqn.
+@W: CD280 :"syng0a07416":17:11:17:17|Unbound component MUXCY_L mapped to black box
+@N: CD630 :"syng0a07416":17:11:17:17|Synthesizing work.muxcy_l.syn_black_box.
 Post processing for work.muxcy_l.syn_black_box
 Running optimization stage 1 on MUXCY_L .......
 Post processing for work.eq_element.eqn

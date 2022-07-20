@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Wed Jul 20 19:06:03 2022
+Wed Jul 20 21:32:52 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -42,7 +42,7 @@ Report level:    verbose report, limited to 10 items per preference
 <A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
 
 <LI><A href='#par_twr_pref_0_0' Target='right'>FREQUENCY PORT "ipClk" 50.000000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
-Report:  131.857MHz is the maximum frequency for this preference.
+Report:  133.333MHz is the maximum frequency for this preference.
 
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
@@ -57,536 +57,536 @@ BLOCK JTAG PATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 12.416ns
+Passed: The following path meets requirements by 12.500ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_44  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.507ns  (21.3% logic, 78.7% route), 6 logic levels.
+   Delay:               7.423ns  (21.5% logic, 78.5% route), 6 logic levels.
 
  Constraint Details:
 
-      7.507ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      7.423ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.416ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.500ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.939     R10C23B.Q1 to     R14C25A.A1 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C25A.A1 to   R14C25A.OFX0 NCO1/Sine/SLICE_619
-ROUTE         1     0.000   R14C25A.OFX0 to    R14C25B.FXB NCO1/Sine/triglut_1_2_12_0_1_1_f5b
-FXTOOFX_DE  ---     0.145    R14C25B.FXB to   R14C25B.OFX1 NCO1/Sine/SLICE_618
-ROUTE         1     0.000   R14C25B.OFX1 to    R14C25C.FXB NCO1/Sine/triglut_1_2_12_0_1_f5b
-FXTOOFX_DE  ---     0.145    R14C25C.FXB to   R14C25C.OFX1 NCO1/Sine/SLICE_617
-ROUTE         1     0.000   R14C25C.OFX1 to    R14C24A.FXA NCO1/Sine/triglut_1_2_12_0_f5a
-FXTOOFX_DE  ---     0.145    R14C24A.FXA to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q0 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       452     4.740      R24C5C.Q0 to     R25C16B.B1 NCO1/Sine/rom_addr_r_1
+CTOOFX_DEL  ---     0.399     R25C16B.B1 to   R25C16B.OFX0 NCO1/Sine/SLICE_609
+ROUTE         1     0.000   R25C16B.OFX0 to    R25C16B.FXA NCO1/Sine/triglut_1_2_13_0_1_0_f5a
+FXTOOFX_DE  ---     0.145    R25C16B.FXA to   R25C16B.OFX1 NCO1/Sine/SLICE_609
+ROUTE         1     0.000   R25C16B.OFX1 to    R25C16C.FXB NCO1/Sine/triglut_1_2_13_0_1_f5b
+FXTOOFX_DE  ---     0.145    R25C16C.FXB to   R25C16C.OFX1 NCO1/Sine/SLICE_608
+ROUTE         1     0.000   R25C16C.OFX1 to    R25C15A.FXA NCO1/Sine/triglut_1_2_13_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15A.FXA to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.507   (21.3% logic, 78.7% route), 6 logic levels.
+                    7.423   (21.5% logic, 78.5% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.416ns
+Passed: The following path meets requirements by 12.585ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_44  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.507ns  (21.3% logic, 78.7% route), 6 logic levels.
+   Delay:               7.338ns  (21.7% logic, 78.3% route), 6 logic levels.
 
  Constraint Details:
 
-      7.507ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      7.338ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.416ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.585ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.939     R10C23B.Q1 to     R14C25A.A0 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C25A.A0 to   R14C25A.OFX0 NCO1/Sine/SLICE_619
-ROUTE         1     0.000   R14C25A.OFX0 to    R14C25B.FXB NCO1/Sine/triglut_1_2_12_0_1_1_f5b
-FXTOOFX_DE  ---     0.145    R14C25B.FXB to   R14C25B.OFX1 NCO1/Sine/SLICE_618
-ROUTE         1     0.000   R14C25B.OFX1 to    R14C25C.FXB NCO1/Sine/triglut_1_2_12_0_1_f5b
-FXTOOFX_DE  ---     0.145    R14C25C.FXB to   R14C25C.OFX1 NCO1/Sine/SLICE_617
-ROUTE         1     0.000   R14C25C.OFX1 to    R14C24A.FXA NCO1/Sine/triglut_1_2_12_0_f5a
-FXTOOFX_DE  ---     0.145    R14C24A.FXA to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q0 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       452     4.655      R24C5C.Q0 to     R25C16D.A1 NCO1/Sine/rom_addr_r_1
+CTOOFX_DEL  ---     0.399     R25C16D.A1 to   R25C16D.OFX0 NCO1/Sine/SLICE_607
+ROUTE         1     0.000   R25C16D.OFX0 to    R25C16D.FXA NCO1/Sine/triglut_1_2_13_0_0_0_f5a
+FXTOOFX_DE  ---     0.145    R25C16D.FXA to   R25C16D.OFX1 NCO1/Sine/SLICE_607
+ROUTE         1     0.000   R25C16D.OFX1 to    R25C16C.FXA NCO1/Sine/triglut_1_2_13_0_0_f5a
+FXTOOFX_DE  ---     0.145    R25C16C.FXA to   R25C16C.OFX1 NCO1/Sine/SLICE_608
+ROUTE         1     0.000   R25C16C.OFX1 to    R25C15A.FXA NCO1/Sine/triglut_1_2_13_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15A.FXA to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.507   (21.3% logic, 78.7% route), 6 logic levels.
+                    7.338   (21.7% logic, 78.3% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.425ns
+Passed: The following path meets requirements by 12.607ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_44  (from ipClk_c +)
    Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
 
-   Delay:               7.498ns  (21.3% logic, 78.7% route), 6 logic levels.
+   Delay:               7.316ns  (21.8% logic, 78.2% route), 6 logic levels.
 
  Constraint Details:
 
-      7.498ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      7.316ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_224 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.425ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.607ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_224:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.930     R10C23B.Q1 to     R14C24A.A0 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C24A.A0 to   R14C24A.OFX0 NCO1/Sine/SLICE_623
-ROUTE         1     0.000   R14C24A.OFX0 to    R14C24B.FXB NCO1/Sine/triglut_1_2_12_1_1_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24B.FXB to   R14C24B.OFX1 NCO1/Sine/SLICE_622
-ROUTE         1     0.000   R14C24B.OFX1 to    R14C24C.FXB NCO1/Sine/triglut_1_2_12_1_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24C.FXB to   R14C24C.OFX1 NCO1/Sine/SLICE_621
-ROUTE         1     0.000   R14C24C.OFX1 to    R14C24A.FXB NCO1/Sine/triglut_1_2_12_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24A.FXB to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q0 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       452     4.918      R24C5C.Q0 to     R25C11A.B0 NCO1/Sine/rom_addr_r_1
+CTOOFX_DEL  ---     0.399     R25C11A.B0 to   R25C11A.OFX0 NCO1/Sine/SLICE_714
+ROUTE         1     0.000   R25C11A.OFX0 to    R25C11B.FXB NCO1/Sine/triglut_1_3_12_1_1_1_f5b
+FXTOOFX_DE  ---     0.145    R25C11B.FXB to   R25C11B.OFX1 NCO1/Sine/SLICE_713
+ROUTE         1     0.000   R25C11B.OFX1 to    R25C11C.FXB NCO1/Sine/triglut_1_3_12_1_1_f5b
+FXTOOFX_DE  ---     0.145    R25C11C.FXB to   R25C11C.OFX1 NCO1/Sine/SLICE_712
+ROUTE         1     0.000   R25C11C.OFX1 to    R25C11A.FXB NCO1/Sine/triglut_1_3_12_1_f5b
+FXTOOFX_DE  ---     0.145    R25C11A.FXB to   R25C11A.OFX1 NCO1/Sine/SLICE_714
+ROUTE         1     0.802   R25C11A.OFX1 to     R24C11A.A1 NCO1/Sine/mdL0_23_3
+CTOOFX_DEL  ---     0.399     R24C11A.A1 to   R24C11A.OFX0 NCO1/Sine/SLICE_224
+ROUTE         1     0.000   R24C11A.OFX0 to    R24C11A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
                   --------
-                    7.498   (21.3% logic, 78.7% route), 6 logic levels.
+                    7.316   (21.8% logic, 78.2% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
+                  --------
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to NCO1/Sine/SLICE_224:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     1.059       21.PADDI to    R24C11A.CLK ipClk_c
+                  --------
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 12.848ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NCO1/Sine/FF_43  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
+
+   Delay:               7.075ns  (22.6% logic, 77.4% route), 6 logic levels.
+
+ Constraint Details:
+
+      7.075ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
+     20.000ns delay constraint less
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.848ns
+
+ Physical Path Details:
+
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q1 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       510     4.392      R24C5C.Q1 to     R25C15B.B0 NCO1/Sine/rom_addr_r_2
+CTOOFX_DEL  ---     0.399     R25C15B.B0 to   R25C15B.OFX0 NCO1/Sine/SLICE_613
+ROUTE         1     0.000   R25C15B.OFX0 to    R25C15B.FXA NCO1/Sine/triglut_1_2_13_1_1_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15B.FXA to   R25C15B.OFX1 NCO1/Sine/SLICE_613
+ROUTE         1     0.000   R25C15B.OFX1 to    R25C15C.FXB NCO1/Sine/triglut_1_2_13_1_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15C.FXB to   R25C15C.OFX1 NCO1/Sine/SLICE_612
+ROUTE         1     0.000   R25C15C.OFX1 to    R25C15A.FXB NCO1/Sine/triglut_1_2_13_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15A.FXB to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
+                  --------
+                    7.075   (22.6% logic, 77.4% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.456ns
+Passed: The following path meets requirements by 12.848ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_43  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.467ns  (21.4% logic, 78.6% route), 6 logic levels.
+   Delay:               7.075ns  (22.6% logic, 77.4% route), 6 logic levels.
 
  Constraint Details:
 
-      7.467ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      7.075ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.456ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.848ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.899     R10C23B.Q1 to     R14C25C.A0 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C25C.A0 to   R14C25C.OFX0 NCO1/Sine/SLICE_617
-ROUTE         1     0.000   R14C25C.OFX0 to    R14C25D.FXB NCO1/Sine/triglut_1_2_12_0_0_1_f5b
-FXTOOFX_DE  ---     0.145    R14C25D.FXB to   R14C25D.OFX1 NCO1/Sine/SLICE_616
-ROUTE         1     0.000   R14C25D.OFX1 to    R14C25C.FXA NCO1/Sine/triglut_1_2_12_0_0_f5a
-FXTOOFX_DE  ---     0.145    R14C25C.FXA to   R14C25C.OFX1 NCO1/Sine/SLICE_617
-ROUTE         1     0.000   R14C25C.OFX1 to    R14C24A.FXA NCO1/Sine/triglut_1_2_12_0_f5a
-FXTOOFX_DE  ---     0.145    R14C24A.FXA to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q1 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       510     4.392      R24C5C.Q1 to     R25C15A.B0 NCO1/Sine/rom_addr_r_2
+CTOOFX_DEL  ---     0.399     R25C15A.B0 to   R25C15A.OFX0 NCO1/Sine/SLICE_614
+ROUTE         1     0.000   R25C15A.OFX0 to    R25C15B.FXB NCO1/Sine/triglut_1_2_13_1_1_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15B.FXB to   R25C15B.OFX1 NCO1/Sine/SLICE_613
+ROUTE         1     0.000   R25C15B.OFX1 to    R25C15C.FXB NCO1/Sine/triglut_1_2_13_1_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15C.FXB to   R25C15C.OFX1 NCO1/Sine/SLICE_612
+ROUTE         1     0.000   R25C15C.OFX1 to    R25C15A.FXB NCO1/Sine/triglut_1_2_13_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15A.FXB to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.467   (21.4% logic, 78.6% route), 6 logic levels.
+                    7.075   (22.6% logic, 77.4% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.456ns
+Passed: The following path meets requirements by 12.848ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_43  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.467ns  (21.4% logic, 78.6% route), 6 logic levels.
+   Delay:               7.075ns  (22.6% logic, 77.4% route), 6 logic levels.
 
  Constraint Details:
 
-      7.467ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      7.075ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.456ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.848ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.899     R10C23B.Q1 to     R14C24C.A0 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C24C.A0 to   R14C24C.OFX0 NCO1/Sine/SLICE_621
-ROUTE         1     0.000   R14C24C.OFX0 to    R14C24D.FXB NCO1/Sine/triglut_1_2_12_1_0_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24D.FXB to   R14C24D.OFX1 NCO1/Sine/SLICE_620
-ROUTE         1     0.000   R14C24D.OFX1 to    R14C24C.FXA NCO1/Sine/triglut_1_2_12_1_0_f5a
-FXTOOFX_DE  ---     0.145    R14C24C.FXA to   R14C24C.OFX1 NCO1/Sine/SLICE_621
-ROUTE         1     0.000   R14C24C.OFX1 to    R14C24A.FXB NCO1/Sine/triglut_1_2_12_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24A.FXB to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q1 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       510     4.392      R24C5C.Q1 to     R25C15B.B1 NCO1/Sine/rom_addr_r_2
+CTOOFX_DEL  ---     0.399     R25C15B.B1 to   R25C15B.OFX0 NCO1/Sine/SLICE_613
+ROUTE         1     0.000   R25C15B.OFX0 to    R25C15B.FXA NCO1/Sine/triglut_1_2_13_1_1_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15B.FXA to   R25C15B.OFX1 NCO1/Sine/SLICE_613
+ROUTE         1     0.000   R25C15B.OFX1 to    R25C15C.FXB NCO1/Sine/triglut_1_2_13_1_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15C.FXB to   R25C15C.OFX1 NCO1/Sine/SLICE_612
+ROUTE         1     0.000   R25C15C.OFX1 to    R25C15A.FXB NCO1/Sine/triglut_1_2_13_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15A.FXB to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.467   (21.4% logic, 78.6% route), 6 logic levels.
+                    7.075   (22.6% logic, 77.4% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.456ns
+Passed: The following path meets requirements by 12.851ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_44  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.467ns  (21.4% logic, 78.6% route), 6 logic levels.
+   Delay:               7.072ns  (22.6% logic, 77.4% route), 6 logic levels.
 
  Constraint Details:
 
-      7.467ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      7.072ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.456ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.851ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.899     R10C23B.Q1 to     R14C24C.A1 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C24C.A1 to   R14C24C.OFX0 NCO1/Sine/SLICE_621
-ROUTE         1     0.000   R14C24C.OFX0 to    R14C24D.FXB NCO1/Sine/triglut_1_2_12_1_0_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24D.FXB to   R14C24D.OFX1 NCO1/Sine/SLICE_620
-ROUTE         1     0.000   R14C24D.OFX1 to    R14C24C.FXA NCO1/Sine/triglut_1_2_12_1_0_f5a
-FXTOOFX_DE  ---     0.145    R14C24C.FXA to   R14C24C.OFX1 NCO1/Sine/SLICE_621
-ROUTE         1     0.000   R14C24C.OFX1 to    R14C24A.FXB NCO1/Sine/triglut_1_2_12_1_f5b
-FXTOOFX_DE  ---     0.145    R14C24A.FXB to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q0 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       452     4.731      R24C5C.Q0 to     R24C16B.B0 NCO1/Sine/rom_addr_r_1
+CTOOFX_DEL  ---     0.399     R24C16B.B0 to   R24C16B.OFX0 NCO1/Sine/SLICE_497
+ROUTE         1     0.000   R24C16B.OFX0 to    R24C16B.FXA NCO1/Sine/triglut_1_1_13_0_1_0_f5a
+FXTOOFX_DE  ---     0.145    R24C16B.FXA to   R24C16B.OFX1 NCO1/Sine/SLICE_497
+ROUTE         1     0.000   R24C16B.OFX1 to    R24C16C.FXB NCO1/Sine/triglut_1_1_13_0_1_f5b
+FXTOOFX_DE  ---     0.145    R24C16C.FXB to   R24C16C.OFX1 NCO1/Sine/SLICE_496
+ROUTE         1     0.000   R24C16C.OFX1 to    R24C15A.FXA NCO1/Sine/triglut_1_1_13_0_f5a
+FXTOOFX_DE  ---     0.145    R24C15A.FXA to   R24C15A.OFX1 NCO1/Sine/SLICE_502
+ROUTE         1     0.745   R24C15A.OFX1 to     R24C14B.D0 NCO1/Sine/mdL0_22_1
+CTOOFX_DEL  ---     0.399     R24C14B.D0 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.467   (21.4% logic, 78.6% route), 6 logic levels.
+                    7.072   (22.6% logic, 77.4% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.456ns
+Passed: The following path meets requirements by 12.933ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_43  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.467ns  (21.4% logic, 78.6% route), 6 logic levels.
+   Delay:               6.990ns  (22.8% logic, 77.2% route), 6 logic levels.
 
  Constraint Details:
 
-      7.467ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
+      6.990ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.456ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.933ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.899     R10C23B.Q1 to     R14C25C.A1 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R14C25C.A1 to   R14C25C.OFX0 NCO1/Sine/SLICE_617
-ROUTE         1     0.000   R14C25C.OFX0 to    R14C25D.FXB NCO1/Sine/triglut_1_2_12_0_0_1_f5b
-FXTOOFX_DE  ---     0.145    R14C25D.FXB to   R14C25D.OFX1 NCO1/Sine/SLICE_616
-ROUTE         1     0.000   R14C25D.OFX1 to    R14C25C.FXA NCO1/Sine/triglut_1_2_12_0_0_f5a
-FXTOOFX_DE  ---     0.145    R14C25C.FXA to   R14C25C.OFX1 NCO1/Sine/SLICE_617
-ROUTE         1     0.000   R14C25C.OFX1 to    R14C24A.FXA NCO1/Sine/triglut_1_2_12_0_f5a
-FXTOOFX_DE  ---     0.145    R14C24A.FXA to   R14C24A.OFX1 NCO1/Sine/SLICE_623
-ROUTE         1     0.972   R14C24A.OFX1 to     R16C24A.D1 NCO1/Sine/mdL0_23_2
-CTOOFX_DEL  ---     0.399     R16C24A.D1 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q1 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       510     4.307      R24C5C.Q1 to     R25C15D.A1 NCO1/Sine/rom_addr_r_2
+CTOOFX_DEL  ---     0.399     R25C15D.A1 to   R25C15D.OFX0 NCO1/Sine/SLICE_611
+ROUTE         1     0.000   R25C15D.OFX0 to    R25C15D.FXA NCO1/Sine/triglut_1_2_13_1_0_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15D.FXA to   R25C15D.OFX1 NCO1/Sine/SLICE_611
+ROUTE         1     0.000   R25C15D.OFX1 to    R25C15C.FXA NCO1/Sine/triglut_1_2_13_1_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15C.FXA to   R25C15C.OFX1 NCO1/Sine/SLICE_612
+ROUTE         1     0.000   R25C15C.OFX1 to    R25C15A.FXB NCO1/Sine/triglut_1_2_13_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15A.FXB to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.467   (21.4% logic, 78.6% route), 6 logic levels.
+                    6.990   (22.8% logic, 77.2% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 12.661ns
+Passed: The following path meets requirements by 12.933ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_31  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_43  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_13  (to ipClk_c +)
 
-   Delay:               7.262ns  (22.0% logic, 78.0% route), 6 logic levels.
-
- Constraint Details:
-
-      7.262ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_152 meets
-     20.000ns delay constraint less
-      0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.661ns
-
- Physical Path Details:
-
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_152:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.899     R10C23B.Q1 to     R15C26A.A0 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R15C26A.A0 to   R15C26A.OFX0 NCO1/Sine/SLICE_663
-ROUTE         1     0.000   R15C26A.OFX0 to    R15C26B.FXB NCO1/Sine/triglut_1_3_31_1_1_1_f5b
-FXTOOFX_DE  ---     0.145    R15C26B.FXB to   R15C26B.OFX1 NCO1/Sine/SLICE_662
-ROUTE         1     0.000   R15C26B.OFX1 to    R15C26C.FXB NCO1/Sine/triglut_1_3_31_1_1_f5b
-FXTOOFX_DE  ---     0.145    R15C26C.FXB to   R15C26C.OFX1 NCO1/Sine/SLICE_661
-ROUTE         1     0.000   R15C26C.OFX1 to    R15C26A.FXB NCO1/Sine/triglut_1_3_31_1_f5b
-FXTOOFX_DE  ---     0.145    R15C26A.FXB to   R15C26A.OFX1 NCO1/Sine/SLICE_663
-ROUTE         1     0.767   R15C26A.OFX1 to     R14C26C.C1 NCO1/Sine/mdL0_4_3
-CTOOFX_DEL  ---     0.399     R14C26C.C1 to   R14C26C.OFX0 NCO1/Sine/SLICE_152
-ROUTE         1     0.000   R14C26C.OFX0 to    R14C26C.DI0 NCO1/Sine/Sine_13_ffin (to ipClk_c)
-                  --------
-                    7.262   (22.0% logic, 78.0% route), 6 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
-                  --------
-                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to NCO1/Sine/SLICE_152:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R14C26C.CLK ipClk_c
-                  --------
-                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 12.661ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_31  (to ipClk_c +)
-
-   Delay:               7.262ns  (22.0% logic, 78.0% route), 6 logic levels.
+   Delay:               6.990ns  (22.8% logic, 77.2% route), 6 logic levels.
 
  Constraint Details:
 
-      7.262ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_152 meets
+      6.990ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225 meets
      20.000ns delay constraint less
       0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.661ns
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.933ns
 
  Physical Path Details:
 
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_152:
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.899     R10C23B.Q1 to     R15C26A.A1 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R15C26A.A1 to   R15C26A.OFX0 NCO1/Sine/SLICE_663
-ROUTE         1     0.000   R15C26A.OFX0 to    R15C26B.FXB NCO1/Sine/triglut_1_3_31_1_1_1_f5b
-FXTOOFX_DE  ---     0.145    R15C26B.FXB to   R15C26B.OFX1 NCO1/Sine/SLICE_662
-ROUTE         1     0.000   R15C26B.OFX1 to    R15C26C.FXB NCO1/Sine/triglut_1_3_31_1_1_f5b
-FXTOOFX_DE  ---     0.145    R15C26C.FXB to   R15C26C.OFX1 NCO1/Sine/SLICE_661
-ROUTE         1     0.000   R15C26C.OFX1 to    R15C26A.FXB NCO1/Sine/triglut_1_3_31_1_f5b
-FXTOOFX_DE  ---     0.145    R15C26A.FXB to   R15C26A.OFX1 NCO1/Sine/SLICE_663
-ROUTE         1     0.767   R15C26A.OFX1 to     R14C26C.C1 NCO1/Sine/mdL0_4_3
-CTOOFX_DEL  ---     0.399     R14C26C.C1 to   R14C26C.OFX0 NCO1/Sine/SLICE_152
-ROUTE         1     0.000   R14C26C.OFX0 to    R14C26C.DI0 NCO1/Sine/Sine_13_ffin (to ipClk_c)
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q1 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       510     4.307      R24C5C.Q1 to     R25C15C.A1 NCO1/Sine/rom_addr_r_2
+CTOOFX_DEL  ---     0.399     R25C15C.A1 to   R25C15C.OFX0 NCO1/Sine/SLICE_612
+ROUTE         1     0.000   R25C15C.OFX0 to    R25C15D.FXB NCO1/Sine/triglut_1_2_13_1_0_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15D.FXB to   R25C15D.OFX1 NCO1/Sine/SLICE_611
+ROUTE         1     0.000   R25C15D.OFX1 to    R25C15C.FXA NCO1/Sine/triglut_1_2_13_1_0_f5a
+FXTOOFX_DE  ---     0.145    R25C15C.FXA to   R25C15C.OFX1 NCO1/Sine/SLICE_612
+ROUTE         1     0.000   R25C15C.OFX1 to    R25C15A.FXB NCO1/Sine/triglut_1_2_13_1_f5b
+FXTOOFX_DE  ---     0.145    R25C15A.FXB to   R25C15A.OFX1 NCO1/Sine/SLICE_614
+ROUTE         1     1.087   R25C15A.OFX1 to     R24C14B.B1 NCO1/Sine/mdL0_22_2
+CTOOFX_DEL  ---     0.399     R24C14B.B1 to   R24C14B.OFX0 NCO1/Sine/SLICE_225
+ROUTE         1     0.000   R24C14B.OFX0 to    R24C14B.DI0 NCO1/Sine/Cosine_13_ffin (to ipClk_c)
                   --------
-                    7.262   (22.0% logic, 78.0% route), 6 logic levels.
+                    6.990   (22.8% logic, 77.2% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
-                  --------
-                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to NCO1/Sine/SLICE_152:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R14C26C.CLK ipClk_c
-                  --------
-                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 12.683ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              NCO1/Sine/FF_39  (from ipClk_c +)
-   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
-
-   Delay:               7.240ns  (22.0% logic, 78.0% route), 6 logic levels.
-
- Constraint Details:
-
-      7.240ns physical path delay NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225 meets
-     20.000ns delay constraint less
-      0.000ns skew and
-      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.683ns
-
- Physical Path Details:
-
-      Data path NCO1/Sine/SLICE_160 to NCO1/Sine/SLICE_225:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363    R10C23B.CLK to     R10C23B.Q1 NCO1/Sine/SLICE_160 (from ipClk_c)
-ROUTE       570     4.642     R10C23B.Q1 to     R15C24A.D0 NCO1/Sine/rom_addr_r_6
-CTOOFX_DEL  ---     0.399     R15C24A.D0 to   R15C24A.OFX0 NCO1/Sine/SLICE_511
-ROUTE         1     0.000   R15C24A.OFX0 to    R15C24B.FXB NCO1/Sine/triglut_1_1_12_1_1_1_f5b
-FXTOOFX_DE  ---     0.145    R15C24B.FXB to   R15C24B.OFX1 NCO1/Sine/SLICE_510
-ROUTE         1     0.000   R15C24B.OFX1 to    R15C24C.FXB NCO1/Sine/triglut_1_1_12_1_1_f5b
-FXTOOFX_DE  ---     0.145    R15C24C.FXB to   R15C24C.OFX1 NCO1/Sine/SLICE_509
-ROUTE         1     0.000   R15C24C.OFX1 to    R15C24A.FXB NCO1/Sine/triglut_1_1_12_1_f5b
-FXTOOFX_DE  ---     0.145    R15C24A.FXB to   R15C24A.OFX1 NCO1/Sine/SLICE_511
-ROUTE         1     1.002   R15C24A.OFX1 to     R16C24A.A0 NCO1/Sine/mdL0_23_1
-CTOOFX_DEL  ---     0.399     R16C24A.A0 to   R16C24A.OFX0 NCO1/Sine/SLICE_225
-ROUTE         1     0.000   R16C24A.OFX0 to    R16C24A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
-                  --------
-                    7.240   (22.0% logic, 78.0% route), 6 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to NCO1/Sine/SLICE_160:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R10C23B.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     1.059       21.PADDI to    R16C24A.CLK ipClk_c
+ROUTE       257     1.059       21.PADDI to    R24C14B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-Report:  131.857MHz is the maximum frequency for this preference.
+
+Passed: The following path meets requirements by 12.976ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NCO1/Sine/FF_44  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_12  (to ipClk_c +)
+
+   Delay:               6.947ns  (23.0% logic, 77.0% route), 6 logic levels.
+
+ Constraint Details:
+
+      6.947ns physical path delay NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_224 meets
+     20.000ns delay constraint less
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 12.976ns
+
+ Physical Path Details:
+
+      Data path NCO1/Sine/SLICE_157 to NCO1/Sine/SLICE_224:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.363     R24C5C.CLK to      R24C5C.Q0 NCO1/Sine/SLICE_157 (from ipClk_c)
+ROUTE       452     4.549      R24C5C.Q0 to     R25C11C.C1 NCO1/Sine/rom_addr_r_1
+CTOOFX_DEL  ---     0.399     R25C11C.C1 to   R25C11C.OFX0 NCO1/Sine/SLICE_712
+ROUTE         1     0.000   R25C11C.OFX0 to    R25C11D.FXB NCO1/Sine/triglut_1_3_12_1_0_1_f5b
+FXTOOFX_DE  ---     0.145    R25C11D.FXB to   R25C11D.OFX1 NCO1/Sine/SLICE_711
+ROUTE         1     0.000   R25C11D.OFX1 to    R25C11C.FXA NCO1/Sine/triglut_1_3_12_1_0_f5a
+FXTOOFX_DE  ---     0.145    R25C11C.FXA to   R25C11C.OFX1 NCO1/Sine/SLICE_712
+ROUTE         1     0.000   R25C11C.OFX1 to    R25C11A.FXB NCO1/Sine/triglut_1_3_12_1_f5b
+FXTOOFX_DE  ---     0.145    R25C11A.FXB to   R25C11A.OFX1 NCO1/Sine/SLICE_714
+ROUTE         1     0.802   R25C11A.OFX1 to     R24C11A.A1 NCO1/Sine/mdL0_23_3
+CTOOFX_DEL  ---     0.399     R24C11A.A1 to   R24C11A.OFX0 NCO1/Sine/SLICE_224
+ROUTE         1     0.000   R24C11A.OFX0 to    R24C11A.DI0 NCO1/Sine/Cosine_12_ffin (to ipClk_c)
+                  --------
+                    6.947   (23.0% logic, 77.0% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to NCO1/Sine/SLICE_157:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     1.059       21.PADDI to     R24C5C.CLK ipClk_c
+                  --------
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to NCO1/Sine/SLICE_224:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     1.059       21.PADDI to    R24C11A.CLK ipClk_c
+                  --------
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report:  133.333MHz is the maximum frequency for this preference.
 
 <A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
 --------------
@@ -594,7 +594,7 @@ Report:  131.857MHz is the maximum frequency for this preference.
 Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
-FREQUENCY PORT "ipClk" 50.000000 MHz ;  |   50.000 MHz|  131.857 MHz|   6  
+FREQUENCY PORT "ipClk" 50.000000 MHz ;  |   50.000 MHz|  133.333 MHz|   6  
                                         |             |             |
 ----------------------------------------------------------------------------
 
@@ -607,7 +607,7 @@ All preferences were met.
 
 Found 1 clocks:
 
-Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 258
+Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 257
    Covered under: FREQUENCY PORT "ipClk" 50.000000 MHz ;
 
 
@@ -617,11 +617,11 @@ Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 258
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 6647 paths, 1 nets, and 5710 connections (96.44% coverage)
+Constraints cover 6681 paths, 1 nets, and 5703 connections (96.64% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Par_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Wed Jul 20 19:06:03 2022
+Wed Jul 20 21:32:52 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -655,131 +655,217 @@ BLOCK JTAG PATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 0.144ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_25  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
-
-   Delay:               0.275ns  (43.6% logic, 56.4% route), 1 logic levels.
-
- Constraint Details:
-
-      0.275ns physical path delay Streamer1/FIFOBLOCK/SLICE_43 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
-      0.081ns ADDR_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.144ns
-
- Physical Path Details:
-
-      Data path Streamer1/FIFOBLOCK/SLICE_43 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R14C16B.CLK to     R14C16B.Q0 Streamer1/FIFOBLOCK/SLICE_43 (from ipClk_c)
-ROUTE         3     0.155     R14C16B.Q0 to *R_R13C14.ADA2 Streamer1/FIFOBLOCK/wcount_0 (to ipClk_c)
-                  --------
-                    0.275   (43.6% logic, 56.4% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_43:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to    R14C16B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.350       21.PADDI to *R_R13C14.CLKA ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.145ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_24  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
-
-   Delay:               0.276ns  (43.5% logic, 56.5% route), 1 logic levels.
-
- Constraint Details:
-
-      0.276ns physical path delay Streamer1/FIFOBLOCK/SLICE_43 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
-      0.081ns ADDR_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.145ns
-
- Physical Path Details:
-
-      Data path Streamer1/FIFOBLOCK/SLICE_43 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R14C16B.CLK to     R14C16B.Q1 Streamer1/FIFOBLOCK/SLICE_43 (from ipClk_c)
-ROUTE         3     0.156     R14C16B.Q1 to *R_R13C14.ADA3 Streamer1/FIFOBLOCK/wcount_1 (to ipClk_c)
-                  --------
-                    0.276   (43.5% logic, 56.5% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_43:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to    R14C16B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.350       21.PADDI to *R_R13C14.CLKA ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
 Passed: The following path meets requirements by 0.175ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              Packetiser/UART_Inst/opRxData[0]  (from ipClk_c +)
-   Destination:    FF         Data in        Packetiser/opRxStream.Length[0]  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Phase[24]  (from ipClk_c +)
+   Destination:    FF         Data in        NCO1/Sine/FF_43  (to ipClk_c +)
 
    Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
 
  Constraint Details:
 
-      0.161ns physical path delay Packetiser/UART_Inst/SLICE_206 to Packetiser/SLICE_174 meets
+      0.161ns physical path delay NCO1/SLICE_155 to NCO1/Sine/SLICE_157 meets
      -0.014ns M_HLD and
       0.000ns delay constraint less
       0.000ns skew requirement (totaling -0.014ns) by 0.175ns
 
  Physical Path Details:
 
-      Data path Packetiser/UART_Inst/SLICE_206 to Packetiser/SLICE_174:
+      Data path NCO1/SLICE_155 to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R15C7C.CLK to      R15C7C.Q0 Packetiser/UART_Inst/SLICE_206 (from ipClk_c)
-ROUTE         5     0.041      R15C7C.Q0 to      R15C7B.M0 Packetiser/UART_RxData[0] (to ipClk_c)
+REG_DEL     ---     0.120     R24C5A.CLK to      R24C5A.Q0 NCO1/SLICE_155 (from ipClk_c)
+ROUTE         3     0.041      R24C5A.Q0 to      R24C5C.M1 NCO1/Phase_1 (to ipClk_c)
                   --------
                     0.161   (74.5% logic, 25.5% route), 1 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to Packetiser/UART_Inst/SLICE_206:
+      Source Clock Path ipClk to NCO1/SLICE_155:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R15C7C.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to     R24C5A.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Packetiser/SLICE_174:
+      Destination Clock Path ipClk to NCO1/Sine/SLICE_157:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R15C7B.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to     R24C5C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.175ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Control/opWrData[27]  (from ipClk_c +)
+   Destination:    FF         Data in        Control/opWrData[19]  (to ipClk_c +)
+
+   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.161ns physical path delay Control/SLICE_144 to Control/SLICE_140 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
+
+ Physical Path Details:
+
+      Data path Control/SLICE_144 to Control/SLICE_140:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R12C15B.CLK to     R12C15B.Q1 Control/SLICE_144 (from ipClk_c)
+ROUTE         1     0.041     R12C15B.Q1 to     R12C15C.M1 Control/opWrData[27] (to ipClk_c)
+                  --------
+                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Control/SLICE_144:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R12C15B.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Control/SLICE_140:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R12C15C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.175ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Control/opWrData[12]  (from ipClk_c +)
+   Destination:    FF         Data in        Control/opWrData[4]  (to ipClk_c +)
+
+   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.161ns physical path delay Control/SLICE_137 to Control/SLICE_268 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
+
+ Physical Path Details:
+
+      Data path Control/SLICE_137 to Control/SLICE_268:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R10C13B.CLK to     R10C13B.Q0 Control/SLICE_137 (from ipClk_c)
+ROUTE         1     0.041     R10C13B.Q0 to     R10C13A.M0 Control/opWrData[12] (to ipClk_c)
+                  --------
+                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Control/SLICE_137:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R10C13B.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Control/SLICE_268:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R10C13A.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.175ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Control/opWrData[26]  (from ipClk_c +)
+   Destination:    FF         Data in        Control/opWrData[18]  (to ipClk_c +)
+
+   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.161ns physical path delay Control/SLICE_144 to Control/SLICE_140 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
+
+ Physical Path Details:
+
+      Data path Control/SLICE_144 to Control/SLICE_140:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R12C15B.CLK to     R12C15B.Q0 Control/SLICE_144 (from ipClk_c)
+ROUTE         1     0.041     R12C15B.Q0 to     R12C15C.M0 Control/opWrData[26] (to ipClk_c)
+                  --------
+                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Control/SLICE_144:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R12C15B.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Control/SLICE_140:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R12C15C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.175ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Packetiser/opRxStream.Source[4]  (from ipClk_c +)
+   Destination:    FF         Data in        Control/opTxStream.Destination[4]  (to ipClk_c +)
+
+   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.161ns physical path delay Packetiser/SLICE_278 to Control/SLICE_283 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
+
+ Physical Path Details:
+
+      Data path Packetiser/SLICE_278 to Control/SLICE_283:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R10C20C.CLK to     R10C20C.Q0 Packetiser/SLICE_278 (from ipClk_c)
+ROUTE         1     0.041     R10C20C.Q0 to     R10C20B.M0 opRxStream.Source_Q[4] (to ipClk_c)
+                  --------
+                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Packetiser/SLICE_278:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R10C20C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Control/SLICE_283:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R10C20B.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -795,34 +881,34 @@ Passed: The following path meets requirements by 0.175ns
 
  Constraint Details:
 
-      0.161ns physical path delay Control/SLICE_136 to Control/SLICE_267 meets
+      0.161ns physical path delay Control/SLICE_135 to Control/SLICE_266 meets
      -0.014ns M_HLD and
       0.000ns delay constraint less
       0.000ns skew requirement (totaling -0.014ns) by 0.175ns
 
  Physical Path Details:
 
-      Data path Control/SLICE_136 to Control/SLICE_267:
+      Data path Control/SLICE_135 to Control/SLICE_266:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R17C9B.CLK to      R17C9B.Q1 Control/SLICE_136 (from ipClk_c)
-ROUTE         1     0.041      R17C9B.Q1 to      R17C9C.M1 Control/opWrData[9] (to ipClk_c)
+REG_DEL     ---     0.120    R11C13B.CLK to     R11C13B.Q1 Control/SLICE_135 (from ipClk_c)
+ROUTE         1     0.041     R11C13B.Q1 to     R11C13C.M1 Control/opWrData[9] (to ipClk_c)
                   --------
                     0.161   (74.5% logic, 25.5% route), 1 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to Control/SLICE_136:
+      Source Clock Path ipClk to Control/SLICE_135:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R17C9B.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to    R11C13B.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Control/SLICE_267:
+      Destination Clock Path ipClk to Control/SLICE_266:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R17C9C.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to    R11C13C.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -831,8 +917,94 @@ Passed: The following path meets requirements by 0.175ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              Packetiser/UART_Inst/rxData[4]  (from ipClk_c +)
-   Destination:    FF         Data in        Packetiser/UART_Inst/opRxData[4]  (to ipClk_c +)
+   Source:         FF         Q              Control/opWrData[20]  (from ipClk_c +)
+   Destination:    FF         Data in        Control/opWrData[12]  (to ipClk_c +)
+
+   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.161ns physical path delay Control/SLICE_141 to Control/SLICE_137 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
+
+ Physical Path Details:
+
+      Data path Control/SLICE_141 to Control/SLICE_137:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R10C13C.CLK to     R10C13C.Q0 Control/SLICE_141 (from ipClk_c)
+ROUTE         1     0.041     R10C13C.Q0 to     R10C13B.M0 Control/opWrData[20] (to ipClk_c)
+                  --------
+                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Control/SLICE_141:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R10C13C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Control/SLICE_137:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to    R10C13B.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.175ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Packetiser/opRxStream.Source[0]  (from ipClk_c +)
+   Destination:    FF         Data in        Control/opTxStream.Destination[0]  (to ipClk_c +)
+
+   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.161ns physical path delay Packetiser/SLICE_276 to Control/SLICE_281 meets
+     -0.014ns M_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
+
+ Physical Path Details:
+
+      Data path Packetiser/SLICE_276 to Control/SLICE_281:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120     R9C20C.CLK to      R9C20C.Q0 Packetiser/SLICE_276 (from ipClk_c)
+ROUTE         1     0.041      R9C20C.Q0 to      R9C20B.M0 opRxStream.Source_Q[0] (to ipClk_c)
+                  --------
+                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Packetiser/SLICE_276:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to     R9C20C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Control/SLICE_281:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       257     0.300       21.PADDI to     R9C20B.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.175ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Packetiser/UART_Inst/rxData[6]  (from ipClk_c +)
+   Destination:    FF         Data in        Packetiser/UART_Inst/opRxData[6]  (to ipClk_c +)
 
    Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
 
@@ -848,8 +1020,8 @@ Passed: The following path meets requirements by 0.175ns
       Data path Packetiser/UART_Inst/SLICE_193 to Packetiser/UART_Inst/SLICE_208:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R16C8C.CLK to      R16C8C.Q0 Packetiser/UART_Inst/SLICE_193 (from ipClk_c)
-ROUTE         2     0.041      R16C8C.Q0 to      R16C8B.M0 Packetiser/UART_Inst/rxData[4] (to ipClk_c)
+REG_DEL     ---     0.120    R10C23B.CLK to     R10C23B.Q0 Packetiser/UART_Inst/SLICE_193 (from ipClk_c)
+ROUTE         2     0.041     R10C23B.Q0 to     R10C23C.M0 Packetiser/UART_Inst/rxData[6] (to ipClk_c)
                   --------
                     0.161   (74.5% logic, 25.5% route), 1 logic levels.
 
@@ -858,14 +1030,14 @@ ROUTE         2     0.041      R16C8C.Q0 to      R16C8B.M0 Packetiser/UART_Inst/
       Source Clock Path ipClk to Packetiser/UART_Inst/SLICE_193:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R16C8C.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to    R10C23B.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
       Destination Clock Path ipClk to Packetiser/UART_Inst/SLICE_208:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R16C8B.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to    R10C23C.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -881,208 +1053,36 @@ Passed: The following path meets requirements by 0.175ns
 
  Constraint Details:
 
-      0.161ns physical path delay Control/SLICE_136 to Control/SLICE_267 meets
+      0.161ns physical path delay Control/SLICE_135 to Control/SLICE_266 meets
      -0.014ns M_HLD and
       0.000ns delay constraint less
       0.000ns skew requirement (totaling -0.014ns) by 0.175ns
 
  Physical Path Details:
 
-      Data path Control/SLICE_136 to Control/SLICE_267:
+      Data path Control/SLICE_135 to Control/SLICE_266:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R17C9B.CLK to      R17C9B.Q0 Control/SLICE_136 (from ipClk_c)
-ROUTE         1     0.041      R17C9B.Q0 to      R17C9C.M0 Control/opWrData[8] (to ipClk_c)
+REG_DEL     ---     0.120    R11C13B.CLK to     R11C13B.Q0 Control/SLICE_135 (from ipClk_c)
+ROUTE         1     0.041     R11C13B.Q0 to     R11C13C.M0 Control/opWrData[8] (to ipClk_c)
                   --------
                     0.161   (74.5% logic, 25.5% route), 1 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to Control/SLICE_136:
+      Source Clock Path ipClk to Control/SLICE_135:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R17C9B.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to    R11C13B.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Control/SLICE_267:
+      Destination Clock Path ipClk to Control/SLICE_266:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to     R17C9C.CLK ipClk_c
+ROUTE       257     0.300       21.PADDI to    R11C13C.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.214ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_15  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
-
-   Delay:               0.345ns  (34.8% logic, 65.2% route), 1 logic levels.
-
- Constraint Details:
-
-      0.345ns physical path delay Streamer1/FIFOBLOCK/SLICE_48 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
-      0.081ns ADDR_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.214ns
-
- Physical Path Details:
-
-      Data path Streamer1/FIFOBLOCK/SLICE_48 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R14C18A.CLK to     R14C18A.Q0 Streamer1/FIFOBLOCK/SLICE_48 (from ipClk_c)
-ROUTE         3     0.225     R14C18A.Q0 to *_R13C17.ADA12 Streamer1/FIFOBLOCK/wcount_10 (to ipClk_c)
-                  --------
-                    0.345   (34.8% logic, 65.2% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_48:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to    R14C18A.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.350       21.PADDI to *R_R13C17.CLKA ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.214ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_19  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
-
-   Delay:               0.345ns  (34.8% logic, 65.2% route), 1 logic levels.
-
- Constraint Details:
-
-      0.345ns physical path delay Streamer1/FIFOBLOCK/SLICE_46 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
-      0.081ns ADDR_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.214ns
-
- Physical Path Details:
-
-      Data path Streamer1/FIFOBLOCK/SLICE_46 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R14C17B.CLK to     R14C17B.Q0 Streamer1/FIFOBLOCK/SLICE_46 (from ipClk_c)
-ROUTE         3     0.225     R14C17B.Q0 to *R_R13C17.ADA8 Streamer1/FIFOBLOCK/wcount_6 (to ipClk_c)
-                  --------
-                    0.345   (34.8% logic, 65.2% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_46:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to    R14C17B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.350       21.PADDI to *R_R13C17.CLKA ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.214ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_15  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
-
-   Delay:               0.345ns  (34.8% logic, 65.2% route), 1 logic levels.
-
- Constraint Details:
-
-      0.345ns physical path delay Streamer1/FIFOBLOCK/SLICE_48 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
-      0.081ns ADDR_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.214ns
-
- Physical Path Details:
-
-      Data path Streamer1/FIFOBLOCK/SLICE_48 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R14C18A.CLK to     R14C18A.Q0 Streamer1/FIFOBLOCK/SLICE_48 (from ipClk_c)
-ROUTE         3     0.225     R14C18A.Q0 to *_R13C14.ADA12 Streamer1/FIFOBLOCK/wcount_10 (to ipClk_c)
-                  --------
-                    0.345   (34.8% logic, 65.2% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_48:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to    R14C18A.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.350       21.PADDI to *R_R13C14.CLKA ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.222ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_12  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
-
-   Delay:               0.353ns  (34.0% logic, 66.0% route), 1 logic levels.
-
- Constraint Details:
-
-      0.353ns physical path delay Streamer1/FIFOBLOCK/SLICE_49 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
-      0.081ns ADDR_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.222ns
-
- Physical Path Details:
-
-      Data path Streamer1/FIFOBLOCK/SLICE_49 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R12C16B.CLK to     R12C16B.Q0 Streamer1/FIFOBLOCK/SLICE_49 (from ipClk_c)
-ROUTE         3     0.233     R12C16B.Q0 to *R_R13C14.ADB2 Streamer1/FIFOBLOCK/rcount_0 (to ipClk_c)
-                  --------
-                    0.353   (34.0% logic, 66.0% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_49:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.300       21.PADDI to    R12C16B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       258     0.350       21.PADDI to *R_R13C14.CLKB ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
 
 <A name="ptwr_hold_rs"></A><B><U><big>Report Summary</big></U></B>
 --------------
@@ -1103,7 +1103,7 @@ All preferences were met.
 
 Found 1 clocks:
 
-Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 258
+Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 257
    Covered under: FREQUENCY PORT "ipClk" 50.000000 MHz ;
 
 
@@ -1113,7 +1113,7 @@ Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 258
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 6647 paths, 1 nets, and 5710 connections (96.44% coverage)
+Constraints cover 6681 paths, 1 nets, and 5703 connections (96.64% coverage)
 
 
 

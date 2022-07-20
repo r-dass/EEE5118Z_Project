@@ -12,7 +12,7 @@
 #OS: Windows 8 6.2
 #Hostname: RD-LAPTOP
 
-# Wed Jul 20 19:04:53 2022
+# Wed Jul 20 21:31:36 2022
 
 #Implementation: impl1
 
@@ -275,9 +275,10 @@ Only the first 100 messages of id 'CG333' are reported. To see all messages use 
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v" (library work)
+@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" (library work)
 Verilog syntax check successful!
-File C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v changed - recompiling
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v changed - recompiling
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
@@ -335,9 +336,8 @@ Running optimization stage 1 on FIFO .......
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":49:4:49:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":52:4:52:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on Streamer .......
-@W: CL177 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":53:0:53:5|Sharing sequential element opValid. Add a syn_preserve attribute to the element to prevent sharing.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
 Running optimization stage 1 on PWM .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
@@ -350,6 +350,7 @@ Running optimization stage 1 on SineTable .......
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":14:10:14:14|Object Reset is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on NCO .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
+@W: CG360 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":33:5:33:9|Removing wire Valid, as there is no assignment to it.
 Running optimization stage 1 on Modulator .......
 Running optimization stage 2 on Modulator .......
 Running optimization stage 2 on NCO .......
@@ -384,7 +385,8 @@ Running optimization stage 2 on MUX41 .......
 Running optimization stage 2 on ROM256X1 .......
 Running optimization stage 2 on PWM .......
 Running optimization stage 2 on Streamer .......
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":72:0:72:5|Trying to extract state machine for register rState.
+@W: CL177 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":56:0:56:5|Sharing sequential element opStreamValid. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":92:0:92:5|Trying to extract state machine for register rState.
 Extracted state machine for register rState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -496,12 +498,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 105MB peak: 107MB)
+At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 102MB peak: 104MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Wed Jul 20 19:04:58 2022
+# Wed Jul 20 21:31:41 2022
 
 ###########################################################]
 ###########################################################[
@@ -528,7 +530,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 20 19:04:58 2022
+# Wed Jul 20 21:31:41 2022
 
 ###########################################################]
 
@@ -538,12 +540,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 29MB peak: 29MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Wed Jul 20 19:04:58 2022
+# Wed Jul 20 21:31:41 2022
 
 ###########################################################]
 ###########################################################[
@@ -571,10 +573,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 20 19:04:59 2022
+# Wed Jul 20 21:31:42 2022
 
 ###########################################################]
-# Wed Jul 20 19:04:59 2022
+# Wed Jul 20 21:31:42 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -616,7 +618,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
@@ -633,8 +635,8 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
 @W: MO129 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[0] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[2] is reduced to a combinational gate by constant propagation.
-@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Removing instance pdp_ram_0_0_3 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
-@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":246:11:246:23|Removing instance pdp_ram_0_1_2 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlock[3:0] (in view: work.Streamer(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":389:12:389:16|Removing sequential instance FF_18 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":382:12:382:16|Removing sequential instance FF_19 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":375:12:375:16|Removing sequential instance FF_20 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
@@ -655,6 +657,8 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":466:12:466:15|Removing sequential instance FF_7 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":459:12:459:15|Removing sequential instance FF_8 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":452:12:452:15|Removing sequential instance FF_9 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Removing instance pdp_ram_0_0_3 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":246:11:246:23|Removing instance pdp_ram_0_1_2 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1522:13:1522:26|Removing instance triglut_1_3_18 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1234:13:1234:26|Removing instance triglut_1_2_18 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":946:13:946:26|Removing instance triglut_1_1_18 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
@@ -788,22 +792,22 @@ Encoding state machine rState[1:0] (in view: work.Streamer(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 
-Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
-
-
-Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
 
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
 
@@ -858,24 +862,24 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 178MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 94MB peak: 177MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jul 20 19:05:01 2022
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Jul 20 21:31:45 2022
 
 ###########################################################]
-# Wed Jul 20 19:05:01 2022
+# Wed Jul 20 21:31:45 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -927,64 +931,64 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 @N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
 
 Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 180MB)
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 180MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
 
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 181MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:02s		     4.42ns		 266 /       375
+   1		0h:00m:03s		     4.42ns		 263 /       375
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":55:0:55:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 181MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
 
 
 Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 142MB peak: 182MB)
 
 Writing Analyst data base C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 182MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 185MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 186MB peak: 186MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 186MB)
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 183MB peak: 186MB)
 
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -992,7 +996,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Jul 20 19:05:07 2022
+# Timing report written on Wed Jul 20 21:31:51 2022
 #
 
 
@@ -1034,7 +1038,7 @@ Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System  |  5.000       4.425   |  No paths    -      |  No paths    -      |  No paths    -    
 System    ipClk   |  20.000      17.919  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     System  |  20.000      18.390  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     System  |  20.000      18.431  |  No paths    -      |  No paths    -      |  No paths    -    
 ipClk     ipClk   |  20.000      13.971  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -1085,13 +1089,13 @@ Instance                                 Reference     Type        Pin     Net  
 Packetiser.rxState[0]                    ipClk         FD1S3AY     D       N_83_i                        19.389       13.971
 Packetiser.UART_Inst.BitsReceived[3]     ipClk         FD1S3IX     D       un1_BitsReceived_4_axbxc3     19.389       14.529
 Packetiser.rxState[4]                    ipClk         FD1S3AX     D       N_90_i                        19.389       14.726
-Control.BytesWritten[7]                  ipClk         FD1S3IX     D       BytesWritten_8[7]             20.069       14.741
-Streamer1.rState[0]                      ipClk         FD1S3AX     D       N_21s                         19.389       14.752
+Control.BytesWritten[7]                  ipClk         FD1S3IX     D       BytesWritten_8[7]             20.069       14.736
+Streamer1.rState[0]                      ipClk         FD1S3AX     D       N_26s                         19.389       14.752
 Streamer1.wUpper                         ipClk         FD1S3JX     D       wUpper_0_sqmuxa_1             19.389       14.752
-Control.BytesWritten[5]                  ipClk         FD1S3IX     D       BytesWritten_8[5]             20.069       14.814
-Control.BytesWritten[6]                  ipClk         FD1S3IX     D       BytesWritten_8[6]             20.069       14.814
-Control.BytesWritten[3]                  ipClk         FD1S3IX     D       BytesWritten_8[3]             20.069       14.887
-Control.BytesWritten[4]                  ipClk         FD1S3IX     D       BytesWritten_8[4]             20.069       14.887
+Control.BytesWritten[5]                  ipClk         FD1S3IX     D       BytesWritten_8[5]             20.069       14.809
+Control.BytesWritten[6]                  ipClk         FD1S3IX     D       BytesWritten_8[6]             20.069       14.809
+Control.BytesWritten[3]                  ipClk         FD1S3IX     D       BytesWritten_8[3]             20.069       14.882
+Control.BytesWritten[4]                  ipClk         FD1S3IX     D       BytesWritten_8[4]             20.069       14.882
 ============================================================================================================================
 
 
@@ -1231,10 +1235,10 @@ Streamer1.FIFOBLOCK.AND2_t1     AND2     B        In      0.000     0.575 f     
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 184MB peak: 186MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 186MB)
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 184MB peak: 186MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -1255,9 +1259,9 @@ CCU2B:          74
 CU2:            12
 DP16KB:         2
 FADD2B:         7
-FD1P3AX:        166
+FD1P3AX:        151
 FD1P3DX:        63
-FD1P3IX:        52
+FD1P3IX:        67
 FD1S3AX:        40
 FD1S3AY:        2
 FD1S3BX:        1
@@ -1272,7 +1276,7 @@ MUX41:          16
 OB:             12
 OFS1P3DX:       3
 OFS1P3JX:       1
-ORCALUT4:       258
+ORCALUT4:       255
 PFUMX:          4
 PUR:            1
 ROM16X1:        2
@@ -1282,10 +1286,10 @@ VLO:            12
 XOR2:           1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 69MB peak: 186MB)
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 68MB peak: 186MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
-# Wed Jul 20 19:05:07 2022
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Wed Jul 20 21:31:51 2022
 
 ###########################################################]
 

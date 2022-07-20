@@ -8,8 +8,11 @@ module Streamer(
     output  reg     [12:0]  	    opFIFO_Size, 
 
     output  reg    [15:0]       opStream,    
-    output  reg         		opValid
-);  
+    output  reg         		opStreamValid,
+
+    output  reg    [3:0]       opQAMBlock,    
+    output  reg         	    opQAMBlockValid
+);   
 
 reg WE;  
 reg RE;
@@ -53,19 +56,36 @@ assign opFIFO_Size = FIFO_Size1;
 always @(posedge(ipClk)) begin
     if (!ipReset) begin
         if (txClkCount == 566 && !Empty) begin
+            opQAMBlock <= opStream[3:0];
+            opQAMBlockValid <= 1;
+            txClkCount <= txClkCount + 1;
+        end else if (txClkCount == 1133 && !Empty) begin    
+            opQAMBlock <= opStream[7:4];
+            opQAMBlockValid <= 1;
+            txClkCount <= txClkCount + 1;
+        end if (txClkCount == 1700 && !Empty) begin
+            opQAMBlock <= opStream[11:8];
+            opQAMBlockValid <= 1;
+            txClkCount <= txClkCount + 1;
+        end else if (txClkCount == 2267 && !Empty) begin
             RE <= 1;
-            opValid <= 1;
+            opStreamValid <= 1;
             txClkCount <= 0;
+            opQAMBlock <= opStream[15:12];
+            opQAMBlockValid <= 1;
         end else begin
             txClkCount <= txClkCount + 1;
             RE <= 0;
-            opValid <= 0;
+            opStreamValid <= 0;
+            opQAMBlockValid <= 0;
         end
 
     end else begin
         RE <= 0;
-        opValid <= 0;
+        opStreamValid <= 0;
         txClkCount <= 0;
+        opQAMBlock <= 0;
+		opQAMBlockValid <= 0;
     end
 end
 

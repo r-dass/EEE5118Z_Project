@@ -14,9 +14,9 @@ CCU2B:          74
 CU2:            12
 DP16KB:         2
 FADD2B:         7
-FD1P3AX:        166
+FD1P3AX:        151
 FD1P3DX:        63
-FD1P3IX:        52
+FD1P3IX:        67
 FD1S3AX:        40
 FD1S3AY:        2
 FD1S3BX:        1
@@ -31,7 +31,7 @@ MUX41:          16
 OB:             12
 OFS1P3DX:       3
 OFS1P3JX:       1
-ORCALUT4:       258
+ORCALUT4:       255
 PFUMX:          4
 PUR:            1
 ROM16X1:        2
