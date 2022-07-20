@@ -3,179 +3,179 @@ Report for cell Modulator
    Instance path: Modulator
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     850.00        100.0
+                                  SLIC	     782.00        100.0
                                  IOLGC	       6.00        100.0
-                                  LUT4	    1116.00        100.0
+                                  LUT4	     990.00        100.0
                                  IOREG	          6        100.0
                                  IOBUF	         19        100.0
-                                PFUREG	        447        100.0
-                                RIPPLE	        120        100.0
+                                PFUREG	        434        100.0
+                                RIPPLE	        114        100.0
                                    EBR	          2        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                              Streamer	          1         8.0
-                          UART_Packets	          1        15.8
-                             Registers	          1         3.6
-                                 PWM_0	          1         0.7
-                                 PWM_1	          1         0.7
-                                   PWM	          1         1.4
-                                   NCO	          1        56.5
-                            Controller	          1         8.7
+                          UART_Packets	          1        17.1
+                              Streamer	          1         8.7
+                             Registers	          1         3.9
+                                   NCO	          1        52.6
+                            Controller	          1         9.5
+                                 PWM_0	          1         0.8
+                                 PWM_1	          1         0.8
+                                   PWM	          1         1.5
 ---------------------------------------------------
 Report for cell NCO
    Instance path: Modulator/NCO1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     480.00        56.5
-                                  LUT4	     840.00        75.3
-                                PFUREG	         47        10.5
-                                RIPPLE	         11         9.2
+                                  SLIC	     411.00        52.6
+                                  LUT4	     714.00        72.1
+                                PFUREG	         34         7.8
+                                RIPPLE	          5         4.4
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                             SineTable	          1        54.9
+                             SineTable	          1        51.7
 ---------------------------------------------------
 Report for cell SineTable
    Instance path: Modulator/NCO1/Sine
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     467.00        54.9
-                                  LUT4	     838.00        75.1
-                                PFUREG	         27         6.0
+                                  SLIC	     404.00        51.7
+                                  LUT4	     712.00        71.9
+                                PFUREG	         26         6.0
 ---------------------------------------------------
 Report for cell PWM_1
    Instance path: Modulator/PWMQ
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       6.00         0.7
+                                  SLIC	       6.00         0.8
                                   LUT4	       1.00         0.1
-                                RIPPLE	          5         4.2
+                                RIPPLE	          5         4.4
 ---------------------------------------------------
 Report for cell PWM_0
    Instance path: Modulator/PWMI
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	       6.00         0.7
+                                  SLIC	       6.00         0.8
                                   LUT4	       1.00         0.1
-                                RIPPLE	          5         4.2
+                                RIPPLE	          5         4.4
 ---------------------------------------------------
 Report for cell PWM
    Instance path: Modulator/PWM1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      12.00         1.4
+                                  SLIC	      12.00         1.5
                                   LUT4	       2.00         0.2
                                 PFUREG	          8         1.8
-                                RIPPLE	         10         8.3
+                                RIPPLE	         10         8.8
 ---------------------------------------------------
 Report for cell Streamer
    Instance path: Modulator/Streamer1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      67.83         8.0
-                                  LUT4	      27.00         2.4
-                                PFUREG	         64        14.3
-                                RIPPLE	         47        39.2
+                                  SLIC	      67.83         8.7
+                                  LUT4	      27.00         2.7
+                                PFUREG	         64        14.7
+                                RIPPLE	         47        41.2
                                    EBR	          2        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                                  FIFO	          1         5.3
+                                  FIFO	          1         5.8
 ---------------------------------------------------
 Report for cell FIFO
    Instance path: Modulator/Streamer1/FIFOBLOCK
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      45.00         5.3
-                                  LUT4	       6.00         0.5
-                                PFUREG	         39         8.7
-                                RIPPLE	         40        33.3
+                                  SLIC	      45.00         5.8
+                                  LUT4	       6.00         0.6
+                                PFUREG	         39         9.0
+                                RIPPLE	         40        35.1
                                    EBR	          2        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                                FADD2B	          7         0.8
+                                FADD2B	          7         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/r_ctr_cia
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/bdcnt_bctr_cia
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/e_cmp_ci_a
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/a0
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/g_cmp_ci_a
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/a1
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell FADD2B
    Instance path: Modulator/Streamer1/FIFOBLOCK/w_ctr_cia
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                   SLIC	       1.00         0.1
-                                RIPPLE	          1         0.8
+                                RIPPLE	          1         0.9
 ---------------------------------------------------
 Report for cell Registers
    Instance path: Modulator/Register
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      30.33         3.6
-                                  LUT4	      25.00         2.2
-                                PFUREG	         41         9.2
+                                  SLIC	      30.33         3.9
+                                  LUT4	      25.00         2.5
+                                PFUREG	         41         9.4
 ---------------------------------------------------
 Report for cell Controller
    Instance path: Modulator/Control
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      74.00         8.7
-                                  LUT4	      73.00         6.5
-                                PFUREG	        111        24.8
-                                RIPPLE	          5         4.2
+                                  SLIC	      74.00         9.5
+                                  LUT4	      73.00         7.4
+                                PFUREG	        111        25.6
+                                RIPPLE	          5         4.4
 ---------------------------------------------------
 Report for cell UART_Packets
    Instance path: Modulator/Packetiser
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	     134.50        15.8
-                                  LUT4	     144.00        12.9
-                                PFUREG	        144        32.2
-                                RIPPLE	         20        16.7
+                                  SLIC	     133.50        17.1
+                                  LUT4	     144.00        14.5
+                                PFUREG	        144        33.2
+                                RIPPLE	         20        17.5
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                                  UART	          1         6.5
+                                  UART	          1         7.0
 ---------------------------------------------------
 Report for cell UART
    Instance path: Modulator/Packetiser/UART_Inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  SLIC	      54.83         6.5
-                                  LUT4	      73.00         6.5
-                                PFUREG	         56        12.5
-                                RIPPLE	         12        10.0
+                                  SLIC	      55.00         7.0
+                                  LUT4	      73.00         7.4
+                                PFUREG	         56        12.9
+                                RIPPLE	         12        10.5

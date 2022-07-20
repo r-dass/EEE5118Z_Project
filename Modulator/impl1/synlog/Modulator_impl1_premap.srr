@@ -1,4 +1,4 @@
-# Wed Jul 20 15:40:19 2022
+# Wed Jul 20 19:04:59 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -31,10 +31,10 @@ Reading constraint file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
@@ -68,7 +68,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":347:12:347:16|Removing sequential instance FF_24 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":340:12:340:16|Removing sequential instance FF_25 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":333:12:333:16|Removing sequential instance FF_26 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":270:12:270:16|Removing sequential instance FF_35 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":326:12:326:16|Removing sequential instance FF_27 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":515:12:515:15|Removing sequential instance FF_0 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":508:12:508:15|Removing sequential instance FF_1 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":501:12:501:15|Removing sequential instance FF_2 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
@@ -78,6 +78,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":473:12:473:15|Removing sequential instance FF_6 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":466:12:466:15|Removing sequential instance FF_7 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":459:12:459:15|Removing sequential instance FF_8 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":452:12:452:15|Removing sequential instance FF_9 (in view: work.SineTable(verilog)) of type view:LUCENT.FD1P3DX(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1522:13:1522:26|Removing instance triglut_1_3_18 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1234:13:1234:26|Removing instance triglut_1_2_18 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":946:13:946:26|Removing instance triglut_1_1_18 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
@@ -114,10 +115,10 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1170:13:1170:26|Removing instance triglut_1_2_26 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":882:13:882:26|Removing instance triglut_1_1_26 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":594:13:594:26|Removing instance triglut_1_0_26 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
-@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1386:13:1386:26|Removing instance triglut_1_3_35 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
-@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1098:13:1098:26|Removing instance triglut_1_2_35 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
-@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":810:13:810:26|Removing instance triglut_1_1_35 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
-@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":522:13:522:26|Removing instance triglut_1_0_35 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1450:13:1450:26|Removing instance triglut_1_3_27 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1162:13:1162:26|Removing instance triglut_1_2_27 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":874:13:874:26|Removing instance triglut_1_1_27 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":586:13:586:26|Removing instance triglut_1_0_27 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1666:13:1666:25|Removing instance triglut_1_3_0 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1378:13:1378:25|Removing instance triglut_1_2_0 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1090:13:1090:25|Removing instance triglut_1_1_0 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
@@ -154,6 +155,10 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1314:13:1314:25|Removing instance triglut_1_2_8 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1026:13:1026:25|Removing instance triglut_1_1_8 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":738:13:738:25|Removing instance triglut_1_0_8 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1594:13:1594:25|Removing instance triglut_1_3_9 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1306:13:1306:25|Removing instance triglut_1_2_9 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":1018:13:1018:25|Removing instance triglut_1_1_9 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\sinetable.v":730:13:730:25|Removing instance triglut_1_0_9 (in view: work.SineTable(verilog)) of black box view:LUCENT.ROM256X1(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\controller.v":35:0:35:5|Removing sequential instance opTxStream\.SoP (in view: work.Controller(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 Encoding state machine rxState[1:0] (in view: work.UART(verilog))
 original code -> new code
@@ -209,20 +214,20 @@ original code -> new code
    00000000000000000000000000000001 -> 1
 @N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":72:0:72:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 
-Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 176MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 176MB peak: 176MB)
 
 
 
@@ -232,7 +237,7 @@ Clock Summary
           Start      Requested     Requested     Clock        Clock                Clock
 Level     Clock      Frequency     Period        Type         Group                Load 
 ----------------------------------------------------------------------------------------
-0 -       ipClk      50.0 MHz      20.000        declared     default_clkgroup     481  
+0 -       ipClk      50.0 MHz      20.000        declared     default_clkgroup     468  
                                                                                         
 0 -       System     200.0 MHz     5.000         system       system_clkgroup      0    
 ========================================================================================
@@ -245,7 +250,7 @@ Clock Load Summary
            Clock     Source          Clock Pin                           Non-clock Pin     Non-clock Pin
 Clock      Load      Pin             Seq Example                         Seq Example       Comb Example 
 --------------------------------------------------------------------------------------------------------
-ipClk      481       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
+ipClk      468       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
                                                                                                         
 System     0         -               -                                   -                 -            
 ========================================================================================================
@@ -261,14 +266,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 481 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 468 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ================================== Non-Gated/Non-Generated Clocks ===================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance              
 -----------------------------------------------------------------------------------------------------
-@KP:ckid0_0       ipClk               port                   481        RdRegisters\.ClockTicks[31:0]
+@KP:ckid0_0       ipClk               port                   468        RdRegisters\.ClockTicks[31:0]
 =====================================================================================================
 
 
@@ -277,20 +282,20 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 177MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 91MB peak: 178MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 178MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Jul 20 15:40:22 2022
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 20 19:05:01 2022
 
 ###########################################################]

@@ -20,7 +20,7 @@ Performance Hardware Data Status:   Final          Version 11.5.
 // Package: TQFP144
 // ncd File: modulator_impl1.ncd
 // Version: Diamond (64-bit) 3.12.0.240.2
-// Written on Wed Jul 20 15:32:22 2022
+// Written on Wed Jul 20 19:06:08 2022
 // M: Minimum Performance Grade
 // iotiming Modulator_impl1.ncd Modulator_impl1.prf -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml
 
@@ -32,11 +32,11 @@ Worst Case Results across Performance Grades (M, 7, 6):
 
 Port      Clock Edge  Setup Performance_Grade  Hold Performance_Grade
 ----------------------------------------------------------------------
-ipBtn[0]  ipClk R     1.534      6      -0.135     M
-ipBtn[1]  ipClk R     1.462      6      -0.115     M
-ipBtn[2]  ipClk R     1.907      6      -0.224     M
-ipBtn[3]  ipClk R     1.205      6      -0.034     M
-ipReset   ipClk R     6.518      6       1.686     6
+ipBtn[0]  ipClk R     1.332      6      -0.079     M
+ipBtn[1]  ipClk R     1.694      6      -0.127     M
+ipBtn[2]  ipClk R     1.699      6      -0.165     M
+ipBtn[3]  ipClk R     1.814      6      -0.178     M
+ipReset   ipClk R     7.429      6       1.686     6
 ipUART_Rx ipClk R     0.266      M       1.686     6
 
 
@@ -44,14 +44,8 @@ ipUART_Rx ipClk R     0.266      M       1.686     6
 
 Port      Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
 ------------------------------------------------------------------------
-opLED[0]  ipClk R     5.909         6        2.052          M
-opLED[1]  ipClk R     5.881         6        2.057          M
-opLED[2]  ipClk R     5.935         6        2.074          M
-opLED[3]  ipClk R     6.662         6        2.273          M
-opLED[4]  ipClk R     6.419         6        2.243          M
-opLED[5]  ipClk R     6.161         6        2.167          M
-opLED[6]  ipClk R     6.735         6        2.277          M
-opLED[7]  ipClk R     6.192         6        2.162          M
+opLED[6]  ipClk R     5.198         6        1.853          M
+opLED[7]  ipClk R     6.081         6        2.095          M
 opPWM     ipClk R     4.272         6        1.369          M
 opPWMI    ipClk R     4.272         6        1.369          M
 opPWMQ    ipClk R     4.272         6        1.369          M

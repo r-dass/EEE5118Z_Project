@@ -93,14 +93,14 @@ PWM PWM1(
 PWM PWMI(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
-  .ipDutyCycle ({~I[16], I[15:9]}),
+  .ipDutyCycle ({~I[17], I[16:10]}),
   .opPWM(opPWMI)
 );
 
 PWM PWMQ(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
-  .ipDutyCycle ({~Q[16], Q[15:9]}),
+  .ipDutyCycle ({~Q[17], Q[16:10]}),
   .opPWM(opPWMQ)
 );
 
