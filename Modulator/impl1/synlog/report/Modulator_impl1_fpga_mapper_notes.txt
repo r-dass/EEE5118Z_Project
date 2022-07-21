@@ -1,23 +1,23 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
-@N: MO106 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":18:4:18:5|Found ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) with 16 words by 1 bit.
-@N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[11] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[10] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[9] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[8] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[7] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[6] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[5] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[4] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[3] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[2] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[1] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[0] (in view: work.QAM(verilog)) because it does not drive other instances.
-@N: FA113 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":25:31:25:37|Pipelining module un1_ipI[20:0]. For more information, search for "pipelining" in Online Help.
-@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Pushed in register opQAMBlock[3:0].
-@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Pushed in register opModulated[19:0].
+@N: MO106 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":23:4:23:5|Found ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) with 16 words by 1 bit.
+@N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":191:13:191:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[11] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[10] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[9] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[8] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[7] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[6] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[5] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[4] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[3] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[2] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[1] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[0] (in view: work.QAM(verilog)) because it does not drive other instances.
+@N: FA113 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":30:31:30:37|Pipelining module un1_ipI[20:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":62:0:62:5|Pushed in register opQAMBlock[3:0].
+@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Pushed in register opModulated[19:0].
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 

@@ -20,7 +20,7 @@ reg [31:0]Phase;
   
 always @(posedge ipClk) begin
   if (!ipReset) begin
-    Phase <= Phase + 32'hFFFFF000;
+    Phase <= Phase + ipFrequency;
   end else begin
     Phase <= 0;
   end

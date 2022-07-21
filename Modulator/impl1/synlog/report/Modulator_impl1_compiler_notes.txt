@@ -202,20 +202,20 @@
 @N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":937:16:937:27|Read directive translate_on.
 @N: CG334 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":943:16:943:28|Read directive translate_off.
 @N: CG333 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":945:16:945:27|Read directive translate_on.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":19:7:19:10|Synthesizing module UART in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[1] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[2] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[3] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[5] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[7] is always 0.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":9:7:9:15|Synthesizing module Registers in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":7:8:7:17|Synthesizing module Structures in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":15:0:15:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":25:7:25:10|Synthesizing module UART in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":10:7:10:18|Synthesizing module UART_Packets in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":8:7:8:16|Synthesizing module Controller in library work.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[0] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[2] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[7] is always 0.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":18:7:18:15|Synthesizing module Registers in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1324:7:1324:10|Synthesizing module XOR2 in library work.
@@ -232,66 +232,21 @@
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1269:7:1269:9|Synthesizing module VHI in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1274:7:1274:9|Synthesizing module VLO in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":3:7:3:14|Synthesizing module Streamer in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":9:7:9:14|Synthesizing module Streamer in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41 in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":8:7:8:15|Synthesizing module SineTable in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":4:7:4:9|Synthesizing module NCO in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v":3:7:3:9|Synthesizing module QAM in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[1] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[2] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[3] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[5] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[7] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[8] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[9] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[10] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[11] is always 0.
-@N: CL159 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:14:8:24|Input ipFrequency is unused.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":92:0:92:5|Trying to extract state machine for register rState.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[0] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[1] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[2] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[3] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[5] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[7] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[8] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[9] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[10] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[11] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[12] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[13] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[14] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[15] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[16] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[17] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[18] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[19] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[20] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[21] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[22] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[23] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[24] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[25] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[26] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[27] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[28] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[29] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[30] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":25:0:25:5|Register bit opWrRegisters.Frequency[31] is always 0.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register tState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Trying to extract state machine for register State.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Register bit txBuffer.Valid is always 1.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Trying to extract state machine for register txState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":148:0:148:5|Trying to extract state machine for register rxState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":55:0:55:5|Trying to extract state machine for register txState.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:7:8:9|Synthesizing module NCO in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v":8:7:8:9|Synthesizing module QAM in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":6:7:6:9|Synthesizing module PWM in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":8:7:8:15|Synthesizing module Modulator in library work.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":98:0:98:5|Trying to extract state machine for register rState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Trying to extract state machine for register State.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":71:0:71:5|Register bit txBuffer.Valid is always 1.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":71:0:71:5|Trying to extract state machine for register txState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":154:0:154:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":109:0:109:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":61:0:61:5|Trying to extract state machine for register txState.
 @N|Running in 64-bit mode
 

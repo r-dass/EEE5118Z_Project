@@ -8,16 +8,16 @@
 #CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603959790
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\IP\\SineTable.v":1658343810
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\IP\\FIFO.v":1658343517
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Structures.v":1658337570
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Registers.v":1658259719
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART.v":1658169793
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART_Packets.v":1658369350
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Controller.v":1658354178
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Streamer.v":1658411268
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\PWM.v":1658160124
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\NCO.v":1658406560
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\QAM.v":1658346722
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Modulator.v":1658406026
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Structures.v":1658417894
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Registers.v":1658418367
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART.v":1658417513
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART_Packets.v":1658417673
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Controller.v":1658417850
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Streamer.v":1658417677
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\PWM.v":1658418229
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\NCO.v":1658418225
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\QAM.v":1658417774
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Modulator.v":1658418166
 #numinternalfiles:6
 #defaultlanguage:verilog
 0			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v" verilog
@@ -44,7 +44,7 @@
 8 2 3
 9 2 0 3
 10 2 3
-11 2 5 6 3 7 8 9 10
+11 2 5 6 3 7 9 10 8
 #Dependency Lists(Users Of)
 0 9
 1 7

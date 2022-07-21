@@ -1,8 +1,8 @@
 C:\lscc\diamond\3.12\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_comp.srs  -top  Modulator  -hdllog  C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synlog\Modulator_impl1_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I C:\Users\reeve\git\EEE5118Z_Project\Modulator  -I C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\  -I C:\lscc\diamond\3.12\synpbase\lib   -sysv  -devicelib  C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work -fv2001 C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v -lib work -fv2001 C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v -lib work -fsysv C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v  -jobname  "compiler" 
 relcom:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\c_hdl.exe -osyn ..\synwork\Modulator_impl1_comp.srs -top Modulator -hdllog ..\synlog\Modulator_impl1_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -I ..\..\..\Modulator -I ..\ -I ..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\lib -sysv -devicelib ..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v -devicelib ..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -D_MULTIPLE_FILE_COMPILATION_UNIT_ -lib work -fv2001 ..\..\IP\SineTable.v -lib work -fv2001 ..\..\IP\FIFO.v -lib work -fsysv ..\..\System\Structures.v -lib work -fsysv ..\..\System\Registers.v -lib work -fsysv ..\..\Comms\UART.v -lib work -fsysv ..\..\Comms\UART_Packets.v -lib work -fsysv ..\..\System\Controller.v -lib work -fsysv ..\..\System\Streamer.v -lib work -fsysv ..\..\DSP\PWM.v -lib work -fsysv ..\..\DSP\NCO.v -lib work -fsysv ..\..\DSP\QAM.v -lib work -fsysv ..\..\Modulator.v -jobname "compiler"
-rc:0 success:1 runtime:7
-file:..\synwork\Modulator_impl1_comp.srs|io:o|time:1658411282|size:56665|exec:0|csum:
-file:..\synlog\Modulator_impl1_compiler.srr|io:o|time:1658411282|size:48760|exec:0|csum:
+rc:0 success:1 runtime:8
+file:..\synwork\Modulator_impl1_comp.srs|io:o|time:1658418379|size:56842|exec:0|csum:
+file:..\synlog\Modulator_impl1_compiler.srr|io:o|time:1658418379|size:43077|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v|io:i|time:1603959654|size:89401|exec:0|csum:DEA28C1C674D46F9EEC2444777ADDD91
 file:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v|io:i|time:1603959654|size:40584|exec:0|csum:62845CEC2BB6FEBE1BA059B1E18015F4
 file:.\-fv2001|io:i|time:0|size:-1|exec:0|csum:
@@ -10,23 +10,23 @@ file:..\..\IP\SineTable.v|io:i|time:1658343810|size:113182|exec:0|csum:5540BD57A
 file:.\-fv2001|io:i|time:0|size:-1|exec:0|csum:
 file:..\..\IP\FIFO.v|io:i|time:1658343517|size:37195|exec:0|csum:57BFC07ECF860AB403453E4355A7AD07
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\System\Structures.v|io:i|time:1658337570|size:674|exec:0|csum:712467EBF8E841C94CFA106949C0DD05
+file:..\..\System\Structures.v|io:i|time:1658417894|size:785|exec:0|csum:80ABBF7A12DDAB97D45F071774C7B73F
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\System\Registers.v|io:i|time:1658259719|size:1630|exec:0|csum:3B17D2A32A0F71759065D5B10A70D3FA
+file:..\..\System\Registers.v|io:i|time:1658418367|size:1857|exec:0|csum:C862E97E5222FEA840C97F95494E730F
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\Comms\UART.v|io:i|time:1658169793|size:3479|exec:0|csum:276EBFD16D68935BC8158633533D1D72
+file:..\..\Comms\UART.v|io:i|time:1658417513|size:3583|exec:0|csum:0AF010213C33CB874CBA358F31743419
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\Comms\UART_Packets.v|io:i|time:1658369350|size:5849|exec:0|csum:CC7179CF45A1C66597418902274B5FA0
+file:..\..\Comms\UART_Packets.v|io:i|time:1658417673|size:5999|exec:0|csum:71AAE600CFA64C88BFE30ACF12445BB2
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\System\Controller.v|io:i|time:1658354178|size:2682|exec:0|csum:0386C40DCAD8FD61185C0722A28DECF1
+file:..\..\System\Controller.v|io:i|time:1658417850|size:2789|exec:0|csum:F18A0943A47B59BCEF3ECFE9AEDAC7A6
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\System\Streamer.v|io:i|time:1658411268|size:3298|exec:0|csum:7C3DC96E202C7AF9CD4C5750C4692E53
+file:..\..\System\Streamer.v|io:i|time:1658417677|size:3412|exec:0|csum:8F428CAB9C7CF2F3647ED218C50338AA
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\DSP\PWM.v|io:i|time:1658160124|size:387|exec:0|csum:DEFEA4731C29EC5E0233A74E20297AC2
+file:..\..\DSP\PWM.v|io:i|time:1658418229|size:499|exec:0|csum:C2ADB0FFA74055C44BC973F361C45D00
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\DSP\NCO.v|io:i|time:1658406560|size:495|exec:0|csum:96739588D6A6C159F37F4318C2591140
+file:..\..\DSP\NCO.v|io:i|time:1658418225|size:604|exec:0|csum:D5073AA3EE941DE7F485998066097C35
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\DSP\QAM.v|io:i|time:1658346722|size:2066|exec:0|csum:EE568C9E122B4D728FC70C0CE3048BC0
+file:..\..\DSP\QAM.v|io:i|time:1658417774|size:2142|exec:0|csum:5059A7DEBA80D58955E1DAA84941979E
 file:.\-fsysv|io:i|time:0|size:-1|exec:0|csum:
-file:..\..\Modulator.v|io:i|time:1658406026|size:2881|exec:0|csum:63B239A18B3AD846F60EEE1E61F06C2F
+file:..\..\Modulator.v|io:i|time:1658418166|size:3046|exec:0|csum:F15700E15ED0875CF909E9895B1FF8B9
 file:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\c_hdl.exe|io:i|time:1603959522|size:5736448|exec:1|csum:F3379711CDC83CA310869A1D9BD9BABE
