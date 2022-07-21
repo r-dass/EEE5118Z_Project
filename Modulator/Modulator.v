@@ -1,47 +1,53 @@
+/*
+Code was designed and tested 
+by Reevelen Dass for EEE5118Z Practical and Modified for this Project
+*/
+
 import Structures::*;
 
 module Modulator(
-	input			ipClk,
-	input			ipReset,
-	input			ipUART_Rx,
-	input	[3:0]	ipBtn,
-	output			opUART_Tx,
+	input			    ipClk,
+	input			    ipReset,
+	input			    ipUART_Rx,
+	input	  [3:0]	ipBtn,
+	output			  opUART_Tx,
 	output	[7:0]	opLED, 
-  output      opPWM,
-  output      opPWMI,
-  output      opPWMQ,
+  output        opPWM,
+  output        opPWMI,
+  output        opPWMQ,
   output      opPWMModulated
 );
 
 UART_PACKET RxStream;
-UART_PACKET TxStream;  
- 
+UART_PACKET TxStream;
+wire TxReady;
+
 RD_REGISTERS RdRegisters; 
 WR_REGISTERS WrRegisters; 
  
-wire TxReady;
 
-wire [7:0] 	Address;
+wire [7:0] 	  Address;
 wire [31:0] 	WrData;
-wire 			WrEnable;
-wire [31:0]	RdData;
+wire 			    WrEnable;
+wire [31:0]	  RdData;
 
-wire [15:0]	Stream;
-wire			StreamValid;
+wire [15:0]	  Stream;
+wire			    StreamValid;
 
-wire [3:0]	QAMBlock;
-wire			QAMBlockValid;
+wire [3:0]	  QAMBlock;
+wire			    QAMBlockValid;
 
-wire [19:0] Modulated;
-wire      ModulatedValid;
+wire [19:0]   Modulated;
+wire          ModulatedValid;
 
 wire [17:0]	I;
 wire [17:0]	Q;
 wire Valid;
 
+//Communication
 UART_Packets Packetiser(
-  .ipClk	( ipClk		),
-  .ipReset	(!ipReset	),
+  .ipClk(ipClk),
+  .ipReset(!ipReset),
 
   .ipTxStream(TxStream),
   .opTxReady(TxReady),
@@ -52,23 +58,22 @@ UART_Packets Packetiser(
 );
 
 Controller Control(
-  .ipClk	( ipClk		),
-  .ipReset	(!ipReset	),
-
-    .opTxStream(TxStream),
-    .ipTxReady(TxReady),
+  .ipClk	(ipClk),
+  .ipReset	(!ipReset),
+  
+  .opTxStream(TxStream),
+  .ipTxReady(TxReady),
 
 	.opAddress(Address),
-    .opWrData(WrData),
+  .opWrData(WrData),
 	.opWrEnable(WrEnable),
 	
 	.ipRxStream(RxStream),
-
-    .ipRdData(RdData) 
+  .ipRdData(RdData) 
 );
 
 Registers Register(
-  .ipClk	( ipClk		),
+  .ipClk	(ipClk),
   .ipReset	(!ipReset	),
 
   .ipRdRegisters (RdRegisters),
@@ -80,9 +85,10 @@ Registers Register(
   .opRdData(RdData)
 );
  
+// Data Flow
 Streamer Streamer1(
-    .ipClk	( ipClk		),
-    .ipReset	(!ipReset	),
+    .ipClk	(ipClk),
+    .ipReset	(!ipReset),
 
   	.ipRxStream(RxStream),
     .opFIFO_Size(RdRegisters.FIFO_Size), 
@@ -94,38 +100,11 @@ Streamer Streamer1(
     .opQAMBlockValid(QAMBlockValid)
 );
 
-PWM PWM1(
-  .ipClk	( ipClk		), 
-  .ipReset	(!ipReset	),
-  .ipDutyCycle ({~Stream[15], Stream[14:8]}),
-  .opPWM (opPWM)
-);
 
-PWM PWMI(
-  .ipClk	( ipClk		), 
-  .ipReset	(!ipReset	),
-  .ipDutyCycle ({~I[17], I[16:10]}),
-  .opPWM(opPWMI)
-);
-
-PWM PWMQ(
-  .ipClk	( ipClk		), 
-  .ipReset	(!ipReset	),
-  .ipDutyCycle ({~Q[17], Q[16:10]}),
-  .opPWM(opPWMQ)
-);
-
-PWM PWMModulated(
-  .ipClk	( ipClk		), 
-  .ipReset	(!ipReset	),
-  .ipDutyCycle ({~Modulated[19], Modulated[18:12]}),
-  .opPWM(opPWMModulated)
-);
-
+//Signal Processing
 NCO NCO1(
-  .ipClk	( ipClk		), 
-  .ipReset	(!ipReset	),
-
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
   .ipFrequency (WrRegisters.Frequency),
 
   .opI(I),
@@ -133,8 +112,8 @@ NCO NCO1(
 );
 
 QAM QAM1(
-  .ipClk	( ipClk		), 
-  .ipReset	(!ipReset	),
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
 
   .ipQAMBlock(QAMBlock),
   .ipQAMBlockValid(QAMBlockValid),
@@ -144,11 +123,38 @@ QAM QAM1(
 
   .opModulatedValid(ModulatedValid),
   .opModulated(Modulated)
+);
 
+PWM PWMStream(
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
+  .ipDutyCycle ({~Stream[15], Stream[14:8]}),
+  .opPWM(opPWM)
+);
+
+PWM PWMI(
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
+  .ipDutyCycle ({~I[17], I[16:10]}),
+  .opPWM(opPWMI)
+);
+
+PWM PWMQ(
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
+  .ipDutyCycle ({~Q[17], Q[16:10]}),
+  .opPWM(opPWMQ)
+);
+
+PWM PWMModulated(
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
+  .ipDutyCycle ({~Modulated[19], Modulated[18:12]}),
+  .opPWM(opPWMModulated)
 );
 
 
-
+//Clock Counter
 always @(posedge ipClk) begin
 	if (ipReset) begin //reset inverted - normal functionality here
 		RdRegisters.ClockTicks <= RdRegisters.ClockTicks + 1;
