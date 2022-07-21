@@ -10,7 +10,7 @@ Lattice Diamond Version 3.12.0.240.2
 #OS: Windows 8 6.2
 #Hostname: RD-LAPTOP
 
-# Thu Jul 21 04:44:21 2022
+# Thu Jul 21 13:11:22 2022
 
 #Implementation: impl1
 
@@ -276,8 +276,7 @@ Only the first 100 messages of id 'CG333' are reported. To see all messages use 
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" (library work)
 Verilog syntax check successful!
-File C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v changed - recompiling
-File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v changed - recompiling
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v changed - recompiling
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
@@ -371,15 +370,7 @@ Running optimization stage 2 on NCO .......
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[13] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[14] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[15] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[16] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[17] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[18] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[19] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[20] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[21] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[22] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[23] is always 0.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 23 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 15 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CL159 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:14:8:24|Input ipFrequency is unused.
 Running optimization stage 2 on SineTable .......
 Running optimization stage 2 on MUX41 .......
@@ -497,12 +488,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 101MB peak: 104MB)
+At c_ver Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 101MB peak: 104MB)
 
-Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Thu Jul 21 04:44:26 2022
+# Thu Jul 21 13:11:29 2022
 
 ###########################################################]
 ###########################################################[
@@ -529,7 +520,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 04:44:27 2022
+# Thu Jul 21 13:11:29 2022
 
 ###########################################################]
 
@@ -539,12 +530,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
 
 Process completed successfully.
-# Thu Jul 21 04:44:27 2022
+# Thu Jul 21 13:11:29 2022
 
 ###########################################################]
 ###########################################################[
@@ -572,10 +563,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 04:44:28 2022
+# Thu Jul 21 13:11:31 2022
 
 ###########################################################]
-# Thu Jul 21 04:44:28 2022
+# Thu Jul 21 13:11:31 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -611,13 +602,13 @@ Reading constraint file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 130MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
 
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
@@ -634,7 +625,10 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
 @W: MO129 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[0] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":65:0:65:5|Sequential instance Packetiser.txBuffer.Length[2] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlock[3:0] (in view: work.Streamer(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulatedValid (in view: work.QAM(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Removing instance pdp_ram_0_0_3 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
+@W: BN114 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":246:11:246:23|Removing instance pdp_ram_0_1_2 (in view: work.FIFO(verilog)) of black box view:LUCENT.DP16KB(PRIM) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 Encoding state machine rxState[1:0] (in view: work.UART(verilog))
 original code -> new code
@@ -690,20 +684,20 @@ original code -> new code
    00000000000000000000000000000001 -> 1
 @N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 
-Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
 
 
 Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
 
@@ -713,7 +707,7 @@ Clock Summary
           Start      Requested     Requested     Clock        Clock                Clock
 Level     Clock      Frequency     Period        Type         Group                Load 
 ----------------------------------------------------------------------------------------
-0 -       ipClk      50.0 MHz      20.000        declared     default_clkgroup     527  
+0 -       ipClk      50.0 MHz      20.000        declared     default_clkgroup     533  
                                                                                         
 0 -       System     200.0 MHz     5.000         system       system_clkgroup      0    
 ========================================================================================
@@ -726,7 +720,7 @@ Clock Load Summary
            Clock     Source          Clock Pin                           Non-clock Pin     Non-clock Pin
 Clock      Load      Pin             Seq Example                         Seq Example       Comb Example 
 --------------------------------------------------------------------------------------------------------
-ipClk      527       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
+ipClk      533       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
                                                                                                         
 System     0         -               -                                   -                 -            
 ========================================================================================================
@@ -742,14 +736,14 @@ Number of ICG latches not removed:	0
 
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 527 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 533 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ================================== Non-Gated/Non-Generated Clocks ===================================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance              
 -----------------------------------------------------------------------------------------------------
-@KP:ckid0_0       ipClk               port                   527        RdRegisters\.ClockTicks[31:0]
+@KP:ckid0_0       ipClk               port                   533        RdRegisters\.ClockTicks[31:0]
 =====================================================================================================
 
 
@@ -758,24 +752,24 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 179MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 92MB peak: 178MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Thu Jul 21 04:44:31 2022
+# Thu Jul 21 13:11:33 2022
 
 ###########################################################]
-# Thu Jul 21 04:44:31 2022
+# Thu Jul 21 13:11:33 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -813,24 +807,32 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: FA239 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":18:4:18:5|ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":18:4:18:5|Found ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) with 16 words by 1 bit.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":11:0:11:5|Removing sequential instance PWMModulated.Count[7:0] because it is equivalent to instance PWMQ.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":11:0:11:5|Removing sequential instance PWMQ.Count[7:0] because it is equivalent to instance PWM1.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MF854 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":18:4:18:5|ROM instance un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) too small; decomposing to logic.
+@N: MO106 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":18:4:18:5|Found ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) with 1 words by 1 bit.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":11:0:11:5|Removing sequential instance PWMQ.Count[7:0] because it is equivalent to instance PWMI.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":11:0:11:5|Removing sequential instance PWMModulated.Count[7:0] because it is equivalent to instance PWMI.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":18:17:18:26|Removing user instance PWMModulated.Count_1[7:0] because it is equivalent to instance PWMQ.Count_1[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":18:17:18:26|Removing user instance PWMQ.Count_1[7:0] because it is equivalent to instance PWM1.Count_1[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":18:17:18:26|Removing user instance PWMI.Count_1[7:0] because it is equivalent to instance PWM1.Count_1[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":11:0:11:5|Removing sequential instance PWMI.Count[7:0] because it is equivalent to instance PWM1.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
 
 @N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":185:13:185:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":92:0:92:5|Removing sequential instance ipData[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[11] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[10] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[9] (in view: work.QAM(verilog)) because it does not drive other instances.
@@ -844,58 +846,57 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[1] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulated[0] (in view: work.QAM(verilog)) because it does not drive other instances.
 
-Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 177MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
 
-@N: FA113 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":25:31:25:37|Pipelining module un1_ipI[20:0]. For more information, search for "pipelining" in Online Help.
-@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Pushed in register opQAMBlock[3:0].
+@N: FA113 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":34:37:34:42|Pipelining module un1_ipQ[20:0]. For more information, search for "pipelining" in Online Help.
 @N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Pushed in register opModulated[19:0].
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 181MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 181MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 182MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 182MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 186MB peak: 186MB)
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 182MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:03s		     4.42ns		 343 /       487
+   1		0h:00m:05s		     4.42ns		 274 /       430
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 186MB peak: 187MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 182MB peak: 183MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":55:0:55:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 187MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 183MB peak: 183MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 150MB peak: 187MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 146MB peak: 183MB)
 
 Writing Analyst data base C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 186MB peak: 187MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 182MB peak: 183MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 191MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 186MB peak: 186MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 189MB peak: 192MB)
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 185MB peak: 187MB)
 
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -903,7 +904,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Jul 21 04:44:38 2022
+# Timing report written on Thu Jul 21 13:11:43 2022
 #
 
 
@@ -928,7 +929,7 @@ Worst slack in design: 4.425
                    Requested     Estimated      Requested     Estimated                Clock        Clock           
 Starting Clock     Frequency     Frequency      Period        Period        Slack      Type         Group           
 --------------------------------------------------------------------------------------------------------------------
-ipClk              50.0 MHz      160.2 MHz      20.000        6.242         13.758     declared     default_clkgroup
+ipClk              50.0 MHz      165.9 MHz      20.000        6.029         13.971     declared     default_clkgroup
 System             200.0 MHz     1738.8 MHz     5.000         0.575         4.425      system       system_clkgroup 
 ====================================================================================================================
 
@@ -945,8 +946,8 @@ Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System  |  5.000       4.425   |  No paths    -      |  No paths    -      |  No paths    -    
 System    ipClk   |  20.000      17.919  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     System  |  20.000      18.358  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     ipClk   |  20.000      13.758  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     System  |  20.000      18.431  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     ipClk   |  20.000      13.971  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -969,41 +970,41 @@ Detailed Report for Clock: ipClk
 Starting Points with Worst Slack
 ********************************
 
-                                Starting                                               Arrival           
-Instance                        Reference     Type        Pin     Net                  Time        Slack 
-                                Clock                                                                    
----------------------------------------------------------------------------------------------------------
-NCO1.Sine.FF_18                 ipClk         FD1P3DX     Q       I[0]                 1.075       13.758
-NCO1.Sine.FF_19                 ipClk         FD1P3DX     Q       I[1]                 1.075       13.758
-NCO1.Sine.FF_20                 ipClk         FD1P3DX     Q       I[2]                 1.035       13.871
-NCO1.Sine.FF_21                 ipClk         FD1P3DX     Q       I[3]                 1.035       13.871
-QAM1.opModulated_pipe_44        ipClk         FD1S3IX     Q       QAMBlockf[1]         1.223       13.873
-NCO1.Sine.FF_22                 ipClk         FD1P3DX     Q       I[4]                 1.035       13.944
-NCO1.Sine.FF_23                 ipClk         FD1P3DX     Q       I[5]                 1.035       13.944
-Packetiser.BytesReceived[0]     ipClk         FD1S3JX     Q       BytesReceived[0]     0.994       13.971
-Packetiser.BytesReceived[1]     ipClk         FD1S3IX     Q       BytesReceived[1]     0.994       13.971
-NCO1.Sine.FF_24                 ipClk         FD1P3DX     Q       I[6]                 1.035       14.017
-=========================================================================================================
+                                     Starting                                               Arrival           
+Instance                             Reference     Type        Pin     Net                  Time        Slack 
+                                     Clock                                                                    
+--------------------------------------------------------------------------------------------------------------
+Packetiser.BytesReceived[0]          ipClk         FD1S3JX     Q       BytesReceived[0]     0.994       13.971
+Packetiser.BytesReceived[1]          ipClk         FD1S3IX     Q       BytesReceived[1]     0.994       13.971
+Packetiser.BytesReceived[2]          ipClk         FD1S3IX     Q       BytesReceived[2]     0.994       14.044
+Packetiser.BytesReceived[3]          ipClk         FD1S3IX     Q       BytesReceived[3]     0.994       14.044
+Packetiser.BytesReceived[4]          ipClk         FD1S3IX     Q       BytesReceived[4]     0.994       14.044
+Packetiser.BytesReceived[5]          ipClk         FD1S3IX     Q       BytesReceived[5]     0.994       14.044
+Packetiser.opRxStream\.Length[0]     ipClk         FD1P3IX     Q       Length[0]            0.857       14.109
+Packetiser.opRxStream\.Length[1]     ipClk         FD1P3IX     Q       Length[1]            0.857       14.109
+Packetiser.opRxStream\.Length[2]     ipClk         FD1P3IX     Q       Length[2]            0.857       14.182
+Packetiser.opRxStream\.Length[3]     ipClk         FD1P3IX     Q       Length[3]            0.857       14.182
+==============================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                              Starting                                                    Required           
-Instance                      Reference     Type         Pin     Net                      Time         Slack 
-                              Clock                                                                          
--------------------------------------------------------------------------------------------------------------
-QAM1.opModulated_pipe_121     ipClk         FD1S3IX      D       un24_opModulated[19]     20.069       13.758
-QAM1.opModulated_pipe_113     ipClk         FD1S3IX      D       un24_opModulated[17]     20.069       13.831
-QAM1.opModulated_pipe_117     ipClk         FD1S3IX      D       un24_opModulated[18]     20.069       13.831
-PWMModulated_opPWMio          ipClk         OFS1P3DX     D       PWMModulated.opPWM6      19.908       13.873
-QAM1.opModulated_pipe_105     ipClk         FD1S3IX      D       un24_opModulated[15]     20.069       13.903
-QAM1.opModulated_pipe_109     ipClk         FD1S3IX      D       un24_opModulated[16]     20.069       13.903
-Packetiser.rxState[0]         ipClk         FD1S3AY      D       N_83_i                   19.389       13.971
-QAM1.opModulated_pipe_97      ipClk         FD1S3IX      D       un24_opModulated[13]     20.069       13.976
-QAM1.opModulated_pipe_101     ipClk         FD1S3IX      D       un24_opModulated[14]     20.069       13.976
-QAM1.opModulated_pipe_89      ipClk         FD1S3IX      D       un24_opModulated[11]     20.069       14.050
-=============================================================================================================
+                                         Starting                                                        Required           
+Instance                                 Reference     Type        Pin     Net                           Time         Slack 
+                                         Clock                                                                              
+----------------------------------------------------------------------------------------------------------------------------
+Packetiser.rxState[0]                    ipClk         FD1S3AY     D       N_83_i                        19.389       13.971
+Packetiser.UART_Inst.BitsReceived[3]     ipClk         FD1S3IX     D       un1_BitsReceived_4_axbxc3     19.389       14.529
+Control.BytesWritten[7]                  ipClk         FD1S3IX     D       BytesWritten_8[7]             20.069       14.701
+Packetiser.rxState[4]                    ipClk         FD1S3AX     D       N_90_i                        19.389       14.726
+Streamer1.rState[0]                      ipClk         FD1S3AX     D       N_26s                         19.389       14.752
+Streamer1.wUpper                         ipClk         FD1S3JX     D       wUpper_0_sqmuxa_1             19.389       14.752
+Control.BytesWritten[5]                  ipClk         FD1S3IX     D       BytesWritten_8[5]             20.069       14.774
+Control.BytesWritten[6]                  ipClk         FD1S3IX     D       BytesWritten_8[6]             20.069       14.774
+Control.BytesWritten[3]                  ipClk         FD1S3IX     D       BytesWritten_8[3]             20.069       14.847
+Control.BytesWritten[4]                  ipClk         FD1S3IX     D       BytesWritten_8[4]             20.069       14.847
+============================================================================================================================
 
 
 
@@ -1013,63 +1014,45 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      20.000
-    - Setup time:                            -0.069
+    - Setup time:                            0.611
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         20.069
+    = Required time:                         19.389
 
-    - Propagation time:                      6.311
+    - Propagation time:                      5.418
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 13.758
+    = Slack (non-critical) :                 13.971
 
-    Number of logic level(s):                12
-    Starting point:                          NCO1.Sine.FF_18 / Q
-    Ending point:                            QAM1.opModulated_pipe_121 / D
+    Number of logic level(s):                6
+    Starting point:                          Packetiser.BytesReceived[0] / Q
+    Ending point:                            Packetiser.rxState[0] / D
     The start point is clocked by            ipClk [rising] (rise=0.000 fall=10.000 period=20.000) on pin CK
     The end   point is clocked by            ipClk [rising] (rise=0.000 fall=10.000 period=20.000) on pin CK
 
-Instance / Net                                 Pin      Pin               Arrival     No. of    
-Name                               Type        Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------
-NCO1.Sine.FF_18                    FD1P3DX     Q        Out     1.075     1.075 r     -         
-I[0]                               Net         -        -       -         -           6         
-QAM1.un1_ipI_0_cry_1_0             CCU2B       B1       In      0.000     1.075 r     -         
-QAM1.un1_ipI_0_cry_1_0             CCU2B       COUT     Out     1.056     2.131 r     -         
-un1_ipI_0_cry_1                    Net         -        -       -         -           1         
-QAM1.un1_ipI_0_cry_2_0             CCU2B       CIN      In      0.000     2.131 r     -         
-QAM1.un1_ipI_0_cry_2_0             CCU2B       S0       Out     1.307     3.438 r     -         
-un1_ipI[2]                         Net         -        -       -         -           2         
-QAM1.un24_opModulated_cry_1_0      CCU2B       A1       In      0.000     3.438 r     -         
-QAM1.un24_opModulated_cry_1_0      CCU2B       COUT     Out     1.056     4.493 r     -         
-un24_opModulated_cry_2             Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_3_0      CCU2B       CIN      In      0.000     4.493 r     -         
-QAM1.un24_opModulated_cry_3_0      CCU2B       COUT     Out     0.073     4.566 r     -         
-un24_opModulated_cry_4             Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_5_0      CCU2B       CIN      In      0.000     4.566 r     -         
-QAM1.un24_opModulated_cry_5_0      CCU2B       COUT     Out     0.073     4.639 r     -         
-un24_opModulated_cry_6             Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_7_0      CCU2B       CIN      In      0.000     4.639 r     -         
-QAM1.un24_opModulated_cry_7_0      CCU2B       COUT     Out     0.073     4.712 r     -         
-un24_opModulated_cry_8             Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_9_0      CCU2B       CIN      In      0.000     4.712 r     -         
-QAM1.un24_opModulated_cry_9_0      CCU2B       COUT     Out     0.073     4.785 r     -         
-un24_opModulated_cry_10            Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_11_0     CCU2B       CIN      In      0.000     4.785 r     -         
-QAM1.un24_opModulated_cry_11_0     CCU2B       COUT     Out     0.073     4.858 r     -         
-un24_opModulated_cry_12            Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_13_0     CCU2B       CIN      In      0.000     4.858 r     -         
-QAM1.un24_opModulated_cry_13_0     CCU2B       COUT     Out     0.073     4.931 r     -         
-un24_opModulated_cry_14            Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_15_0     CCU2B       CIN      In      0.000     4.931 r     -         
-QAM1.un24_opModulated_cry_15_0     CCU2B       COUT     Out     0.073     5.004 r     -         
-un24_opModulated_cry_16            Net         -        -       -         -           1         
-QAM1.un24_opModulated_cry_17_0     CCU2B       CIN      In      0.000     5.004 r     -         
-QAM1.un24_opModulated_cry_17_0     CCU2B       COUT     Out     0.073     5.077 r     -         
-un24_opModulated_cry_18            Net         -        -       -         -           1         
-QAM1.un24_opModulated_s_19_0       CCU2B       CIN      In      0.000     5.077 r     -         
-QAM1.un24_opModulated_s_19_0       CCU2B       S0       Out     1.234     6.311 r     -         
-un24_opModulated[19]               Net         -        -       -         -           1         
-QAM1.opModulated_pipe_121          FD1S3IX     D        In      0.000     6.311 r     -         
-================================================================================================
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+Packetiser.BytesReceived[0]                    FD1S3JX      Q        Out     0.994     0.994 r     -         
+BytesReceived[0]                               Net          -        -       -         -           3         
+Packetiser.un1_opRxStream\.Length_0_I_1_0      CCU2B        D1       In      0.000     0.994 r     -         
+Packetiser.un1_opRxStream\.Length_0_I_1_0      CCU2B        COUT     Out     1.056     2.050 r     -         
+Length_0_data_tmp[0]                           Net          -        -       -         -           1         
+Packetiser.un1_opRxStream\.Length_0_I_21_0     CCU2B        CIN      In      0.000     2.050 r     -         
+Packetiser.un1_opRxStream\.Length_0_I_21_0     CCU2B        COUT     Out     0.073     2.123 r     -         
+Length_0_data_tmp[2]                           Net          -        -       -         -           1         
+Packetiser.un1_opRxStream\.Length_0_I_9_0      CCU2B        CIN      In      0.000     2.123 r     -         
+Packetiser.un1_opRxStream\.Length_0_I_9_0      CCU2B        S1       Out     1.234     3.357 r     -         
+Length_0_I_9_0_S1                              Net          -        -       -         -           1         
+Packetiser.opRxStream\.SoP7                    ORCALUT4     C        In      0.000     3.357 r     -         
+Packetiser.opRxStream\.SoP7                    ORCALUT4     Z        Out     0.892     4.249 r     -         
+SoP7                                           Net          -        -       -         -           3         
+Packetiser.rxState_srsts_i_a3_1[0]             ORCALUT4     B        In      0.000     4.249 r     -         
+Packetiser.rxState_srsts_i_a3_1[0]             ORCALUT4     Z        Out     0.754     5.003 f     -         
+N_113_1                                        Net          -        -       -         -           1         
+Packetiser.rxState_RNO[0]                      ORCALUT4     A        In      0.000     5.003 f     -         
+Packetiser.rxState_RNO[0]                      ORCALUT4     Z        Out     0.415     5.418 r     -         
+N_83_i                                         Net          -        -       -         -           1         
+Packetiser.rxState[0]                          FD1S3AY      D        In      0.000     5.418 r     -         
+=============================================================================================================
 
 
 
@@ -1147,7 +1130,7 @@ Instance / Net                           Pin      Pin               Arrival     
 Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
 ------------------------------------------------------------------------------------------
 Streamer1.FIFOBLOCK.AND2_t2     AND2     Z        Out     0.000     0.000 r     -         
-rden_i                          Net      -        -       -         -           20        
+rden_i                          Net      -        -       -         -           18        
 Streamer1.FIFOBLOCK.INV_1       INV      A        In      0.000     0.000 r     -         
 Streamer1.FIFOBLOCK.INV_1       INV      Z        Out     0.575     0.575 f     -         
 rden_i_inv                      Net      -        -       -         -           1         
@@ -1160,19 +1143,19 @@ Streamer1.FIFOBLOCK.AND2_t1     AND2     B        In      0.000     0.575 f     
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 190MB peak: 192MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 186MB peak: 187MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 190MB peak: 192MB)
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 186MB peak: 187MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lfxp2_5e-6
 
-Register bits: 572 of 4752 (12%)
+Register bits: 515 of 4752 (11%)
 PIC Latch:       0
 I/O cells:       20
-Block Rams : 4 of 9 (44%)
+Block Rams : 2 of 9 (22%)
 
 
 Details:
@@ -1180,41 +1163,41 @@ AGEB2:          7
 ALEB2:          7
 AND2:           3
 CB2:            7
-CCU2B:          131
+CCU2B:          107
 CU2:            12
-DP16KB:         4
+DP16KB:         2
 FADD2B:         7
-FD1P3AX:        182
+FD1P3AX:        153
 FD1P3DX:        83
-FD1P3IX:        50
+FD1P3IX:        67
 FD1S3AX:        40
 FD1S3AY:        2
 FD1S3BX:        1
 FD1S3DX:        1
-FD1S3IX:        203
+FD1S3IX:        158
 FD1S3JX:        3
 GSR:            1
 IB:             7
 IFS1P3IX:       2
-INV:            11
+INV:            17
 MUX41:          36
 OB:             13
 OFS1P3DX:       4
 OFS1P3JX:       1
-ORCALUT4:       337
-PFUMX:          23
+ORCALUT4:       261
+PFUMX:          4
 PUR:            1
 ROM16X1:        2
 ROM256X1:       144
 VHI:            14
-VLO:            14
+VLO:            13
 XOR2:           1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 69MB peak: 192MB)
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 69MB peak: 187MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:06s cputime
-# Thu Jul 21 04:44:39 2022
+Process took 0h:00m:10s realtime, 0h:00m:09s cputime
+# Thu Jul 21 13:11:44 2022
 
 ###########################################################]
 
@@ -1231,13 +1214,11 @@ Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
     <postMsg mid="1121027" type="Warning" dynamic="1" navigation="0" arg0="MEM_INIT_FILE"  />
     <postMsg mid="1121027" type="Warning" dynamic="1" navigation="0" arg0="MEM_INIT_FILE"  />
-    <postMsg mid="1121027" type="Warning" dynamic="1" navigation="0" arg0="MEM_INIT_FILE"  />
-    <postMsg mid="1121027" type="Warning" dynamic="1" navigation="0" arg0="MEM_INIT_FILE"  />
 Writing the design to Modulator_impl1.ngo...
 
 Total CPU Time: 0 secs  
 Total REAL Time: 0 secs  
-Peak Memory Usage: 16 MB
+Peak Memory Usage: 15 MB
 
 
 ngdbuild  -a "LatticeXP2" -d LFXP2-5E  -p "C:/lscc/diamond/3.12/ispfpga/mg5a00/data"  -p "C:/Users/reeve/git/EEE5118Z_Project/Modulator/impl1" -p "C:/Users/reeve/git/EEE5118Z_Project/Modulator"  "Modulator_impl1.ngo" "Modulator_impl1.ngd"  	
@@ -1260,12 +1241,12 @@ Running DRC...
 DRC complete with no errors or warnings
 
 Design Results:
-   1353 blocks expanded
+   1180 blocks expanded
 Complete the first expansion.
 Writing 'Modulator_impl1.ngd' ...
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
-Peak Memory Usage: 25 MB
+Peak Memory Usage: 24 MB
 
 
 map -a "LatticeXP2" -p LFXP2-5E -t TQFP144 -s 6 -oc Commercial   "Modulator_impl1.ngd" -o "Modulator_impl1_map.ncd" -pr "Modulator_impl1.prf" -mp "Modulator_impl1.mrp" -lpf "C:/Users/reeve/git/EEE5118Z_Project/Modulator/impl1/Modulator_impl1_synplify.lpf" -lpf "C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.lpf"             
@@ -1298,30 +1279,30 @@ Removing unused logic...
 
 Optimizing...
 
-477 CCU2 constant inputs absorbed.
+387 CCU2 constant inputs absorbed.
 
     <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="ipReset_c"  />
 
 
 
 Design Summary:
-   Number of registers:    572 out of  3864 (15%)
-      PFU registers:          565 out of  3564 (16%)
+   Number of registers:    515 out of  3864 (13%)
+      PFU registers:          508 out of  3564 (14%)
       PIO registers:            7 out of   300 (2%)
-   Number of SLICEs:      1558 out of  2376 (66%)
-      SLICEs as Logic/ROM:   1558 out of  2376 (66%)
+   Number of SLICEs:      1494 out of  2376 (63%)
+      SLICEs as Logic/ROM:   1494 out of  2376 (63%)
       SLICEs as RAM:            0 out of   405 (0%)
-      SLICEs as Carry:        171 out of  2376 (7%)
-   Number of LUT4s:        2725 out of  4752 (57%)
-      Number used as logic LUTs:        2383
+      SLICEs as Carry:        147 out of  2376 (6%)
+   Number of LUT4s:        2607 out of  4752 (55%)
+      Number used as logic LUTs:        2313
       Number used as distributed RAM:     0
-      Number used as ripple logic:      342
+      Number used as ripple logic:      294
       Number used as shift registers:     0
    Number of PIO sites used: 20 out of 100 (20%)
    Number of PIO FIXEDDELAY:    0
    Number of DQSDLLs:  0 out of 2 (0%)
    Number of PLLs:  0 out of 2 (0%)
-   Number of block RAMs:  4 out of 9 (44%)
+   Number of block RAMs:  2 out of 9 (22%)
    Number of CLKDIVs:  0 out of 2 (0%)
    Number of GSRs:  1 out of 1 (100%)
    JTAG used :      No
@@ -1345,45 +1326,42 @@ Design Summary:
    --------------------------------
    Number of Used DSP Sites:  0 out of 24 (0 %)
    Number of clocks:  1
-     Net ipClk_c: 336 loads, 336 rising, 0 falling (Driver: PIO ipClk )
-   Number of Clock Enables:  27
+     Net ipClk_c: 303 loads, 303 rising, 0 falling (Driver: PIO ipClk )
+   Number of Clock Enables:  25
      Net Packetiser.UART_Inst.txClkCount_1_sqmuxa_i: 1 loads, 0 LSLICEs
      Net ipReset_c: 13 loads, 9 LSLICEs
-     Net Streamer1/FIFOBLOCK/wren_i: 10 loads, 6 LSLICEs
+     Net Streamer1/FIFOBLOCK/wren_i: 8 loads, 6 LSLICEs
      Net Streamer1/FIFOBLOCK/rden_i: 6 loads, 6 LSLICEs
      Net Streamer1/FIFOBLOCK/fcnt_en: 7 loads, 7 LSLICEs
-     Net Streamer1/opQAMBlock_4_sqmuxa_i_0: 2 loads, 2 LSLICEs
-     Net Streamer1/ipDatace[0]: 4 loads, 4 LSLICEs
      Net Streamer1/ipDatace[8]: 4 loads, 4 LSLICEs
-     Net Register/LEDs11_i: 4 loads, 4 LSLICEs
+     Net Register/N_642: 4 loads, 4 LSLICEs
      Net Control/OutputData_1_sqmuxa_2: 8 loads, 8 LSLICEs
-     Net Control/opAddress_0_sqmuxa: 4 loads, 4 LSLICEs
-     Net Control/N_235_i: 16 loads, 16 LSLICEs
+     Net Control/N_234_i: 16 loads, 16 LSLICEs
      Net Control/N_76_i: 4 loads, 4 LSLICEs
+     Net Control/opAddress_0_sqmuxa: 4 loads, 4 LSLICEs
      Net Control/un1_OutputData_0_sqmuxa_0_0: 16 loads, 16 LSLICEs
      Net Packetiser/Data_0_sqmuxa_0: 4 loads, 4 LSLICEs
-     Net Packetiser/UART_TxSend_0_sqmuxa_1_i_o2: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_TxSend_0_sqmuxa_1_i_o3_4_o2: 4 loads, 4 LSLICEs
      Net Packetiser/UART_Inst/opRxValid_1_sqmuxa_i: 1 loads, 1 LSLICEs
-     Net Packetiser/UART_Inst/txData_0_sqmuxa_1_i: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_Inst/N_205: 4 loads, 4 LSLICEs
      Net Packetiser/UART_Inst/rxData_0_sqmuxa_i: 4 loads, 4 LSLICEs
-     Net Packetiser/UART_Inst/opTxBusy_1_sqmuxa_i: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/N_345: 1 loads, 1 LSLICEs
      Net Packetiser/UART_Inst/rxState_3_sqmuxa: 4 loads, 4 LSLICEs
      Net Packetiser.N_113_1_i: 1 loads, 0 LSLICEs
-     Net Packetiser/N_277_i: 14 loads, 14 LSLICEs
+     Net Packetiser/N_84_i: 14 loads, 14 LSLICEs
      Net Packetiser/N_120_i: 2 loads, 2 LSLICEs
      Net Packetiser/Source_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
      Net Packetiser/Length_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
      Net Packetiser/Destination_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
    Number of local set/reset loads for net ipReset_c merged into GSR:  85
-   Number of LSRs:  15
-     Net Packetiser.UART_Inst.opTx_0_sqmuxa: 1 loads, 0 LSLICEs
-     Net ipReset_c: 105 loads, 96 LSLICEs
+   Number of LSRs:  14
+     Net N_216_i: 1 loads, 0 LSLICEs
+     Net ipReset_c: 88 loads, 83 LSLICEs
      Net Streamer1/fb: 1 loads, 1 LSLICEs
-     Net Streamer1/N_125_1: 7 loads, 7 LSLICEs
+     Net Streamer1/txClkCount_0_sqmuxa_i: 10 loads, 10 LSLICEs
      Net Register/Reset: 4 loads, 4 LSLICEs
      Net Register/un1_ipAddress_inv_i: 10 loads, 10 LSLICEs
      Net Control/State_RNI12SL[1]: 5 loads, 5 LSLICEs
-     Net Control/un1_ipReset_1_i_0_o3_RNIRF5A1: 4 loads, 4 LSLICEs
      Net Packetiser.opRxStream.EoP_0_sqmuxa: 2 loads, 1 LSLICEs
      Net Packetiser/BytesReceived_5[0]: 1 loads, 1 LSLICEs
      Net Packetiser/UART_Inst/opRxValid_0_sqmuxa: 1 loads, 1 LSLICEs
@@ -1400,9 +1378,9 @@ Design Summary:
      Net NCO1/Sine/rom_addr_r_7: 966 loads
      Net NCO1/Sine/rom_addr_r_5: 514 loads
      Net NCO1/Sine/rom_addr_r_4: 258 loads
-     Net ipReset_c: 246 loads
+     Net ipReset_c: 210 loads
      Net NCO1/Sine/rom_addr_r: 132 loads
-     Net QAM1/VCC: 96 loads
+     Net NCO1/Sine/rom_addr_r_8: 68 loads
  
 
    Number of warnings:  1
@@ -1422,9 +1400,9 @@ enable are inactive during wake-up, so that the pre-loaded initialization
 values will not be corrupted during wake-up state.
 
 
-Total CPU Time: 5 secs  
-Total REAL Time: 6 secs  
-Peak Memory Usage: 76 MB
+Total CPU Time: 7 secs  
+Total REAL Time: 8 secs  
+Peak Memory Usage: 75 MB
 
 Dumping design to file Modulator_impl1_map.ncd.
 
@@ -1451,7 +1429,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 04:44:49 2022
+Thu Jul 21 13:11:58 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1481,11 +1459,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 18088 paths, 1 nets, and 13959 connections (97.17% coverage)
+Constraints cover 13987 paths, 1 nets, and 13409 connections (97.33% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 04:44:50 2022
+Thu Jul 21 13:11:58 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1515,7 +1493,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 18088 paths, 1 nets, and 14102 connections (98.16% coverage)
+Constraints cover 13987 paths, 1 nets, and 13538 connections (98.27% coverage)
 
 
 
@@ -1529,19 +1507,20 @@ Cumulative negative slack: 0 (0+0)
 
 --------------------------------------------------------------------------------
 
-Total CPU Time: 2 secs 
-Total REAL Time: 2 secs 
-Peak Memory Usage: 169 MB
+Total CPU Time: 3 secs 
+Total REAL Time: 3 secs 
+Peak Memory Usage: 168 MB
 
 
 mpartrce -p "Modulator_impl1.p2t" -f "Modulator_impl1.p3t" -tf "Modulator_impl1.pt" "Modulator_impl1_map.ncd" "Modulator_impl1.ncd"
 
 ---- MParTrce Tool ----
 Removing old design directory at request of -rem command line option to this program.
+    <postMsg mid="2030011" type="Warning" dynamic="1" navigation="0" arg0="5_1.pad"  />
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Modulator_impl1_map.ncd"
-Thu Jul 21 04:44:51 2022
+Thu Jul 21 13:12:00 2022
 
 PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1 Modulator_impl1_map.ncd Modulator_impl1.dir/5_1.ncd Modulator_impl1.prf
@@ -1569,430 +1548,31 @@ Device utilization summary:
    IOLOGIC            7/196           3% used
    PIO (prelim)      20/174          11% used
                      20/100          20% bonded
-   EBR                4/9            44% used
-   SLICE           1558/2376         65% used
+   EBR                2/9            22% used
+   SLICE           1494/2376         62% used
 
 
 
 chipcheck: INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific datasheet for additional details.
-Number of Signals: 3276
-Number of Connections: 14366
+Number of Signals: 3098
+Number of Connections: 13777
 
 Pin Constraint Summary:
    20 out of 20 pins locked (100% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
-    ipClk_c (driver: ipClk, clk load #: 344)
+    ipClk_c (driver: ipClk, clk load #: 307)
 
 No signal is selected as DCS clock.
 
 The following 1 signal is selected to use the secondary clock routing resources:
-    ipReset_c (driver: ipReset, clk load #: 0, sr load #: 105, ce load #: 13)
+    ipReset_c (driver: ipReset, clk load #: 0, sr load #: 88, ce load #: 13)
 
 Signal ipReset_c is selected as Global Set/Reset.
 Starting Placer Phase 0.
-.............
-Finished Placer Phase 0.  REAL time: 3 secs 
+............
+Finished Placer Phase 0.  REAL time: 4 secs 
 
 .   
 Starting Placer Phase 1.
-.......................
-Placer score = 222742.
-Finished Placer Phase 1.  REAL time: 59 secs 
-
-Starting Placer Phase 2.
-.
-Placer score =  217945
-Finished Placer Phase 2.  REAL time: 1 mins 
-
-
------------------- Clock Report ------------------
-
-Global Clock Resources:
-  CLK_PIN    : 1 out of 8 (12%)
-  PLL        : 0 out of 2 (0%)
-  CLKDIV     : 0 out of 2 (0%)
-
-Global Clocks:
-  PRIMARY "ipClk_c" from comp "ipClk" on CLK_PIN site "21 (PL12A)", clk load = 344
-  SECONDARY "ipReset_c" from comp "ipReset" on PIO site "19 (PL11A)", clk load = 0, ce load = 13, sr load = 105
-
-  PRIMARY  : 1 out of 8 (12%)
-     DCS   : 0 out of 2 (0%)
-  SECONDARY: 1 out of 4 (25%)
-
-Edge Clocks:
-  No edge clock selected
-
---------------- End of Clock Report ---------------
-
-
-I/O Usage Summary (final):
-   20 out of 174 (11.5%) PIO sites used.
-   20 out of 100 (20.0%) bonded PIO sites used.
-   Number of PIO comps: 20; differential: 0.
-   Number of Vref pins used: 0.
-
-I/O Bank Usage Summary:
-+----------+----------------+------------+------------+------------+
-| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
-+----------+----------------+------------+------------+------------+
-| 0        | 0 / 20 (  0%)  | -          | -          | -          |
-| 1        | 2 / 6 ( 33%)   | 3.3V       | -          | -          |
-| 2        | 4 / 18 ( 22%)  | 3.3V       | -          | -          |
-| 3        | 0 / 4 (  0%)   | -          | -          | -          |
-| 4        | 0 / 8 (  0%)   | -          | -          | -          |
-| 5        | 12 / 18 ( 66%) | 3.3V       | -          | -          |
-| 6        | 0 / 8 (  0%)   | -          | -          | -          |
-| 7        | 2 / 18 ( 11%)  | -          | -          | -          |
-+----------+----------------+------------+------------+------------+
-
-
-DSP Utilization Summary:
--------------------------------------
-DSP Block #:              1 2 3
-# of MULT36X36B                
-# of MULT18X18B                
-# of MULT18X18MACB             
-# of MULT18X18ADDSUBB          
-# of MULT18X18ADDSUBSUMB       
-# of MULT9X9B                  
-# of MULT9X9ADDSUBB            
-# of MULT9X9ADDSUBSUMB         
-
-Total placer CPU time: 1 mins 
-
-Dumping design to file Modulator_impl1.dir/5_1.ncd.
-
-0 connections routed; 14366 unrouted.
-Starting router resource preassignment
-
-Completed router resource preassignment. Real time: 1 mins 7 secs 
-
-Start NBR router at 04:45:58 07/21/22
-
-*****************************************************************
-Info: NBR allows conflicts(one node used by more than one signal)
-      in the earlier iterations. In each iteration, it tries to  
-      solve the conflicts while keeping the critical connections 
-      routed as short as possible. The routing process is said to
-      be completed when no conflicts exist and all connections   
-      are routed.                                                
-Note: NBR uses a different method to calculate timing slacks. The
-      worst slack and total negative slack may not be the same as
-      that in TRCE report. You should always run TRCE to verify  
-      your design.                                               
-*****************************************************************
-
-Start NBR special constraint process at 04:45:58 07/21/22
-
-Start NBR section for initial routing at 04:45:59 07/21/22
-Level 4, iteration 1
-244(0.10%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.755ns/0.000ns; real time: 1 mins 16 secs 
-
-Info: Initial congestion level at 75% usage is 0
-Info: Initial congestion area  at 75% usage is 0 (0.00%)
-
-Start NBR section for normal routing at 04:46:07 07/21/22
-Level 4, iteration 1
-153(0.06%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.824ns/0.000ns; real time: 1 mins 19 secs 
-Level 4, iteration 2
-27(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.824ns/0.000ns; real time: 1 mins 20 secs 
-Level 4, iteration 3
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.824ns/0.000ns; real time: 1 mins 20 secs 
-Level 4, iteration 4
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.824ns/0.000ns; real time: 1 mins 20 secs 
-
-Start NBR section for setup/hold timing optimization with effort level 3 at 04:46:11 07/21/22
-
-Start NBR section for re-routing at 04:46:14 07/21/22
-Level 4, iteration 1
-0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.824ns/0.000ns; real time: 1 mins 23 secs 
-
-Start NBR section for post-routing at 04:46:14 07/21/22
-
-End NBR router with 0 unrouted connection
-
-NBR Summary
------------
-  Number of unrouted connections : 0 (0.00%)
-  Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 9.824ns
-  Timing score<setup> : 0
------------
-Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
-
-
-
-Total CPU time 1 mins 29 secs 
-Total REAL time: 1 mins 30 secs 
-Completely routed.
-End of route.  14366 routed (100.00%); 0 unrouted.
-
-Hold time timing score: 0, hold timing errors: 0
-
-Timing score: 0 
-
-Dumping design to file Modulator_impl1.dir/5_1.ncd.
-
-
-PAR_SUMMARY::Run status = Completed
-PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 9.824
-PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
-PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.110
-PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
-PAR_SUMMARY::Number of errors = 0
-
-Total CPU  time to completion: 1 mins 30 secs 
-Total REAL time to completion: 1 mins 31 secs 
-
-par done!
-
-Note: user must run 'Trace' for timing closure signoff.
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Exiting par with exit code 0
-Exiting mpartrce with exit code 0
-
-trce -f "Modulator_impl1.pt" -o "Modulator_impl1.twr" "Modulator_impl1.ncd" "Modulator_impl1.prf"
-trce:  version Diamond (64-bit) 3.12.0.240.2
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-
-Loading design for application trce from file modulator_impl1.ncd.
-Design name: Modulator
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LFXP2-5E
-Package:     TQFP144
-Performance: 6
-Loading device for application trce from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
-Package Status:                     Final          Version 1.42.
-Performance Hardware Data Status:   Final          Version 11.5.
-Setup and Hold Report
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 04:46:24 2022
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 10 -gt -sethld -sp 6 -sphld m -o Modulator_impl1.twr -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml Modulator_impl1.ncd Modulator_impl1.prf 
-Design file:     modulator_impl1.ncd
-Preference file: modulator_impl1.prf
-Device,speed:    LFXP2-5E,6
-Report level:    verbose report, limited to 10 items per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
-BLOCK JTAG PATHS
---------------------------------------------------------------------------------
-
-
-
-Timing summary (Setup):
----------------
-
-Timing errors: 0  Score: 0
-Cumulative negative slack: 0
-
-Constraints cover 18088 paths, 1 nets, and 14106 connections (98.19% coverage)
-
---------------------------------------------------------------------------------
-Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 04:46:25 2022
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-
-Report Information
-------------------
-Command line:    trce -v 10 -gt -sethld -sp 6 -sphld m -o Modulator_impl1.twr -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml Modulator_impl1.ncd Modulator_impl1.prf 
-Design file:     modulator_impl1.ncd
-Preference file: modulator_impl1.prf
-Device,speed:    LFXP2-5E,m
-Report level:    verbose report, limited to 10 items per preference
---------------------------------------------------------------------------------
-
-BLOCK ASYNCPATHS
-BLOCK RESETPATHS
-BLOCK JTAG PATHS
---------------------------------------------------------------------------------
-
-
-
-Timing summary (Hold):
----------------
-
-Timing errors: 0  Score: 0
-Cumulative negative slack: 0
-
-Constraints cover 18088 paths, 1 nets, and 14106 connections (98.19% coverage)
-
-
-
-Timing summary (Setup and Hold):
----------------
-
-Timing errors: 0 (setup), 0 (hold)
-Score: 0 (setup), 0 (hold)
-Cumulative negative slack: 0 (0+0)
---------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------
-
-Total CPU Time: 3 secs 
-Total REAL Time: 3 secs 
-Peak Memory Usage: 171 MB
-
-
-iotiming  "Modulator_impl1.ncd" "Modulator_impl1.prf"
-I/O Timing Report:
-:  version Diamond (64-bit) 3.12.0.240.2
-
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-
-Loading design for application iotiming from file modulator_impl1.ncd.
-Design name: Modulator
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LFXP2-5E
-Package:     TQFP144
-Performance: 6
-Loading device for application iotiming from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
-Package Status:                     Final          Version 1.42.
-Performance Hardware Data Status:   Final          Version 11.5.
-Running Performance Grade: 6
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-
-Loading design for application iotiming from file modulator_impl1.ncd.
-Design name: Modulator
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LFXP2-5E
-Package:     TQFP144
-Performance: 7
-Package Status:                     Final          Version 1.42.
-Performance Hardware Data Status:   Final          Version 11.5.
-Running Performance Grade: 7
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-
-Loading design for application iotiming from file modulator_impl1.ncd.
-Design name: Modulator
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LFXP2-5E
-Package:     TQFP144
-Performance: M
-Package Status:                     Final          Version 1.42.
-Performance Hardware Data Status:   Final          Version 11.5.
-Running Performance Grade: M
-Computing Setup Time ...
-Computing Max Clock to Output Delay ...
-Computing Hold Time ...
-Computing Min Clock to Output Delay ...
-Done.
-
-tmcheck -par "Modulator_impl1.par" 
-
-bitgen -f "Modulator_impl1.t2b" -w "Modulator_impl1.ncd" -jedec -e -s "C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.sec" -k "C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.bek" "Modulator_impl1.prf"
-
-
-BITGEN: Bitstream Generator Diamond (64-bit) 3.12.0.240.2
-Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
-Copyright (c) 1995 AT&T Corp.   All rights reserved.
-Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
-Copyright (c) 2001 Agere Systems   All rights reserved.
-Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-
-
-Loading design for application Bitgen from file Modulator_impl1.ncd.
-Design name: Modulator
-NCD version: 3.3
-Vendor:      LATTICE
-Device:      LFXP2-5E
-Package:     TQFP144
-Performance: 6
-Loading device for application Bitgen from file 'mg5a26x29.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
-Package Status:                     Final          Version 1.42.
-Performance Hardware Data Status:   Final          Version 11.5.
-
-Running DRC.
-chipcheck: INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific datasheet for additional details.
-DRC detected 0 errors and 0 warnings.
-Reading Preference File from Modulator_impl1.prf.
-
-Preference Summary:
-+---------------------------------+---------------------------------+
-|  Preference                     |  Current Setting                |
-+---------------------------------+---------------------------------+
-|                         RamCfg  |                        Reset**  |
-+---------------------------------+---------------------------------+
-|                        DONE_EX  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|                        DONE_OD  |                           ON**  |
-+---------------------------------+---------------------------------+
-|                  CONFIG_SECURE  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|                        WAKE_UP  |                           21**  |
-+---------------------------------+---------------------------------+
-|                   WAKE_ON_LOCK  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|                          INBUF  |                           ON**  |
-+---------------------------------+---------------------------------+
-|                     TAG_MEMORY  |                       NORMAL**  |
-+---------------------------------+---------------------------------+
-|                        MY_ASSP  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|               ONE_TIME_PROGRAM  |                          OFF**  |
-+---------------------------------+---------------------------------+
-|                 SLAVE_SPI_PORT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                MASTER_SPI_PORT  |                      DISABLE**  |
-+---------------------------------+---------------------------------+
-|                     DisableUES  |                        FALSE**  |
-+---------------------------------+---------------------------------+
- *  Default setting.
- ** The specified setting matches the default setting.
-
-
-Creating bit map...
-Saving bit stream in "Modulator_impl1.jed".
-Total CPU Time: 5 secs 
-Total REAL Time: 5 secs 
-Peak Memory Usage: 285 MB
+.....

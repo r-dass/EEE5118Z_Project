@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Modulator" device="LFXP2-5E-6TN144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options VerilogStandard="System Verilog" def_top="Modulator" top="Modulator"/>
+        <Source name="IP/SineTable.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="IP/FIFO.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="System/Structures.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="System/Registers.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Comms/UART.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Comms/UART_Packets.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="System/Controller.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="System/Streamer.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DSP/PWM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DSP/NCO.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DSP/QAM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Modulator.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Modulator"/>
+        </Source>
+        <Source name="Comms/UART_tb.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="Comms/UART_Packets_tb.v" type="Verilog" type_short="Verilog" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="Modulator.fdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="Modulator.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Modulator1.sty"/>
+</BaliProject>

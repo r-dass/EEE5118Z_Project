@@ -118,7 +118,7 @@ PWM PWMQ(
 PWM PWMModulated(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
-  .ipDutyCycle (Modulated[19:12]),
+  .ipDutyCycle ({~Modulated[19], Modulated[18:12]}),
   .opPWM(opPWMModulated)
 );
 
@@ -136,7 +136,7 @@ QAM QAM1(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
 
-  .ipQAMBlock(QAMBlock),
+  .ipQAMBlock(4'b1100),
   .ipQAMBlockValid(QAMBlockValid),
 
   .ipI(I),
@@ -157,7 +157,7 @@ always @(posedge ipClk) begin
 	end
 end
 
-assign opLED = ~{Q[17:16],6'b00};
+assign opLED = ~WrRegisters.LEDs;
 assign RdRegisters.Buttons = ~ipBtn;
 
 

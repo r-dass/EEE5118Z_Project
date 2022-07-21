@@ -5,7 +5,7 @@
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":52:4:52:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":14:10:14:14|Object Reset is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG360 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":40:5:40:9|Removing wire Valid, as there is no assignment to it.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 23 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 15 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL177 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":56:0:56:5|Sharing sequential element opStreamValid. Add a syn_preserve attribute to the element to prevent sharing.
 @W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":7:29:7:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":7:29:7:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.

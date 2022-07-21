@@ -5,41 +5,41 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1658371597"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1658401733"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1658371488">
-            <Task name="Map" build_result="2" update_result="0" update_time="1658371488"/>
-            <Task name="MapTrace" build_result="2" update_result="0" update_time="1658371491"/>
+        <Milestone name="Map" build_result="2" build_time="1658401602">
+            <Task name="Map" build_result="2" update_result="0" update_time="1658401602"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1658401605"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1658371582">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1658371582"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1658371586"/>
-            <Task name="IOTiming" build_result="2" update_result="0" update_time="1658371592"/>
+        <Milestone name="PAR" build_result="2" build_time="1658401718">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1658401718"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1658401721"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1658401728"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1658371481">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1658371481"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1658401595">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1658401595"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="0" update_result="2" update_time="1658371453"/>
-            <Task name="BKM" build_result="0" update_result="2" update_time="1658371453"/>
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1658401573"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="1658401573"/>
             <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1658371482">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1658371482"/>
+        <Milestone name="Translate" build_result="2" build_time="1658401596">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1658401596"/>
         </Milestone>
-        <Report name="Modulator_impl1.bgn" last_build_time="1658371597" last_build_size="3866"/>
-        <Report name="Modulator_impl1.edi" last_build_time="1658371478" last_build_size="929650"/>
-        <Report name="Modulator_impl1.ior" last_build_time="1658371591" last_build_size="2351"/>
-        <Report name="Modulator_impl1.jed" last_build_time="1658371597" last_build_size="1268580"/>
-        <Report name="Modulator_impl1.ncd" last_build_time="1658371582" last_build_size="2240216"/>
-        <Report name="Modulator_impl1.ngd" last_build_time="1658371482" last_build_size="872911"/>
-        <Report name="Modulator_impl1.tw1" last_build_time="1658371490" last_build_size="289170"/>
-        <Report name="Modulator_impl1.twr" last_build_time="1658371585" last_build_size="48658"/>
-        <Report name="Modulator_impl1_map.ncd" last_build_time="1658371488" last_build_size="1351555"/>
+        <Report name="Modulator_impl1.bgn" last_build_time="1658401733" last_build_size="3866"/>
+        <Report name="Modulator_impl1.edi" last_build_time="1658401592" last_build_size="819306"/>
+        <Report name="Modulator_impl1.ior" last_build_time="1658401727" last_build_size="2759"/>
+        <Report name="Modulator_impl1.jed" last_build_time="1658401732" last_build_size="1268580"/>
+        <Report name="Modulator_impl1.ncd" last_build_time="1658401718" last_build_size="2132905"/>
+        <Report name="Modulator_impl1.ngd" last_build_time="1658401596" last_build_size="767678"/>
+        <Report name="Modulator_impl1.tw1" last_build_time="1658401605" last_build_size="262422"/>
+        <Report name="Modulator_impl1.twr" last_build_time="1658401721" last_build_size="49185"/>
+        <Report name="Modulator_impl1_map.ncd" last_build_time="1658401602" last_build_size="1279789"/>
     </Strategy>
 </BuildStatus>
-                                  
+                                                                                                                                                   
