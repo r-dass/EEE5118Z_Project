@@ -81,7 +81,7 @@ always @(posedge(ipClk)) begin
                 end else if (opTxReady2 && ipTxStream2.Valid && !ipTxStream2.SoP) begin
                     opTxStream <= ipTxStream2;
                     opTxReady2 <= 0;
-                    sendPacket <= 2;
+                    sendPacket <= 2; 
                 end else  
                     opTxReady2 <= ipTxReady;
             end else begin // Not Busy in Either Block 
