@@ -1,6 +1,7 @@
 /*
-File template was obtained from practical.
-Code was designed and tested by Reevelen Dass.
+File template was obtained from EEE5118Z practical.
+Code was designed and tested by 
+by Reevelen Dass for EEE5118Z practical and modified for this project.
 */
 
 

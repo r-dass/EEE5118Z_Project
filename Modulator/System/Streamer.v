@@ -1,8 +1,7 @@
 /*
 Code was designed and tested 
-by Reevelen Dass for EEE5118Z Practical and Modified for this Project
+by Reevelen Dass for EEE5118Z practical and modified for this project.
 */
-
  
 import Structures::*;  
 

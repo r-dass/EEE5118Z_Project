@@ -13,17 +13,17 @@ Report for cell Modulator
                                    EBR	          4        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                                   NCO	          1        61.7
+                                   QAM	          1         5.3
+                          UART_Packets	          1         7.9
                               Streamer	          1         9.2
                              Registers	          1         3.7
                                  PWM_1	          1         0.3
                                  PWM_2	          1         0.3
                                  PWM_0	          1         0.5
                                    PWM	          1         0.5
-                          UART_Packets	          1         7.9
-                                   QAM	          1         5.3
                             Controller	          1         4.1
                                Arbiter	          1         4.1
+                                   NCO	          1        61.7
 ---------------------------------------------------
 Report for cell PWM_2
    Instance path: Modulator/PWMModulated

@@ -1,7 +1,8 @@
 
 /*
-File was obtained from practical.
-Slight changes were made by Reevelen Dass for this project
+File was obtained from EEE5118Z practical.
+Slight changes were made 
+by Reevelen Dass for this project.
 */
 
 package Structures;

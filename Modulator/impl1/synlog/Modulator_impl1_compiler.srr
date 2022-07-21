@@ -466,12 +466,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 102MB peak: 108MB)
+At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 102MB peak: 108MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:09:34 2022
+# Thu Jul 21 22:13:12 2022
 
 ###########################################################]
 ###########################################################[
@@ -498,7 +498,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:09:34 2022
+# Thu Jul 21 22:13:12 2022
 
 ###########################################################]
 
@@ -513,6 +513,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory
 Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:09:34 2022
+# Thu Jul 21 22:13:12 2022
 
 ###########################################################]

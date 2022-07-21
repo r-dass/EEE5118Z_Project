@@ -1,4 +1,4 @@
-# Thu Jul 21 22:09:36 2022
+# Thu Jul 21 22:13:14 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -126,7 +126,7 @@ Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapse
 Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=9 on top level netlist Modulator 
 
@@ -188,7 +188,7 @@ Finished Pre Mapping Phase.
 Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .
 
@@ -196,9 +196,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 93MB peak: 179MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 179MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Thu Jul 21 22:09:38 2022
+# Thu Jul 21 22:13:16 2022
 
 ###########################################################]

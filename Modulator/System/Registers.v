@@ -1,8 +1,8 @@
 
 /*
-File was obtained from Practical.
+File was obtained from EEE5118Z practical.
 Slight changes were made 
-by Reevelen Dass for this project
+by Reevelen Dass for this project.
 */
 
 

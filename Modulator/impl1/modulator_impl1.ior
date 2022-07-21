@@ -20,7 +20,7 @@ Performance Hardware Data Status:   Final          Version 11.5.
 // Package: TQFP144
 // ncd File: modulator_impl1.ncd
 // Version: Diamond (64-bit) 3.12.0.240.2
-// Written on Thu Jul 21 22:07:19 2022
+// Written on Thu Jul 21 22:16:45 2022
 // M: Minimum Performance Grade
 // iotiming Modulator_impl1.ncd Modulator_impl1.prf -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml
 
@@ -32,11 +32,11 @@ Worst Case Results across Performance Grades (M, 7, 6):
 
 Port      Clock Edge  Setup Performance_Grade  Hold Performance_Grade
 ----------------------------------------------------------------------
-ipBtn[0]  ipClk R     0.990      6       0.047     M
-ipBtn[1]  ipClk R     1.885      6      -0.212     M
-ipBtn[2]  ipClk R     2.543      6      -0.399     M
-ipBtn[3]  ipClk R     2.059      6      -0.224     M
-ipReset   ipClk R     6.841      6       1.686     6
+ipBtn[0]  ipClk R     2.366      6      -0.332     M
+ipBtn[1]  ipClk R     2.177      6      -0.246     M
+ipBtn[2]  ipClk R     1.891      6      -0.204     M
+ipBtn[3]  ipClk R     1.855      6      -0.169     M
+ipReset   ipClk R     6.712      6       1.686     6
 ipUART_Rx ipClk R     0.266      M       1.686     6
 
 
@@ -44,14 +44,14 @@ ipUART_Rx ipClk R     0.266      M       1.686     6
 
 Port           Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
 ------------------------------------------------------------------------
-opLED[0]       ipClk R     5.765         6        2.036          M
-opLED[1]       ipClk R     5.329         6        1.875          M
-opLED[2]       ipClk R     5.790         6        1.987          M
-opLED[3]       ipClk R     5.722         6        1.977          M
-opLED[4]       ipClk R     6.700         6        2.278          M
-opLED[5]       ipClk R     6.348         6        2.161          M
-opLED[6]       ipClk R     5.298         6        1.888          M
-opLED[7]       ipClk R     6.069         6        2.117          M
+opLED[0]       ipClk R     6.112         6        2.108          M
+opLED[1]       ipClk R     6.248         6        2.152          M
+opLED[2]       ipClk R     6.759         6        2.283          M
+opLED[3]       ipClk R     6.456         6        2.202          M
+opLED[4]       ipClk R     6.599         6        2.275          M
+opLED[5]       ipClk R     5.963         6        2.077          M
+opLED[6]       ipClk R     6.948         6        2.369          M
+opLED[7]       ipClk R     7.081         6        2.414          M
 opPWM          ipClk R     4.272         6        1.369          M
 opPWMI         ipClk R     4.272         6        1.369          M
 opPWMModulated ipClk R     4.272         6        1.369          M

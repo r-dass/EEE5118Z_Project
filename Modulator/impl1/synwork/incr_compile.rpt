@@ -16,17 +16,17 @@ Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-24       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:03:12, 2022-07-21 22:09:22)
+24       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 3
 MID:  lib.cell.view
 2        work.FIFO.verilog may have changed because the following files changed:
-                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:03:12, 2022-07-21 22:09:22) <-- (may instantiate this module)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52) <-- (may instantiate this module)
 4        work.Registers.verilog may have changed because the following files changed:
-                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:03:12, 2022-07-21 22:09:22) <-- (may instantiate this module)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52) <-- (may instantiate this module)
 5        work.Streamer.verilog may have changed because the following files changed:
-                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:03:12, 2022-07-21 22:09:22) <-- (module definition)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52) <-- (module definition)
 
 *******************************************************************
 Unmodified files: 18

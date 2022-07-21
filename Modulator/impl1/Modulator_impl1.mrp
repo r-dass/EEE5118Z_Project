@@ -15,7 +15,7 @@ Target Vendor:  LATTICE
 Target Device:  LFXP2-5ETQFP144
 Target Performance:   6
 Mapper:  mg5a00,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  07/21/22  22:09:51
+Mapped on:  07/21/22  22:13:33
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ Design Summary (cont)
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Design Summary (cont)
 ---------------------
@@ -198,7 +198,7 @@ IO (PIO) Attributes
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -264,7 +264,7 @@ Signal NCO1/Sine/mdL0_19_2 undriven or does not drive anything - clipped.
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -330,7 +330,7 @@ Signal Streamer1/un3_txTimeout_1_cry_0_0_S0 undriven or does not drive anything
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -396,7 +396,7 @@ Signal Streamer1/FIFOBLOCK/pdp_ram_0_2_1_DOB7 undriven or does not drive
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -462,7 +462,7 @@ Signal Streamer1/FIFOBLOCK/pdp_ram_0_1_2_DOB11 undriven or does not drive
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -528,7 +528,7 @@ Signal Streamer1/FIFOBLOCK/pdp_ram_0_0_3_DOB15 undriven or does not drive
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -594,7 +594,7 @@ Signal Streamer1/FIFOBLOCK/pdp_ram_0_0_3_DOA1 undriven or does not drive
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -660,7 +660,7 @@ Signal Streamer1/FIFOBLOCK/pdp_ram_0_3_0_DOA9 undriven or does not drive
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -726,7 +726,7 @@ Signal QAM1/un1_ipI_3_s_19_0_COUT undriven or does not drive anything - clipped.
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -792,7 +792,7 @@ Signal PWMQ/N_1 undriven or does not drive anything - clipped.
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Removed logic (cont)
 --------------------
@@ -858,7 +858,7 @@ Block NCO1/Sine/triglut_1_0_35 was optimized away.
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 Memory Usage
 ------------
@@ -924,7 +924,7 @@ Instance Name: Streamer1/FIFOBLOCK/pdp_ram_0_2_1
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 GSR Usage
 ---------
@@ -990,7 +990,7 @@ GSR Component:
 
 
 
-Design:  Modulator                                     Date:  07/21/22  22:09:51
+Design:  Modulator                                     Date:  07/21/22  22:13:33
 
 GSR Usage (cont)
 ----------------
@@ -1044,8 +1044,8 @@ GSR Usage (cont)
 Run Time and Memory Usage
 -------------------------
 
-   Total CPU Time: 6 secs  
-   Total REAL Time: 7 secs  
+   Total CPU Time: 7 secs  
+   Total REAL Time: 8 secs  
    Peak Memory Usage: 79 MB
         
 
