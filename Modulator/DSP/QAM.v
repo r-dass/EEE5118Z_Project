@@ -1,3 +1,8 @@
+/*
+Code was designed and tested 
+by Reevelen Dass for this Project
+*/
+
 import Structures::*;
 
 module QAM(

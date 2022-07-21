@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Jul 21 13:08:48 2022
+Thu Jul 21 15:50:53 2022
 
 
 Command: bitgen -g RamCfg:Reset -g DisableUES:FALSE -g TAG_MEMORY:Normal -w -jedec -e -s C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.sec -k C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.bek -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml Modulator_impl1.ncd Modulator_impl1.prf 
@@ -61,6 +61,6 @@ Preference Summary:
 
 Creating bit map...
 Saving bit stream in "Modulator_impl1.jed".
-Total CPU Time: 4 secs 
-Total REAL Time: 5 secs 
+Total CPU Time: 6 secs 
+Total REAL Time: 7 secs 
 Peak Memory Usage: 284 MB

@@ -1,4 +1,12 @@
+
+/*
+File was obtained from practical.
+Slight changes were made by Reevelen Dass for this project
+*/
+
 package Structures;
+
+
 //------------------------------------------------------------------------------
 
 typedef struct{

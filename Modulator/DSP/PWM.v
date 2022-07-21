@@ -1,3 +1,8 @@
+/*
+Code was designed and tested 
+by Reevelen Dass for EEE5118Z Practical and Modified for this Project
+*/
+
 module PWM(
   input      ipClk,
   input      ipReset,

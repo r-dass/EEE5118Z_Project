@@ -1,5 +1,9 @@
-import Structures::*;
+/*
+Code was designed and tested 
+by Reevelen Dass for EEE5118Z Practical and Modified for this Project
+*/
 
+import Structures::*;
 
 module NCO(
   input ipClk,
@@ -16,7 +20,7 @@ reg [31:0]Phase;
   
 always @(posedge ipClk) begin
   if (!ipReset) begin
-    Phase <= Phase + 32'hFFFF0000;
+    Phase <= Phase + 32'hFFFFF000;
   end else begin
     Phase <= 0;
   end

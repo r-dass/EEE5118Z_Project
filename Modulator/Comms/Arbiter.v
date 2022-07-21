@@ -1,18 +1,23 @@
+/*
+Code was designed and tested 
+by Reevelen Dass for EEE5118Z Practical and Modified for this Project
+*/
+
 import Structures::*; 
 
 module Arbiter(
-	input              			ipClk,
-    input              			ipReset, 
+	input              	        ipClk,
+    input                       ipReset, 
 
-    input UART_PACKET ipTxStream1,
-    output reg        opTxReady1,
+    input   UART_PACKET         ipTxStream1,
+    output  reg                 opTxReady1,
 
-    input UART_PACKET ipTxStream2, 
-    output reg        opTxReady2, 
+    input   UART_PACKET         ipTxStream2, 
+    output  reg                 opTxReady2, 
  
-    output UART_PACKET opTxStream, 
-    input reg          ipTxReady, 
-    output  [7:0]           opBusy1 
+    output  UART_PACKET         opTxStream, 
+    input   reg                 ipTxReady, 
+    output              [7:0]   opBusy1 //Output Used for Debugging
 ); 
 
 reg Transmit1;
@@ -28,7 +33,7 @@ UART_PACKET TxStreamBuffer;
 
 reg sendPacket;
 
-assign opBusy1 = {Busy1,hasBuffer1,opTxReady1,  2'b0, opTxReady2, hasBuffer2, Busy2};
+assign opBusy1 = {Busy1,hasBuffer1,opTxReady1,  2'b0, opTxReady2, hasBuffer2, Busy2}; // Used for Debugging
 
 always @(posedge(ipClk)) begin
     if (!ipReset) begin
@@ -118,7 +123,7 @@ always @(posedge(ipClk)) begin
                     end
                 end
             end
-        end else begin //SendBuffer
+        end else begin //SendBuffer 
             opTxReady1 <= 0;
             opTxReady2 <= 0;
             if (hasBuffer1) begin

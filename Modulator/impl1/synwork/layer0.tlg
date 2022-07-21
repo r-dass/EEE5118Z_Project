@@ -87,11 +87,7 @@ Running optimization stage 2 on NCO .......
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[9] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[10] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[11] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[12] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[13] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[14] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[15] is always 0.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 15 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 11 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CL159 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:14:8:24|Input ipFrequency is unused.
 Running optimization stage 2 on SineTable .......
 Running optimization stage 2 on MUX41 .......

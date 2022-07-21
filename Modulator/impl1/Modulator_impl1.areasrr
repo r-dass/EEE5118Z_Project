@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------
 Report for cell Modulator.verilog
 
-Register bits: 515 of 4752 (11%)
+Register bits: 568 of 4752 (12%)
 PIC Latch:       0
 I/O cells:       20
                                           Cell usage:
@@ -10,29 +10,29 @@ I/O cells:       20
                               ALEB2        7       100.0
                                AND2        3       100.0
                                 CB2        7       100.0
-                              CCU2B      107       100.0
+                              CCU2B      147       100.0
                                 CU2       12       100.0
-                             DP16KB        2       100.0
+                             DP16KB        4       100.0
                              FADD2B        7       100.0
-                            FD1P3AX      153       100.0
+                            FD1P3AX      180       100.0
                             FD1P3DX       83       100.0
-                            FD1P3IX       67       100.0
+                            FD1P3IX       52       100.0
                             FD1S3AX       40       100.0
                             FD1S3AY        2       100.0
                             FD1S3BX        1       100.0
                             FD1S3DX        1       100.0
-                            FD1S3IX      158       100.0
-                            FD1S3JX        3       100.0
+                            FD1S3IX      198       100.0
+                            FD1S3JX        4       100.0
                                 GSR        1       100.0
                                  IB        7       100.0
                            IFS1P3IX        2       100.0
-                                INV       17       100.0
+                                INV       18       100.0
                               MUX41       36       100.0
                                  OB       13       100.0
                            OFS1P3DX        4       100.0
                            OFS1P3JX        1       100.0
-                           ORCALUT4      261       100.0
-                              PFUMX        4       100.0
+                           ORCALUT4      353       100.0
+                              PFUMX       24       100.0
                                 PUR        1       100.0
                             ROM16X1        2       100.0
                            ROM256X1      144       100.0
@@ -54,28 +54,30 @@ SUB MODULES
                                UART        1       100.0
                        UART_Packets        1       100.0
                             
-                         TOTAL          1194           
+                         TOTAL          1402           
 ----------------------------------------------------------------------
 Report for cell QAM.netlist
      Instance path:  QAM1
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B       21        19.6
-                            FD1S3IX       38        24.1
-                           ORCALUT4        1         0.4
+                              CCU2B       52        35.4
+                            FD1S3IX       60        30.3
+                            FD1S3JX        1        25.0
+                           ORCALUT4       59        16.7
+                              PFUMX       19        79.2
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
-                         TOTAL            62           
+                         TOTAL           193           
 ----------------------------------------------------------------------
 Report for cell NCO.netlist
      Instance path:  NCO1
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B        9         8.4
+                              CCU2B       11         7.5
                             FD1P3DX       46        55.4
-                            FD1S3IX       16        10.1
-                                INV        1         5.9
+                            FD1S3IX       20        10.1
+                                INV        2        11.1
                               MUX41       36       100.0
                            ROM256X1      144       100.0
                                 VHI        2        14.3
@@ -83,25 +85,26 @@ Report for cell NCO.netlist
 SUB MODULES 
                           SineTable        1       100.0
                             
-                         TOTAL           256           
+                         TOTAL           263           
 ----------------------------------------------------------------------
 Report for cell SineTable.netlist
      Instance path:  NCO1.Sine
                                           Cell usage:
                                cell       count    Res Usage(%)
                             FD1P3DX       46        55.4
+                                INV        1         5.6
                               MUX41       36       100.0
                            ROM256X1      144       100.0
                                 VHI        1         7.1
                             
-                         TOTAL           227           
+                         TOTAL           228           
 ----------------------------------------------------------------------
 Report for cell PWM_2.netlist
   Original Cell name PWM
      Instance path:  PWMModulated
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B        5         4.7
+                              CCU2B        5         3.4
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
@@ -112,7 +115,7 @@ Report for cell PWM_1.netlist
      Instance path:  PWMQ
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B        5         4.7
+                              CCU2B        5         3.4
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
@@ -123,7 +126,7 @@ Report for cell PWM_0.netlist
      Instance path:  PWMI
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B        5         4.7
+                              CCU2B        5         3.4
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
@@ -134,9 +137,9 @@ Report for cell PWM.netlist
      Instance path:  PWM1
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B       10         9.3
-                            FD1S3IX        8         5.1
-                                INV        1         5.9
+                              CCU2B       10         6.8
+                            FD1S3IX        8         4.0
+                                INV        1         5.6
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
@@ -150,19 +153,19 @@ Report for cell Streamer.netlist
                               ALEB2        7       100.0
                                AND2        3       100.0
                                 CB2        7       100.0
-                              CCU2B       10         9.3
+                              CCU2B       17        11.6
                                 CU2       12       100.0
-                             DP16KB        2       100.0
+                             DP16KB        4       100.0
                              FADD2B        7       100.0
-                            FD1P3AX        8         5.2
+                            FD1P3AX       20        11.1
                             FD1P3DX       37        44.6
                             FD1S3AX        1         2.5
                             FD1S3BX        1       100.0
                             FD1S3DX        1       100.0
-                            FD1S3IX       21        13.3
-                            FD1S3JX        1        33.3
-                                INV        5        29.4
-                           ORCALUT4       18         6.9
+                            FD1S3IX       35        17.7
+                            FD1S3JX        1        25.0
+                                INV        5        27.8
+                           ORCALUT4       55        15.6
                             ROM16X1        2       100.0
                                 VHI        2        14.3
                                 VLO        2        15.4
@@ -170,7 +173,7 @@ Report for cell Streamer.netlist
 SUB MODULES 
                                FIFO        1       100.0
                             
-                         TOTAL           156           
+                         TOTAL           228           
 ----------------------------------------------------------------------
 Report for cell FIFO.netlist
      Instance path:  Streamer1.FIFOBLOCK
@@ -181,29 +184,29 @@ Report for cell FIFO.netlist
                                AND2        3       100.0
                                 CB2        7       100.0
                                 CU2       12       100.0
-                             DP16KB        2       100.0
+                             DP16KB        4       100.0
                              FADD2B        7       100.0
                             FD1P3DX       37        44.6
                             FD1S3BX        1       100.0
                             FD1S3DX        1       100.0
-                                INV        4        23.5
+                                INV        4        22.2
                             ROM16X1        2       100.0
                                 VHI        1         7.1
                                 VLO        1         7.7
                                XOR2        1       100.0
                             
-                         TOTAL            93           
+                         TOTAL            95           
 ----------------------------------------------------------------------
 Report for cell Registers.netlist
      Instance path:  Register
                                           Cell usage:
                                cell       count    Res Usage(%)
-                            FD1P3IX        8        11.9
+                            FD1P3IX        8        15.4
                             FD1S3AX       14        35.0
-                            FD1S3IX       19        12.0
-                                INV        8        47.1
-                           ORCALUT4       25         9.6
-                              PFUMX        4       100.0
+                            FD1S3IX       19         9.6
+                                INV        8        44.4
+                           ORCALUT4       25         7.1
+                              PFUMX        4        16.7
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
@@ -213,47 +216,48 @@ Report for cell Controller.netlist
      Instance path:  Control
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B        5         4.7
-                            FD1P3AX       76        49.7
-                            FD1P3IX       24        35.8
+                              CCU2B        5         3.4
+                            FD1P3AX       91        50.6
+                            FD1P3IX        9        17.3
                             FD1S3AX        4        10.0
-                            FD1S3IX        8         5.1
-                           ORCALUT4       74        28.4
+                            FD1S3IX        8         4.0
+                           ORCALUT4       74        21.0
+                              PFUMX        1         4.2
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
-                         TOTAL           193           
+                         TOTAL           194           
 ----------------------------------------------------------------------
 Report for cell UART_Packets.netlist
      Instance path:  Packetiser
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B       20        18.7
-                            FD1P3AX       69        45.1
-                            FD1P3IX       35        52.2
+                              CCU2B       20        13.6
+                            FD1P3AX       69        38.3
+                            FD1P3IX       35        67.3
                             FD1S3AX       21        52.5
                             FD1S3AY        2       100.0
-                            FD1S3IX       16        10.1
-                            FD1S3JX        2        66.7
-                           ORCALUT4      143        54.8
+                            FD1S3IX       16         8.1
+                            FD1S3JX        2        50.0
+                           ORCALUT4      140        39.7
                                 VHI        2        14.3
                                 VLO        2        15.4
 SUB MODULES 
                                UART        1       100.0
                             
-                         TOTAL           313           
+                         TOTAL           310           
 ----------------------------------------------------------------------
 Report for cell UART.netlist
      Instance path:  Packetiser.UART_Inst
                                           Cell usage:
                                cell       count    Res Usage(%)
-                              CCU2B       12        11.2
-                            FD1P3AX       34        22.2
-                            FD1P3IX        2         3.0
+                              CCU2B       12         8.2
+                            FD1P3AX       34        18.9
+                            FD1P3IX        2         3.8
                             FD1S3AX       12        30.0
-                            FD1S3IX        8         5.1
-                           ORCALUT4       73        28.0
+                            FD1S3IX        8         4.0
+                           ORCALUT4       72        20.4
                                 VHI        1         7.1
                                 VLO        1         7.7
                             
-                         TOTAL           143           
+                         TOTAL           142           

@@ -1,3 +1,9 @@
+/*
+File template was obtained from practical.
+Code was designed and tested by Reevelen Dass.
+*/
+
+
 /*------------------------------------------------------------------------------
 
 Implements a 115 200 Bd UART.  ipClk is assumed to be 50 MHz

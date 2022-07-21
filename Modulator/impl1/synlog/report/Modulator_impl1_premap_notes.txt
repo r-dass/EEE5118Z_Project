@@ -4,7 +4,6 @@
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
 @N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlock[3:0] (in view: work.Streamer(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":17:0:17:5|Removing sequential instance opModulatedValid (in view: work.QAM(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":56:0:56:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":103:0:103:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.

@@ -1,3 +1,12 @@
+
+/*
+File was obtained from Practical.
+Slight changes were made 
+by Reevelen Dass for this project
+*/
+
+
+
 /*------------------------------------------------------------------------------
 
 Defines the registers, and implements a memory-mapped register interface.

@@ -136,7 +136,7 @@ QAM QAM1(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
 
-  .ipQAMBlock(4'b1100),
+  .ipQAMBlock(QAMBlock),
   .ipQAMBlockValid(QAMBlockValid),
 
   .ipI(I),
