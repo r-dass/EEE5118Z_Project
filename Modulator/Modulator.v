@@ -118,7 +118,7 @@ PWM PWMQ(
 PWM PWMModulated(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
-  .ipDutyCycle (Modulated[19:12]),
+  .ipDutyCycle ({~Modulated[19], Modulated[18:12]}),
   .opPWM(opPWMModulated)
 );
 
