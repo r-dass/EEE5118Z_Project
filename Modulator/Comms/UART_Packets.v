@@ -64,12 +64,16 @@ tState txState;
 UART_PACKET txBuffer;
 
 reg[7:0] BytesReceived;
+
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
+
 //------------------------------------------------------------------------------
 
 // TODO: Implement the Tx stream
 // Transition Logic Broken
 always @(posedge(ipClk)) begin
-         if (!ipReset) begin
+         if (nReset) begin
         case(txState) 
             TransmitWait: begin
                 if (!UART_TxBusy && !ipTxStream.Valid) begin
@@ -152,7 +156,7 @@ end
 
 // TODO: Implement the Rx stream
 always @(posedge(ipClk)) begin
- if (!ipReset) begin
+ if (nReset) begin
         case(rxState) 
         ReceiveSync: begin
             opRxStream.Valid <= 0;

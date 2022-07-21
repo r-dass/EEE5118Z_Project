@@ -13,8 +13,12 @@ module PWM(
 
 reg [7:0]Count;
 
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
+
+
 always @(posedge ipClk) begin
-    if (!ipReset) begin
+    if (nReset) begin
         if (ipDutyCycle > Count) 
             opPWM <= 1;
         else

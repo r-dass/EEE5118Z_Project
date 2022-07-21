@@ -18,6 +18,9 @@ module NCO(
 reg       Reset;
 reg [31:0]Phase;  
   
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
+
 always @(posedge ipClk) begin
   if (!ipReset) begin
     Phase <= Phase + ipFrequency;

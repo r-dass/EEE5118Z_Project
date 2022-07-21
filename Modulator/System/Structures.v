@@ -13,11 +13,12 @@ typedef struct{
   logic [31:0]ClockTicks;
   logic [ 3:0]Buttons;
   logic [ 12:0]FIFO_Size;
-} RD_REGISTERS;
+} RD_REGISTERS; 
   
 typedef struct{   
   logic [7:0]LEDs;
   logic [31:0]Frequency;
+  logic  SlowMode;
 } WR_REGISTERS;
 
 typedef struct{ 

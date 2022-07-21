@@ -18,9 +18,11 @@ module QAM(
     output     reg opModulatedValid,
     output     reg[19:0] opModulated
 ); 
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
 
 always @(posedge(ipClk)) begin
-    if (!ipReset) begin
+    if (nReset) begin
         opModulatedValid <= ipQAMBlockValid;
         case (ipQAMBlock)
             4'b0000: begin

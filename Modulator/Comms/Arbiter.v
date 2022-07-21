@@ -34,9 +34,11 @@ UART_PACKET TxStreamBuffer;
 reg sendPacket;
 
 // assign opBusy1 = {Busy1,hasBuffer1,opTxReady1,  2'b0, opTxReady2, hasBuffer2, Busy2}; // Used for Debugging
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
 
 always @(posedge(ipClk)) begin
-    if (!ipReset) begin
+    if (nReset) begin
         if (!sendBuffer) begin // Normal Behaviour
             if (Busy1) begin // First Packet is Sending
                 if (ipTxStream2.Valid && ipTxStream2.SoP) begin  // A buffer was received on the other input (likely from first packet)

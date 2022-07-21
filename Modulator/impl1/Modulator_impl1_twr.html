@@ -22,7 +22,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 <A name="Par_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Thu Jul 21 20:36:30 2022
+Thu Jul 21 21:36:54 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -42,7 +42,7 @@ Report level:    verbose report, limited to 10 items per preference
 <A name="ptwr_set_ps"></A><B><U><big>Preference Summary</big></U></B>
 
 <LI><A href='#par_twr_pref_0_0' Target='right'>FREQUENCY PORT "ipClk" 50.000000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
-Report:  106.067MHz is the maximum frequency for this preference.
+Report:  108.932MHz is the maximum frequency for this preference.
 
 BLOCK ASYNCPATHS
 BLOCK RESETPATHS
@@ -57,676 +57,638 @@ BLOCK JTAG PATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 10.572ns
+Passed: The following path meets requirements by 10.820ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/txClkCount[2]  (from ipClk_c +)
+   Destination:    FF         Data in        Streamer1/opQAMBlock[3]  (to ipClk_c +)
+                   FF                        Streamer1/opQAMBlock[2]
 
-   Delay:               9.465ns  (27.8% logic, 72.2% route), 12 logic levels.
+   Delay:               8.954ns  (20.0% logic, 80.0% route), 7 logic levels.
 
  Constraint Details:
 
-      9.465ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      8.954ns physical path delay Streamer1/SLICE_150 to Streamer1/SLICE_313 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.572ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.226ns CE_SET requirement (totaling 19.774ns) by 10.820ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path Streamer1/SLICE_150 to Streamer1/SLICE_313:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2A.C0 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2A.C0 to    R17C2A.OFX0 QAM1/un1_ipI_2_i_m2[4]/SLICE_516
-ROUTE         1     1.859    R17C2A.OFX0 to     R18C11C.B1 QAM1/N_186f
-C1TOFCO_DE  ---     0.367     R18C11C.B1 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOF0_DE  ---     0.240    R18C13B.FCI to     R18C13B.F0 QAM1/SLICE_60
-ROUTE         1     0.863     R18C13B.F0 to     R17C13B.B0 Modulated[13]
-C0TOFCO_DE  ---     0.550     R17C13B.B0 to    R17C13B.FCO PWMModulated/SLICE_4
-ROUTE         1     0.000    R17C13B.FCO to    R17C13C.FCI PWMModulated/opPWM6_cry_2
-FCITOFCO_D  ---     0.067    R17C13C.FCI to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363     R19C5B.CLK to      R19C5B.Q1 Streamer1/SLICE_150 (from ipClk_c)
+ROUTE         9     2.014      R19C5B.Q1 to      R17C6A.D0 Streamer1/txClkCount[2]
+CTOF_DEL    ---     0.238      R17C6A.D0 to      R17C6A.F0 Streamer1/SLICE_1622
+ROUTE         3     1.003      R17C6A.F0 to      R16C6A.A0 Streamer1/N_707
+CTOF_DEL    ---     0.238      R16C6A.A0 to      R16C6A.F0 Streamer1/SLICE_1515
+ROUTE         2     0.872      R16C6A.F0 to      R16C7D.B1 Streamer1/N_512
+CTOF_DEL    ---     0.238      R16C7D.B1 to      R16C7D.F1 Streamer1/SLICE_1550
+ROUTE         1     0.778      R16C7D.F1 to      R16C7D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_a2_0_2
+CTOF_DEL    ---     0.238      R16C7D.A0 to      R16C7D.F0 Streamer1/SLICE_1550
+ROUTE         1     0.673      R16C7D.F0 to      R16C9D.C1 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_1
+CTOF_DEL    ---     0.238      R16C9D.C1 to      R16C9D.F1 Streamer1/SLICE_1539
+ROUTE         1     0.778      R16C9D.F1 to      R16C9D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_2_0
+CTOF_DEL    ---     0.238      R16C9D.A0 to      R16C9D.F0 Streamer1/SLICE_1539
+ROUTE         2     1.045      R16C9D.F0 to      R11C9B.CE Streamer1/un1_opQAMBlock_2_sqmuxa_i_0 (to ipClk_c)
                   --------
-                    9.465   (27.8% logic, 72.2% route), 12 logic levels.
+                    8.954   (20.0% logic, 80.0% route), 7 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to Streamer1/SLICE_150:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R19C5B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to Streamer1/SLICE_313:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R11C9B.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.572ns
+Passed: The following path meets requirements by 10.820ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/txClkCount[2]  (from ipClk_c +)
+   Destination:    FF         Data in        Streamer1/opQAMBlock[1]  (to ipClk_c +)
+                   FF                        Streamer1/opQAMBlock[0]
 
-   Delay:               9.465ns  (27.8% logic, 72.2% route), 12 logic levels.
+   Delay:               8.954ns  (20.0% logic, 80.0% route), 7 logic levels.
 
  Constraint Details:
 
-      9.465ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      8.954ns physical path delay Streamer1/SLICE_150 to Streamer1/SLICE_312 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.572ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.226ns CE_SET requirement (totaling 19.774ns) by 10.820ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path Streamer1/SLICE_150 to Streamer1/SLICE_312:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2A.C0 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2A.C0 to    R17C2A.OFX0 QAM1/un1_ipI_2_i_m2[4]/SLICE_516
-ROUTE         1     1.859    R17C2A.OFX0 to     R18C11C.B1 QAM1/N_186f
-C1TOFCO_DE  ---     0.367     R18C11C.B1 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOFCO_D  ---     0.067    R18C13B.FCI to    R18C13B.FCO QAM1/SLICE_60
-ROUTE         1     0.000    R18C13B.FCO to    R18C13C.FCI QAM1/un1_ipI_3_cry_14
-FCITOFCO_D  ---     0.067    R18C13C.FCI to    R18C13C.FCO QAM1/SLICE_59
-ROUTE         1     0.000    R18C13C.FCO to    R18C14A.FCI QAM1/un1_ipI_3_cry_16
-FCITOF0_DE  ---     0.240    R18C14A.FCI to     R18C14A.F0 QAM1/SLICE_58
-ROUTE         1     0.863     R18C14A.F0 to     R17C14A.B0 Modulated[17]
-C0TOFCO_DE  ---     0.550     R17C14A.B0 to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363     R19C5B.CLK to      R19C5B.Q1 Streamer1/SLICE_150 (from ipClk_c)
+ROUTE         9     2.014      R19C5B.Q1 to      R17C6A.D0 Streamer1/txClkCount[2]
+CTOF_DEL    ---     0.238      R17C6A.D0 to      R17C6A.F0 Streamer1/SLICE_1622
+ROUTE         3     1.003      R17C6A.F0 to      R16C6A.A0 Streamer1/N_707
+CTOF_DEL    ---     0.238      R16C6A.A0 to      R16C6A.F0 Streamer1/SLICE_1515
+ROUTE         2     0.872      R16C6A.F0 to      R16C7D.B1 Streamer1/N_512
+CTOF_DEL    ---     0.238      R16C7D.B1 to      R16C7D.F1 Streamer1/SLICE_1550
+ROUTE         1     0.778      R16C7D.F1 to      R16C7D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_a2_0_2
+CTOF_DEL    ---     0.238      R16C7D.A0 to      R16C7D.F0 Streamer1/SLICE_1550
+ROUTE         1     0.673      R16C7D.F0 to      R16C9D.C1 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_1
+CTOF_DEL    ---     0.238      R16C9D.C1 to      R16C9D.F1 Streamer1/SLICE_1539
+ROUTE         1     0.778      R16C9D.F1 to      R16C9D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_2_0
+CTOF_DEL    ---     0.238      R16C9D.A0 to      R16C9D.F0 Streamer1/SLICE_1539
+ROUTE         2     1.045      R16C9D.F0 to      R11C9C.CE Streamer1/un1_opQAMBlock_2_sqmuxa_i_0 (to ipClk_c)
                   --------
-                    9.465   (27.8% logic, 72.2% route), 12 logic levels.
+                    8.954   (20.0% logic, 80.0% route), 7 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to Streamer1/SLICE_150:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R19C5B.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to Streamer1/SLICE_312:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R11C9C.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.572ns
+Passed: The following path meets requirements by 10.857ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/txClkCount[4]  (from ipClk_c +)
+   Destination:    FF         Data in        Streamer1/opQAMBlock[3]  (to ipClk_c +)
+                   FF                        Streamer1/opQAMBlock[2]
 
-   Delay:               9.465ns  (27.8% logic, 72.2% route), 12 logic levels.
+   Delay:               8.917ns  (20.1% logic, 79.9% route), 7 logic levels.
 
  Constraint Details:
 
-      9.465ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      8.917ns physical path delay Streamer1/SLICE_149 to Streamer1/SLICE_313 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.572ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.226ns CE_SET requirement (totaling 19.774ns) by 10.857ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path Streamer1/SLICE_149 to Streamer1/SLICE_313:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2A.C1 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2A.C1 to    R17C2A.OFX0 QAM1/un1_ipI_2_i_m2[4]/SLICE_516
-ROUTE         1     1.859    R17C2A.OFX0 to     R18C11C.B1 QAM1/N_186f
-C1TOFCO_DE  ---     0.367     R18C11C.B1 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOFCO_D  ---     0.067    R18C13B.FCI to    R18C13B.FCO QAM1/SLICE_60
-ROUTE         1     0.000    R18C13B.FCO to    R18C13C.FCI QAM1/un1_ipI_3_cry_14
-FCITOF0_DE  ---     0.240    R18C13C.FCI to     R18C13C.F0 QAM1/SLICE_59
-ROUTE         1     0.863     R18C13C.F0 to     R17C13C.B0 Modulated[15]
-C0TOFCO_DE  ---     0.550     R17C13C.B0 to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363     R19C5C.CLK to      R19C5C.Q1 Streamer1/SLICE_149 (from ipClk_c)
+ROUTE         7     1.977      R19C5C.Q1 to      R17C6A.B0 Streamer1/txClkCount[4]
+CTOF_DEL    ---     0.238      R17C6A.B0 to      R17C6A.F0 Streamer1/SLICE_1622
+ROUTE         3     1.003      R17C6A.F0 to      R16C6A.A0 Streamer1/N_707
+CTOF_DEL    ---     0.238      R16C6A.A0 to      R16C6A.F0 Streamer1/SLICE_1515
+ROUTE         2     0.872      R16C6A.F0 to      R16C7D.B1 Streamer1/N_512
+CTOF_DEL    ---     0.238      R16C7D.B1 to      R16C7D.F1 Streamer1/SLICE_1550
+ROUTE         1     0.778      R16C7D.F1 to      R16C7D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_a2_0_2
+CTOF_DEL    ---     0.238      R16C7D.A0 to      R16C7D.F0 Streamer1/SLICE_1550
+ROUTE         1     0.673      R16C7D.F0 to      R16C9D.C1 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_1
+CTOF_DEL    ---     0.238      R16C9D.C1 to      R16C9D.F1 Streamer1/SLICE_1539
+ROUTE         1     0.778      R16C9D.F1 to      R16C9D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_2_0
+CTOF_DEL    ---     0.238      R16C9D.A0 to      R16C9D.F0 Streamer1/SLICE_1539
+ROUTE         2     1.045      R16C9D.F0 to      R11C9B.CE Streamer1/un1_opQAMBlock_2_sqmuxa_i_0 (to ipClk_c)
                   --------
-                    9.465   (27.8% logic, 72.2% route), 12 logic levels.
+                    8.917   (20.1% logic, 79.9% route), 7 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to Streamer1/SLICE_149:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R19C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to Streamer1/SLICE_313:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R11C9B.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.572ns
+Passed: The following path meets requirements by 10.857ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/txClkCount[4]  (from ipClk_c +)
+   Destination:    FF         Data in        Streamer1/opQAMBlock[1]  (to ipClk_c +)
+                   FF                        Streamer1/opQAMBlock[0]
 
-   Delay:               9.465ns  (27.8% logic, 72.2% route), 12 logic levels.
+   Delay:               8.917ns  (20.1% logic, 79.9% route), 7 logic levels.
 
  Constraint Details:
 
-      9.465ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      8.917ns physical path delay Streamer1/SLICE_149 to Streamer1/SLICE_312 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.572ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.226ns CE_SET requirement (totaling 19.774ns) by 10.857ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path Streamer1/SLICE_149 to Streamer1/SLICE_312:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2A.C1 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2A.C1 to    R17C2A.OFX0 QAM1/un1_ipI_2_i_m2[4]/SLICE_516
-ROUTE         1     1.859    R17C2A.OFX0 to     R18C11C.B1 QAM1/N_186f
-C1TOFCO_DE  ---     0.367     R18C11C.B1 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOFCO_D  ---     0.067    R18C13B.FCI to    R18C13B.FCO QAM1/SLICE_60
-ROUTE         1     0.000    R18C13B.FCO to    R18C13C.FCI QAM1/un1_ipI_3_cry_14
-FCITOFCO_D  ---     0.067    R18C13C.FCI to    R18C13C.FCO QAM1/SLICE_59
-ROUTE         1     0.000    R18C13C.FCO to    R18C14A.FCI QAM1/un1_ipI_3_cry_16
-FCITOF0_DE  ---     0.240    R18C14A.FCI to     R18C14A.F0 QAM1/SLICE_58
-ROUTE         1     0.863     R18C14A.F0 to     R17C14A.B0 Modulated[17]
-C0TOFCO_DE  ---     0.550     R17C14A.B0 to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363     R19C5C.CLK to      R19C5C.Q1 Streamer1/SLICE_149 (from ipClk_c)
+ROUTE         7     1.977      R19C5C.Q1 to      R17C6A.B0 Streamer1/txClkCount[4]
+CTOF_DEL    ---     0.238      R17C6A.B0 to      R17C6A.F0 Streamer1/SLICE_1622
+ROUTE         3     1.003      R17C6A.F0 to      R16C6A.A0 Streamer1/N_707
+CTOF_DEL    ---     0.238      R16C6A.A0 to      R16C6A.F0 Streamer1/SLICE_1515
+ROUTE         2     0.872      R16C6A.F0 to      R16C7D.B1 Streamer1/N_512
+CTOF_DEL    ---     0.238      R16C7D.B1 to      R16C7D.F1 Streamer1/SLICE_1550
+ROUTE         1     0.778      R16C7D.F1 to      R16C7D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_a2_0_2
+CTOF_DEL    ---     0.238      R16C7D.A0 to      R16C7D.F0 Streamer1/SLICE_1550
+ROUTE         1     0.673      R16C7D.F0 to      R16C9D.C1 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_1
+CTOF_DEL    ---     0.238      R16C9D.C1 to      R16C9D.F1 Streamer1/SLICE_1539
+ROUTE         1     0.778      R16C9D.F1 to      R16C9D.A0 Streamer1/un1_opQAMBlock_2_sqmuxa_i_0_2_0
+CTOF_DEL    ---     0.238      R16C9D.A0 to      R16C9D.F0 Streamer1/SLICE_1539
+ROUTE         2     1.045      R16C9D.F0 to      R11C9C.CE Streamer1/un1_opQAMBlock_2_sqmuxa_i_0 (to ipClk_c)
                   --------
-                    9.465   (27.8% logic, 72.2% route), 12 logic levels.
+                    8.917   (20.1% logic, 79.9% route), 7 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to Streamer1/SLICE_149:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R19C5C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to Streamer1/SLICE_312:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R11C9C.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.572ns
+Passed: The following path meets requirements by 10.895ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_18  (from ipClk_c +)
+   Destination:    FF         Data in        QAM1/opModulated[18]  (to ipClk_c +)
 
-   Delay:               9.465ns  (27.8% logic, 72.2% route), 12 logic levels.
+   Delay:               9.028ns  (34.9% logic, 65.1% route), 13 logic levels.
 
  Constraint Details:
 
-      9.465ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      9.028ns physical path delay NCO1/Sine/SLICE_225 to QAM1/SLICE_47 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.572ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 10.895ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path NCO1/Sine/SLICE_225 to QAM1/SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2A.C0 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2A.C0 to    R17C2A.OFX0 QAM1/un1_ipI_2_i_m2[4]/SLICE_516
-ROUTE         1     1.859    R17C2A.OFX0 to     R18C11C.B1 QAM1/N_186f
-C1TOFCO_DE  ---     0.367     R18C11C.B1 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOFCO_D  ---     0.067    R18C13B.FCI to    R18C13B.FCO QAM1/SLICE_60
-ROUTE         1     0.000    R18C13B.FCO to    R18C13C.FCI QAM1/un1_ipI_3_cry_14
-FCITOF0_DE  ---     0.240    R18C13C.FCI to     R18C13C.F0 QAM1/SLICE_59
-ROUTE         1     0.863     R18C13C.F0 to     R17C13C.B0 Modulated[15]
-C0TOFCO_DE  ---     0.550     R17C13C.B0 to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363    R19C20C.CLK to     R19C20C.Q0 NCO1/Sine/SLICE_225 (from ipClk_c)
+ROUTE         5     2.583     R19C20C.Q0 to       R4C5A.B1 I[0]
+C1TOFCO_DE  ---     0.367       R4C5A.B1 to      R4C5A.FCO QAM1/SLICE_45
+ROUTE         1     0.000      R4C5A.FCO to      R4C5B.FCI QAM1/un1_ipI_0_cry_1
+FCITOFCO_D  ---     0.067      R4C5B.FCI to      R4C5B.FCO QAM1/SLICE_44
+ROUTE         1     0.000      R4C5B.FCO to      R4C5C.FCI QAM1/un1_ipI_0_cry_3
+FCITOF1_DE  ---     0.310      R4C5C.FCI to       R4C5C.F1 QAM1/SLICE_43
+ROUTE         1     0.966       R4C5C.F1 to       R3C6A.A0 QAM1/un1_ipI[5]
+C0TOFCO_DE  ---     0.550       R3C6A.A0 to      R3C6A.FCO QAM1/SLICE_74
+ROUTE         1     0.000      R3C6A.FCO to      R3C6B.FCI QAM1/un1_ipI_2_2_i_m2_cry_6
+FCITOFCO_D  ---     0.067      R3C6B.FCI to      R3C6B.FCO QAM1/SLICE_73
+ROUTE         1     0.000      R3C6B.FCO to      R3C6C.FCI QAM1/un1_ipI_2_2_i_m2_cry_8
+FCITOFCO_D  ---     0.067      R3C6C.FCI to      R3C6C.FCO QAM1/SLICE_72
+ROUTE         1     0.000      R3C6C.FCO to      R3C7A.FCI QAM1/un1_ipI_2_2_i_m2_cry_10
+FCITOF1_DE  ---     0.310      R3C7A.FCI to       R3C7A.F1 QAM1/SLICE_71
+ROUTE         1     1.051       R3C7A.F1 to       R5C9D.B0 QAM1/N_198
+CTOF_DEL    ---     0.238       R5C9D.B0 to       R5C9D.F0 QAM1/SLICE_1529
+ROUTE         1     1.278       R5C9D.F0 to      R4C11A.B1 QAM1/N_178
+C1TOFCO_DE  ---     0.367      R4C11A.B1 to     R4C11A.FCO QAM1/SLICE_50
+ROUTE         1     0.000     R4C11A.FCO to     R4C11B.FCI QAM1/un1_ipI_3_cry_12
+FCITOFCO_D  ---     0.067     R4C11B.FCI to     R4C11B.FCO QAM1/SLICE_49
+ROUTE         1     0.000     R4C11B.FCO to     R4C11C.FCI QAM1/un1_ipI_3_cry_14
+FCITOFCO_D  ---     0.067     R4C11C.FCI to     R4C11C.FCO QAM1/SLICE_48
+ROUTE         1     0.000     R4C11C.FCO to     R4C12A.FCI QAM1/un1_ipI_3_cry_16
+FCITOF1_DE  ---     0.310     R4C12A.FCI to      R4C12A.F1 QAM1/SLICE_47
+ROUTE         1     0.000      R4C12A.F1 to     R4C12A.DI1 QAM1/un1_ipI_3[18] (to ipClk_c)
                   --------
-                    9.465   (27.8% logic, 72.2% route), 12 logic levels.
+                    9.028   (34.9% logic, 65.1% route), 13 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to    R19C20C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to QAM1/SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R4C12A.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.572ns
+Passed: The following path meets requirements by 10.898ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_18  (from ipClk_c +)
+   Destination:    FF         Data in        QAM1/opModulated[19]  (to ipClk_c +)
 
-   Delay:               9.465ns  (27.8% logic, 72.2% route), 12 logic levels.
+   Delay:               9.025ns  (34.9% logic, 65.1% route), 14 logic levels.
 
  Constraint Details:
 
-      9.465ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      9.025ns physical path delay NCO1/Sine/SLICE_225 to QAM1/SLICE_46 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.572ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 10.898ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path NCO1/Sine/SLICE_225 to QAM1/SLICE_46:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2A.C1 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2A.C1 to    R17C2A.OFX0 QAM1/un1_ipI_2_i_m2[4]/SLICE_516
-ROUTE         1     1.859    R17C2A.OFX0 to     R18C11C.B1 QAM1/N_186f
-C1TOFCO_DE  ---     0.367     R18C11C.B1 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOF0_DE  ---     0.240    R18C13B.FCI to     R18C13B.F0 QAM1/SLICE_60
-ROUTE         1     0.863     R18C13B.F0 to     R17C13B.B0 Modulated[13]
-C0TOFCO_DE  ---     0.550     R17C13B.B0 to    R17C13B.FCO PWMModulated/SLICE_4
-ROUTE         1     0.000    R17C13B.FCO to    R17C13C.FCI PWMModulated/opPWM6_cry_2
-FCITOFCO_D  ---     0.067    R17C13C.FCI to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363    R19C20C.CLK to     R19C20C.Q0 NCO1/Sine/SLICE_225 (from ipClk_c)
+ROUTE         5     2.583     R19C20C.Q0 to       R4C5A.B1 I[0]
+C1TOFCO_DE  ---     0.367       R4C5A.B1 to      R4C5A.FCO QAM1/SLICE_45
+ROUTE         1     0.000      R4C5A.FCO to      R4C5B.FCI QAM1/un1_ipI_0_cry_1
+FCITOFCO_D  ---     0.067      R4C5B.FCI to      R4C5B.FCO QAM1/SLICE_44
+ROUTE         1     0.000      R4C5B.FCO to      R4C5C.FCI QAM1/un1_ipI_0_cry_3
+FCITOF1_DE  ---     0.310      R4C5C.FCI to       R4C5C.F1 QAM1/SLICE_43
+ROUTE         1     0.966       R4C5C.F1 to       R3C6A.A0 QAM1/un1_ipI[5]
+C0TOFCO_DE  ---     0.550       R3C6A.A0 to      R3C6A.FCO QAM1/SLICE_74
+ROUTE         1     0.000      R3C6A.FCO to      R3C6B.FCI QAM1/un1_ipI_2_2_i_m2_cry_6
+FCITOFCO_D  ---     0.067      R3C6B.FCI to      R3C6B.FCO QAM1/SLICE_73
+ROUTE         1     0.000      R3C6B.FCO to      R3C6C.FCI QAM1/un1_ipI_2_2_i_m2_cry_8
+FCITOFCO_D  ---     0.067      R3C6C.FCI to      R3C6C.FCO QAM1/SLICE_72
+ROUTE         1     0.000      R3C6C.FCO to      R3C7A.FCI QAM1/un1_ipI_2_2_i_m2_cry_10
+FCITOF1_DE  ---     0.310      R3C7A.FCI to       R3C7A.F1 QAM1/SLICE_71
+ROUTE         1     1.051       R3C7A.F1 to       R5C9D.B0 QAM1/N_198
+CTOF_DEL    ---     0.238       R5C9D.B0 to       R5C9D.F0 QAM1/SLICE_1529
+ROUTE         1     1.278       R5C9D.F0 to      R4C11A.B1 QAM1/N_178
+C1TOFCO_DE  ---     0.367      R4C11A.B1 to     R4C11A.FCO QAM1/SLICE_50
+ROUTE         1     0.000     R4C11A.FCO to     R4C11B.FCI QAM1/un1_ipI_3_cry_12
+FCITOFCO_D  ---     0.067     R4C11B.FCI to     R4C11B.FCO QAM1/SLICE_49
+ROUTE         1     0.000     R4C11B.FCO to     R4C11C.FCI QAM1/un1_ipI_3_cry_14
+FCITOFCO_D  ---     0.067     R4C11C.FCI to     R4C11C.FCO QAM1/SLICE_48
+ROUTE         1     0.000     R4C11C.FCO to     R4C12A.FCI QAM1/un1_ipI_3_cry_16
+FCITOFCO_D  ---     0.067     R4C12A.FCI to     R4C12A.FCO QAM1/SLICE_47
+ROUTE         1     0.000     R4C12A.FCO to     R4C12B.FCI QAM1/un1_ipI_3_cry_18
+FCITOF0_DE  ---     0.240     R4C12B.FCI to      R4C12B.F0 QAM1/SLICE_46
+ROUTE         1     0.000      R4C12B.F0 to     R4C12B.DI0 QAM1/un1_ipI_3[19] (to ipClk_c)
                   --------
-                    9.465   (27.8% logic, 72.2% route), 12 logic levels.
+                    9.025   (34.9% logic, 65.1% route), 14 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to    R19C20C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to QAM1/SLICE_46:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R4C12B.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.592ns
+Passed: The following path meets requirements by 10.902ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_18  (from ipClk_c +)
+   Destination:    FF         Data in        QAM1/opModulated[18]  (to ipClk_c +)
 
-   Delay:               9.445ns  (29.8% logic, 70.2% route), 12 logic levels.
+   Delay:               9.021ns  (36.2% logic, 63.8% route), 13 logic levels.
 
  Constraint Details:
 
-      9.445ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      9.021ns physical path delay NCO1/Sine/SLICE_225 to QAM1/SLICE_47 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.592ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 10.902ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path NCO1/Sine/SLICE_225 to QAM1/SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2C.C0 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2C.C0 to    R17C2C.OFX0 QAM1/un1_ipI_2_i_m2[3]/SLICE_517
-ROUTE         1     1.656    R17C2C.OFX0 to     R18C11C.B0 QAM1/N_187f
-C0TOFCO_DE  ---     0.550     R18C11C.B0 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOFCO_D  ---     0.067    R18C13B.FCI to    R18C13B.FCO QAM1/SLICE_60
-ROUTE         1     0.000    R18C13B.FCO to    R18C13C.FCI QAM1/un1_ipI_3_cry_14
-FCITOFCO_D  ---     0.067    R18C13C.FCI to    R18C13C.FCO QAM1/SLICE_59
-ROUTE         1     0.000    R18C13C.FCO to    R18C14A.FCI QAM1/un1_ipI_3_cry_16
-FCITOF0_DE  ---     0.240    R18C14A.FCI to     R18C14A.F0 QAM1/SLICE_58
-ROUTE         1     0.863     R18C14A.F0 to     R17C14A.B0 Modulated[17]
-C0TOFCO_DE  ---     0.550     R17C14A.B0 to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363    R19C20C.CLK to     R19C20C.Q0 NCO1/Sine/SLICE_225 (from ipClk_c)
+ROUTE         5     2.583     R19C20C.Q0 to       R4C5A.B1 I[0]
+C1TOFCO_DE  ---     0.367       R4C5A.B1 to      R4C5A.FCO QAM1/SLICE_45
+ROUTE         1     0.000      R4C5A.FCO to      R4C5B.FCI QAM1/un1_ipI_0_cry_1
+FCITOFCO_D  ---     0.067      R4C5B.FCI to      R4C5B.FCO QAM1/SLICE_44
+ROUTE         1     0.000      R4C5B.FCO to      R4C5C.FCI QAM1/un1_ipI_0_cry_3
+FCITOF1_DE  ---     0.310      R4C5C.FCI to       R4C5C.F1 QAM1/SLICE_43
+ROUTE         1     0.966       R4C5C.F1 to       R3C6A.A0 QAM1/un1_ipI[5]
+C0TOFCO_DE  ---     0.550       R3C6A.A0 to      R3C6A.FCO QAM1/SLICE_74
+ROUTE         1     0.000      R3C6A.FCO to      R3C6B.FCI QAM1/un1_ipI_2_2_i_m2_cry_6
+FCITOFCO_D  ---     0.067      R3C6B.FCI to      R3C6B.FCO QAM1/SLICE_73
+ROUTE         1     0.000      R3C6B.FCO to      R3C6C.FCI QAM1/un1_ipI_2_2_i_m2_cry_8
+FCITOFCO_D  ---     0.067      R3C6C.FCI to      R3C6C.FCO QAM1/SLICE_72
+ROUTE         1     0.000      R3C6C.FCO to      R3C7A.FCI QAM1/un1_ipI_2_2_i_m2_cry_10
+FCITOFCO_D  ---     0.067      R3C7A.FCI to      R3C7A.FCO QAM1/SLICE_71
+ROUTE         1     0.000      R3C7A.FCO to      R3C7B.FCI QAM1/un1_ipI_2_2_i_m2_cry_12
+FCITOF0_DE  ---     0.240      R3C7B.FCI to       R3C7B.F0 QAM1/SLICE_70
+ROUTE         1     0.931       R3C7B.F0 to       R5C9C.C0 QAM1/N_197
+CTOF_DEL    ---     0.238       R5C9C.C0 to       R5C9C.F0 QAM1/SLICE_1530
+ROUTE         1     1.278       R5C9C.F0 to      R4C11B.B0 QAM1/N_177
+C0TOFCO_DE  ---     0.550      R4C11B.B0 to     R4C11B.FCO QAM1/SLICE_49
+ROUTE         1     0.000     R4C11B.FCO to     R4C11C.FCI QAM1/un1_ipI_3_cry_14
+FCITOFCO_D  ---     0.067     R4C11C.FCI to     R4C11C.FCO QAM1/SLICE_48
+ROUTE         1     0.000     R4C11C.FCO to     R4C12A.FCI QAM1/un1_ipI_3_cry_16
+FCITOF1_DE  ---     0.310     R4C12A.FCI to      R4C12A.F1 QAM1/SLICE_47
+ROUTE         1     0.000      R4C12A.F1 to     R4C12A.DI1 QAM1/un1_ipI_3[18] (to ipClk_c)
                   --------
-                    9.445   (29.8% logic, 70.2% route), 12 logic levels.
+                    9.021   (36.2% logic, 63.8% route), 13 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to    R19C20C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to QAM1/SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R4C12A.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.592ns
+Passed: The following path meets requirements by 10.902ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_18  (from ipClk_c +)
+   Destination:    FF         Data in        QAM1/opModulated[18]  (to ipClk_c +)
 
-   Delay:               9.445ns  (29.8% logic, 70.2% route), 12 logic levels.
+   Delay:               9.021ns  (36.2% logic, 63.8% route), 13 logic levels.
 
  Constraint Details:
 
-      9.445ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      9.021ns physical path delay NCO1/Sine/SLICE_225 to QAM1/SLICE_47 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.592ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 10.902ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path NCO1/Sine/SLICE_225 to QAM1/SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2C.C0 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2C.C0 to    R17C2C.OFX0 QAM1/un1_ipI_2_i_m2[3]/SLICE_517
-ROUTE         1     1.656    R17C2C.OFX0 to     R18C11C.B0 QAM1/N_187f
-C0TOFCO_DE  ---     0.550     R18C11C.B0 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOF0_DE  ---     0.240    R18C13B.FCI to     R18C13B.F0 QAM1/SLICE_60
-ROUTE         1     0.863     R18C13B.F0 to     R17C13B.B0 Modulated[13]
-C0TOFCO_DE  ---     0.550     R17C13B.B0 to    R17C13B.FCO PWMModulated/SLICE_4
-ROUTE         1     0.000    R17C13B.FCO to    R17C13C.FCI PWMModulated/opPWM6_cry_2
-FCITOFCO_D  ---     0.067    R17C13C.FCI to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363    R19C20C.CLK to     R19C20C.Q0 NCO1/Sine/SLICE_225 (from ipClk_c)
+ROUTE         5     2.583     R19C20C.Q0 to       R4C5A.B1 I[0]
+C1TOFCO_DE  ---     0.367       R4C5A.B1 to      R4C5A.FCO QAM1/SLICE_45
+ROUTE         1     0.000      R4C5A.FCO to      R4C5B.FCI QAM1/un1_ipI_0_cry_1
+FCITOFCO_D  ---     0.067      R4C5B.FCI to      R4C5B.FCO QAM1/SLICE_44
+ROUTE         1     0.000      R4C5B.FCO to      R4C5C.FCI QAM1/un1_ipI_0_cry_3
+FCITOFCO_D  ---     0.067      R4C5C.FCI to      R4C5C.FCO QAM1/SLICE_43
+ROUTE         1     0.000      R4C5C.FCO to      R4C6A.FCI QAM1/un1_ipI_0_cry_5
+FCITOFCO_D  ---     0.067      R4C6A.FCI to      R4C6A.FCO QAM1/SLICE_42
+ROUTE         1     0.000      R4C6A.FCO to      R4C6B.FCI QAM1/un1_ipI_0_cry_7
+FCITOFCO_D  ---     0.067      R4C6B.FCI to      R4C6B.FCO QAM1/SLICE_41
+ROUTE         1     0.000      R4C6B.FCO to      R4C6C.FCI QAM1/un1_ipI_0_cry_9
+FCITOF1_DE  ---     0.310      R4C6C.FCI to       R4C6C.F1 QAM1/SLICE_40
+ROUTE         1     0.966       R4C6C.F1 to       R3C7A.A0 QAM1/un1_ipI[11]
+C0TOFCO_DE  ---     0.550       R3C7A.A0 to      R3C7A.FCO QAM1/SLICE_71
+ROUTE         1     0.000      R3C7A.FCO to      R3C7B.FCI QAM1/un1_ipI_2_2_i_m2_cry_12
+FCITOF0_DE  ---     0.240      R3C7B.FCI to       R3C7B.F0 QAM1/SLICE_70
+ROUTE         1     0.931       R3C7B.F0 to       R5C9C.C0 QAM1/N_197
+CTOF_DEL    ---     0.238       R5C9C.C0 to       R5C9C.F0 QAM1/SLICE_1530
+ROUTE         1     1.278       R5C9C.F0 to      R4C11B.B0 QAM1/N_177
+C0TOFCO_DE  ---     0.550      R4C11B.B0 to     R4C11B.FCO QAM1/SLICE_49
+ROUTE         1     0.000     R4C11B.FCO to     R4C11C.FCI QAM1/un1_ipI_3_cry_14
+FCITOFCO_D  ---     0.067     R4C11C.FCI to     R4C11C.FCO QAM1/SLICE_48
+ROUTE         1     0.000     R4C11C.FCO to     R4C12A.FCI QAM1/un1_ipI_3_cry_16
+FCITOF1_DE  ---     0.310     R4C12A.FCI to      R4C12A.F1 QAM1/SLICE_47
+ROUTE         1     0.000      R4C12A.F1 to     R4C12A.DI1 QAM1/un1_ipI_3[18] (to ipClk_c)
                   --------
-                    9.445   (29.8% logic, 70.2% route), 12 logic levels.
+                    9.021   (36.2% logic, 63.8% route), 13 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to    R19C20C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to QAM1/SLICE_47:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R4C12A.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.592ns
+Passed: The following path meets requirements by 10.905ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_18  (from ipClk_c +)
+   Destination:    FF         Data in        QAM1/opModulated[19]  (to ipClk_c +)
 
-   Delay:               9.445ns  (29.8% logic, 70.2% route), 12 logic levels.
+   Delay:               9.018ns  (36.1% logic, 63.9% route), 14 logic levels.
 
  Constraint Details:
 
-      9.445ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      9.018ns physical path delay NCO1/Sine/SLICE_225 to QAM1/SLICE_46 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.592ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 10.905ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path NCO1/Sine/SLICE_225 to QAM1/SLICE_46:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     2.019      R15C7A.Q1 to      R17C2C.C0 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2C.C0 to    R17C2C.OFX0 QAM1/un1_ipI_2_i_m2[3]/SLICE_517
-ROUTE         1     1.656    R17C2C.OFX0 to     R18C11C.B0 QAM1/N_187f
-C0TOFCO_DE  ---     0.550     R18C11C.B0 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOFCO_D  ---     0.067    R18C13B.FCI to    R18C13B.FCO QAM1/SLICE_60
-ROUTE         1     0.000    R18C13B.FCO to    R18C13C.FCI QAM1/un1_ipI_3_cry_14
-FCITOF0_DE  ---     0.240    R18C13C.FCI to     R18C13C.F0 QAM1/SLICE_59
-ROUTE         1     0.863     R18C13C.F0 to     R17C13C.B0 Modulated[15]
-C0TOFCO_DE  ---     0.550     R17C13C.B0 to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363    R19C20C.CLK to     R19C20C.Q0 NCO1/Sine/SLICE_225 (from ipClk_c)
+ROUTE         5     2.583     R19C20C.Q0 to       R4C5A.B1 I[0]
+C1TOFCO_DE  ---     0.367       R4C5A.B1 to      R4C5A.FCO QAM1/SLICE_45
+ROUTE         1     0.000      R4C5A.FCO to      R4C5B.FCI QAM1/un1_ipI_0_cry_1
+FCITOFCO_D  ---     0.067      R4C5B.FCI to      R4C5B.FCO QAM1/SLICE_44
+ROUTE         1     0.000      R4C5B.FCO to      R4C5C.FCI QAM1/un1_ipI_0_cry_3
+FCITOF1_DE  ---     0.310      R4C5C.FCI to       R4C5C.F1 QAM1/SLICE_43
+ROUTE         1     0.966       R4C5C.F1 to       R3C6A.A0 QAM1/un1_ipI[5]
+C0TOFCO_DE  ---     0.550       R3C6A.A0 to      R3C6A.FCO QAM1/SLICE_74
+ROUTE         1     0.000      R3C6A.FCO to      R3C6B.FCI QAM1/un1_ipI_2_2_i_m2_cry_6
+FCITOFCO_D  ---     0.067      R3C6B.FCI to      R3C6B.FCO QAM1/SLICE_73
+ROUTE         1     0.000      R3C6B.FCO to      R3C6C.FCI QAM1/un1_ipI_2_2_i_m2_cry_8
+FCITOFCO_D  ---     0.067      R3C6C.FCI to      R3C6C.FCO QAM1/SLICE_72
+ROUTE         1     0.000      R3C6C.FCO to      R3C7A.FCI QAM1/un1_ipI_2_2_i_m2_cry_10
+FCITOFCO_D  ---     0.067      R3C7A.FCI to      R3C7A.FCO QAM1/SLICE_71
+ROUTE         1     0.000      R3C7A.FCO to      R3C7B.FCI QAM1/un1_ipI_2_2_i_m2_cry_12
+FCITOF0_DE  ---     0.240      R3C7B.FCI to       R3C7B.F0 QAM1/SLICE_70
+ROUTE         1     0.931       R3C7B.F0 to       R5C9C.C0 QAM1/N_197
+CTOF_DEL    ---     0.238       R5C9C.C0 to       R5C9C.F0 QAM1/SLICE_1530
+ROUTE         1     1.278       R5C9C.F0 to      R4C11B.B0 QAM1/N_177
+C0TOFCO_DE  ---     0.550      R4C11B.B0 to     R4C11B.FCO QAM1/SLICE_49
+ROUTE         1     0.000     R4C11B.FCO to     R4C11C.FCI QAM1/un1_ipI_3_cry_14
+FCITOFCO_D  ---     0.067     R4C11C.FCI to     R4C11C.FCO QAM1/SLICE_48
+ROUTE         1     0.000     R4C11C.FCO to     R4C12A.FCI QAM1/un1_ipI_3_cry_16
+FCITOFCO_D  ---     0.067     R4C12A.FCI to     R4C12A.FCO QAM1/SLICE_47
+ROUTE         1     0.000     R4C12A.FCO to     R4C12B.FCI QAM1/un1_ipI_3_cry_18
+FCITOF0_DE  ---     0.240     R4C12B.FCI to      R4C12B.F0 QAM1/SLICE_46
+ROUTE         1     0.000      R4C12B.F0 to     R4C12B.DI0 QAM1/un1_ipI_3[19] (to ipClk_c)
                   --------
-                    9.445   (29.8% logic, 70.2% route), 12 logic levels.
+                    9.018   (36.1% logic, 63.9% route), 14 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to    R19C20C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to QAM1/SLICE_46:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R4C12B.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 10.739ns
+Passed: The following path meets requirements by 10.905ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              QAM1/opModulated_pipe_44  (from ipClk_c +)
-   Destination:    FF         Data in        PWMModulated_opPWMio  (to ipClk_c +)
+   Source:         FF         Q              NCO1/Sine/FF_18  (from ipClk_c +)
+   Destination:    FF         Data in        QAM1/opModulated[19]  (to ipClk_c +)
 
-   Delay:               9.298ns  (30.3% logic, 69.7% route), 12 logic levels.
+   Delay:               9.018ns  (36.1% logic, 63.9% route), 14 logic levels.
 
  Constraint Details:
 
-      9.298ns physical path delay QAM1/SLICE_348 to opPWMModulated_MGIOL meets
+      9.018ns physical path delay NCO1/Sine/SLICE_225 to QAM1/SLICE_46 meets
      20.000ns delay constraint less
-     -0.137ns skew and
-      0.100ns ONEG0_SET requirement (totaling 20.037ns) by 10.739ns
-
-IOL_R6B attributes: FINE=FDEL0
+      0.000ns skew and
+      0.077ns DIN_SET requirement (totaling 19.923ns) by 10.905ns
 
  Physical Path Details:
 
-      Data path QAM1/SLICE_348 to opPWMModulated_MGIOL:
+      Data path NCO1/Sine/SLICE_225 to QAM1/SLICE_46:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.363     R15C7A.CLK to      R15C7A.Q1 QAM1/SLICE_348 (from ipClk_c)
-ROUTE        38     1.872      R15C7A.Q1 to      R17C2C.B1 QAM1/QAMBlockf[1]
-CTOOFX_DEL  ---     0.399      R17C2C.B1 to    R17C2C.OFX0 QAM1/un1_ipI_2_i_m2[3]/SLICE_517
-ROUTE         1     1.656    R17C2C.OFX0 to     R18C11C.B0 QAM1/N_187f
-C0TOFCO_DE  ---     0.550     R18C11C.B0 to    R18C11C.FCO QAM1/SLICE_65
-ROUTE         1     0.000    R18C11C.FCO to    R18C12A.FCI QAM1/un1_ipI_3_cry_4
-FCITOFCO_D  ---     0.067    R18C12A.FCI to    R18C12A.FCO QAM1/SLICE_64
-ROUTE         1     0.000    R18C12A.FCO to    R18C12B.FCI QAM1/un1_ipI_3_cry_6
-FCITOFCO_D  ---     0.067    R18C12B.FCI to    R18C12B.FCO QAM1/SLICE_63
-ROUTE         1     0.000    R18C12B.FCO to    R18C12C.FCI QAM1/un1_ipI_3_cry_8
-FCITOFCO_D  ---     0.067    R18C12C.FCI to    R18C12C.FCO QAM1/SLICE_62
-ROUTE         1     0.000    R18C12C.FCO to    R18C13A.FCI QAM1/un1_ipI_3_cry_10
-FCITOFCO_D  ---     0.067    R18C13A.FCI to    R18C13A.FCO QAM1/SLICE_61
-ROUTE         1     0.000    R18C13A.FCO to    R18C13B.FCI QAM1/un1_ipI_3_cry_12
-FCITOF0_DE  ---     0.240    R18C13B.FCI to     R18C13B.F0 QAM1/SLICE_60
-ROUTE         1     0.863     R18C13B.F0 to     R17C13B.B0 Modulated[13]
-C0TOFCO_DE  ---     0.550     R17C13B.B0 to    R17C13B.FCO PWMModulated/SLICE_4
-ROUTE         1     0.000    R17C13B.FCO to    R17C13C.FCI PWMModulated/opPWM6_cry_2
-FCITOFCO_D  ---     0.067    R17C13C.FCI to    R17C13C.FCO PWMModulated/SLICE_3
-ROUTE         1     0.000    R17C13C.FCO to    R17C14A.FCI PWMModulated/opPWM6_cry_4
-FCITOFCO_D  ---     0.067    R17C14A.FCI to    R17C14A.FCO PWMModulated/SLICE_2
-ROUTE         1     0.000    R17C14A.FCO to    R17C14B.FCI PWMModulated/opPWM6_cry_6
-FCITOF1_DE  ---     0.310    R17C14B.FCI to     R17C14B.F1 PWMModulated/SLICE_1
-ROUTE         1     2.093     R17C14B.F1 to  IOL_R6B.ONEG0 PWMModulated.opPWM6 (to ipClk_c)
+REG_DEL     ---     0.363    R19C20C.CLK to     R19C20C.Q0 NCO1/Sine/SLICE_225 (from ipClk_c)
+ROUTE         5     2.583     R19C20C.Q0 to       R4C5A.B1 I[0]
+C1TOFCO_DE  ---     0.367       R4C5A.B1 to      R4C5A.FCO QAM1/SLICE_45
+ROUTE         1     0.000      R4C5A.FCO to      R4C5B.FCI QAM1/un1_ipI_0_cry_1
+FCITOFCO_D  ---     0.067      R4C5B.FCI to      R4C5B.FCO QAM1/SLICE_44
+ROUTE         1     0.000      R4C5B.FCO to      R4C5C.FCI QAM1/un1_ipI_0_cry_3
+FCITOFCO_D  ---     0.067      R4C5C.FCI to      R4C5C.FCO QAM1/SLICE_43
+ROUTE         1     0.000      R4C5C.FCO to      R4C6A.FCI QAM1/un1_ipI_0_cry_5
+FCITOFCO_D  ---     0.067      R4C6A.FCI to      R4C6A.FCO QAM1/SLICE_42
+ROUTE         1     0.000      R4C6A.FCO to      R4C6B.FCI QAM1/un1_ipI_0_cry_7
+FCITOFCO_D  ---     0.067      R4C6B.FCI to      R4C6B.FCO QAM1/SLICE_41
+ROUTE         1     0.000      R4C6B.FCO to      R4C6C.FCI QAM1/un1_ipI_0_cry_9
+FCITOF1_DE  ---     0.310      R4C6C.FCI to       R4C6C.F1 QAM1/SLICE_40
+ROUTE         1     0.966       R4C6C.F1 to       R3C7A.A0 QAM1/un1_ipI[11]
+C0TOFCO_DE  ---     0.550       R3C7A.A0 to      R3C7A.FCO QAM1/SLICE_71
+ROUTE         1     0.000      R3C7A.FCO to      R3C7B.FCI QAM1/un1_ipI_2_2_i_m2_cry_12
+FCITOF0_DE  ---     0.240      R3C7B.FCI to       R3C7B.F0 QAM1/SLICE_70
+ROUTE         1     0.931       R3C7B.F0 to       R5C9C.C0 QAM1/N_197
+CTOF_DEL    ---     0.238       R5C9C.C0 to       R5C9C.F0 QAM1/SLICE_1530
+ROUTE         1     1.278       R5C9C.F0 to      R4C11B.B0 QAM1/N_177
+C0TOFCO_DE  ---     0.550      R4C11B.B0 to     R4C11B.FCO QAM1/SLICE_49
+ROUTE         1     0.000     R4C11B.FCO to     R4C11C.FCI QAM1/un1_ipI_3_cry_14
+FCITOFCO_D  ---     0.067     R4C11C.FCI to     R4C11C.FCO QAM1/SLICE_48
+ROUTE         1     0.000     R4C11C.FCO to     R4C12A.FCI QAM1/un1_ipI_3_cry_16
+FCITOFCO_D  ---     0.067     R4C12A.FCI to     R4C12A.FCO QAM1/SLICE_47
+ROUTE         1     0.000     R4C12A.FCO to     R4C12B.FCI QAM1/un1_ipI_3_cry_18
+FCITOF0_DE  ---     0.240     R4C12B.FCI to      R4C12B.F0 QAM1/SLICE_46
+ROUTE         1     0.000      R4C12B.F0 to     R4C12B.DI0 QAM1/un1_ipI_3[19] (to ipClk_c)
                   --------
-                    9.298   (30.3% logic, 69.7% route), 12 logic levels.
+                    9.018   (36.1% logic, 63.9% route), 14 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to QAM1/SLICE_348:
+      Source Clock Path ipClk to NCO1/Sine/SLICE_225:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.059       21.PADDI to     R15C7A.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to    R19C20C.CLK ipClk_c
                   --------
                     1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to opPWMModulated_MGIOL:
+      Destination Clock Path ipClk to QAM1/SLICE_46:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     1.196       21.PADDI to    IOL_R6B.CLK ipClk_c
+ROUTE       361     1.059       21.PADDI to     R4C12B.CLK ipClk_c
                   --------
-                    1.196   (0.0% logic, 100.0% route), 0 logic levels.
+                    1.059   (0.0% logic, 100.0% route), 0 logic levels.
 
-Report:  106.067MHz is the maximum frequency for this preference.
+Report:  108.932MHz is the maximum frequency for this preference.
 
 <A name="ptwr_set_rs"></A><B><U><big>Report Summary</big></U></B>
 --------------
@@ -734,7 +696,7 @@ Report:  106.067MHz is the maximum frequency for this preference.
 Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
-FREQUENCY PORT "ipClk" 50.000000 MHz ;  |   50.000 MHz|  106.067 MHz|  12  
+FREQUENCY PORT "ipClk" 50.000000 MHz ;  |   50.000 MHz|  108.932 MHz|   7  
                                         |             |             |
 ----------------------------------------------------------------------------
 
@@ -747,7 +709,7 @@ All preferences were met.
 
 Found 1 clocks:
 
-Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 439
+Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 361
    Covered under: FREQUENCY PORT "ipClk" 50.000000 MHz ;
 
 
@@ -757,11 +719,11 @@ Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 439
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 22220 paths, 1 nets, and 15147 connections (97.94% coverage)
+Constraints cover 36581 paths, 1 nets, and 14911 connections (99.33% coverage)
 
 --------------------------------------------------------------------------------
 <A name="Par_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2</big></U></B>
-Thu Jul 21 20:36:31 2022
+Thu Jul 21 21:36:55 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -795,88 +757,45 @@ BLOCK JTAG PATHS
 --------------------------------------------------------------------------------
 
 
-Passed: The following path meets requirements by 0.111ns
+Passed: The following path meets requirements by 0.141ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              Streamer1/ipData[4]  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_1_2(ASIC)  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_8  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
 
-   Delay:               0.258ns  (46.5% logic, 53.5% route), 1 logic levels.
-
- Constraint Details:
-
-      0.258ns physical path delay Streamer1/SLICE_415 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2 meets
-      0.097ns DATA_HLD and
-      0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.147ns) by 0.111ns
-
- Physical Path Details:
-
-      Data path Streamer1/SLICE_415 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R11C17A.CLK to     R11C17A.Q0 Streamer1/SLICE_415 (from ipClk_c)
-ROUTE         2     0.138     R11C17A.Q0 to *R_R13C17.DIA0 Streamer1/ipData[4] (to ipClk_c)
-                  --------
-                    0.258   (46.5% logic, 53.5% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Streamer1/SLICE_415:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R11C17A.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C17.CLKA ipClk_c
-                  --------
-                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.111ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Streamer1/ipData[5]  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_1_2(ASIC)  (to ipClk_c +)
-
-   Delay:               0.258ns  (46.5% logic, 53.5% route), 1 logic levels.
+   Delay:               0.272ns  (44.1% logic, 55.9% route), 1 logic levels.
 
  Constraint Details:
 
-      0.258ns physical path delay Streamer1/SLICE_415 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2 meets
-      0.097ns DATA_HLD and
+      0.272ns physical path delay Streamer1/FIFOBLOCK/SLICE_120 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
+      0.081ns ADDR_HLD and
       0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.147ns) by 0.111ns
+     -0.050ns skew requirement (totaling 0.131ns) by 0.141ns
 
  Physical Path Details:
 
-      Data path Streamer1/SLICE_415 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Data path Streamer1/FIFOBLOCK/SLICE_120 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R11C17A.CLK to     R11C17A.Q1 Streamer1/SLICE_415 (from ipClk_c)
-ROUTE         2     0.138     R11C17A.Q1 to *R_R13C17.DIA1 Streamer1/ipData[5] (to ipClk_c)
+REG_DEL     ---     0.120     R12C9A.CLK to      R12C9A.Q0 Streamer1/FIFOBLOCK/SLICE_120 (from ipClk_c)
+ROUTE         5     0.152      R12C9A.Q0 to EBR_R13C8.ADB6 Streamer1/FIFOBLOCK/rcount_4 (to ipClk_c)
                   --------
-                    0.258   (46.5% logic, 53.5% route), 1 logic levels.
+                    0.272   (44.1% logic, 55.9% route), 1 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to Streamer1/SLICE_415:
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_120:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R11C17A.CLK ipClk_c
+ROUTE       361     0.300       21.PADDI to     R12C9A.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C17.CLKA ipClk_c
+ROUTE       361     0.350       21.PADDI to EBR_R13C8.CLKB ipClk_c
                   --------
                     0.350   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -886,24 +805,24 @@ Passed: The following path meets requirements by 0.141ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              Streamer1/FIFOBLOCK/FF_9  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_1_2(ASIC)  (to ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
 
    Delay:               0.272ns  (44.1% logic, 55.9% route), 1 logic levels.
 
  Constraint Details:
 
-      0.272ns physical path delay Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2 meets
+      0.272ns physical path delay Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
       0.081ns ADDR_HLD and
       0.000ns delay constraint less
      -0.050ns skew requirement (totaling 0.131ns) by 0.141ns
 
  Physical Path Details:
 
-      Data path Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Data path Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R12C17C.CLK to     R12C17C.Q1 Streamer1/FIFOBLOCK/SLICE_119 (from ipClk_c)
-ROUTE         5     0.152     R12C17C.Q1 to *R_R13C17.ADB5 Streamer1/FIFOBLOCK/rcount_3 (to ipClk_c)
+REG_DEL     ---     0.120     R12C8C.CLK to      R12C8C.Q1 Streamer1/FIFOBLOCK/SLICE_119 (from ipClk_c)
+ROUTE         5     0.152      R12C8C.Q1 to EBR_R13C8.ADB5 Streamer1/FIFOBLOCK/rcount_3 (to ipClk_c)
                   --------
                     0.272   (44.1% logic, 55.9% route), 1 logic levels.
 
@@ -912,14 +831,143 @@ ROUTE         5     0.152     R12C17C.Q1 to *R_R13C17.ADB5 Streamer1/FIFOBLOCK/r
       Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_119:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R12C17C.CLK ipClk_c
+ROUTE       361     0.300       21.PADDI to     R12C8C.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C17.CLKB ipClk_c
+ROUTE       361     0.350       21.PADDI to EBR_R13C8.CLKB ipClk_c
+                  --------
+                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.141ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_10  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
+
+   Delay:               0.272ns  (44.1% logic, 55.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.272ns physical path delay Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
+      0.081ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.050ns skew requirement (totaling 0.131ns) by 0.141ns
+
+ Physical Path Details:
+
+      Data path Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120     R12C8C.CLK to      R12C8C.Q0 Streamer1/FIFOBLOCK/SLICE_119 (from ipClk_c)
+ROUTE         5     0.152      R12C8C.Q0 to EBR_R13C8.ADB4 Streamer1/FIFOBLOCK/rcount_2 (to ipClk_c)
+                  --------
+                    0.272   (44.1% logic, 55.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_119:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.300       21.PADDI to     R12C8C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.350       21.PADDI to EBR_R13C8.CLKB ipClk_c
+                  --------
+                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.142ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_20  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
+
+   Delay:               0.273ns  (44.0% logic, 56.0% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.273ns physical path delay Streamer1/FIFOBLOCK/SLICE_114 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
+      0.081ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.050ns skew requirement (totaling 0.131ns) by 0.142ns
+
+ Physical Path Details:
+
+      Data path Streamer1/FIFOBLOCK/SLICE_114 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R14C12A.CLK to     R14C12A.Q1 Streamer1/FIFOBLOCK/SLICE_114 (from ipClk_c)
+ROUTE         5     0.153     R14C12A.Q1 to *R_R13C11.ADA7 Streamer1/FIFOBLOCK/wcount_5 (to ipClk_c)
+                  --------
+                    0.273   (44.0% logic, 56.0% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_114:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.300       21.PADDI to    R14C12A.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.350       21.PADDI to *R_R13C11.CLKA ipClk_c
+                  --------
+                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.142ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_23  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
+
+   Delay:               0.273ns  (44.0% logic, 56.0% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.273ns physical path delay Streamer1/FIFOBLOCK/SLICE_113 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
+      0.081ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.050ns skew requirement (totaling 0.131ns) by 0.142ns
+
+ Physical Path Details:
+
+      Data path Streamer1/FIFOBLOCK/SLICE_113 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R14C11C.CLK to     R14C11C.Q0 Streamer1/FIFOBLOCK/SLICE_113 (from ipClk_c)
+ROUTE         5     0.153     R14C11C.Q0 to *R_R13C11.ADA4 Streamer1/FIFOBLOCK/wcount_2 (to ipClk_c)
+                  --------
+                    0.273   (44.0% logic, 56.0% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_113:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.300       21.PADDI to    R14C11C.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.350       21.PADDI to *R_R13C11.CLKA ipClk_c
                   --------
                     0.350   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -929,24 +977,24 @@ Passed: The following path meets requirements by 0.142ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              Streamer1/FIFOBLOCK/FF_7  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_1_2(ASIC)  (to ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_2_1(ASIC)  (to ipClk_c +)
 
    Delay:               0.273ns  (44.0% logic, 56.0% route), 1 logic levels.
 
  Constraint Details:
 
-      0.273ns physical path delay Streamer1/FIFOBLOCK/SLICE_120 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2 meets
+      0.273ns physical path delay Streamer1/FIFOBLOCK/SLICE_120 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1 meets
       0.081ns ADDR_HLD and
       0.000ns delay constraint less
      -0.050ns skew requirement (totaling 0.131ns) by 0.142ns
 
  Physical Path Details:
 
-      Data path Streamer1/FIFOBLOCK/SLICE_120 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Data path Streamer1/FIFOBLOCK/SLICE_120 to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R12C18A.CLK to     R12C18A.Q1 Streamer1/FIFOBLOCK/SLICE_120 (from ipClk_c)
-ROUTE         5     0.153     R12C18A.Q1 to *R_R13C17.ADB7 Streamer1/FIFOBLOCK/rcount_5 (to ipClk_c)
+REG_DEL     ---     0.120     R12C9A.CLK to      R12C9A.Q1 Streamer1/FIFOBLOCK/SLICE_120 (from ipClk_c)
+ROUTE         5     0.153      R12C9A.Q1 to EBR_R13C8.ADB7 Streamer1/FIFOBLOCK/rcount_5 (to ipClk_c)
                   --------
                     0.273   (44.0% logic, 56.0% route), 1 logic levels.
 
@@ -955,274 +1003,188 @@ ROUTE         5     0.153     R12C18A.Q1 to *R_R13C17.ADB7 Streamer1/FIFOBLOCK/r
       Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_120:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R12C18A.CLK ipClk_c
+ROUTE       361     0.300       21.PADDI to     R12C9A.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_2_1:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C17.CLKB ipClk_c
+ROUTE       361     0.350       21.PADDI to EBR_R13C8.CLKB ipClk_c
                   --------
                     0.350   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.150ns
+Passed: The following path meets requirements by 0.142ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_1  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_1_2(ASIC)  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_22  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
 
-   Delay:               0.281ns  (42.7% logic, 57.3% route), 1 logic levels.
+   Delay:               0.273ns  (44.0% logic, 56.0% route), 1 logic levels.
 
  Constraint Details:
 
-      0.281ns physical path delay Streamer1/FIFOBLOCK/SLICE_96 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2 meets
+      0.273ns physical path delay Streamer1/FIFOBLOCK/SLICE_113 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
       0.081ns ADDR_HLD and
       0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.150ns
+     -0.050ns skew requirement (totaling 0.131ns) by 0.142ns
 
  Physical Path Details:
 
-      Data path Streamer1/FIFOBLOCK/SLICE_96 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Data path Streamer1/FIFOBLOCK/SLICE_113 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R12C19A.CLK to     R12C19A.Q1 Streamer1/FIFOBLOCK/SLICE_96 (from ipClk_c)
-ROUTE         5     0.161     R12C19A.Q1 to *_R13C17.ADB13 Streamer1/FIFOBLOCK/rcount_11 (to ipClk_c)
+REG_DEL     ---     0.120    R14C11C.CLK to     R14C11C.Q1 Streamer1/FIFOBLOCK/SLICE_113 (from ipClk_c)
+ROUTE         5     0.153     R14C11C.Q1 to *R_R13C11.ADA5 Streamer1/FIFOBLOCK/wcount_3 (to ipClk_c)
                   --------
-                    0.281   (42.7% logic, 57.3% route), 1 logic levels.
+                    0.273   (44.0% logic, 56.0% route), 1 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_96:
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_113:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R12C19A.CLK ipClk_c
+ROUTE       361     0.300       21.PADDI to    R14C11C.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C17.CLKB ipClk_c
+ROUTE       361     0.350       21.PADDI to *R_R13C11.CLKA ipClk_c
                   --------
                     0.350   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.150ns
+Passed: The following path meets requirements by 0.145ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_21  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
+
+   Delay:               0.276ns  (43.5% logic, 56.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.276ns physical path delay Streamer1/FIFOBLOCK/SLICE_114 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
+      0.081ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.050ns skew requirement (totaling 0.131ns) by 0.145ns
+
+ Physical Path Details:
+
+      Data path Streamer1/FIFOBLOCK/SLICE_114 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.120    R14C12A.CLK to     R14C12A.Q0 Streamer1/FIFOBLOCK/SLICE_114 (from ipClk_c)
+ROUTE         5     0.156     R14C12A.Q0 to *R_R13C11.ADA6 Streamer1/FIFOBLOCK/wcount_4 (to ipClk_c)
+                  --------
+                    0.276   (43.5% logic, 56.5% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_114:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.300       21.PADDI to    R14C12A.CLK ipClk_c
+                  --------
+                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       361     0.350       21.PADDI to *R_R13C11.CLKA ipClk_c
+                  --------
+                    0.350   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.148ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              Streamer1/FIFOBLOCK/FF_18  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_0_3(ASIC)  (to ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
 
-   Delay:               0.281ns  (42.7% logic, 57.3% route), 1 logic levels.
+   Delay:               0.279ns  (43.0% logic, 57.0% route), 1 logic levels.
 
  Constraint Details:
 
-      0.281ns physical path delay Streamer1/FIFOBLOCK/SLICE_115 to Streamer1/FIFOBLOCK/pdp_ram_0_0_3 meets
+      0.279ns physical path delay Streamer1/FIFOBLOCK/SLICE_115 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
       0.081ns ADDR_HLD and
       0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.150ns
+     -0.050ns skew requirement (totaling 0.131ns) by 0.148ns
 
  Physical Path Details:
 
-      Data path Streamer1/FIFOBLOCK/SLICE_115 to Streamer1/FIFOBLOCK/pdp_ram_0_0_3:
+      Data path Streamer1/FIFOBLOCK/SLICE_115 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R12C21B.CLK to     R12C21B.Q1 Streamer1/FIFOBLOCK/SLICE_115 (from ipClk_c)
-ROUTE         5     0.161     R12C21B.Q1 to *R_R13C20.ADA9 Streamer1/FIFOBLOCK/wcount_7 (to ipClk_c)
+REG_DEL     ---     0.120    R14C12B.CLK to     R14C12B.Q1 Streamer1/FIFOBLOCK/SLICE_115 (from ipClk_c)
+ROUTE         5     0.159     R14C12B.Q1 to *R_R13C11.ADA9 Streamer1/FIFOBLOCK/wcount_7 (to ipClk_c)
                   --------
-                    0.281   (42.7% logic, 57.3% route), 1 logic levels.
+                    0.279   (43.0% logic, 57.0% route), 1 logic levels.
 
  Clock Skew Details: 
 
       Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_115:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R12C21B.CLK ipClk_c
+ROUTE       361     0.300       21.PADDI to    R14C12B.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_0_3:
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C20.CLKA ipClk_c
+ROUTE       361     0.350       21.PADDI to *R_R13C11.CLKA ipClk_c
                   --------
                     0.350   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.150ns
+Passed: The following path meets requirements by 0.148ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_10  (from ipClk_c +)
-   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_1_2(ASIC)  (to ipClk_c +)
+   Source:         FF         Q              Streamer1/FIFOBLOCK/FF_15  (from ipClk_c +)
+   Destination:    DP16KB     Port           Streamer1/FIFOBLOCK/pdp_ram_0_3_0(ASIC)  (to ipClk_c +)
 
-   Delay:               0.281ns  (42.7% logic, 57.3% route), 1 logic levels.
+   Delay:               0.279ns  (43.0% logic, 57.0% route), 1 logic levels.
 
  Constraint Details:
 
-      0.281ns physical path delay Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2 meets
+      0.279ns physical path delay Streamer1/FIFOBLOCK/SLICE_117 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0 meets
       0.081ns ADDR_HLD and
       0.000ns delay constraint less
-     -0.050ns skew requirement (totaling 0.131ns) by 0.150ns
+     -0.050ns skew requirement (totaling 0.131ns) by 0.148ns
 
  Physical Path Details:
 
-      Data path Streamer1/FIFOBLOCK/SLICE_119 to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Data path Streamer1/FIFOBLOCK/SLICE_117 to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120    R12C17C.CLK to     R12C17C.Q0 Streamer1/FIFOBLOCK/SLICE_119 (from ipClk_c)
-ROUTE         5     0.161     R12C17C.Q0 to *R_R13C17.ADB4 Streamer1/FIFOBLOCK/rcount_2 (to ipClk_c)
+REG_DEL     ---     0.120    R14C13A.CLK to     R14C13A.Q0 Streamer1/FIFOBLOCK/SLICE_117 (from ipClk_c)
+ROUTE         5     0.159     R14C13A.Q0 to *_R13C11.ADA12 Streamer1/FIFOBLOCK/wcount_10 (to ipClk_c)
                   --------
-                    0.281   (42.7% logic, 57.3% route), 1 logic levels.
+                    0.279   (43.0% logic, 57.0% route), 1 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_119:
+      Source Clock Path ipClk to Streamer1/FIFOBLOCK/SLICE_117:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to    R12C17C.CLK ipClk_c
+ROUTE       361     0.300       21.PADDI to    R14C13A.CLK ipClk_c
                   --------
                     0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_1_2:
+      Destination Clock Path ipClk to Streamer1/FIFOBLOCK/pdp_ram_0_3_0:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.350       21.PADDI to *R_R13C17.CLKB ipClk_c
+ROUTE       361     0.350       21.PADDI to *R_R13C11.CLKA ipClk_c
                   --------
                     0.350   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.175ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Control/opWrData[2]  (from ipClk_c +)
-   Destination:    FF         Data in        Register/opWrRegisters.Frequency[2]  (to ipClk_c +)
-
-   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
-
- Constraint Details:
-
-      0.161ns physical path delay Control/SLICE_429 to Register/SLICE_486 meets
-     -0.014ns M_HLD and
-      0.000ns delay constraint less
-      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
-
- Physical Path Details:
-
-      Data path Control/SLICE_429 to Register/SLICE_486:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R7C15B.CLK to      R7C15B.Q0 Control/SLICE_429 (from ipClk_c)
-ROUTE         2     0.041      R7C15B.Q0 to      R7C15A.M0 WrData[2] (to ipClk_c)
-                  --------
-                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Control/SLICE_429:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to     R7C15B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Register/SLICE_486:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to     R7C15A.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.175ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Control/opWrData[30]  (from ipClk_c +)
-   Destination:    FF         Data in        Control/opWrData[22]  (to ipClk_c +)
-
-   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
-
- Constraint Details:
-
-      0.161ns physical path delay Control/SLICE_443 to Control/SLICE_439 meets
-     -0.014ns M_HLD and
-      0.000ns delay constraint less
-      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
-
- Physical Path Details:
-
-      Data path Control/SLICE_443 to Control/SLICE_439:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R7C17B.CLK to      R7C17B.Q0 Control/SLICE_443 (from ipClk_c)
-ROUTE         2     0.041      R7C17B.Q0 to      R7C17C.M0 WrData[30] (to ipClk_c)
-                  --------
-                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Control/SLICE_443:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to     R7C17B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Control/SLICE_439:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to     R7C17C.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.175ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              Packetiser/UART_Inst/opRxData[5]  (from ipClk_c +)
-   Destination:    FF         Data in        Packetiser/opRxStream.Destination[5]  (to ipClk_c +)
-
-   Delay:               0.161ns  (74.5% logic, 25.5% route), 1 logic levels.
-
- Constraint Details:
-
-      0.161ns physical path delay Packetiser/UART_Inst/SLICE_324 to Packetiser/SLICE_447 meets
-     -0.014ns M_HLD and
-      0.000ns delay constraint less
-      0.000ns skew requirement (totaling -0.014ns) by 0.175ns
-
- Physical Path Details:
-
-      Data path Packetiser/UART_Inst/SLICE_324 to Packetiser/SLICE_447:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.120     R8C11B.CLK to      R8C11B.Q1 Packetiser/UART_Inst/SLICE_324 (from ipClk_c)
-ROUTE         5     0.041      R8C11B.Q1 to      R8C11C.M1 Packetiser/UART_RxData[5] (to ipClk_c)
-                  --------
-                    0.161   (74.5% logic, 25.5% route), 1 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path ipClk to Packetiser/UART_Inst/SLICE_324:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to     R8C11B.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path ipClk to Packetiser/SLICE_447:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       439     0.300       21.PADDI to     R8C11C.CLK ipClk_c
-                  --------
-                    0.300   (0.0% logic, 100.0% route), 0 logic levels.
 
 <A name="ptwr_hold_rs"></A><B><U><big>Report Summary</big></U></B>
 --------------
@@ -1243,7 +1205,7 @@ All preferences were met.
 
 Found 1 clocks:
 
-Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 439
+Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 361
    Covered under: FREQUENCY PORT "ipClk" 50.000000 MHz ;
 
 
@@ -1253,7 +1215,7 @@ Clock Domain: ipClk_c   Source: ipClk.PAD   Loads: 439
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 22220 paths, 1 nets, and 15147 connections (97.94% coverage)
+Constraints cover 36581 paths, 1 nets, and 14911 connections (99.33% coverage)
 
 
 

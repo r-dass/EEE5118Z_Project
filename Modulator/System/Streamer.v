@@ -11,6 +11,7 @@ module Streamer(
     input              			ipReset,
 
     input   UART_PACKET     	ipRxStream,
+    input                       ipSlowMode, 
     output  reg         [12:0]  opFIFO_Size, 
 
     output  reg         [15:0]  opStream,    
@@ -66,51 +67,100 @@ TransmitComplete
 
 TState tState;
 
+typedef enum{ 
+SlowMode,
+FastMode
+} tModeState;
+
+tModeState modeState;
+
+
+
 reg wUpper;
 reg rUpper;
 
 assign opFIFO_Size = FIFO_Size1;
+
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
  
 always @(posedge(ipClk)) begin
-    if (!ipReset) begin
-        if ((txClkCount ==  5660) && !Empty) begin
-            opQAMBlock <= opStream[3:0];
-            opQAMBlockValid <= 1;
-            txClkCount <= txClkCount + 1'b1;
-        end else if ((txClkCount == 11330) && !Empty) begin    
-            opQAMBlock <= opStream[7:4];
-            opQAMBlockValid <= 1;
-            txClkCount <= txClkCount + 1'b1;
-        end if ((txClkCount == 16990) && !Empty) begin
-            opQAMBlock <= opStream[11:8];
-            opQAMBlockValid <= 1;
-            txClkCount <= txClkCount + 1'b1;
-        end else if (txClkCount == 22670) begin
-            if (!Empty) begin
-                opQAMBlock <= opStream[15:12];
-                opQAMBlockValid <= 1; 
-                RE <= 1;
-                opStreamValid <= 1;
+    if (nReset) begin
+        case(modeState)
+            SlowMode: begin
+                if ((txClkCount ==  5660) && !Empty) begin
+                    opQAMBlock <= opStream[3:0];
+                    opQAMBlockValid <= 1;
+                    txClkCount <= txClkCount + 1'b1;
+                end else if ((txClkCount == 11330) && !Empty) begin    
+                    opQAMBlock <= opStream[7:4];
+                    opQAMBlockValid <= 1;
+                    txClkCount <= txClkCount + 1'b1;
+                end if ((txClkCount == 16990) && !Empty) begin
+                    opQAMBlock <= opStream[11:8];
+                    opQAMBlockValid <= 1;
+                    txClkCount <= txClkCount + 1'b1;
+                end else if (txClkCount == 22670) begin
+                    if (!Empty) begin
+                        opQAMBlock <= opStream[15:12];
+                        opQAMBlockValid <= 1; 
+                        RE <= 1;
+                        opStreamValid <= 1;
+                    end
+                    txClkCount <= 0;
+                    if (!ipSlowMode)
+                        modeState <= FastMode;
+                end else begin
+                    txClkCount <= txClkCount + 1'b1;
+                    RE <= 0;
+                    opStreamValid <= 0;
+                    opQAMBlockValid <= 0;
+                end
             end
-            txClkCount <= 0;
-        end else begin
-            txClkCount <= txClkCount + 1'b1;
-            RE <= 0;
-            opStreamValid <= 0;
-            opQAMBlockValid <= 0;
-        end
-
+            FastMode: begin
+                if ((txClkCount ==  566) && !Empty) begin
+                    opQAMBlock <= opStream[3:0];
+                    opQAMBlockValid <= 1;
+                    txClkCount <= txClkCount + 1'b1;
+                end else if ((txClkCount == 1133) && !Empty) begin    
+                    opQAMBlock <= opStream[7:4];
+                    opQAMBlockValid <= 1;
+                    txClkCount <= txClkCount + 1'b1;
+                end if ((txClkCount == 1699) && !Empty) begin
+                    opQAMBlock <= opStream[11:8];
+                    opQAMBlockValid <= 1;
+                    txClkCount <= txClkCount + 1'b1;
+                end else if (txClkCount == 2267) begin
+                    if (!Empty) begin
+                        opQAMBlock <= opStream[15:12];
+                        opQAMBlockValid <= 1; 
+                        RE <= 1;
+                        opStreamValid <= 1;
+                    end
+                    txClkCount <= 0;
+                    if (ipSlowMode)
+                        modeState <= SlowMode;
+                end else begin
+                    txClkCount <= txClkCount + 1'b1;
+                    RE <= 0;
+                    opStreamValid <= 0;
+                    opQAMBlockValid <= 0;
+                end
+            end
+            default;
+        endcase
     end else begin
         RE <= 0;
         opStreamValid <= 0;
         txClkCount <= 0;
         opQAMBlock <= 0;
 		opQAMBlockValid <= 0;
+        modeState <= FastMode;
     end
 end
 
 always @(posedge(ipClk)) begin
-    if (!ipReset) begin
+    if (nReset) begin
         case (rState)
             ReceiveWait: begin
                 WE <= 0;
@@ -149,7 +199,7 @@ always @(posedge(ipClk)) begin
 end
 
 always @(posedge(ipClk)) begin
-    if(!ipReset) begin
+    if(nReset) begin
             opTxStream.SoP    <= 1;
             opTxStream.EoP    <= 1;
             opTxStream.Length <= 1;

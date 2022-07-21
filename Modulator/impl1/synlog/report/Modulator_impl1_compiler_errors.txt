@@ -1,3 +1,3 @@
-@E: CG342 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":174:20:174:25|Expecting target variable, found tstate -- possible misspelling
-@E: CS187 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":193:0:193:8|Expecting endmodule
+@E: CS187 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":117:2:117:2|Expecting ,
+@E: CS187 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":194:0:194:8|Expecting endmodule
 

@@ -57,6 +57,10 @@ wire rxClkBaud = (rxClkCount == 16); //Divide the Clock to 115200
  
 reg Rx;
 
+reg nReset;
+always @(posedge ipClk) nReset <= ~ipReset;
+
+
 // TODO: Put the transmitter here
 always @(posedge(ipClk)) begin
 	if(txClkBaud) begin
@@ -66,7 +70,7 @@ always @(posedge(ipClk)) begin
 		txClkCount <= txClkCount + 1'b1;
 	end
 	
-	if (!ipReset) begin
+	if (nReset) begin
 		if (txClkBaud) begin //Main Code Here
 			case(txState)
 				Wait: begin 
@@ -108,7 +112,7 @@ end
 // TODO: Put the receiver here
 always @(posedge(ipClk)) begin
 	Rx <= ipRx;
-	if (!ipReset) begin
+	if (nReset) begin
 		if (rxState == Wait && Rx) begin
 			rxClkCount <= 7; //Sync data to halfway
 		end else if(rxClkBaud) begin

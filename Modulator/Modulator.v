@@ -112,6 +112,8 @@ Streamer Streamer1(
   .ipRxStream(RxStream),
   .opFIFO_Size(RdRegisters.FIFO_Size), 
 
+  .ipSlowMode(WrRegisters.SlowMode),
+
   .opStream(Stream),     
   .opStreamValid(StreamValid),
 
@@ -119,7 +121,7 @@ Streamer Streamer1(
   .opQAMBlockValid(QAMBlockValid),
 
   .opTxStream(TxStream2),
-  .ipTxReady(TxReady2)
+  .ipTxReady(1'b0)
 );
 
 
