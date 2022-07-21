@@ -10,9 +10,9 @@ module Modulator(
 	input			    ipReset,
 	input			    ipUART_Rx,
 	input	  [3:0]	ipBtn,
-	output			  opUART_Tx,
-	output	[7:0]	opLED, 
-  output        opPWM,
+	output			  opUART_Tx, 
+	output	[7:0]	opLED,  
+  output        opPWM, 
   output        opPWMI,
   output        opPWMQ,
   output      opPWMModulated
@@ -21,6 +21,14 @@ module Modulator(
 UART_PACKET RxStream;
 UART_PACKET TxStream;
 wire TxReady;
+
+UART_PACKET RxStream1;
+UART_PACKET TxStream1;
+wire TxReady1;
+
+UART_PACKET RxStream2;
+UART_PACKET TxStream2;
+wire TxReady2;
 
 RD_REGISTERS RdRegisters; 
 WR_REGISTERS WrRegisters; 
@@ -61,43 +69,57 @@ Controller Control(
   .ipClk	(ipClk),
   .ipReset	(!ipReset),
   
-  .opTxStream(TxStream),
-  .ipTxReady(TxReady),
+  .opTxStream(TxStream1),
+  .ipTxReady(TxReady1),
 
 	.opAddress(Address),
   .opWrData(WrData),
 	.opWrEnable(WrEnable),
 	
 	.ipRxStream(RxStream),
-  .ipRdData(RdData) 
+  .ipRdData(RdData)
 );
 
 Registers Register(
-  .ipClk	(ipClk),
-  .ipReset	(!ipReset	),
+  .ipClk(ipClk),
+  .ipReset(!ipReset),
 
-  .ipRdRegisters (RdRegisters),
-  .opWrRegisters (WrRegisters),
+  .ipRdRegisters(RdRegisters),
+  .opWrRegisters(WrRegisters),
 
   .ipAddress(Address),
   .ipWrData(WrData),
   .ipWrEnable(WrEnable),
   .opRdData(RdData)
 );
+
+Arbiter Arbiter1(
+  .ipClk(ipClk), 
+  .ipReset(!ipReset),
+  .ipTxStream1(TxStream1),
+  .opTxReady1(TxReady1),
+  .ipTxStream2(TxStream2),
+  .opTxReady2(TxReady2),
+  .ipTxReady(TxReady),
+  .opTxStream(TxStream)
+);
  
 // Data Flow
 Streamer Streamer1(
-    .ipClk	(ipClk),
-    .ipReset	(!ipReset),
+  .ipClk	(ipClk),
+  .ipReset	(!ipReset),
 
-  	.ipRxStream(RxStream),
-    .opFIFO_Size(RdRegisters.FIFO_Size), 
+  .ipRxStream(RxStream),
+  .opFIFO_Size(RdRegisters.FIFO_Size), 
 
-    .opStream(Stream),     
-    .opStreamValid(StreamValid),
+  .opStream(Stream),     
+  .opStreamValid(StreamValid),
 
-    .opQAMBlock(QAMBlock),    
-    .opQAMBlockValid(QAMBlockValid)
+  .opQAMBlock(QAMBlock),    
+  .opQAMBlockValid(QAMBlockValid),
+
+  .opTxStream(TxStream2),
+  .ipTxReady(TxReady2)
 );
 
 
@@ -157,7 +179,7 @@ PWM PWMModulated(
 //Clock Counter
 always @(posedge ipClk) begin
 	if (ipReset) begin //reset inverted - normal functionality here
-		RdRegisters.ClockTicks <= RdRegisters.ClockTicks + 1;
+		RdRegisters.ClockTicks <= RdRegisters.ClockTicks + 1'b1;
 	end else begin //reset inverted - reset code here
 		RdRegisters.ClockTicks <= 0;
 	end

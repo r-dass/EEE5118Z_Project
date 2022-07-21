@@ -13,7 +13,7 @@ Hostname: RD-LAPTOP
 
 Implementation : impl1
 
-# Written on Thu Jul 21 17:46:21 2022
+# Written on Thu Jul 21 20:34:18 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.fdc"
@@ -43,7 +43,7 @@ Clock Summary
           Start      Requested     Requested     Clock        Clock                Clock
 Level     Clock      Frequency     Period        Type         Group                Load 
 ----------------------------------------------------------------------------------------
-0 -       ipClk      50.0 MHz      20.000        declared     default_clkgroup     603  
+0 -       ipClk      50.0 MHz      20.000        declared     default_clkgroup     721  
                                                                                         
 0 -       System     200.0 MHz     5.000         system       system_clkgroup      0    
 ========================================================================================
@@ -55,7 +55,7 @@ Clock Load Summary
            Clock     Source          Clock Pin                           Non-clock Pin     Non-clock Pin
 Clock      Load      Pin             Seq Example                         Seq Example       Comb Example 
 --------------------------------------------------------------------------------------------------------
-ipClk      603       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
+ipClk      721       ipClk(port)     RdRegisters\.ClockTicks[31:0].C     -                 -            
                                                                                                         
 System     0         -               -                                   -                 -            
 ========================================================================================================

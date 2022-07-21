@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03L-SP1
 #--  Project file C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\run_options.txt
-#--  Written on Thu Jul 21 17:46:12 2022
+#--  Written on Thu Jul 21 20:34:10 2022
 
 
 #project files
@@ -18,6 +18,7 @@ add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/NCO.v"
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/QAM.v"
 add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.v"
+add_file -verilog -vlog_std sysv "C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/Arbiter.v"
 
 
 #implementation: "impl1"

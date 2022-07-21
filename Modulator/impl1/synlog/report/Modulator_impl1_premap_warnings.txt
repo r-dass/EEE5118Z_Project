@@ -12,6 +12,4 @@
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
-@W: MO129 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Sequential instance Packetiser.txBuffer.Length[0] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Sequential instance Packetiser.txBuffer.Length[2] is reduced to a combinational gate by constant propagation.
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .

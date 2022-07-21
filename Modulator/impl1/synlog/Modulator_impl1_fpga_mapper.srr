@@ -1,4 +1,4 @@
-# Thu Jul 21 17:46:24 2022
+# Thu Jul 21 20:34:20 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -36,7 +36,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -45,15 +45,57 @@ Available hyper_sources - for debug and ip models
 @W: FA239 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":23:4:23:5|ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
 @N: MO106 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":23:4:23:5|Found ROM un1_ipQAMBlock_1[0] (in view: work.QAM(verilog)) with 16 words by 1 bit.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":16:0:16:5|Removing sequential instance PWMQ.Count[7:0] because it is equivalent to instance PWMI.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":23:17:23:26|Removing user instance PWMModulated.Count_1[7:0] because it is equivalent to instance PWMI.Count_1[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":16:0:16:5|Removing sequential instance PWMModulated.Count[7:0] because it is equivalent to instance PWMI.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":23:17:23:26|Removing user instance PWMModulated.Count_1[7:0] because it is equivalent to instance PWMQ.Count_1[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":23:17:23:26|Removing user instance PWMI.Count_1[7:0] because it is equivalent to instance PWMStream.Count_1[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":16:0:16:5|Removing sequential instance PWMModulated.Count[7:0] because it is equivalent to instance PWMStream.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":16:0:16:5|Removing sequential instance PWMStream.Count[7:0] because it is equivalent to instance PWMI.Count[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
 
 @N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":191:13:191:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance TxStreamBuffer\.Length[7] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance TxStreamBuffer\.Length[6] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance TxStreamBuffer\.Length[5] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance TxStreamBuffer\.Length[4] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance TxStreamBuffer\.Length[3] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance TxStreamBuffer\.Length[1] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.opTxStream.Length[7] because it is equivalent to instance Arbiter1.opTxStream.Length[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.opTxStream.Length[6] because it is equivalent to instance Arbiter1.opTxStream.Length[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.opTxStream.Length[5] because it is equivalent to instance Arbiter1.opTxStream.Length[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.opTxStream.Length[4] because it is equivalent to instance Arbiter1.opTxStream.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.opTxStream.Length[3] because it is equivalent to instance Arbiter1.opTxStream.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[10] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[9] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[8] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[25] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[24] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[23] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[22] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[21] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[20] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[19] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[18] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[17] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[16] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[15] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[14] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[13] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[12] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[11] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[31] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[30] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[29] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[28] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[27] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":151:0:151:5|Removing sequential instance tState[26] (in view: work.Streamer(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[11] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[10] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[9] (in view: work.QAM(verilog)) because it does not drive other instances.
@@ -67,58 +109,65 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[1] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing sequential instance opModulated[0] (in view: work.QAM(verilog)) because it does not drive other instances.
 
-Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
 
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Removing instance Packetiser.txBuffer.Length[5] because it is equivalent to instance Packetiser.txBuffer.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Removing instance Packetiser.txBuffer.Length[3] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Removing instance Packetiser.txBuffer.Length[4] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Removing instance Packetiser.txBuffer.Length[6] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Removing instance Packetiser.txBuffer.Length[7] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing sequential instance Arbiter1.opTxStream\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 183MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 186MB peak: 186MB)
 
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":71:0:71:5|Removing sequential instance Packetiser.txBuffer\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 183MB peak: 184MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 183MB peak: 187MB)
 
 @N: FA113 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":30:31:30:37|Pipelining module un1_ipI[20:0]. For more information, search for "pipelining" in Online Help.
-@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":62:0:62:5|Pushed in register opQAMBlock[3:0].
+@N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":74:0:74:5|Pushed in register opQAMBlock[3:0].
 @N: MF169 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Pushed in register opModulated[19:0].
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 187MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 187MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 185MB peak: 187MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 184MB)
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 185MB peak: 187MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 188MB)
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 197MB peak: 197MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:04s		     4.42ns		 396 /       527
+   1		0h:00m:06s		     4.42ns		 521 /       632
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 188MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 198MB peak: 198MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":61:0:61:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 188MB peak: 189MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 198MB peak: 198MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 151MB peak: 189MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 158MB peak: 199MB)
 
 Writing Analyst data base C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 188MB peak: 189MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 197MB peak: 199MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 193MB peak: 193MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 202MB peak: 202MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 191MB peak: 193MB)
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 200MB peak: 203MB)
 
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -126,7 +175,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Jul 21 17:46:31 2022
+# Timing report written on Thu Jul 21 20:34:31 2022
 #
 
 
@@ -151,7 +200,7 @@ Worst slack in design: 4.425
                    Requested     Estimated      Requested     Estimated                Clock        Clock           
 Starting Clock     Frequency     Frequency      Period        Period        Slack      Type         Group           
 --------------------------------------------------------------------------------------------------------------------
-ipClk              50.0 MHz      122.1 MHz      20.000        8.188         11.812     declared     default_clkgroup
+ipClk              50.0 MHz      114.1 MHz      20.000        8.768         11.232     declared     default_clkgroup
 System             200.0 MHz     1738.8 MHz     5.000         0.575         4.425      system       system_clkgroup 
 ====================================================================================================================
 
@@ -168,8 +217,8 @@ Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System  |  5.000       4.425   |  No paths    -      |  No paths    -      |  No paths    -    
 System    ipClk   |  20.000      17.919  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     System  |  20.000      18.390  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     ipClk   |  20.000      11.812  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     System  |  20.000      18.350  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     ipClk   |  20.000      11.232  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -192,41 +241,41 @@ Detailed Report for Clock: ipClk
 Starting Points with Worst Slack
 ********************************
 
-                             Starting                                          Arrival           
-Instance                     Reference     Type        Pin     Net             Time        Slack 
-                             Clock                                                               
--------------------------------------------------------------------------------------------------
-QAM1.opModulated_pipe_42     ipClk         FD1S3IX     Q       If[0]           0.994       11.812
-QAM1.opModulated_pipe_14     ipClk         FD1S3IX     Q       If[1]           0.929       11.950
-QAM1.opModulated_pipe_45     ipClk         FD1S3IX     Q       If[2]           0.929       11.950
-QAM1.opModulated_pipe_47     ipClk         FD1S3IX     Q       un1_ipIf[1]     0.929       11.950
-QAM1.opModulated_pipe_52     ipClk         FD1S3IX     Q       un1_ipIf[2]     0.929       11.950
-QAM1.opModulated_pipe_1      ipClk         FD1S3IX     Q       If[4]           0.929       12.023
-QAM1.opModulated_pipe_50     ipClk         FD1S3IX     Q       If[3]           0.929       12.023
-QAM1.opModulated_pipe_56     ipClk         FD1S3IX     Q       un1_ipIf[3]     0.929       12.023
-QAM1.opModulated_pipe_60     ipClk         FD1S3IX     Q       un1_ipIf[4]     0.929       12.023
-QAM1.opModulated_pipe_2      ipClk         FD1S3IX     Q       If[5]           0.929       12.096
-=================================================================================================
+                             Starting                                             Arrival           
+Instance                     Reference     Type        Pin     Net                Time        Slack 
+                             Clock                                                                  
+----------------------------------------------------------------------------------------------------
+Streamer1.txClkCount[17]     ipClk         FD1S3IX     Q       txClkCount[17]     0.929       11.232
+Streamer1.txClkCount[19]     ipClk         FD1S3IX     Q       txClkCount[19]     0.929       11.232
+Streamer1.txClkCount[20]     ipClk         FD1S3IX     Q       txClkCount[20]     0.929       11.232
+Streamer1.txClkCount[21]     ipClk         FD1S3IX     Q       txClkCount[21]     0.929       11.232
+Streamer1.txClkCount[22]     ipClk         FD1S3IX     Q       txClkCount[22]     0.929       11.232
+Streamer1.txClkCount[24]     ipClk         FD1S3IX     Q       txClkCount[24]     0.929       11.232
+Streamer1.txClkCount[23]     ipClk         FD1S3IX     Q       txClkCount[23]     0.929       11.987
+Streamer1.txClkCount[26]     ipClk         FD1S3IX     Q       txClkCount[26]     0.929       11.987
+Streamer1.txClkCount[27]     ipClk         FD1S3IX     Q       txClkCount[27]     0.929       11.987
+Streamer1.txClkCount[28]     ipClk         FD1S3IX     Q       txClkCount[28]     0.929       11.987
+====================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                            Starting                                                   Required           
-Instance                    Reference     Type         Pin     Net                     Time         Slack 
-                            Clock                                                                         
-----------------------------------------------------------------------------------------------------------
-PWMModulated_opPWMio        ipClk         OFS1P3DX     D       PWMModulated.opPWM6     19.908       11.812
-Streamer1.opQAMBlock[0]     ipClk         FD1P3AX      D       opQAMBlock_8[0]         19.389       13.380
-Streamer1.opQAMBlock[1]     ipClk         FD1P3AX      D       opQAMBlock_8[1]         19.389       13.380
-Streamer1.opQAMBlock[2]     ipClk         FD1P3AX      D       opQAMBlock_8[2]         19.389       13.380
-Streamer1.opQAMBlock[3]     ipClk         FD1P3AX      D       opQAMBlock_8[3]         19.389       13.380
-Packetiser.rxState[0]       ipClk         FD1S3AY      D       N_83_i                  19.389       13.971
-Streamer1.ipData[0]         ipClk         FD1P3AX      D       N_163_i                 19.389       14.525
-Streamer1.ipData[1]         ipClk         FD1P3AX      D       N_162_i                 19.389       14.525
-Streamer1.ipData[2]         ipClk         FD1P3AX      D       N_161_i                 19.389       14.525
-Streamer1.ipData[3]         ipClk         FD1P3AX      D       N_160_i                 19.389       14.525
-==========================================================================================================
+                            Starting                                              Required           
+Instance                    Reference     Type        Pin     Net                 Time         Slack 
+                            Clock                                                                    
+-----------------------------------------------------------------------------------------------------
+Streamer1.opQAMBlock[0]     ipClk         FD1P3AX     D       opQAMBlock_9[0]     19.389       11.232
+Streamer1.opQAMBlock[1]     ipClk         FD1P3AX     D       opQAMBlock_9[1]     19.389       11.232
+Streamer1.opQAMBlock[2]     ipClk         FD1P3AX     D       opQAMBlock_9[2]     19.389       11.232
+Streamer1.opQAMBlock[3]     ipClk         FD1P3AX     D       opQAMBlock_9[3]     19.389       11.232
+Streamer1.txClkCount[0]     ipClk         FD1S3IX     CD      N_23                19.701       13.570
+Streamer1.txClkCount[1]     ipClk         FD1S3IX     CD      N_23                19.701       13.570
+Streamer1.txClkCount[2]     ipClk         FD1S3IX     CD      N_23                19.701       13.570
+Streamer1.txClkCount[3]     ipClk         FD1S3IX     CD      N_23                19.701       13.570
+Streamer1.txClkCount[4]     ipClk         FD1S3IX     CD      N_23                19.701       13.570
+Streamer1.txClkCount[5]     ipClk         FD1S3IX     CD      N_23                19.701       13.570
+=====================================================================================================
 
 
 
@@ -236,72 +285,54 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      20.000
-    - Setup time:                            0.092
+    - Setup time:                            0.611
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         19.908
+    = Required time:                         19.389
 
-    - Propagation time:                      8.096
+    - Propagation time:                      8.157
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 11.812
+    = Slack (non-critical) :                 11.232
 
-    Number of logic level(s):                15
-    Starting point:                          QAM1.opModulated_pipe_42 / Q
-    Ending point:                            PWMModulated_opPWMio / D
+    Number of logic level(s):                9
+    Starting point:                          Streamer1.txClkCount[17] / Q
+    Ending point:                            Streamer1.opQAMBlock[0] / D
     The start point is clocked by            ipClk [rising] (rise=0.000 fall=10.000 period=20.000) on pin CK
-    The end   point is clocked by            ipClk [rising] (rise=0.000 fall=10.000 period=20.000) on pin SCLK
+    The end   point is clocked by            ipClk [rising] (rise=0.000 fall=10.000 period=20.000) on pin CK
 
-Instance / Net                                                   Pin      Pin               Arrival     No. of    
-Name                                                Type         Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------
-QAM1.opModulated_pipe_42                            FD1S3IX      Q        Out     0.994     0.994 r     -         
-If[0]                                               Net          -        -       -         -           3         
-QAM1.un17_opModulated\.un17_opModulated_cry_0_0     CCU2B        A1       In      0.000     0.994 r     -         
-QAM1.un17_opModulated\.un17_opModulated_cry_0_0     CCU2B        COUT     Out     1.056     2.050 r     -         
-un17_opModulated_cry_0                              Net          -        -       -         -           1         
-QAM1.un17_opModulated\.un17_opModulated_cry_1_0     CCU2B        CIN      In      0.000     2.050 r     -         
-QAM1.un17_opModulated\.un17_opModulated_cry_1_0     CCU2B        S1       Out     1.234     3.284 r     -         
-un17_opModulated[2]                                 Net          -        -       -         -           1         
-QAM1.un1_ipI_2_i_m2_am[2]                           ORCALUT4     B        In      0.000     3.284 r     -         
-QAM1.un1_ipI_2_i_m2_am[2]                           ORCALUT4     Z        Out     0.754     4.038 r     -         
-un1_ipI_2_i_m2_am[2]                                Net          -        -       -         -           1         
-QAM1.un1_ipI_2_i_m2[2]                              PFUMX        BLUT     In      0.000     4.038 r     -         
-QAM1.un1_ipI_2_i_m2[2]                              PFUMX        Z        Out     0.118     4.156 r     -         
-N_188f                                              Net          -        -       -         -           1         
-QAM1.un1_ipI_3_cry_1_0                              CCU2B        B1       In      0.000     4.156 r     -         
-QAM1.un1_ipI_3_cry_1_0                              CCU2B        COUT     Out     1.056     5.212 r     -         
-un1_ipI_3_cry_2                                     Net          -        -       -         -           1         
-QAM1.un1_ipI_3_cry_3_0                              CCU2B        CIN      In      0.000     5.212 r     -         
-QAM1.un1_ipI_3_cry_3_0                              CCU2B        COUT     Out     0.073     5.285 r     -         
-un1_ipI_3_cry_4                                     Net          -        -       -         -           1         
-QAM1.un1_ipI_3_cry_5_0                              CCU2B        CIN      In      0.000     5.285 r     -         
-QAM1.un1_ipI_3_cry_5_0                              CCU2B        COUT     Out     0.073     5.357 r     -         
-un1_ipI_3_cry_6                                     Net          -        -       -         -           1         
-QAM1.un1_ipI_3_cry_7_0                              CCU2B        CIN      In      0.000     5.357 r     -         
-QAM1.un1_ipI_3_cry_7_0                              CCU2B        COUT     Out     0.073     5.431 r     -         
-un1_ipI_3_cry_8                                     Net          -        -       -         -           1         
-QAM1.un1_ipI_3_cry_9_0                              CCU2B        CIN      In      0.000     5.431 r     -         
-QAM1.un1_ipI_3_cry_9_0                              CCU2B        COUT     Out     0.073     5.503 r     -         
-un1_ipI_3_cry_10                                    Net          -        -       -         -           1         
-QAM1.un1_ipI_3_cry_11_0                             CCU2B        CIN      In      0.000     5.503 r     -         
-QAM1.un1_ipI_3_cry_11_0                             CCU2B        S1       Out     0.659     6.162 r     -         
-Modulated[12]                                       Net          -        -       -         -           1         
-PWMModulated.opPWM6_cry_0_0                         CCU2B        A1       In      0.000     6.162 r     -         
-PWMModulated.opPWM6_cry_0_0                         CCU2B        COUT     Out     1.056     7.218 r     -         
-opPWM6_cry_0                                        Net          -        -       -         -           1         
-PWMModulated.opPWM6_cry_1_0                         CCU2B        CIN      In      0.000     7.218 r     -         
-PWMModulated.opPWM6_cry_1_0                         CCU2B        COUT     Out     0.073     7.291 r     -         
-opPWM6_cry_2                                        Net          -        -       -         -           1         
-PWMModulated.opPWM6_cry_3_0                         CCU2B        CIN      In      0.000     7.291 r     -         
-PWMModulated.opPWM6_cry_3_0                         CCU2B        COUT     Out     0.073     7.364 r     -         
-opPWM6_cry_4                                        Net          -        -       -         -           1         
-PWMModulated.opPWM6_cry_5_0                         CCU2B        CIN      In      0.000     7.364 r     -         
-PWMModulated.opPWM6_cry_5_0                         CCU2B        COUT     Out     0.073     7.437 r     -         
-opPWM6_cry_6                                        Net          -        -       -         -           1         
-PWMModulated.opPWM6_cry_7_0                         CCU2B        CIN      In      0.000     7.437 r     -         
-PWMModulated.opPWM6_cry_7_0                         CCU2B        S1       Out     0.659     8.096 r     -         
-opPWM6                                              Net          -        -       -         -           1         
-PWMModulated_opPWMio                                OFS1P3DX     D        In      0.000     8.096 r     -         
-==================================================================================================================
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+Streamer1.txClkCount[17]                              FD1S3IX      Q        Out     0.929     0.929 r     -         
+txClkCount[17]                                        Net          -        -       -         -           2         
+Streamer1.REc_25_4                                    ORCALUT4     A        In      0.000     0.929 r     -         
+Streamer1.REc_25_4                                    ORCALUT4     Z        Out     0.754     1.684 f     -         
+REc_25_4                                              Net          -        -       -         -           1         
+Streamer1.REc_25                                      ORCALUT4     B        In      0.000     1.684 f     -         
+Streamer1.REc_25                                      ORCALUT4     Z        Out     0.827     2.511 f     -         
+REc_25                                                Net          -        -       -         -           2         
+Streamer1.opQAMBlock_2_sqmuxa_1_i_a2_4_5              ORCALUT4     B        In      0.000     2.511 f     -         
+Streamer1.opQAMBlock_2_sqmuxa_1_i_a2_4_5              ORCALUT4     Z        Out     0.754     3.265 f     -         
+opQAMBlock_2_sqmuxa_1_i_a2_4_5                        Net          -        -       -         -           1         
+Streamer1.opQAMBlock_2_sqmuxa_1_i_a2_4                ORCALUT4     C        In      0.000     3.265 f     -         
+Streamer1.opQAMBlock_2_sqmuxa_1_i_a2_4                ORCALUT4     Z        Out     0.933     4.198 f     -         
+N_112                                                 Net          -        -       -         -           4         
+Streamer1.tState_8_iv_i_0_0_a2_2[0]                   ORCALUT4     A        In      0.000     4.198 f     -         
+Streamer1.tState_8_iv_i_0_0_a2_2[0]                   ORCALUT4     Z        Out     0.892     5.090 f     -         
+N_668                                                 Net          -        -       -         -           3         
+Streamer1.opQAMBlock_1_sqmuxa_0_a2_0_a2_0             ORCALUT4     A        In      0.000     5.090 f     -         
+Streamer1.opQAMBlock_1_sqmuxa_0_a2_0_a2_0             ORCALUT4     Z        Out     0.965     6.055 f     -         
+N_684                                                 Net          -        -       -         -           5         
+Streamer1.txClkCount_0_sqmuxa_i_0_0_a2_3_RNI6ND61     ORCALUT4     A        In      0.000     6.055 f     -         
+Streamer1.txClkCount_0_sqmuxa_i_0_0_a2_3_RNI6ND61     ORCALUT4     Z        Out     0.933     6.988 f     -         
+opQAMBlock_1_sqmuxa                                   Net          -        -       -         -           4         
+Streamer1.opQAMBlock_9_iv_0_1[0]                      ORCALUT4     B        In      0.000     6.988 f     -         
+Streamer1.opQAMBlock_9_iv_0_1[0]                      ORCALUT4     Z        Out     0.754     7.742 f     -         
+opQAMBlock_9_iv_0_1[0]                                Net          -        -       -         -           1         
+Streamer1.opQAMBlock_9_iv_0[0]                        ORCALUT4     C        In      0.000     7.742 f     -         
+Streamer1.opQAMBlock_9_iv_0[0]                        ORCALUT4     Z        Out     0.415     8.157 f     -         
+opQAMBlock_9[0]                                       Net          -        -       -         -           1         
+Streamer1.opQAMBlock[0]                               FD1P3AX      D        In      0.000     8.157 f     -         
+====================================================================================================================
 
 
 
@@ -392,16 +423,16 @@ Streamer1.FIFOBLOCK.AND2_t1     AND2     B        In      0.000     0.575 f     
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 191MB peak: 193MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 201MB peak: 203MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 191MB peak: 193MB)
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 201MB peak: 203MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lfxp2_5e-6
 
-Register bits: 612 of 4752 (13%)
+Register bits: 717 of 4752 (15%)
 PIC Latch:       0
 I/O cells:       20
 Block Rams : 4 of 9 (44%)
@@ -416,16 +447,16 @@ CCU2B:          153
 CU2:            12
 DP16KB:         4
 FADD2B:         7
-FD1P3AX:        181
+FD1P3AX:        211
 FD1P3DX:        83
-FD1P3IX:        63
-FD1P3JX:        20
-FD1S3AX:        40
+FD1P3IX:        95
+FD1P3JX:        24
+FD1S3AX:        42
 FD1S3AY:        2
 FD1S3BX:        1
 FD1S3DX:        1
-FD1S3IX:        210
-FD1S3JX:        4
+FD1S3IX:        246
+FD1S3JX:        5
 GSR:            1
 IB:             7
 IFS1P3IX:       2
@@ -434,19 +465,19 @@ MUX41:          36
 OB:             13
 OFS1P3DX:       4
 OFS1P3JX:       1
-ORCALUT4:       384
-PFUMX:          33
+ORCALUT4:       507
+PFUMX:          34
 PUR:            1
 ROM16X1:        2
 ROM256X1:       144
-VHI:            14
-VLO:            13
+VHI:            15
+VLO:            14
 XOR2:           1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 69MB peak: 193MB)
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 71MB peak: 203MB)
 
-Process took 0h:00m:08s realtime, 0h:00m:08s cputime
-# Thu Jul 21 17:46:32 2022
+Process took 0h:00m:11s realtime, 0h:00m:10s cputime
+# Thu Jul 21 20:34:31 2022
 
 ###########################################################]

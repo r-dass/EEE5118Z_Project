@@ -59,6 +59,7 @@ add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/NCO.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/QAM.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/Arbiter.v}
 
 #-- top module name
 set_option -top_module Modulator

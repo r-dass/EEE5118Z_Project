@@ -1,5 +1,4 @@
 [ START MERGED ]
-I_i[17] I[17]
 Streamer1/FIFOBLOCK/wren_i_inv Streamer1/FIFOBLOCK/wren_i
 Streamer1/FIFOBLOCK/rden_i_inv Streamer1/FIFOBLOCK/rden_i
 Streamer1/FIFOBLOCK/invout_1 Streamer1/FIFOBLOCK/Full
@@ -42,13 +41,14 @@ Packetiser/UART_Inst/N_2
 Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_S1
 Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_COUT
 Control/un1_BytesWritten_6_cry_0_0_S0
-Control/N_1
+Control/N_2
 Control/un1_BytesWritten_6_s_7_0_S1
 Control/un1_BytesWritten_6_s_7_0_COUT
 Streamer1/txClkCount_2_cry_0_0_S1
 Streamer1/txClkCount_2_cry_0_0_S0
 Streamer1/N_1
-Streamer1/txClkCount_2_cry_31_0_COUT
+Streamer1/txClkCount_2_s_31_0_S1
+Streamer1/txClkCount_2_s_31_0_COUT
 Streamer1/FIFOBLOCK/co5_3
 Streamer1/FIFOBLOCK/w_ctr_cia_S1
 Streamer1/FIFOBLOCK/w_ctr_cia_S0
@@ -201,17 +201,13 @@ NCO1/N_1
 NCO1/Phase_1_s_31_0_S1
 NCO1/Phase_1_s_31_0_COUT
 NCO1/Sine/VCC
-QAM1/un1_ipQ_0_cry_1_0_S1
-QAM1/un1_ipQ_0_cry_1_0_S0
-QAM1/N_2
-QAM1/un1_ipQ_0_cry_18_0_COUT
 QAM1/un17_opModulated_cry_0_0_S1
 QAM1/un17_opModulated_cry_0_0_S0
-QAM1/N_3
+QAM1/N_2
 QAM1/un17_opModulated_cry_17_0_COUT
 QAM1/un1_ipI_3_cry_0_0_S1
 QAM1/un1_ipI_3_cry_0_0_S0
-QAM1/N_4
+QAM1/N_3
 QAM1/un1_ipI_3_cry_1_0_S1
 QAM1/un1_ipI_3_cry_1_0_S0
 QAM1/un1_ipI_3_cry_3_0_S1
@@ -225,71 +221,75 @@ QAM1/un1_ipI_3_cry_9_0_S0
 QAM1/un1_ipI_3_cry_11_0_S0
 QAM1/un1_ipI_3_s_19_0_S1
 QAM1/un1_ipI_3_s_19_0_COUT
+QAM1/un24_opModulated_cry_0_0_S1
+QAM1/un24_opModulated_cry_0_0_S0
+QAM1/N_4
+QAM1/un24_opModulated_s_19_0_S1
+QAM1/un24_opModulated_s_19_0_COUT
 QAM1/un1_ipI_0_cry_1_0_S1
 QAM1/un1_ipI_0_cry_1_0_S0
 QAM1/N_17
 QAM1/un1_ipI_0_cry_18_0_COUT
-QAM1/un24_opModulated_cry_0_0_S1
-QAM1/un24_opModulated_cry_0_0_S0
+QAM1/un1_ipQ_0_cry_1_0_S1
+QAM1/un1_ipQ_0_cry_1_0_S0
 QAM1/N_18
-QAM1/un24_opModulated_s_19_0_S1
-QAM1/un24_opModulated_s_19_0_COUT
+QAM1/un1_ipQ_0_cry_18_0_COUT
 PWMStream/Count_1_cry_0_0_S1
 PWMStream/Count_1_cry_0_0_S0
 PWMStream/N_1
 PWMStream/Count_1_s_7_0_S1
 PWMStream/Count_1_s_7_0_COUT
-PWMStream/opPWM6_cry_0_0_S1_2
-PWMStream/opPWM6_cry_0_0_S0_2
+PWMStream/opPWM6_cry_0_0_S1
+PWMStream/opPWM6_cry_0_0_S0
 PWMStream/N_2
-PWMStream/opPWM6_cry_1_0_S1_2
-PWMStream/opPWM6_cry_1_0_S0_2
-PWMStream/opPWM6_cry_3_0_S1_2
-PWMStream/opPWM6_cry_3_0_S0_2
-PWMStream/opPWM6_cry_5_0_S1_2
-PWMStream/opPWM6_cry_5_0_S0_2
-PWMStream/opPWM6_cry_7_0_S0_2
-PWMStream/opPWM6_cry_7_0_COUT_2
-PWMI/opPWM6_cry_0_0_S1
-PWMI/opPWM6_cry_0_0_S0
+PWMStream/opPWM6_cry_1_0_S1
+PWMStream/opPWM6_cry_1_0_S0
+PWMStream/opPWM6_cry_3_0_S1
+PWMStream/opPWM6_cry_3_0_S0
+PWMStream/opPWM6_cry_5_0_S1
+PWMStream/opPWM6_cry_5_0_S0
+PWMStream/opPWM6_cry_7_0_S0
+PWMStream/opPWM6_cry_7_0_COUT
+PWMI/opPWM6_cry_0_0_S1_0
+PWMI/opPWM6_cry_0_0_S0_0
 PWMI/N_1
-PWMI/opPWM6_cry_1_0_S1
-PWMI/opPWM6_cry_1_0_S0
-PWMI/opPWM6_cry_3_0_S1
-PWMI/opPWM6_cry_3_0_S0
-PWMI/opPWM6_cry_5_0_S1
-PWMI/opPWM6_cry_5_0_S0
-PWMI/opPWM6_cry_7_0_S0
-PWMI/opPWM6_cry_7_0_COUT
-PWMQ/opPWM6_cry_0_0_S1_0
-PWMQ/opPWM6_cry_0_0_S0_0
+PWMI/opPWM6_cry_1_0_S1_0
+PWMI/opPWM6_cry_1_0_S0_0
+PWMI/opPWM6_cry_3_0_S1_0
+PWMI/opPWM6_cry_3_0_S0_0
+PWMI/opPWM6_cry_5_0_S1_0
+PWMI/opPWM6_cry_5_0_S0_0
+PWMI/opPWM6_cry_7_0_S0_0
+PWMI/opPWM6_cry_7_0_COUT_0
+PWMQ/opPWM6_cry_0_0_S1_1
+PWMQ/opPWM6_cry_0_0_S0_1
 PWMQ/N_1
-PWMQ/opPWM6_cry_1_0_S1_0
-PWMQ/opPWM6_cry_1_0_S0_0
-PWMQ/opPWM6_cry_3_0_S1_0
-PWMQ/opPWM6_cry_3_0_S0_0
-PWMQ/opPWM6_cry_5_0_S1_0
-PWMQ/opPWM6_cry_5_0_S0_0
-PWMQ/opPWM6_cry_7_0_S0_0
-PWMQ/opPWM6_cry_7_0_COUT_0
-PWMModulated/opPWM6_cry_0_0_S1_1
-PWMModulated/opPWM6_cry_0_0_S0_1
+PWMQ/opPWM6_cry_1_0_S1_1
+PWMQ/opPWM6_cry_1_0_S0_1
+PWMQ/opPWM6_cry_3_0_S1_1
+PWMQ/opPWM6_cry_3_0_S0_1
+PWMQ/opPWM6_cry_5_0_S1_1
+PWMQ/opPWM6_cry_5_0_S0_1
+PWMQ/opPWM6_cry_7_0_S0_1
+PWMQ/opPWM6_cry_7_0_COUT_1
+PWMModulated/opPWM6_cry_0_0_S1_2
+PWMModulated/opPWM6_cry_0_0_S0_2
 PWMModulated/N_1
-PWMModulated/opPWM6_cry_1_0_S1_1
-PWMModulated/opPWM6_cry_1_0_S0_1
-PWMModulated/opPWM6_cry_3_0_S1_1
-PWMModulated/opPWM6_cry_3_0_S0_1
-PWMModulated/opPWM6_cry_5_0_S1_1
-PWMModulated/opPWM6_cry_5_0_S0_1
-PWMModulated/opPWM6_cry_7_0_S0_1
-PWMModulated/opPWM6_cry_7_0_COUT_1
+PWMModulated/opPWM6_cry_1_0_S1_2
+PWMModulated/opPWM6_cry_1_0_S0_2
+PWMModulated/opPWM6_cry_3_0_S1_2
+PWMModulated/opPWM6_cry_3_0_S0_2
+PWMModulated/opPWM6_cry_5_0_S1_2
+PWMModulated/opPWM6_cry_5_0_S0_2
+PWMModulated/opPWM6_cry_7_0_S0_2
+PWMModulated/opPWM6_cry_7_0_COUT_2
 RdRegisters.ClockTicks_1_cry_0_0_S1
 RdRegisters.ClockTicks_1_cry_0_0_S0
 N_1
 [ END CLIPPED ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Thu Jul 21 17:46:42 2022
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Thu Jul 21 20:34:40 2022
 
 SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
 LOCATE COMP "opUART_Tx" SITE "109" ;

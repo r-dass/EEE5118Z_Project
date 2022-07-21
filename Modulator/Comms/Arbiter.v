@@ -16,8 +16,8 @@ module Arbiter(
     output  reg                 opTxReady2, 
  
     output  UART_PACKET         opTxStream, 
-    input   reg                 ipTxReady, 
-    output              [7:0]   opBusy1 //Output Used for Debugging
+    input   reg                 ipTxReady//, 
+//   output              [7:0]   opBusy1 //Output Used for Debugging
 ); 
 
 reg Transmit1;
@@ -33,21 +33,10 @@ UART_PACKET TxStreamBuffer;
 
 reg sendPacket;
 
-assign opBusy1 = {Busy1,hasBuffer1,opTxReady1,  2'b0, opTxReady2, hasBuffer2, Busy2}; // Used for Debugging
+// assign opBusy1 = {Busy1,hasBuffer1,opTxReady1,  2'b0, opTxReady2, hasBuffer2, Busy2}; // Used for Debugging
 
 always @(posedge(ipClk)) begin
     if (!ipReset) begin
-        // if (waittillsent) begin
-        //     opTxStream.Valid <=0;
-        //     if(!ipTxReady) begin
-        //         waittillsent <= 0;
-        //     end
-        // end else if (opTxReady1 && ipTxStream1.Valid) begin
-        //     opTxStream <= ipTxStream1;
-        //     opTxReady1 <= 0;
-        //     waittillsent <= 1;
-        // end else
-        //     opTxReady1 <= ipTxReady;
         if (!sendBuffer) begin // Normal Behaviour
             if (Busy1) begin // First Packet is Sending
                 if (ipTxStream2.Valid && ipTxStream2.SoP) begin  // A buffer was received on the other input (likely from first packet)
