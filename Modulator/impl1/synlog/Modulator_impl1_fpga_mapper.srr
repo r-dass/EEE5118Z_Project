@@ -1,4 +1,4 @@
-# Thu Jul 21 21:34:39 2022
+# Thu Jul 21 22:09:38 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -36,7 +36,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
 
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":17:0:17:5|Removing sequential instance PWMQ.nReset because it is equivalent to instance PWMModulated.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":17:0:17:5|Removing sequential instance PWMModulated.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -68,39 +68,36 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[5] because it is equivalent to instance Arbiter1.opTxStream.Length[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[4] because it is equivalent to instance Arbiter1.opTxStream.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[3] because it is equivalent to instance Arbiter1.opTxStream.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[1] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[0] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[19] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[18] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[17] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[16] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[15] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[14] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[13] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[12] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[11] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[10] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[9] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[8] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[31] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[30] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[29] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[28] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[27] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[26] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[25] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[24] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[23] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[22] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[21] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance tState[20] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance opTxStream\.Valid (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[14] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[13] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[12] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[11] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[10] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[9] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[8] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[29] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[28] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[27] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[26] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[25] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[24] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[23] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[22] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[21] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[20] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[19] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[18] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[17] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[16] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[15] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[31] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[30] (in view: work.Streamer(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulated[11] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulated[10] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulated[9] (in view: work.QAM(verilog)) because it does not drive other instances.
@@ -116,100 +113,65 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 
 Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
 
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing instance QAM1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":88:0:88:5|Removing instance Streamer1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":69:0:69:5|Removing instance Packetiser.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":61:0:61:5|Removing instance Packetiser.UART_Inst.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[5] because it is equivalent to instance Packetiser.txBuffer.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[3] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[4] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[6] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[7] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing instance QAM1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":85:0:85:5|Removing instance Streamer1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":69:0:69:5|Removing instance Packetiser.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":61:0:61:5|Removing instance Packetiser.UART_Inst.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.opTxReady2 (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.hasBuffer2 (in view: work.Modulator(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.opTxStream\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 187MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 187MB)
 
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing sequential instance Packetiser.txBuffer\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.sendBuffer (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":201:0:201:5|Removing sequential instance Streamer1.opTxStream\.Length[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.hasBuffer1 (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.Busy2 (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[7] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[6] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[5] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[4] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[3] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[2] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Data[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[7] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[6] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[5] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[4] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[3] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[2] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Destination[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Length[2] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Length[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[7] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[6] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[5] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[4] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[3] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[2] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.Source[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.opTxStream\.Length[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.TxStreamBuffer\.EoP (in view: work.Modulator(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing sequential instance Packetiser.txBuffer\.Length[0] (in view: work.Modulator(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 186MB peak: 187MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 188MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 187MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 188MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 187MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 188MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 187MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 188MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 187MB)
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 188MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 193MB peak: 193MB)
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 215MB peak: 215MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:05s		     4.42ns		 473 /       509
+   1		0h:00m:05s		     4.42ns		 605 /       572
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 193MB peak: 194MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 215MB peak: 216MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":65:0:65:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 194MB peak: 194MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 216MB peak: 216MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 156MB peak: 194MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 177MB peak: 216MB)
 
 Writing Analyst data base C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 193MB peak: 194MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 214MB peak: 216MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 199MB peak: 199MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 219MB peak: 219MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 196MB peak: 199MB)
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 216MB peak: 220MB)
 
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -217,7 +179,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Jul 21 21:34:47 2022
+# Timing report written on Thu Jul 21 22:09:48 2022
 #
 
 
@@ -259,7 +221,7 @@ Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System  |  5.000       4.425   |  No paths    -      |  No paths    -      |  No paths    -    
 System    ipClk   |  20.000      17.919  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     System  |  20.000      18.309  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     System  |  20.000      18.301  |  No paths    -      |  No paths    -      |  No paths    -    
 ipClk     ipClk   |  20.000      10.867  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -303,21 +265,21 @@ NCO1.Sine.FF_27     ipClk         FD1P3DX     Q       I[9]     1.035       11.19
 Ending Points with Worst Slack
 ******************************
 
-                            Starting                                              Required           
-Instance                    Reference     Type        Pin     Net                 Time         Slack 
-                            Clock                                                                    
------------------------------------------------------------------------------------------------------
-QAM1.opModulated[19]        ipClk         FD1S3IX     D       un1_ipI_3[19]       20.069       10.867
-QAM1.opModulated[17]        ipClk         FD1S3IX     D       un1_ipI_3[17]       20.069       10.941
-QAM1.opModulated[18]        ipClk         FD1S3IX     D       un1_ipI_3[18]       20.069       10.941
-QAM1.opModulated[15]        ipClk         FD1S3IX     D       un1_ipI_3[15]       20.069       11.014
-QAM1.opModulated[16]        ipClk         FD1S3IX     D       un1_ipI_3[16]       20.069       11.014
-QAM1.opModulated[13]        ipClk         FD1S3IX     D       un1_ipI_3[13]       20.069       11.086
-QAM1.opModulated[14]        ipClk         FD1S3IX     D       un1_ipI_3[14]       20.069       11.086
-QAM1.opModulated[12]        ipClk         FD1S3IX     D       un1_ipI_3[12]       20.069       11.159
-Streamer1.opQAMBlock[0]     ipClk         FD1P3IX     D       opQAMBlockc_0_i     19.389       12.071
-Streamer1.opQAMBlock[1]     ipClk         FD1P3IX     D       opQAMBlockc_1_i     19.389       12.071
-=====================================================================================================
+                            Starting                                                Required           
+Instance                    Reference     Type        Pin     Net                   Time         Slack 
+                            Clock                                                                      
+-------------------------------------------------------------------------------------------------------
+QAM1.opModulated[19]        ipClk         FD1S3IX     D       un1_ipI_3[19]         20.069       10.867
+QAM1.opModulated[17]        ipClk         FD1S3IX     D       un1_ipI_3[17]         20.069       10.941
+QAM1.opModulated[18]        ipClk         FD1S3IX     D       un1_ipI_3[18]         20.069       10.941
+QAM1.opModulated[15]        ipClk         FD1S3IX     D       un1_ipI_3[15]         20.069       11.014
+QAM1.opModulated[16]        ipClk         FD1S3IX     D       un1_ipI_3[16]         20.069       11.014
+QAM1.opModulated[13]        ipClk         FD1S3IX     D       un1_ipI_3[13]         20.069       11.086
+QAM1.opModulated[14]        ipClk         FD1S3IX     D       un1_ipI_3[14]         20.069       11.086
+QAM1.opModulated[12]        ipClk         FD1S3IX     D       un1_ipI_3[12]         20.069       11.159
+Streamer1.opQAMBlock[0]     ipClk         FD1P3AX     D       opQAMBlock_RNO[0]     19.389       11.995
+Streamer1.opQAMBlock[1]     ipClk         FD1P3AX     D       opQAMBlock_RNO[1]     19.389       11.995
+=======================================================================================================
 
 
 
@@ -480,16 +442,16 @@ Streamer1.FIFOBLOCK.AND2_t1     AND2     B        In      0.000     0.575 f     
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 196MB peak: 199MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 217MB peak: 220MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 196MB peak: 199MB)
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 217MB peak: 220MB)
 
 ---------------------------------------
 Resource Usage Report
 Part: lfxp2_5e-6
 
-Register bits: 594 of 4752 (13%)
+Register bits: 657 of 4752 (14%)
 PIC Latch:       0
 I/O cells:       20
 Block Rams : 4 of 9 (44%)
@@ -500,31 +462,31 @@ AGEB2:          7
 ALEB2:          7
 AND2:           3
 CB2:            7
-CCU2B:          153
+CCU2B:          166
 CU2:            12
 DP16KB:         4
 FADD2B:         7
-FD1P3AX:        182
+FD1P3AX:        211
 FD1P3DX:        83
-FD1P3IX:        98
-FD1P3JX:        20
-FD1S3AX:        60
+FD1P3IX:        94
+FD1P3JX:        30
+FD1S3AX:        61
 FD1S3AY:        2
 FD1S3BX:        1
 FD1S3DX:        1
-FD1S3IX:        137
-FD1S3JX:        3
+FD1S3IX:        162
+FD1S3JX:        5
 GSR:            1
 IB:             7
 IFS1P3DX:       1
 IFS1P3IX:       1
-INV:            17
+INV:            20
 MUX41:          36
 OB:             13
 OFS1P3DX:       4
 OFS1P3JX:       1
-ORCALUT4:       460
-PFUMX:          1
+ORCALUT4:       584
+PFUMX:          2
 PUR:            1
 ROM16X1:        2
 ROM256X1:       144
@@ -533,9 +495,9 @@ VLO:            14
 XOR2:           1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 71MB peak: 199MB)
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 73MB peak: 220MB)
 
-Process took 0h:00m:08s realtime, 0h:00m:08s cputime
-# Thu Jul 21 21:34:47 2022
+Process took 0h:00m:10s realtime, 0h:00m:09s cputime
+# Thu Jul 21 22:09:49 2022
 
 ###########################################################]

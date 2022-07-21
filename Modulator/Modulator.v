@@ -105,7 +105,7 @@ Arbiter Arbiter1(
 );
  
 // Data Flow
-Streamer Streamer1(
+Streamer Streamer1( 
   .ipClk	(ipClk),
   .ipReset	(!ipReset),
 
@@ -121,7 +121,7 @@ Streamer Streamer1(
   .opQAMBlockValid(QAMBlockValid),
 
   .opTxStream(TxStream2),
-  .ipTxReady(1'b0)
+  .ipTxReady(TxReady2)
 );
 
 

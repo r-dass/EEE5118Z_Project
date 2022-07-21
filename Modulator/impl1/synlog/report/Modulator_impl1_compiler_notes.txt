@@ -236,14 +236,14 @@
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1274:7:1274:9|Synthesizing module VLO in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":8:7:8:10|Synthesizing module FIFO in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":9:7:9:14|Synthesizing module Streamer in library work.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[1] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[2] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[3] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[5] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[7] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[1] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[3] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[5] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[7] is always 1.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41 in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v":8:7:8:15|Synthesizing module SineTable in library work.
@@ -251,13 +251,12 @@
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v":8:7:8:9|Synthesizing module QAM in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":6:7:6:9|Synthesizing module PWM in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":8:7:8:15|Synthesizing module Modulator in library work.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Data[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Source[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Source[4] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Length[1] is always 0.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Trying to extract state machine for register tState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":162:0:162:5|Trying to extract state machine for register rState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":87:0:87:5|Trying to extract state machine for register modeState.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Source[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Source[4] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Length[1] is always 0.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":165:0:165:5|Trying to extract state machine for register rState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":90:0:90:5|Trying to extract state machine for register modeState.
 @N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Trying to extract state machine for register tState.
 @N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Trying to extract state machine for register State.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":75:0:75:5|Register bit txBuffer.Valid is always 1.

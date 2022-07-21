@@ -261,6 +261,7 @@ Only the first 100 messages of id 'CG333' are reported. To see all messages use 
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v" (library work)
 Verilog syntax check successful!
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v changed - recompiling
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":7:8:7:17|Synthesizing module Structures in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":15:0:15:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
@@ -321,16 +322,16 @@ Running optimization stage 1 on FIFO .......
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":9:7:9:14|Synthesizing module Streamer in library work.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":80:4:80:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":83:4:83:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on Streamer .......
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[1] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[2] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[3] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[5] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Destination[7] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[1] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[3] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[5] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[7] is always 1.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
 Running optimization stage 1 on ROM256X1 .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41 in library work.
@@ -370,24 +371,24 @@ Running optimization stage 2 on SineTable .......
 Running optimization stage 2 on MUX41 .......
 Running optimization stage 2 on ROM256X1 .......
 Running optimization stage 2 on Streamer .......
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 7 to 5 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 3 to 1 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 7 to 2 of opTxStream.Length[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 7 to 1 of opTxStream.Data[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Data[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Source[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Source[4] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Register bit opTxStream.Length[1] is always 0.
-@W: CL260 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bit 1 of opTxStream.Length[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning unused register opTxStream.EoP. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning unused register opTxStream.SoP. Make sure that there are no unused intermediate registers.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Trying to extract state machine for register tState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":162:0:162:5|Trying to extract state machine for register rState.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 5 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 3 to 1 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 2 of opTxStream.Length[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 1 of opTxStream.Data[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Source[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Source[4] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Length[1] is always 0.
+@W: CL260 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bit 1 of opTxStream.Length[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.EoP. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.SoP. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.Data[0]. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":165:0:165:5|Trying to extract state machine for register rState.
 Extracted state machine for register rState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":87:0:87:5|Trying to extract state machine for register modeState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":90:0:90:5|Trying to extract state machine for register modeState.
 Extracted state machine for register modeState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -465,12 +466,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 103MB peak: 107MB)
+At c_ver Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 102MB peak: 108MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Thu Jul 21 21:34:34 2022
+# Thu Jul 21 22:09:34 2022
 
 ###########################################################]
 ###########################################################[
@@ -497,7 +498,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 21:34:35 2022
+# Thu Jul 21 22:09:34 2022
 
 ###########################################################]
 
@@ -507,11 +508,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Thu Jul 21 21:34:35 2022
+# Thu Jul 21 22:09:34 2022
 
 ###########################################################]

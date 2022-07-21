@@ -13,7 +13,7 @@ module Streamer(
     input   UART_PACKET     	ipRxStream,
     input                       ipSlowMode, 
     output  reg         [12:0]  opFIFO_Size, 
-
+  
     output  reg         [15:0]  opStream,    
     output  reg         		opStreamValid,
 
@@ -35,6 +35,8 @@ wire [12:0] FIFO_Size1;
 reg [15:0] ipData;
 
 reg [31:0] txClkCount; //Very large incase output must be very slow 
+
+reg [24:0] txTimeout; 
 
 FIFO FIFOBLOCK(
     .Clock(ipClk),
@@ -62,6 +64,7 @@ RState rState;
 typedef enum{ 
 CheckSize,
 TransmitPacket,
+WaitForTimeout,
 TransmitComplete
 } TState;
 
@@ -205,18 +208,33 @@ always @(posedge(ipClk)) begin
             opTxStream.Length <= 1;
             opTxStream.Source <= 8'h10;
             opTxStream.Destination <= 8'hAA;
-            opTxStream.Data <= 8'h00; //Empty Indicator Packet
-
+            opTxStream.Data <= 8'hFF; //Full Indicator Packet
+        if (txTimeout == 25000000) //2 per second
+            txTimeout <= 0;
+        else 
+            txTimeout <= txTimeout + 1;
+            
         case (tState) 
             CheckSize: begin
                 opTxStream.Valid <= 0;
-                if (Empty && (txClkCount == 10)) begin 
+                if (Full) begin 
                    tState<= TransmitPacket;
                 end
             end 
             TransmitPacket: begin
                 if (ipTxReady) begin
+                    tState<= WaitForTimeout;
+                end
+            end
+            WaitForTimeout: begin
+                if (txTimeout == 0) begin
                     opTxStream.Valid <= 1;
+                    tState<= TransmitComplete;
+                end
+            end
+            TransmitComplete: begin
+                opTxStream.Valid <= 0;
+                if (!Empty) begin
                     tState<= CheckSize;
                 end
             end
@@ -231,6 +249,7 @@ always @(posedge(ipClk)) begin
         opTxStream.Data <= 0;
 
         opTxStream.Valid <= 0;
+        txTimeout <= 0;
         
     end
 end

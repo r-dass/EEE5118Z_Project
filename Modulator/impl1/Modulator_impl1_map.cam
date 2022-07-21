@@ -2,7 +2,7 @@
 PWMI.nReset_i PWMI.nReset
 Streamer1/FIFOBLOCK/wren_i_inv Streamer1/FIFOBLOCK/wren_i
 Streamer1/FIFOBLOCK/rden_i_inv Streamer1/FIFOBLOCK/rden_i
-Streamer1/FIFOBLOCK/invout_1 Streamer1/FIFOBLOCK/Full
+Streamer1/FIFOBLOCK/invout_1 Streamer1/Full
 Streamer1/FIFOBLOCK/invout_0 Streamer1/Empty
 [ END MERGED ]
 [ START CLIPPED ]
@@ -22,12 +22,12 @@ NCO1/Sine/mdL0_0_0
 RdRegisters.ClockTicks_1_s_31_0_S1
 RdRegisters.ClockTicks_1_s_31_0_COUT
 Packetiser/un1_BytesReceived_7_cry_0_0_S0
-Packetiser/N_1
+Packetiser/N_2
 Packetiser/un1_BytesReceived_7_s_7_0_S1
 Packetiser/un1_BytesReceived_7_s_7_0_COUT
 Packetiser/Length_0_I_1_0_S1
 Packetiser/Length_0_I_1_0_S0
-Packetiser/N_2
+Packetiser/N_3
 Packetiser/Length_0_I_21_0_S1
 Packetiser/Length_0_I_21_0_S0
 Packetiser/Length_0_I_9_0_S0
@@ -42,14 +42,18 @@ Packetiser/UART_Inst/N_2
 Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_S1
 Packetiser/UART_Inst/un4_rxClkCount_1_s_9_0_COUT
 Control/un1_BytesWritten_6_cry_0_0_S0
-Control/N_1
+Control/N_2
 Control/un1_BytesWritten_6_s_7_0_S1
 Control/un1_BytesWritten_6_s_7_0_COUT
-Streamer1/un1_txClkCount_2_cry_0_0_S1
-Streamer1/un1_txClkCount_2_cry_0_0_S0
+Streamer1/un3_txTimeout_1_cry_0_0_S1
+Streamer1/un3_txTimeout_1_cry_0_0_S0
 Streamer1/N_1
-Streamer1/un1_txClkCount_2_s_31_0_S1
-Streamer1/un1_txClkCount_2_s_31_0_COUT
+Streamer1/un3_txTimeout_1_cry_23_0_COUT
+Streamer1/un1_txClkCount_1_cry_0_0_S1
+Streamer1/un1_txClkCount_1_cry_0_0_S0
+Streamer1/N_2
+Streamer1/un1_txClkCount_1_s_31_0_S1
+Streamer1/un1_txClkCount_1_s_31_0_COUT
 Streamer1/FIFOBLOCK/co5_3
 Streamer1/FIFOBLOCK/w_ctr_cia_S1
 Streamer1/FIFOBLOCK/w_ctr_cia_S0
@@ -289,7 +293,7 @@ N_1
 [ END CLIPPED ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Thu Jul 21 21:34:56 2022
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Thu Jul 21 22:09:58 2022
 
 SYSCONFIG DONE_OD=ON DONE_EX=OFF CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF INBUF=ON MASTER_SPI_PORT=DISABLE SLAVE_SPI_PORT=DISABLE MY_ASSP=OFF ONE_TIME_PROGRAM=OFF ;
 LOCATE COMP "opUART_Tx" SITE "109" ;

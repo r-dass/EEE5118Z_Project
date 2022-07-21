@@ -2,7 +2,7 @@
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":745:8:745:14|Removing instance w_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":80:4:80:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":83:4:83:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":18:10:18:14|Object Reset is declared but not assigned. Either assign a value or remove the declaration.
 @W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":22:0:22:5|Pruning unused register nReset. Make sure that there are no unused intermediate registers.
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":25:13:25:18|Object RxStream1.Source is declared but not assigned. Either assign a value or remove the declaration.
@@ -20,13 +20,14 @@
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":31:13:31:16|Object RxStream2.Data is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":32:13:32:17|Object RxStream2.Valid is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG360 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":53:5:53:9|Removing wire Valid, as there is no assignment to it.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 7 to 5 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 3 to 1 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 7 to 2 of opTxStream.Length[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bits 7 to 1 of opTxStream.Data[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL260 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning register bit 1 of opTxStream.Length[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning unused register opTxStream.EoP. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":201:0:201:5|Pruning unused register opTxStream.SoP. Make sure that there are no unused intermediate registers.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 5 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 3 to 1 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 2 of opTxStream.Length[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 1 of opTxStream.Data[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bit 1 of opTxStream.Length[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.EoP. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.SoP. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.Data[0]. Make sure that there are no unused intermediate registers.
 @W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":13:29:13:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":13:29:13:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":19:22:19:31|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.

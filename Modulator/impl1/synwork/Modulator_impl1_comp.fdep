@@ -13,12 +13,12 @@
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART.v":1658431999
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART_Packets.v":1658431990
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Controller.v":1658431224
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Streamer.v":1658431857
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Streamer.v":1658434162
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\PWM.v":1658431864
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\NCO.v":1658432060
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\QAM.v":1658431867
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Modulator.v":1658431975
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\Arbiter.v":1658431981
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Modulator.v":1658433875
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\Arbiter.v":1658432390
 0			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v" verilog
 1			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v" verilog
 2			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v" verilog

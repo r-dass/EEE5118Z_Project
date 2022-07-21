@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>C:/Users/reeve/git/EEE5118Z_Project/Modulator/impl1/Modulator_impl1.jed</File>
-			<FileTime>07/21/22 21:37:08</FileTime>
-			<JedecChecksum>0x0321</JedecChecksum>
+			<FileTime>07/21/22 22:07:25</FileTime>
+			<JedecChecksum>0xA368</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
