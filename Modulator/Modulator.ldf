@@ -33,6 +33,9 @@
         <Source name="DSP/NCO.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
+        <Source name="DSP/QAM.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
         <Source name="Modulator.v" type="Verilog" type_short="Verilog">
             <Options top_module="Modulator"/>
         </Source>

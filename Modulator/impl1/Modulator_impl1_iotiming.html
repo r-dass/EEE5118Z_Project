@@ -29,7 +29,7 @@ Performance Hardware Data Status:   Final          Version 11.5.
 // Package: TQFP144
 // ncd File: modulator_impl1.ncd
 // Version: Diamond (64-bit) 3.12.0.240.2
-// Written on Wed Jul 20 21:32:57 2022
+// Written on Thu Jul 21 04:46:31 2022
 // M: Minimum Performance Grade
 // iotiming Modulator_impl1.ncd Modulator_impl1.prf -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml
 
@@ -41,24 +41,25 @@ Worst Case Results across Performance Grades (M, 7, 6):
 
 Port      Clock Edge  Setup Performance_Grade  Hold Performance_Grade
 ----------------------------------------------------------------------
-ipBtn[0]  ipClk R     1.826      6      -0.210     M
-ipBtn[1]  ipClk R     1.741      6      -0.197     M
-ipBtn[2]  ipClk R     1.706      6      -0.158     M
-ipBtn[3]  ipClk R     1.530      6      -0.126     M
-ipReset   ipClk R     6.483      6       1.686     6
+ipBtn[0]  ipClk R     1.851      6      -0.202     M
+ipBtn[1]  ipClk R     1.928      6      -0.230     M
+ipBtn[2]  ipClk R     2.068      6      -0.313     M
+ipBtn[3]  ipClk R     1.706      6      -0.158     M
+ipReset   ipClk R     6.657      6       1.686     6
 ipUART_Rx ipClk R     0.266      M       1.686     6
 
 
 // Clock to Output Delay
 
-Port      Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+Port           Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
 ------------------------------------------------------------------------
-opLED[6]  ipClk R     5.340         6        1.899          M
-opLED[7]  ipClk R     4.975         6        1.793          M
-opPWM     ipClk R     4.272         6        1.369          M
-opPWMI    ipClk R     4.272         6        1.369          M
-opPWMQ    ipClk R     4.272         6        1.369          M
-opUART_Tx ipClk R     4.272         6        1.369          M
+opLED[6]       ipClk R     5.962         6        2.041          M
+opLED[7]       ipClk R     5.874         6        2.013          M
+opPWM          ipClk R     4.272         6        1.369          M
+opPWMI         ipClk R     4.272         6        1.369          M
+opPWMModulated ipClk R     4.272         6        1.369          M
+opPWMQ         ipClk R     4.272         6        1.369          M
+opUART_Tx      ipClk R     4.272         6        1.369          M
 WARNING: you must also run trce with hold speed: 6
 WARNING: you must also run trce with setup speed: M
 

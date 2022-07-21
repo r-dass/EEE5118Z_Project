@@ -1,11 +1,12 @@
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
 NOTE All Rights Reserved *
-NOTE DATE CREATED: Wed Jul 20 21:33:01 2022 *
+NOTE DATE CREATED: Thu Jul 21 04:46:37 2022 *
 NOTE DESIGN NAME: Modulator *
 NOTE DEVICE NAME: LFXP2-5E-6TQFP144 *
 NOTE PIN ASSIGNMENTS *
 NOTE PINS opUART_Tx : 109 : out *
 NOTE PINS ipClk : 21 : in *
+NOTE PINS opPWMModulated : 100 : out *
 NOTE PINS opPWMQ : 101 : out *
 NOTE PINS opPWMI : 102 : out *
 NOTE PINS opPWM : 103 : out *

@@ -122,7 +122,7 @@ always @(posedge(ipClk)) begin
 				end	else begin
 					if (UART_TxBusy && UART_TxSend) begin
 						UART_TxSend <= 0;
-						if (txBuffer.EoP && opTxReady) begin
+						if ((txBuffer.EoP && opTxReady) || (txBuffer.EoP && txBuffer.SoP)) begin
 							opTxReady <= 0;
 							txState <= TransmitWait;
 						end

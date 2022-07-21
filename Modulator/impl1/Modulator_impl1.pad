@@ -6,32 +6,33 @@ Performance Grade:      6
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.42
 
-Wed Jul 20 21:32:42 2022
+Thu Jul 21 04:45:52 2022
 
 Pinout by Port Name:
-+-----------+----------+--------------+-------+-------------------------------+
-| Port Name | Pin/Bank | Buffer Type  | Site  | Properties                    |
-+-----------+----------+--------------+-------+-------------------------------+
-| ipBtn[0]  | 54/5     | LVCMOS33_IN  | PB17B | SLEW:FAST PULL:UP             |
-| ipBtn[1]  | 52/5     | LVCMOS33_IN  | PB16B | SLEW:FAST PULL:UP             |
-| ipBtn[2]  | 53/5     | LVCMOS33_IN  | PB17A | SLEW:FAST PULL:UP             |
-| ipBtn[3]  | 50/5     | LVCMOS33_IN  | PB16A | SLEW:FAST PULL:UP             |
-| ipClk     | 21/7     | LVCMOS33_IN  | PL12A | SLEW:FAST PULL:UP             |
-| ipReset   | 19/7     | LVCMOS33_IN  | PL11A | SLEW:FAST PULL:UP             |
-| ipUART_Rx | 110/1    | LVCMOS33_IN  | PT28A | SLEW:FAST PULL:UP             |
-| opLED[0]  | 46/5     | LVCMOS33_OUT | PB14A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[1]  | 45/5     | LVCMOS33_OUT | PB15A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[2]  | 44/5     | LVCMOS33_OUT | PB13A | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[3]  | 43/5     | LVCMOS33_OUT | PB13B | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[4]  | 40/5     | LVCMOS33_OUT | PB7B  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[5]  | 39/5     | LVCMOS33_OUT | PB8B  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[6]  | 38/5     | LVCMOS33_OUT | PB7A  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opLED[7]  | 37/5     | LVCMOS33_OUT | PB8A  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opPWM     | 103/2    | LVCMOS33_OUT | PR5B  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opPWMI    | 102/2    | LVCMOS33_OUT | PR6A  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opPWMQ    | 101/2    | LVCMOS33_OUT | PR7A  | DRIVE:12mA SLEW:FAST PULL:UP  |
-| opUART_Tx | 109/1    | LVCMOS33_OUT | PT28B | DRIVE:12mA SLEW:FAST PULL:UP  |
-+-----------+----------+--------------+-------+-------------------------------+
++----------------+----------+--------------+-------+-------------------------------+
+| Port Name      | Pin/Bank | Buffer Type  | Site  | Properties                    |
++----------------+----------+--------------+-------+-------------------------------+
+| ipBtn[0]       | 54/5     | LVCMOS33_IN  | PB17B | SLEW:FAST PULL:UP             |
+| ipBtn[1]       | 52/5     | LVCMOS33_IN  | PB16B | SLEW:FAST PULL:UP             |
+| ipBtn[2]       | 53/5     | LVCMOS33_IN  | PB17A | SLEW:FAST PULL:UP             |
+| ipBtn[3]       | 50/5     | LVCMOS33_IN  | PB16A | SLEW:FAST PULL:UP             |
+| ipClk          | 21/7     | LVCMOS33_IN  | PL12A | SLEW:FAST PULL:UP             |
+| ipReset        | 19/7     | LVCMOS33_IN  | PL11A | SLEW:FAST PULL:UP             |
+| ipUART_Rx      | 110/1    | LVCMOS33_IN  | PT28A | SLEW:FAST PULL:UP             |
+| opLED[0]       | 46/5     | LVCMOS33_OUT | PB14A | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[1]       | 45/5     | LVCMOS33_OUT | PB15A | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[2]       | 44/5     | LVCMOS33_OUT | PB13A | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[3]       | 43/5     | LVCMOS33_OUT | PB13B | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[4]       | 40/5     | LVCMOS33_OUT | PB7B  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[5]       | 39/5     | LVCMOS33_OUT | PB8B  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[6]       | 38/5     | LVCMOS33_OUT | PB7A  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opLED[7]       | 37/5     | LVCMOS33_OUT | PB8A  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opPWM          | 103/2    | LVCMOS33_OUT | PR5B  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opPWMI         | 102/2    | LVCMOS33_OUT | PR6A  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opPWMModulated | 100/2    | LVCMOS33_OUT | PR6B  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opPWMQ         | 101/2    | LVCMOS33_OUT | PR7A  | DRIVE:12mA SLEW:FAST PULL:UP  |
+| opUART_Tx      | 109/1    | LVCMOS33_OUT | PT28B | DRIVE:12mA SLEW:FAST PULL:UP  |
++----------------+----------+--------------+-------+-------------------------------+
 
 Vccio by Bank:
 +------+-------+
@@ -120,7 +121,7 @@ Pinout by Pin Number:
 | 96/2     |     unused, PULL:UP |            |              | PR8B  | RDQ9                 |
 | 98/2     |     unused, PULL:UP |            |              | PR8A  | RDQ9                 |
 | 99/2     |     unused, PULL:UP |            |              | PR7B  | RDQ9                 |
-| 100/2    |     unused, PULL:UP |            |              | PR6B  | RDQ9                 |
+| 100/2    | opPWMModulated      | LOCATED    | LVCMOS33_OUT | PR6B  | RDQ9                 |
 | 101/2    | opPWMQ              | LOCATED    | LVCMOS33_OUT | PR7A  | RDQ9                 |
 | 102/2    | opPWMI              | LOCATED    | LVCMOS33_OUT | PR6A  | RDQ9                 |
 | 103/2    | opPWM               | LOCATED    | LVCMOS33_OUT | PR5B  | RDQ9                 |
@@ -276,6 +277,7 @@ LOCATE  COMP  "opLED[6]"  SITE  "38";
 LOCATE  COMP  "opLED[7]"  SITE  "37";
 LOCATE  COMP  "opPWM"  SITE  "103";
 LOCATE  COMP  "opPWMI"  SITE  "102";
+LOCATE  COMP  "opPWMModulated"  SITE  "100";
 LOCATE  COMP  "opPWMQ"  SITE  "101";
 LOCATE  COMP  "opUART_Tx"  SITE  "109";
 
@@ -289,5 +291,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Jul 20 21:32:42 2022
+Thu Jul 21 04:45:52 2022
 

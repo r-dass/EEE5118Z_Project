@@ -4,20 +4,20 @@ module QAM(
     input              			ipClk,
     input              			ipReset,
 
-    input      [3:0]        ipQAMStream,
-    input                      ipQAMValid,
+    input      [3:0]            ipQAMBlock,
+    input                      ipQAMBlockValid,
 
     input      signed [17:0] ipI,
     input      signed [17:0] ipQ,
 
     output     reg opModulatedValid,
     output     reg[19:0] opModulated
-);
+); 
 
 always @(posedge(ipClk)) begin
     if (!ipReset) begin
-        opModulatedValid <= ipQAMValid;
-        case (ipQAMStream)
+        opModulatedValid <= ipQAMBlockValid;
+        case (ipQAMBlock)
             4'b0000: begin
                 opModulated <= ipI + ipQ;
             end

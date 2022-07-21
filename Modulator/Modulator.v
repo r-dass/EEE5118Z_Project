@@ -9,7 +9,8 @@ module Modulator(
 	output	[7:0]	opLED, 
   output      opPWM,
   output      opPWMI,
-  output      opPWMQ
+  output      opPWMQ,
+  output      opPWMModulated
 );
 
 UART_PACKET RxStream;
@@ -27,6 +28,12 @@ wire [31:0]	RdData;
 
 wire [15:0]	Stream;
 wire			StreamValid;
+
+wire [3:0]	QAMBlock;
+wire			QAMBlockValid;
+
+wire [19:0] Modulated;
+wire      ModulatedValid;
 
 wire [17:0]	I;
 wire [17:0]	Q;
@@ -81,7 +88,10 @@ Streamer Streamer1(
     .opFIFO_Size(RdRegisters.FIFO_Size), 
 
     .opStream(Stream),     
-    .opStreamValid(StreamValid)
+    .opStreamValid(StreamValid),
+
+    .opQAMBlock(QAMBlock),    
+    .opQAMBlockValid(QAMBlockValid)
 );
 
 PWM PWM1(
@@ -105,6 +115,13 @@ PWM PWMQ(
   .opPWM(opPWMQ)
 );
 
+PWM PWMModulated(
+  .ipClk	( ipClk		), 
+  .ipReset	(!ipReset	),
+  .ipDutyCycle (Modulated[19:12]),
+  .opPWM(opPWMModulated)
+);
+
 NCO NCO1(
   .ipClk	( ipClk		), 
   .ipReset	(!ipReset	),
@@ -113,6 +130,21 @@ NCO NCO1(
 
   .opI(I),
   .opQ(Q)
+);
+
+QAM QAM1(
+  .ipClk	( ipClk		), 
+  .ipReset	(!ipReset	),
+
+  .ipQAMBlock(QAMBlock),
+  .ipQAMBlockValid(QAMBlockValid),
+
+  .ipI(I),
+  .ipQ(Q),
+
+  .opModulatedValid(ModulatedValid),
+  .opModulated(Modulated)
+
 );
 
 

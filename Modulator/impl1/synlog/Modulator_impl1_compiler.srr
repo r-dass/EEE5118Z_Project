@@ -260,7 +260,8 @@ Only the first 100 messages of id 'CG333' are reported. To see all messages use 
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" (library work)
 Verilog syntax check successful!
-File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v changed - recompiling
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v changed - recompiling
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v changed - recompiling
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
@@ -268,7 +269,6 @@ Selecting top level module Modulator
 Running optimization stage 1 on UART .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":4:7:4:18|Synthesizing module UART_Packets in library work.
 Running optimization stage 1 on UART_Packets .......
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":65:0:65:5|Pruning unused register txBuffer.SoP. Make sure that there are no unused intermediate registers.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":3:7:3:16|Synthesizing module Controller in library work.
 Running optimization stage 1 on Controller .......
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":35:0:35:5|Register bit opTxStream.Length[0] is always 1.
@@ -331,10 +331,13 @@ Running optimization stage 1 on SineTable .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":4:7:4:9|Synthesizing module NCO in library work.
 @W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":14:10:14:14|Object Reset is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on NCO .......
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v":3:7:3:9|Synthesizing module QAM in library work.
+Running optimization stage 1 on QAM .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":3:7:3:15|Synthesizing module Modulator in library work.
-@W: CG360 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":33:5:33:9|Removing wire Valid, as there is no assignment to it.
+@W: CG360 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":40:5:40:9|Removing wire Valid, as there is no assignment to it.
 Running optimization stage 1 on Modulator .......
 Running optimization stage 2 on Modulator .......
+Running optimization stage 2 on QAM .......
 Running optimization stage 2 on NCO .......
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[0] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[1] is always 0.
@@ -461,8 +464,6 @@ State machine has 5 reachable states with original encodings of:
    00000000000000000000000000000010
    00000000000000000000000000000011
    00000000000000000000000000000100
-@W: CL247 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":8:21:8:30|Input port bit 10 of ipTxStream[34:0] is unused
-
 Running optimization stage 2 on UART .......
 @N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":103:0:103:5|Trying to extract state machine for register rxState.
 Extracted state machine for register rxState
@@ -480,12 +481,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 102MB peak: 104MB)
+At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 101MB peak: 104MB)
 
 Process took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Wed Jul 20 21:31:41 2022
+# Thu Jul 21 04:44:26 2022
 
 ###########################################################]
 ###########################################################[
@@ -512,7 +513,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 20 21:31:41 2022
+# Thu Jul 21 04:44:27 2022
 
 ###########################################################]
 
@@ -522,11 +523,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
 
 Process completed successfully.
-# Wed Jul 20 21:31:41 2022
+# Thu Jul 21 04:44:27 2022
 
 ###########################################################]

@@ -15,7 +15,7 @@ module Controller(
 
     input   [31:0]   	ipRdData 
 );
- 
+
 enum {
 	Wait,
 	tRead,
@@ -98,7 +98,7 @@ always @ (posedge(ipClk)) begin
 								opTxStream.EoP <= 1;
 								tState <= TransmitComplete;
 							end	
-						end
+						end 
 					end
 					TransmitComplete: begin
 						if (ipTxReady) begin
@@ -106,7 +106,7 @@ always @ (posedge(ipClk)) begin
 							opTxStream.EoP <= 0;
 							tState <= TransmitWait;
 							State <= Wait;
-						end
+						end 
 					end
 					default:;
 				endcase 

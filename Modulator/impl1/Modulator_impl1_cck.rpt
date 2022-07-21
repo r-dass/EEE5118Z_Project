@@ -13,7 +13,7 @@ Hostname: RD-LAPTOP
 
 Implementation : impl1
 
-# Written on Wed Jul 20 21:31:44 2022
+# Written on Thu Jul 21 04:44:30 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -65,6 +65,7 @@ p:opLED[6]
 p:opLED[7]
 p:opPWM
 p:opPWMI
+p:opPWMModulated
 p:opPWMQ
 p:opUART_Tx
 

@@ -10,7 +10,7 @@ module Streamer(
     output  reg    [15:0]       opStream,    
     output  reg         		opStreamValid,
 
-    output  reg    [3:0]       opQAMBlock,    
+    output  reg    [3:0]       opQAMBlock,     
     output  reg         	    opQAMBlockValid
 );   
 
