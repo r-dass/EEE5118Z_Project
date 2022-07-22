@@ -260,7 +260,7 @@ Only the first 100 messages of id 'CG333' are reported. To see all messages use 
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" (library work)
 Verilog syntax check successful!
-File C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v changed - recompiling
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v changed - recompiling
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":1:8:1:17|Synthesizing module Structures in library work.
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":6:0:6:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
@@ -350,11 +350,7 @@ Running optimization stage 2 on NCO .......
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[9] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[10] is always 0.
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[11] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[12] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[13] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[14] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Register bit Phase[15] is always 0.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 15 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":17:0:17:5|Pruning register bits 11 to 0 of Phase[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CL159 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v":8:14:8:24|Input ipFrequency is unused.
 Running optimization stage 2 on SineTable .......
 Running optimization stage 2 on MUX41 .......
@@ -362,7 +358,7 @@ Running optimization stage 2 on ROM256X1 .......
 Running optimization stage 2 on PWM .......
 Running optimization stage 2 on Streamer .......
 @W: CL177 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":56:0:56:5|Sharing sequential element opStreamValid. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":92:0:92:5|Trying to extract state machine for register rState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":95:0:95:5|Trying to extract state machine for register rState.
 Extracted state machine for register rState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -472,12 +468,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 101MB peak: 104MB)
+At c_ver Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 101MB peak: 104MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
 
 Process completed successfully.
-# Thu Jul 21 13:11:29 2022
+# Fri Jul 22 13:42:19 2022
 
 ###########################################################]
 ###########################################################[
@@ -504,7 +500,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 13:11:29 2022
+# Fri Jul 22 13:42:19 2022
 
 ###########################################################]
 
@@ -519,6 +515,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory
 Process took 0h:00m:07s realtime, 0h:00m:07s cputime
 
 Process completed successfully.
-# Thu Jul 21 13:11:29 2022
+# Fri Jul 22 13:42:19 2022
 
 ###########################################################]

@@ -24,7 +24,7 @@ wire [12:0] FIFO_Size1;
 
 reg [15:0] ipData;
 
-reg [18:0] txClkCount;
+reg [31:0] txClkCount;
 
 FIFO FIFOBLOCK(
     .Clock(ipClk),
@@ -55,24 +55,27 @@ assign opFIFO_Size = FIFO_Size1;
  
 always @(posedge(ipClk)) begin
     if (!ipReset) begin
-        if (txClkCount == 25000 && !Empty) begin
+        if (txClkCount == 1061570 && !Empty) begin
             opQAMBlock <= opStream[3:0];
             opQAMBlockValid <= 1;
             txClkCount <= txClkCount + 1;
-        end else if (txClkCount == 50000 && !Empty) begin    
+        end else if (txClkCount == 2123141 && !Empty) begin    
             opQAMBlock <= opStream[7:4];
             opQAMBlockValid <= 1;
             txClkCount <= txClkCount + 1;
-        end if (txClkCount == 75000 && !Empty) begin
+        end if (txClkCount == 3184713 && !Empty) begin
             opQAMBlock <= opStream[11:8];
             opQAMBlockValid <= 1;
             txClkCount <= txClkCount + 1;
-        end else if (txClkCount == 100000 && !Empty) begin
-            RE <= 1;
-            opStreamValid <= 1;
+        end else if (txClkCount == 4246287) begin
+            if (!Empty) begin
+                RE <= 1;
+                opStreamValid <= 1;
+                opQAMBlock <= opStream[15:12];
+                opQAMBlockValid <= 1;
+            end
             txClkCount <= 0;
-            opQAMBlock <= opStream[15:12];
-            opQAMBlockValid <= 1;
+
         end else begin
             txClkCount <= txClkCount + 1;
             RE <= 0;

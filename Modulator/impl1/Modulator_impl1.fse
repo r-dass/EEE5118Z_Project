@@ -67,10 +67,10 @@ fsm_state_encoding {12350353} Write {10}
 
 fsm_registers {12350353} {State[1]}  {State[0]} 
 
-fsm_encoding {13920921} sequential
+fsm_encoding {13950951} sequential
 
-fsm_state_encoding {13920921} ReceiveWait {0}
+fsm_state_encoding {13950951} ReceiveWait {0}
 
-fsm_state_encoding {13920921} ReceiveData {1}
+fsm_state_encoding {13950951} ReceiveData {1}
 
-fsm_registers {13920921} {rState[0]} 
+fsm_registers {13950951} {rState[0]} 

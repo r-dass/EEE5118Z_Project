@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03L-SP1
 #--  Project file C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\run_options.txt
-#--  Written on Thu Jul 21 13:11:22 2022
+#--  Written on Fri Jul 22 13:42:11 2022
 
 
 #project files
