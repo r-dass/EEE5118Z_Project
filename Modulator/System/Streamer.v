@@ -90,24 +90,24 @@ always @(posedge(ipClk)) begin
     if (nReset) begin
         case(modeState)
             SlowMode: begin
-                if ((txClkCount ==  5660) && !Empty) begin
+                if (txClkCount == 1061570 && !Empty) begin
                     opQAMBlock <= opStream[3:0];
                     opQAMBlockValid <= 1;
-                    txClkCount <= txClkCount + 1'b1;
-                end else if ((txClkCount == 11330) && !Empty) begin    
+                    txClkCount <= txClkCount + 1;
+                end else if (txClkCount == 2123141 && !Empty) begin    
                     opQAMBlock <= opStream[7:4];
                     opQAMBlockValid <= 1;
-                    txClkCount <= txClkCount + 1'b1;
-                end if ((txClkCount == 16990) && !Empty) begin
+                    txClkCount <= txClkCount + 1;
+                end if (txClkCount == 3184713 && !Empty) begin
                     opQAMBlock <= opStream[11:8];
                     opQAMBlockValid <= 1;
-                    txClkCount <= txClkCount + 1'b1;
-                end else if (txClkCount == 22670) begin
+                    txClkCount <= txClkCount + 1;
+                end else if (txClkCount == 4246287) begin
                     if (!Empty) begin
-                        opQAMBlock <= opStream[15:12];
-                        opQAMBlockValid <= 1; 
                         RE <= 1;
                         opStreamValid <= 1;
+                        opQAMBlock <= opStream[15:12];
+                        opQAMBlockValid <= 1;
                     end
                     txClkCount <= 0;
                     if (!ipSlowMode)
