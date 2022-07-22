@@ -49,17 +49,17 @@ set_option -seqshift_no_replicate 0
 set_option -include_path {C:/Users/reeve/git/EEE5118Z_Project/Modulator}
 add_file -verilog -vlog_std v2001 {C:/Users/reeve/git/EEE5118Z_Project/Modulator/IP/SineTable.v}
 add_file -verilog -vlog_std v2001 {C:/Users/reeve/git/EEE5118Z_Project/Modulator/IP/FIFO.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Structures.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Registers.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Data/Structures.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Data/Registers.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/UART.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/UART_Packets.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Controller.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/System/Streamer.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/Arbiter.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Data/Controller.v}
+add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Data/Streamer.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/PWM.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/NCO.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/DSP/QAM.v}
 add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Modulator.v}
-add_file -verilog -vlog_std sysv {C:/Users/reeve/git/EEE5118Z_Project/Modulator/Comms/Arbiter.v}
 
 #-- top module name
 set_option -top_module Modulator

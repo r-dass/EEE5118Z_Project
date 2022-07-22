@@ -8,32 +8,32 @@
 #CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1603959790
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\IP\\SineTable.v":1658343810
 #CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\IP\\FIFO.v":1658343517
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Structures.v":1658431939
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Registers.v":1658431740
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART.v":1658431999
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART_Packets.v":1658431990
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Controller.v":1658431224
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\System\\Streamer.v":1658434192
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\PWM.v":1658431864
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\NCO.v":1658432060
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\QAM.v":1658431867
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Modulator.v":1658433875
-#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\Arbiter.v":1658432390
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Data\\Structures.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Data\\Registers.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\UART_Packets.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Comms\\Arbiter.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Data\\Controller.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Data\\Streamer.v":1658497799
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\PWM.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\NCO.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\DSP\\QAM.v":1658491780
+#CUR:"C:\\Users\\reeve\\git\\EEE5118Z_Project\\Modulator\\Modulator.v":1658497425
 #numinternalfiles:6
 #defaultlanguage:verilog
 0			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v" verilog
 1			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v" verilog
-2			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v" verilog
-3			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v" verilog
+2			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v" verilog
+3			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Registers.v" verilog
 4			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v" verilog
 5			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v" verilog
-6			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v" verilog
-7			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v" verilog
-8			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v" verilog
-9			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v" verilog
-10			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" verilog
-11			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" verilog
-12			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v" verilog
+6			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v" verilog
+7			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v" verilog
+8			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v" verilog
+9			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v" verilog
+10			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v" verilog
+11			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" verilog
+12			"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" verilog
 #Dependency Lists(Uses List)
 0 2 3
 1 2 3
@@ -42,26 +42,26 @@
 4 2 3
 5 2 4 3
 6 2 3
-7 2 1 3
-8 2 3
-9 2 0 3
-10 2 3
-11 2 5 6 3 12 7 9 10 8
-12 2 3
+7 2 3
+8 2 1 3
+9 2 3
+10 2 0 3
+11 2 3
+12 2 5 7 3 6 8 10 11 9
 #Dependency Lists(Users Of)
-0 9
-1 7
-2 3 5 6 7 9 10 11 12 0 1 4 8
-3 11 0 1 2 4 5 6 7 8 9 10 12
+0 10
+1 8
+2 3 5 6 7 8 10 11 12 0 1 4 9
+3 12 0 1 2 4 5 6 7 8 9 10 11
 4 5
-5 11
-6 11
-7 11
-8 11
-9 11
-10 11
-11 -1
-12 11
+5 12
+6 12
+7 12
+8 12
+9 12
+10 12
+11 12
+12 -1
 #Design Unit to File Association
 module work SineTable 0
 module work FIFO 1
@@ -70,10 +70,10 @@ package work work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_u
 module work Registers 3
 module work UART 4
 module work UART_Packets 5
-module work Controller 6
-module work Streamer 7
-module work PWM 8
-module work NCO 9
-module work QAM 10
-module work Modulator 11
-module work Arbiter 12
+module work Arbiter 6
+module work Controller 7
+module work Streamer 8
+module work PWM 9
+module work NCO 10
+module work QAM 11
+module work Modulator 12

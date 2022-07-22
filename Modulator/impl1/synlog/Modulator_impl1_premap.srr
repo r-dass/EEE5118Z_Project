@@ -1,4 +1,4 @@
-# Thu Jul 21 22:13:14 2022
+# Fri Jul 22 15:51:42 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -45,7 +45,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
-@A: FX681 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":65:0:65:5|Initial value on register txClkCount[9:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@A: FX681 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":66:0:66:5|Initial value on register txClkCount[9:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
 @N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
@@ -55,19 +55,19 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":90:0:90:5|Removing sequential instance Streamer1.opStreamValid because it is equivalent to instance Streamer1.RE. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":89:0:89:5|Removing sequential instance Streamer1.opStreamValid because it is equivalent to instance Streamer1.RE. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulatedValid (in view: work.QAM(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":90:0:90:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":89:0:89:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
 Encoding state machine rxState[1:0] (in view: work.UART(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":113:0:113:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":114:0:114:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
 Encoding state machine txState[1:0] (in view: work.UART(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":65:0:65:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":66:0:66:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
 Encoding state machine rxState[4:0] (in view: work.UART_Packets(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 00001
@@ -100,7 +100,7 @@ original code -> new code
    00000000000000000000000000000001 -> 01
    00000000000000000000000000000010 -> 10
    00000000000000000000000000000011 -> 11
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\controller.v":40:0:40:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\data\controller.v":40:0:40:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
 Encoding state machine State[2:0] (in view: work.Controller(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 00
@@ -110,20 +110,20 @@ Encoding state machine modeState[1:0] (in view: work.Streamer(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":90:0:90:5|There are no possible illegal states for state machine modeState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":89:0:89:5|There are no possible illegal states for state machine modeState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 Encoding state machine rState[1:0] (in view: work.Streamer(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":165:0:165:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":164:0:164:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 
 Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 
 Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
@@ -185,10 +185,10 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .
 
@@ -198,7 +198,7 @@ Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 179MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Thu Jul 21 22:13:16 2022
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Jul 22 15:51:45 2022
 
 ###########################################################]

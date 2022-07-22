@@ -16,33 +16,33 @@ Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-24       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52)
+31       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v (2022-07-22 15:44:51, 2022-07-22 15:49:59)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 3
 MID:  lib.cell.view
 2        work.FIFO.verilog may have changed because the following files changed:
-                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52) <-- (may instantiate this module)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v (2022-07-22 15:44:51, 2022-07-22 15:49:59) <-- (may instantiate this module)
 4        work.Registers.verilog may have changed because the following files changed:
-                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52) <-- (may instantiate this module)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v (2022-07-22 15:44:51, 2022-07-22 15:49:59) <-- (may instantiate this module)
 5        work.Streamer.verilog may have changed because the following files changed:
-                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v (2022-07-21 22:09:22, 2022-07-21 22:09:52) <-- (module definition)
+                        C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v (2022-07-22 15:44:51, 2022-07-22 15:49:59) <-- (module definition)
 
 *******************************************************************
 Unmodified files: 18
 FID:  path (timestamp)
-28       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v (2022-07-21 21:39:50)
-16       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v (2022-07-21 21:33:19)
-17       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v (2022-07-21 21:33:10)
-26       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v (2022-07-21 21:34:20)
-18       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v (2022-07-21 21:31:04)
-27       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v (2022-07-21 21:31:07)
+28       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v (2022-07-22 14:09:40)
+16       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v (2022-07-22 14:09:40)
+17       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v (2022-07-22 14:09:40)
+26       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v (2022-07-22 14:09:40)
+18       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v (2022-07-22 14:09:40)
+27       C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v (2022-07-22 14:09:40)
+29       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v (2022-07-22 14:09:40)
+30       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Registers.v (2022-07-22 14:09:40)
+32       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v (2022-07-22 14:09:40)
 19       C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v (2022-07-20 20:58:37)
 20       C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v (2022-07-20 21:03:30)
-21       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-21 22:04:35)
-22       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v (2022-07-21 21:20:24)
-23       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v (2022-07-21 21:29:00)
-25       C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v (2022-07-21 21:32:19)
+21       C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v (2022-07-22 15:43:45)
 9        C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v (2020-10-29 10:20:54)
 10       C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v (2020-10-29 10:20:54)
 11       C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v (2020-10-29 10:23:10)

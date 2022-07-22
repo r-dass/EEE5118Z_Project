@@ -214,7 +214,7 @@ always @(posedge(ipClk)) begin
             txTimeout <= txTimeout + 1;
             
         case (tState) 
-            CheckSize: begin
+            CheckSize: begin 
                 opTxStream.Valid <= 0;
                 if (Full) begin 
                    tState<= TransmitPacket;

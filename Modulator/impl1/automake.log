@@ -10,7 +10,7 @@ Lattice Diamond Version 3.12.0.240.2
 #OS: Windows 8 6.2
 #Hostname: RD-LAPTOP
 
-# Thu Jul 21 22:13:06 2022
+# Fri Jul 22 15:51:29 2022
 
 #Implementation: impl1
 
@@ -265,42 +265,42 @@ Only the first 100 messages of id 'CG334' are reported. To see all messages use 
 
 Only the first 100 messages of id 'CG333' are reported. To see all messages use 'report_messages -log C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synlog\Modulator_impl1_compiler.srr -id CG333' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG333} -count unlimited' in the Tcl shell.
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v" (library work)
-@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v" (library work)
-@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v" (library work)
+@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v" (library work)
+@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Registers.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v" (library work)
-@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v" (library work)
-@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v" (library work)
+@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v" (library work)
+@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v" (library work)
+@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\NCO.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\QAM.v" (library work)
 @I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v" (library work)
-@I::"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v" (library work)
 Verilog syntax check successful!
-File C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v changed - recompiling
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":7:8:7:17|Synthesizing module Structures in library work.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":15:0:15:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
+File C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v changed - recompiling
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":8:8:8:17|Synthesizing module Structures in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Registers.v":15:0:15:5|Synthesizing module work_C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\SineTable.v_unit in library work.
 Selecting top level module Modulator
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":25:7:25:10|Synthesizing module UART in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":26:7:26:10|Synthesizing module UART in library work.
 Running optimization stage 1 on UART .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":10:7:10:18|Synthesizing module UART_Packets in library work.
 Running optimization stage 1 on UART_Packets .......
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":8:7:8:16|Synthesizing module Controller in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":8:7:8:16|Synthesizing module Controller in library work.
 Running optimization stage 1 on Controller .......
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[0] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[1] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[2] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[3] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[5] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Register bit opTxStream.Length[7] is always 0.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Registers.v":18:7:18:15|Synthesizing module Registers in library work.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[0] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[1] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[2] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[3] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[5] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Register bit opTxStream.Length[7] is always 0.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Registers.v":18:7:18:15|Synthesizing module Registers in library work.
 Running optimization stage 1 on Registers .......
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v":8:7:8:13|Synthesizing module Arbiter in library work.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v":7:7:7:13|Synthesizing module Arbiter in library work.
 Running optimization stage 1 on Arbiter .......
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v":40:0:40:5|Register bit TxStreamBuffer.SoP is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v":40:0:40:5|Register bit TxStreamBuffer.Valid is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v":39:0:39:5|Register bit TxStreamBuffer.SoP is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\Arbiter.v":39:0:39:5|Register bit TxStreamBuffer.Valid is always 1.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2 in library work.
 Running optimization stage 1 on AND2 .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":797:7:797:9|Synthesizing module INV in library work.
@@ -337,17 +337,17 @@ Running optimization stage 1 on FIFO .......
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":745:8:745:14|Removing instance w_ctr_6 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":643:12:643:15|Removing instance FF_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\IP\FIFO.v":564:12:564:16|Removing instance FF_13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":9:7:9:14|Synthesizing module Streamer in library work.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":83:4:83:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":8:7:8:14|Synthesizing module Streamer in library work.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":82:4:82:9|Object rUpper is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on Streamer .......
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[1] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[2] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[3] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[4] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[5] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[6] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Destination[7] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[1] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[2] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[3] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[4] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[5] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[6] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Destination[7] is always 1.
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":1225:7:1225:14|Synthesizing module ROM256X1 in library work.
 Running optimization stage 1 on ROM256X1 .......
 @N: CG364 :"C:\lscc\diamond\3.12\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41 in library work.
@@ -363,20 +363,20 @@ Running optimization stage 1 on QAM .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\DSP\PWM.v":6:7:6:9|Synthesizing module PWM in library work.
 Running optimization stage 1 on PWM .......
 @N: CG364 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":8:7:8:15|Synthesizing module Modulator in library work.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":25:13:25:18|Object RxStream1.Source is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":26:13:26:23|Object RxStream1.Destination is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":27:13:27:18|Object RxStream1.Length is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":29:13:29:15|Object RxStream1.SoP is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":30:13:30:15|Object RxStream1.EoP is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":31:13:31:16|Object RxStream1.Data is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":32:13:32:17|Object RxStream1.Valid is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":25:13:25:18|Object RxStream2.Source is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":26:13:26:23|Object RxStream2.Destination is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":27:13:27:18|Object RxStream2.Length is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":29:13:29:15|Object RxStream2.SoP is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":30:13:30:15|Object RxStream2.EoP is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":31:13:31:16|Object RxStream2.Data is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Structures.v":32:13:32:17|Object RxStream2.Valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":26:13:26:18|Object RxStream1.Source is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":27:13:27:23|Object RxStream1.Destination is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":28:13:28:18|Object RxStream1.Length is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":30:13:30:15|Object RxStream1.SoP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":31:13:31:15|Object RxStream1.EoP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":32:13:32:16|Object RxStream1.Data is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":33:13:33:17|Object RxStream1.Valid is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":26:13:26:18|Object RxStream2.Source is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":27:13:27:23|Object RxStream2.Destination is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":28:13:28:18|Object RxStream2.Length is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":30:13:30:15|Object RxStream2.SoP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":31:13:31:15|Object RxStream2.EoP is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":32:13:32:16|Object RxStream2.Data is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Structures.v":33:13:33:17|Object RxStream2.Valid is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG360 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Modulator.v":53:5:53:9|Removing wire Valid, as there is no assignment to it.
 Running optimization stage 1 on Modulator .......
 Running optimization stage 2 on Modulator .......
@@ -387,30 +387,30 @@ Running optimization stage 2 on SineTable .......
 Running optimization stage 2 on MUX41 .......
 Running optimization stage 2 on ROM256X1 .......
 Running optimization stage 2 on Streamer .......
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 5 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 3 to 1 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 2 of opTxStream.Length[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bits 7 to 1 of opTxStream.Data[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Source[0] is always 0.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Source[4] is always 1.
-@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Register bit opTxStream.Length[1] is always 0.
-@W: CL260 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning register bit 1 of opTxStream.Length[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.EoP. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.SoP. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Pruning unused register opTxStream.Data[0]. Make sure that there are no unused intermediate registers.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":204:0:204:5|Trying to extract state machine for register tState.
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":165:0:165:5|Trying to extract state machine for register rState.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning register bits 7 to 5 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning register bits 3 to 1 of opTxStream.Source[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning register bits 7 to 2 of opTxStream.Length[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning register bits 7 to 1 of opTxStream.Data[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Source[0] is always 0.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Source[4] is always 1.
+@N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Register bit opTxStream.Length[1] is always 0.
+@W: CL260 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning register bit 1 of opTxStream.Length[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning unused register opTxStream.EoP. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning unused register opTxStream.SoP. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Pruning unused register opTxStream.Data[0]. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":203:0:203:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":164:0:164:5|Trying to extract state machine for register rState.
 Extracted state machine for register rState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":90:0:90:5|Trying to extract state machine for register modeState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":89:0:89:5|Trying to extract state machine for register modeState.
 Extracted state machine for register modeState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
-@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":13:29:13:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Streamer.v":13:29:13:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":12:29:12:38|Input port bits 34 to 27 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Streamer.v":12:29:12:38|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
 Running optimization stage 2 on FIFO .......
 Running optimization stage 2 on VLO .......
 Running optimization stage 2 on VHI .......
@@ -430,21 +430,21 @@ Running optimization stage 2 on AND2 .......
 Running optimization stage 2 on Arbiter .......
 Running optimization stage 2 on Registers .......
 Running optimization stage 2 on Controller .......
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Trying to extract state machine for register tState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Trying to extract state machine for register tState.
 Extracted state machine for register tState
 State machine has 4 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
    00000000000000000000000000000010
    00000000000000000000000000000011
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":40:0:40:5|Trying to extract state machine for register State.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":40:0:40:5|Trying to extract state machine for register State.
 Extracted state machine for register State
 State machine has 3 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
    00000000000000000000000000000010
-@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":19:22:19:31|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL247 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\System\Controller.v":19:22:19:31|Input port bit 9 of ipRxStream[34:0] is unused
+@W: CL246 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":19:22:19:31|Input port bits 18 to 11 of ipRxStream[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Data\Controller.v":19:22:19:31|Input port bit 9 of ipRxStream[34:0] is unused
 
 Running optimization stage 2 on UART_Packets .......
 @N: CL189 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART_Packets.v":75:0:75:5|Register bit txBuffer.Valid is always 1.
@@ -466,12 +466,12 @@ State machine has 5 reachable states with original encodings of:
    00000000000000000000000000000011
    00000000000000000000000000000100
 Running optimization stage 2 on UART .......
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":113:0:113:5|Trying to extract state machine for register rxState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":114:0:114:5|Trying to extract state machine for register rxState.
 Extracted state machine for register rxState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
    00000000000000000000000000000001
-@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":65:0:65:5|Trying to extract state machine for register txState.
+@N: CL201 :"C:\Users\reeve\git\EEE5118Z_Project\Modulator\Comms\UART.v":66:0:66:5|Trying to extract state machine for register txState.
 Extracted state machine for register txState
 State machine has 2 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -482,12 +482,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 102MB peak: 108MB)
+At c_ver Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 103MB peak: 108MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+Process took 0h:00m:10s realtime, 0h:00m:08s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:13:12 2022
+# Fri Jul 22 15:51:40 2022
 
 ###########################################################]
 ###########################################################[
@@ -514,7 +514,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:13:12 2022
+# Fri Jul 22 15:51:40 2022
 
 ###########################################################]
 
@@ -524,12 +524,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 23MB peak: 23MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 23MB peak: 23MB)
 
-Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+Process took 0h:00m:10s realtime, 0h:00m:09s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:13:12 2022
+# Fri Jul 22 15:51:40 2022
 
 ###########################################################]
 ###########################################################[
@@ -557,10 +557,10 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jul 21 22:13:14 2022
+# Fri Jul 22 15:51:42 2022
 
 ###########################################################]
-# Thu Jul 21 22:13:14 2022
+# Fri Jul 22 15:51:42 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -607,7 +607,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: FX493 |Applying initial value "00000000" on instance txData[7:0].
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
 @N: FX493 |Applying initial value "00000000" on instance rxData[7:0].
-@A: FX681 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":65:0:65:5|Initial value on register txClkCount[9:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
+@A: FX681 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":66:0:66:5|Initial value on register txClkCount[9:0] is non-zero which can prevent the register from being packed into a block RAM or DSP.
 @N: FX493 |Applying initial value "0000000000" on instance txClkCount[9:0].
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":346:11:346:23|Instance pdp_ram_0_3_0 parameter type does not match module declaration.
@@ -617,19 +617,19 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":246:11:246:23|Instance pdp_ram_0_1_2 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
 @W: FX367 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":196:11:196:23|Instance pdp_ram_0_0_3 parameter type does not match module declaration.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":90:0:90:5|Removing sequential instance Streamer1.opStreamValid because it is equivalent to instance Streamer1.RE. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":89:0:89:5|Removing sequential instance Streamer1.opStreamValid because it is equivalent to instance Streamer1.RE. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulatedValid (in view: work.QAM(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":90:0:90:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":89:0:89:5|Removing sequential instance opQAMBlockValid (in view: work.Streamer(verilog)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
 Encoding state machine rxState[1:0] (in view: work.UART(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":113:0:113:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":114:0:114:5|There are no possible illegal states for state machine rxState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
 Encoding state machine txState[1:0] (in view: work.UART(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":65:0:65:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":66:0:66:5|There are no possible illegal states for state machine txState[1:0] (in view: work.UART(verilog)); safe FSM implementation is not required.
 Encoding state machine rxState[4:0] (in view: work.UART_Packets(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 00001
@@ -662,7 +662,7 @@ original code -> new code
    00000000000000000000000000000001 -> 01
    00000000000000000000000000000010 -> 10
    00000000000000000000000000000011 -> 11
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\controller.v":40:0:40:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\data\controller.v":40:0:40:5|There are no possible illegal states for state machine tState[3:0] (in view: work.Controller(verilog)); safe FSM implementation is not required.
 Encoding state machine State[2:0] (in view: work.Controller(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 00
@@ -672,20 +672,20 @@ Encoding state machine modeState[1:0] (in view: work.Streamer(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":90:0:90:5|There are no possible illegal states for state machine modeState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":89:0:89:5|There are no possible illegal states for state machine modeState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 Encoding state machine rState[1:0] (in view: work.Streamer(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0
    00000000000000000000000000000001 -> 1
-@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":165:0:165:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":164:0:164:5|There are no possible illegal states for state machine rState[1:0] (in view: work.Streamer(verilog)); safe FSM implementation is not required.
 
 Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
 
 
-Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
 
 
 Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
@@ -747,10 +747,10 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 178MB peak: 178MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1_cck.rpt" .
 
@@ -760,11 +760,11 @@ Pre-mapping successful!
 
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 179MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Thu Jul 21 22:13:16 2022
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Jul 22 15:51:45 2022
 
 ###########################################################]
-# Thu Jul 21 22:13:16 2022
+# Fri Jul 22 15:51:45 2022
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -802,7 +802,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
 
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":17:0:17:5|Removing sequential instance PWMQ.nReset because it is equivalent to instance PWMModulated.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\pwm.v":17:0:17:5|Removing sequential instance PWMModulated.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -823,47 +823,47 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 
 @N: MF179 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":195:13:195:47|Found 8 by 8 bit equality operator ('==') un1_opRxStream\.Length (in view: work.UART_Packets(verilog))
 @W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance TxStreamBuffer\.Length[7] (in view: work.Arbiter(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance TxStreamBuffer\.Length[6] (in view: work.Arbiter(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance TxStreamBuffer\.Length[5] (in view: work.Arbiter(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance TxStreamBuffer\.Length[4] (in view: work.Arbiter(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance TxStreamBuffer\.Length[3] (in view: work.Arbiter(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance TxStreamBuffer\.Length[1] (in view: work.Arbiter(verilog)) because it does not drive other instances.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[7] because it is equivalent to instance Arbiter1.opTxStream.Length[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[6] because it is equivalent to instance Arbiter1.opTxStream.Length[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[5] because it is equivalent to instance Arbiter1.opTxStream.Length[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[4] because it is equivalent to instance Arbiter1.opTxStream.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing instance Arbiter1.opTxStream.Length[3] because it is equivalent to instance Arbiter1.opTxStream.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[14] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[13] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[12] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[11] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[10] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[9] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[8] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[29] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[28] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[27] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[26] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[25] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[24] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[23] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[22] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[21] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[20] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[19] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[18] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[17] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[16] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[15] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[31] (in view: work.Streamer(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":204:0:204:5|Removing sequential instance tState[30] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance TxStreamBuffer\.Length[7] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance TxStreamBuffer\.Length[6] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance TxStreamBuffer\.Length[5] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance TxStreamBuffer\.Length[4] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance TxStreamBuffer\.Length[3] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance TxStreamBuffer\.Length[1] (in view: work.Arbiter(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing instance Arbiter1.opTxStream.Length[7] because it is equivalent to instance Arbiter1.opTxStream.Length[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing instance Arbiter1.opTxStream.Length[6] because it is equivalent to instance Arbiter1.opTxStream.Length[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing instance Arbiter1.opTxStream.Length[5] because it is equivalent to instance Arbiter1.opTxStream.Length[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing instance Arbiter1.opTxStream.Length[4] because it is equivalent to instance Arbiter1.opTxStream.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing instance Arbiter1.opTxStream.Length[3] because it is equivalent to instance Arbiter1.opTxStream.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[2] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[17] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[16] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[15] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[14] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[13] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[12] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[11] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[10] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[9] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[8] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[7] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[6] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[5] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[4] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[3] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[31] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[30] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[29] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[28] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[27] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[26] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[25] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[24] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[23] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[22] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[21] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[20] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[19] (in view: work.Streamer(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":203:0:203:5|Removing sequential instance tState[18] (in view: work.Streamer(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulated[11] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulated[10] (in view: work.QAM(verilog)) because it does not drive other instances.
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":24:0:24:5|Removing sequential instance opModulated[9] (in view: work.QAM(verilog)) because it does not drive other instances.
@@ -880,64 +880,64 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00
 Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 179MB)
 
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\dsp\qam.v":22:0:22:5|Removing instance QAM1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\system\streamer.v":88:0:88:5|Removing instance Streamer1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":38:0:38:5|Removing instance Arbiter1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\data\streamer.v":87:0:87:5|Removing instance Streamer1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":37:0:37:5|Removing instance Arbiter1.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":69:0:69:5|Removing instance Packetiser.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":61:0:61:5|Removing instance Packetiser.UART_Inst.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":62:0:62:5|Removing instance Packetiser.UART_Inst.nReset because it is equivalent to instance PWMI.nReset. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[5] because it is equivalent to instance Packetiser.txBuffer.Length[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[3] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[4] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[6] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing instance Packetiser.txBuffer.Length[7] because it is equivalent to instance Packetiser.txBuffer.Length[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":40:0:40:5|Removing sequential instance Arbiter1.opTxStream\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\arbiter.v":39:0:39:5|Removing sequential instance Arbiter1.opTxStream\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 187MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 188MB peak: 188MB)
 
 @N: BN362 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart_packets.v":75:0:75:5|Removing sequential instance Packetiser.txBuffer\.Length[1] (in view: work.Modulator(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 188MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 185MB peak: 189MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 188MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 189MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 188MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 189MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 188MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 189MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 188MB)
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 187MB peak: 189MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 215MB peak: 215MB)
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 210MB peak: 210MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:06s		     4.42ns		 605 /       572
+   1		0h:00m:06s		     4.42ns		 607 /       572
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 215MB peak: 216MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 210MB peak: 210MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-@A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":65:0:65:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\reeve\git\eee5118z_project\modulator\comms\uart.v":66:0:66:5|Boundary register Packetiser.UART_Inst.opTx.fb (in view: work.Modulator(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 216MB peak: 216MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 210MB peak: 210MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 177MB peak: 216MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 169MB peak: 211MB)
 
 Writing Analyst data base C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 214MB peak: 216MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 206MB peak: 211MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\Modulator_impl1.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 219MB peak: 219MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 211MB peak: 211MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 216MB peak: 219MB)
+Start final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 208MB peak: 212MB)
 
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":718:10:718:16|Blackbox AGEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"c:\users\reeve\git\eee5118z_project\modulator\ip\fifo.v":691:10:691:16|Blackbox ALEB2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -945,7 +945,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Jul 21 22:13:28 2022
+# Timing report written on Fri Jul 22 15:51:59 2022
 #
 
 
@@ -987,7 +987,7 @@ Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System  |  5.000       4.425   |  No paths    -      |  No paths    -      |  No paths    -    
 System    ipClk   |  20.000      17.919  |  No paths    -      |  No paths    -      |  No paths    -    
-ipClk     System  |  20.000      18.301  |  No paths    -      |  No paths    -      |  No paths    -    
+ipClk     System  |  20.000      18.309  |  No paths    -      |  No paths    -      |  No paths    -    
 ipClk     ipClk   |  20.000      10.867  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -1011,41 +1011,41 @@ Detailed Report for Clock: ipClk
 Starting Points with Worst Slack
 ********************************
 
-                    Starting                                   Arrival           
-Instance            Reference     Type        Pin     Net      Time        Slack 
-                    Clock                                                        
----------------------------------------------------------------------------------
-NCO1.Sine.FF_18     ipClk         FD1P3DX     Q       I[0]     1.067       10.867
-NCO1.Sine.FF_19     ipClk         FD1P3DX     Q       I[1]     1.067       10.867
-NCO1.Sine.FF_20     ipClk         FD1P3DX     Q       I[2]     1.035       10.973
-NCO1.Sine.FF_21     ipClk         FD1P3DX     Q       I[3]     1.035       10.973
-NCO1.Sine.FF_22     ipClk         FD1P3DX     Q       I[4]     1.035       11.046
-NCO1.Sine.FF_23     ipClk         FD1P3DX     Q       I[5]     1.035       11.046
-NCO1.Sine.FF_24     ipClk         FD1P3DX     Q       I[6]     1.035       11.119
-NCO1.Sine.FF_25     ipClk         FD1P3DX     Q       I[7]     1.035       11.119
-NCO1.Sine.FF_26     ipClk         FD1P3DX     Q       I[8]     1.035       11.192
-NCO1.Sine.FF_27     ipClk         FD1P3DX     Q       I[9]     1.035       11.192
-=================================================================================
+                             Starting                                             Arrival           
+Instance                     Reference     Type        Pin     Net                Time        Slack 
+                             Clock                                                                  
+----------------------------------------------------------------------------------------------------
+NCO1.Sine.FF_18              ipClk         FD1P3DX     Q       I[0]               1.067       10.867
+NCO1.Sine.FF_19              ipClk         FD1P3DX     Q       I[1]               1.067       10.867
+Streamer1.txClkCount[29]     ipClk         FD1S3IX     Q       txClkCount[29]     0.994       10.925
+Streamer1.txClkCount[31]     ipClk         FD1S3IX     Q       txClkCount[31]     0.994       10.925
+NCO1.Sine.FF_20              ipClk         FD1P3DX     Q       I[2]               1.035       10.973
+NCO1.Sine.FF_21              ipClk         FD1P3DX     Q       I[3]               1.035       10.973
+NCO1.Sine.FF_22              ipClk         FD1P3DX     Q       I[4]               1.035       11.046
+NCO1.Sine.FF_23              ipClk         FD1P3DX     Q       I[5]               1.035       11.046
+NCO1.Sine.FF_24              ipClk         FD1P3DX     Q       I[6]               1.035       11.119
+NCO1.Sine.FF_25              ipClk         FD1P3DX     Q       I[7]               1.035       11.119
+====================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                            Starting                                                Required           
-Instance                    Reference     Type        Pin     Net                   Time         Slack 
-                            Clock                                                                      
--------------------------------------------------------------------------------------------------------
-QAM1.opModulated[19]        ipClk         FD1S3IX     D       un1_ipI_3[19]         20.069       10.867
-QAM1.opModulated[17]        ipClk         FD1S3IX     D       un1_ipI_3[17]         20.069       10.941
-QAM1.opModulated[18]        ipClk         FD1S3IX     D       un1_ipI_3[18]         20.069       10.941
-QAM1.opModulated[15]        ipClk         FD1S3IX     D       un1_ipI_3[15]         20.069       11.014
-QAM1.opModulated[16]        ipClk         FD1S3IX     D       un1_ipI_3[16]         20.069       11.014
-QAM1.opModulated[13]        ipClk         FD1S3IX     D       un1_ipI_3[13]         20.069       11.086
-QAM1.opModulated[14]        ipClk         FD1S3IX     D       un1_ipI_3[14]         20.069       11.086
-QAM1.opModulated[12]        ipClk         FD1S3IX     D       un1_ipI_3[12]         20.069       11.159
-Streamer1.opQAMBlock[0]     ipClk         FD1P3AX     D       opQAMBlock_RNO[0]     19.389       11.995
-Streamer1.opQAMBlock[1]     ipClk         FD1P3AX     D       opQAMBlock_RNO[1]     19.389       11.995
-=======================================================================================================
+                            Starting                                            Required           
+Instance                    Reference     Type        Pin     Net               Time         Slack 
+                            Clock                                                                  
+---------------------------------------------------------------------------------------------------
+QAM1.opModulated[19]        ipClk         FD1S3IX     D       un1_ipI_3[19]     20.069       10.867
+Streamer1.opQAMBlock[0]     ipClk         FD1P3AX     D       N_232             19.389       10.925
+Streamer1.opQAMBlock[1]     ipClk         FD1P3AX     D       N_251             19.389       10.925
+Streamer1.opQAMBlock[2]     ipClk         FD1P3AX     D       N_270             19.389       10.925
+Streamer1.opQAMBlock[3]     ipClk         FD1P3AX     D       N_289             19.389       10.925
+QAM1.opModulated[17]        ipClk         FD1S3IX     D       un1_ipI_3[17]     20.069       10.941
+QAM1.opModulated[18]        ipClk         FD1S3IX     D       un1_ipI_3[18]     20.069       10.941
+QAM1.opModulated[15]        ipClk         FD1S3IX     D       un1_ipI_3[15]     20.069       11.014
+QAM1.opModulated[16]        ipClk         FD1S3IX     D       un1_ipI_3[16]     20.069       11.014
+QAM1.opModulated[13]        ipClk         FD1S3IX     D       un1_ipI_3[13]     20.069       11.086
+===================================================================================================
 
 
 
@@ -1208,10 +1208,10 @@ Streamer1.FIFOBLOCK.AND2_t1     AND2     B        In      0.000     0.575 f     
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 217MB peak: 219MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 209MB peak: 212MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 217MB peak: 219MB)
+Finished timing report (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 209MB peak: 212MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -1232,9 +1232,9 @@ CCU2B:          166
 CU2:            12
 DP16KB:         4
 FADD2B:         7
-FD1P3AX:        211
+FD1P3AX:        190
 FD1P3DX:        83
-FD1P3IX:        94
+FD1P3IX:        115
 FD1P3JX:        30
 FD1S3AX:        61
 FD1S3AY:        2
@@ -1251,8 +1251,8 @@ MUX41:          36
 OB:             13
 OFS1P3DX:       4
 OFS1P3JX:       1
-ORCALUT4:       584
-PFUMX:          2
+ORCALUT4:       589
+PFUMX:          4
 PUR:            1
 ROM16X1:        2
 ROM256X1:       144
@@ -1261,10 +1261,10 @@ VLO:            14
 XOR2:           1
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 73MB peak: 219MB)
+At Mapper Exit (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 72MB peak: 212MB)
 
-Process took 0h:00m:11s realtime, 0h:00m:11s cputime
-# Thu Jul 21 22:13:28 2022
+Process took 0h:00m:14s realtime, 0h:00m:13s cputime
+# Fri Jul 22 15:52:00 2022
 
 ###########################################################]
 
@@ -1310,7 +1310,7 @@ Running DRC...
 DRC complete with no errors or warnings
 
 Design Results:
-   1709 blocks expanded
+   1716 blocks expanded
 Complete the first expansion.
 Writing 'Modulator_impl1.ngd' ...
 Total CPU Time: 0 secs 
@@ -1358,12 +1358,12 @@ Design Summary:
    Number of registers:    657 out of  3864 (17%)
       PFU registers:          650 out of  3564 (18%)
       PIO registers:            7 out of   300 (2%)
-   Number of SLICEs:      1751 out of  2376 (74%)
-      SLICEs as Logic/ROM:   1751 out of  2376 (74%)
+   Number of SLICEs:      1744 out of  2376 (73%)
+      SLICEs as Logic/ROM:   1744 out of  2376 (73%)
       SLICEs as RAM:            0 out of   405 (0%)
       SLICEs as Carry:        206 out of  2376 (9%)
-   Number of LUT4s:        3050 out of  4752 (64%)
-      Number used as logic LUTs:        2638
+   Number of LUT4s:        3055 out of  4752 (64%)
+      Number used as logic LUTs:        2643
       Number used as distributed RAM:     0
       Number used as ripple logic:      412
       Number used as shift registers:     0
@@ -1395,73 +1395,71 @@ Design Summary:
    --------------------------------
    Number of Used DSP Sites:  0 out of 24 (0 %)
    Number of clocks:  1
-     Net ipClk_c: 390 loads, 390 rising, 0 falling (Driver: PIO ipClk )
-   Number of Clock Enables:  42
+     Net ipClk_c: 389 loads, 389 rising, 0 falling (Driver: PIO ipClk )
+   Number of Clock Enables:  41
      Net Packetiser.UART_Inst.txClkCount_1_sqmuxa_i: 1 loads, 0 LSLICEs
-     Net PWMI.nReset: 13 loads, 9 LSLICEs
+     Net PWMI.nReset: 14 loads, 10 LSLICEs
      Net ipReset_c: 4 loads, 4 LSLICEs
      Net Streamer1/FIFOBLOCK/wren_i: 10 loads, 6 LSLICEs
      Net Streamer1/FIFOBLOCK/rden_i: 6 loads, 6 LSLICEs
      Net Streamer1/FIFOBLOCK/fcnt_en: 7 loads, 7 LSLICEs
+     Net Streamer1/wUpper_RNIJH2Q1: 4 loads, 4 LSLICEs
      Net Streamer1/Valid_1_sqmuxa_i_0: 1 loads, 1 LSLICEs
      Net Streamer1/un1_opQAMBlock_2_sqmuxa_i: 2 loads, 2 LSLICEs
-     Net Streamer1/N_108_i: 4 loads, 4 LSLICEs
-     Net Streamer1/ipDatace[8]: 4 loads, 4 LSLICEs
+     Net Streamer1/ipDatace[0]: 4 loads, 4 LSLICEs
      Net Streamer1/un1_opQAMBlock_0_sqmuxa_1_i: 1 loads, 1 LSLICEs
      Net Arbiter1/hasBuffer1_RNO_0: 1 loads, 1 LSLICEs
-     Net Arbiter1/Valid18_i: 13 loads, 13 LSLICEs
+     Net Arbiter1/opTxReady2_0_sqmuxa_i: 1 loads, 1 LSLICEs
      Net Arbiter1/sendPacket_en: 1 loads, 1 LSLICEs
      Net Arbiter1/Valid_2_sqmuxa_i: 1 loads, 1 LSLICEs
      Net Arbiter1/Valid18_4_i: 14 loads, 14 LSLICEs
-     Net Arbiter1/opTxReady2_0_sqmuxa_i: 1 loads, 1 LSLICEs
      Net Arbiter1/opTxReady1_0_sqmuxa_i: 1 loads, 1 LSLICEs
-     Net Arbiter1/EoP_RNO_0: 1 loads, 1 LSLICEs
-     Net Arbiter1/Busy2_0_sqmuxa_2_i: 1 loads, 1 LSLICEs
+     Net Arbiter1/Valid18_i_a2: 13 loads, 13 LSLICEs
+     Net Arbiter1/Busy2_0_sqmuxa_2_i_0: 1 loads, 1 LSLICEs
      Net Arbiter1/Busy1_1_sqmuxa_1_i_0: 1 loads, 1 LSLICEs
-     Net Register/LEDs11_2_i_a2: 17 loads, 17 LSLICEs
-     Net Register/LEDs11_i_a2_0_a2_0_RNIVCV9: 4 loads, 4 LSLICEs
-     Net Register/LEDs11_i_a2_0_a2: 1 loads, 1 LSLICEs
+     Net Register/LEDs11_i_a2_1_RNIVR08: 17 loads, 17 LSLICEs
+     Net Register/LEDs11_i_a2_1_RNIVR08_0: 4 loads, 4 LSLICEs
+     Net Register/LEDs11_i_a2: 1 loads, 1 LSLICEs
      Net Control/OutputData_1_sqmuxa_2: 8 loads, 8 LSLICEs
      Net Control/opWrData_1_sqmuxa: 16 loads, 16 LSLICEs
      Net Control/N_76_i: 4 loads, 4 LSLICEs
      Net Control/opAddress_0_sqmuxa: 4 loads, 4 LSLICEs
-     Net Control/un1_OutputData_0_sqmuxa_0_0: 16 loads, 16 LSLICEs
+     Net Control/un1_OutputData_0_sqmuxa_0: 16 loads, 16 LSLICEs
      Net Packetiser/Data_0_sqmuxa_0: 4 loads, 4 LSLICEs
-     Net Packetiser/UART_TxData_0_sqmuxa_4_i_o2: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_TxSend_0_sqmuxa_1_i_o4: 4 loads, 4 LSLICEs
      Net Packetiser/UART_Inst/opRxValid_1_sqmuxa_i: 1 loads, 1 LSLICEs
-     Net Packetiser/UART_Inst/txData_0_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net Packetiser/UART_Inst/txData_0_sqmuxa_1_i: 4 loads, 4 LSLICEs
      Net Packetiser/UART_Inst/rxData_0_sqmuxa_i: 4 loads, 4 LSLICEs
-     Net Packetiser/UART_Inst/opTxBusy_1_sqmuxa_i_0: 1 loads, 1 LSLICEs
+     Net Packetiser/UART_Inst/opTxBusy_1_sqmuxa_i: 1 loads, 1 LSLICEs
      Net Packetiser/UART_Inst/rxState_3_sqmuxa: 4 loads, 4 LSLICEs
      Net Packetiser/N_103_1_i: 1 loads, 1 LSLICEs
-     Net Packetiser/N_405_i: 16 loads, 16 LSLICEs
+     Net Packetiser/N_29_i: 16 loads, 16 LSLICEs
      Net Packetiser/N_110_i: 2 loads, 2 LSLICEs
      Net Packetiser/Source_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
      Net Packetiser/Length_0_sqmuxa_1_0: 5 loads, 5 LSLICEs
-     Net Packetiser/Destination_0_sqmuxa_1_0: 5 loads, 5 LSLICEs
+     Net Packetiser/Destination_0_sqmuxa_1_0: 4 loads, 4 LSLICEs
    Number of local set/reset loads for net ipReset_c merged into GSR:  85
-   Number of LSRs:  24
-     Net N_402_i: 1 loads, 0 LSLICEs
-     Net PWMI.nReset: 35 loads, 34 LSLICEs
-     Net ipReset_c: 42 loads, 34 LSLICEs
+   Number of LSRs:  23
+     Net Packetiser.UART_Inst.opTx_0_sqmuxa: 1 loads, 0 LSLICEs
+     Net PWMI.nReset: 31 loads, 30 LSLICEs
+     Net ipReset_c: 58 loads, 50 LSLICEs
      Net Streamer1/fb: 1 loads, 1 LSLICEs
-     Net Streamer1/txTimeout_0_sqmuxa_17_RNIT81T: 13 loads, 13 LSLICEs
-     Net Streamer1/un1_nReset_i: 17 loads, 17 LSLICEs
-     Net Streamer1/N_170_i: 1 loads, 1 LSLICEs
-     Net Arbiter1/hasBuffer2_0_sqmuxa_RNIEHDS: 8 loads, 8 LSLICEs
+     Net Streamer1/txTimeout_0_sqmuxa_16_RNIQ81T: 13 loads, 13 LSLICEs
+     Net Streamer1/un1_nReset_i_0: 17 loads, 17 LSLICEs
+     Net Streamer1/N_168_i: 1 loads, 1 LSLICEs
+     Net Arbiter1/EoP_7_u_0_a2_RNIOBMQ: 8 loads, 8 LSLICEs
+     Net Arbiter1/sendPacket_0_sqmuxa_4: 1 loads, 1 LSLICEs
      Net Arbiter1/fb: 1 loads, 1 LSLICEs
      Net Arbiter1/fb_0: 1 loads, 1 LSLICEs
-     Net Arbiter1/sendPacket_0_sqmuxa_4: 1 loads, 1 LSLICEs
      Net Arbiter1/Valid_0_sqmuxa: 1 loads, 1 LSLICEs
-     Net Arbiter1/Busy2_1_sqmuxa_RNIEU1D2: 8 loads, 8 LSLICEs
+     Net Arbiter1/un1_Busy2_1_sqmuxa_1_RNIVCRS: 8 loads, 8 LSLICEs
      Net Arbiter1/Busy1_0_sqmuxa_3: 1 loads, 1 LSLICEs
      Net Register/Reset: 22 loads, 22 LSLICEs
-     Net Control/tState_RNIQAQN1[0]: 4 loads, 4 LSLICEs
      Net Control/State_RNI12SL[1]: 5 loads, 5 LSLICEs
      Net Packetiser/N_76_i: 2 loads, 2 LSLICEs
      Net Packetiser/BytesReceived_5[0]: 1 loads, 1 LSLICEs
      Net Packetiser/UART_Inst/opRxValid_0_sqmuxa: 1 loads, 1 LSLICEs
-     Net Packetiser/UART_Inst/un1_opTxBusy19_0: 2 loads, 2 LSLICEs
+     Net Packetiser/UART_Inst/un1_opTxBusy19: 2 loads, 2 LSLICEs
      Net Packetiser/UART_Inst/un1_opTxBusy19_1: 2 loads, 2 LSLICEs
      Net Packetiser/fb_0: 1 loads, 1 LSLICEs
      Net Packetiser/rxState_RNIHEFK[0]: 4 loads, 4 LSLICEs
@@ -1474,7 +1472,7 @@ Design Summary:
      Net NCO1/Sine/rom_addr_r_7: 966 loads
      Net NCO1/Sine/rom_addr_r_5: 514 loads
      Net NCO1/Sine/rom_addr_r_4: 258 loads
-     Net PWMI.nReset: 172 loads
+     Net PWMI.nReset: 173 loads
      Net NCO1/Sine/rom_addr_r: 132 loads
      Net QAM1/VCC: 97 loads
  
@@ -1496,8 +1494,8 @@ enable are inactive during wake-up, so that the pre-loaded initialization
 values will not be corrupted during wake-up state.
 
 
-Total CPU Time: 7 secs  
-Total REAL Time: 8 secs  
+Total CPU Time: 6 secs  
+Total REAL Time: 7 secs  
 Peak Memory Usage: 79 MB
 
 Dumping design to file Modulator_impl1_map.ncd.
@@ -1525,7 +1523,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 22:13:44 2022
+Fri Jul 22 15:52:13 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1555,11 +1553,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 39482 paths, 1 nets, and 15224 connections (97.01% coverage)
+Constraints cover 39262 paths, 1 nets, and 15207 connections (97.08% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 22:13:45 2022
+Fri Jul 22 15:52:13 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1589,7 +1587,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 39482 paths, 1 nets, and 15577 connections (99.26% coverage)
+Constraints cover 39262 paths, 1 nets, and 15557 connections (99.31% coverage)
 
 
 
@@ -1615,7 +1613,7 @@ Removing old design directory at request of -rem command line option to this pro
 Running par. Please wait . . .
 
 Lattice Place and Route Report for Design "Modulator_impl1_map.ncd"
-Thu Jul 21 22:13:46 2022
+Fri Jul 22 15:52:14 2022
 
 PAR: Place And Route Diamond (64-bit) 3.12.0.240.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/reeve/git/EEE5118Z_Project/Modulator/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF:parASE=1 Modulator_impl1_map.ncd Modulator_impl1.dir/5_1.ncd Modulator_impl1.prf
@@ -1644,41 +1642,41 @@ Device utilization summary:
    PIO (prelim)      20/174          11% used
                      20/100          20% bonded
    EBR                4/9            44% used
-   SLICE           1751/2376         73% used
+   SLICE           1744/2376         73% used
 
 
 
 chipcheck: INFO: Design contains EBR with ASYNC Reset Mode that has a limitation: The use of the EBR block asynchronous reset requires that certain timing be met between the clock and the reset within the memory block. See the device specific datasheet for additional details.
-Number of Signals: 3739
-Number of Connections: 15693
+Number of Signals: 3743
+Number of Connections: 15665
 
 Pin Constraint Summary:
    20 out of 20 pins locked (100% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
-    ipClk_c (driver: ipClk, clk load #: 398)
+    ipClk_c (driver: ipClk, clk load #: 397)
 
 No signal is selected as DCS clock.
 
 The following 2 signals are selected to use the secondary clock routing resources:
-    Register/Reset (driver: SLICE_385, clk load #: 0, sr load #: 22, ce load #: 0)
-    ipReset_c (driver: ipReset, clk load #: 0, sr load #: 42, ce load #: 4)
+    Register/Reset (driver: SLICE_386, clk load #: 0, sr load #: 22, ce load #: 0)
+    ipReset_c (driver: ipReset, clk load #: 0, sr load #: 58, ce load #: 4)
 
 Signal ipReset_c is selected as Global Set/Reset.
 Starting Placer Phase 0.
 ............
-Finished Placer Phase 0.  REAL time: 5 secs 
+Finished Placer Phase 0.  REAL time: 7 secs 
 
 .   
 Starting Placer Phase 1.
-.....................
-Placer score = 315548.
-Finished Placer Phase 1.  REAL time: 1 mins 48 secs 
+......................
+Placer score = 312371.
+Finished Placer Phase 1.  REAL time: 1 mins 50 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  310910
-Finished Placer Phase 2.  REAL time: 1 mins 50 secs 
+Placer score =  309066
+Finished Placer Phase 2.  REAL time: 1 mins 53 secs 
 
 
 ------------------ Clock Report ------------------
@@ -1689,9 +1687,9 @@ Global Clock Resources:
   CLKDIV     : 0 out of 2 (0%)
 
 Global Clocks:
-  PRIMARY "ipClk_c" from comp "ipClk" on CLK_PIN site "21 (PL12A)", clk load = 398
-  SECONDARY "Register/Reset" from Q0 on comp "SLICE_385" on site "R12C2C", clk load = 0, ce load = 0, sr load = 22
-  SECONDARY "ipReset_c" from comp "ipReset" on PIO site "19 (PL11A)", clk load = 0, ce load = 4, sr load = 42
+  PRIMARY "ipClk_c" from comp "ipClk" on CLK_PIN site "21 (PL12A)", clk load = 397
+  SECONDARY "Register/Reset" from Q0 on comp "SLICE_386" on site "R11C2A", clk load = 0, ce load = 0, sr load = 22
+  SECONDARY "ipReset_c" from comp "ipReset" on PIO site "19 (PL11A)", clk load = 0, ce load = 4, sr load = 58
 
   PRIMARY  : 1 out of 8 (12%)
      DCS   : 0 out of 2 (0%)
@@ -1736,16 +1734,16 @@ DSP Block #:              1 2 3
 # of MULT9X9ADDSUBB            
 # of MULT9X9ADDSUBSUMB         
 
-Total placer CPU time: 1 mins 47 secs 
+Total placer CPU time: 1 mins 46 secs 
 
 Dumping design to file Modulator_impl1.dir/5_1.ncd.
 
-0 connections routed; 15693 unrouted.
+0 connections routed; 15665 unrouted.
 Starting router resource preassignment
 
-Completed router resource preassignment. Real time: 2 mins 2 secs 
+Completed router resource preassignment. Real time: 2 mins 3 secs 
 
-Start NBR router at 22:15:48 07/21/22
+Start NBR router at 15:54:17 07/22/22
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -1760,38 +1758,44 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 22:15:49 07/21/22
+Start NBR special constraint process at 15:54:18 07/22/22
 
-Start NBR section for initial routing at 22:15:50 07/21/22
+Start NBR section for initial routing at 15:54:18 07/22/22
+Level 1, iteration 1
+0(0.00%) conflict; 12741(81.33%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 10.770ns/0.000ns; real time: 2 mins 5 secs 
 Level 4, iteration 1
-362(0.15%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 9.830ns/0.000ns; real time: 2 mins 20 secs 
+298(0.13%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 10.212ns/0.000ns; real time: 2 mins 21 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 22:16:06 07/21/22
+Start NBR section for normal routing at 15:54:35 07/22/22
 Level 4, iteration 1
-294(0.12%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 10.003ns/0.000ns; real time: 2 mins 25 secs 
+164(0.07%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 10.159ns/0.000ns; real time: 2 mins 26 secs 
 Level 4, iteration 2
-39(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 10.003ns/0.000ns; real time: 2 mins 26 secs 
+88(0.04%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 9.894ns/0.000ns; real time: 2 mins 29 secs 
 Level 4, iteration 3
-11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 10.003ns/0.000ns; real time: 2 mins 27 secs 
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 9.894ns/0.000ns; real time: 2 mins 30 secs 
 Level 4, iteration 4
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 9.894ns/0.000ns; real time: 2 mins 30 secs 
+Level 4, iteration 5
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 10.003ns/0.000ns; real time: 2 mins 28 secs 
+Estimated worst slack/total negative slack<setup>: 9.894ns/0.000ns; real time: 2 mins 31 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 22:16:14 07/21/22
+Start NBR section for setup/hold timing optimization with effort level 3 at 15:54:45 07/22/22
 
-Start NBR section for re-routing at 22:16:18 07/21/22
+Start NBR section for re-routing at 15:54:48 07/22/22
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 10.003ns/0.000ns; real time: 2 mins 32 secs 
+Estimated worst slack/total negative slack<setup>: 9.894ns/0.000ns; real time: 2 mins 35 secs 
 
-Start NBR section for post-routing at 22:16:18 07/21/22
+Start NBR section for post-routing at 15:54:49 07/22/22
 
 End NBR router with 0 unrouted connection
 
@@ -1799,17 +1803,17 @@ NBR Summary
 -----------
   Number of unrouted connections : 0 (0.00%)
   Number of connections with timing violations : 0 (0.00%)
-  Estimated worst slack<setup> : 10.003ns
+  Estimated worst slack<setup> : 9.894ns
   Timing score<setup> : 0
 -----------
 Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
 
 
 
-Total CPU time 2 mins 41 secs 
-Total REAL time: 2 mins 46 secs 
+Total CPU time 2 mins 36 secs 
+Total REAL time: 2 mins 47 secs 
 Completely routed.
-End of route.  15693 routed (100.00%); 0 unrouted.
+End of route.  15665 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -1820,14 +1824,14 @@ Dumping design to file Modulator_impl1.dir/5_1.ncd.
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Worst  slack<setup/<ns>> = 10.003
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 9.894
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
-PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.125
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.142
 PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
-Total CPU  time to completion: 2 mins 42 secs 
-Total REAL time to completion: 2 mins 47 secs 
+Total CPU  time to completion: 2 mins 38 secs 
+Total REAL time to completion: 2 mins 49 secs 
 
 par done!
 
@@ -1864,7 +1868,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 22:16:36 2022
+Fri Jul 22 15:55:08 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1894,11 +1898,11 @@ Timing summary (Setup):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 39482 paths, 1 nets, and 15583 connections (99.30% coverage)
+Constraints cover 39262 paths, 1 nets, and 15564 connections (99.36% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
-Thu Jul 21 22:16:36 2022
+Fri Jul 22 15:55:09 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1928,7 +1932,7 @@ Timing summary (Hold):
 Timing errors: 0  Score: 0
 Cumulative negative slack: 0
 
-Constraints cover 39482 paths, 1 nets, and 15583 connections (99.30% coverage)
+Constraints cover 39262 paths, 1 nets, and 15564 connections (99.36% coverage)
 
 
 
@@ -1942,9 +1946,9 @@ Cumulative negative slack: 0 (0+0)
 
 --------------------------------------------------------------------------------
 
-Total CPU Time: 3 secs 
-Total REAL Time: 3 secs 
-Peak Memory Usage: 173 MB
+Total CPU Time: 6 secs 
+Total REAL Time: 6 secs 
+Peak Memory Usage: 174 MB
 
 
 iotiming  "Modulator_impl1.ncd" "Modulator_impl1.prf"
@@ -2069,6 +2073,6 @@ Preference Summary:
 
 Creating bit map...
 Saving bit stream in "Modulator_impl1.jed".
-Total CPU Time: 6 secs 
+Total CPU Time: 7 secs 
 Total REAL Time: 7 secs 
-Peak Memory Usage: 285 MB
+Peak Memory Usage: 286 MB

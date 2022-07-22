@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  Modulator  -multisrs  C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_comp.srs  -osyn  C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synwork\Modulator_impl1_mult.srs  -log  C:\Users\reeve\git\EEE5118Z_Project\Modulator\impl1\synlog\Modulator_impl1_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top Modulator -multisrs ..\synwork\Modulator_impl1_comp.srs -osyn ..\synwork\Modulator_impl1_mult.srs -log ..\synlog\Modulator_impl1_multi_srs_gen.srr
 rc:0 success:1 runtime:1
-file:..\synwork\Modulator_impl1_comp.srs|io:i|time:1658434392|size:68826|exec:0|csum:F450FD65601CCDB7003A737E8A182110
-file:..\synwork\Modulator_impl1_mult.srs|io:o|time:1658434394|size:6885|exec:0|csum:
-file:..\synlog\Modulator_impl1_multi_srs_gen.srr|io:o|time:1658434394|size:1148|exec:0|csum:
+file:..\synwork\Modulator_impl1_comp.srs|io:i|time:1658497900|size:68901|exec:0|csum:C6F352601E6EA291FE7ABDE3C9FB1B8A
+file:..\synwork\Modulator_impl1_mult.srs|io:o|time:1658497902|size:6881|exec:0|csum:
+file:..\synlog\Modulator_impl1_multi_srs_gen.srr|io:o|time:1658497902|size:1148|exec:0|csum:
 file:..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603959522|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

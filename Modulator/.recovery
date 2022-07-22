@@ -9,10 +9,10 @@
         <Source name="IP/FIFO.ipx" type="IPX_Module" type_short="IPX">
             <Options/>
         </Source>
-        <Source name="System/Structures.v" type="Verilog" type_short="Verilog">
+        <Source name="Data/Structures.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
-        <Source name="System/Registers.v" type="Verilog" type_short="Verilog">
+        <Source name="Data/Registers.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="Comms/UART.v" type="Verilog" type_short="Verilog">
@@ -21,10 +21,13 @@
         <Source name="Comms/UART_Packets.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
-        <Source name="System/Controller.v" type="Verilog" type_short="Verilog">
+        <Source name="Comms/Arbiter.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
-        <Source name="System/Streamer.v" type="Verilog" type_short="Verilog">
+        <Source name="Data/Controller.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Data/Streamer.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="DSP/PWM.v" type="Verilog" type_short="Verilog">
@@ -43,9 +46,6 @@
             <Options/>
         </Source>
         <Source name="Comms/UART_Packets_tb.v" type="Verilog" type_short="Verilog" excluded="TRUE">
-            <Options/>
-        </Source>
-        <Source name="Comms/Arbiter.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
